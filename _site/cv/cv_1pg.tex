@@ -1,0 +1,222 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{tabu}
+\usepackage{xstring}
+\usepackage{etoolbox}
+\usepackage[backend=biber,defernumbers=true,sorting=ydnt,style=authoryear,doi=false,maxnames=99]{biblatex}
+
+\usepackage{calc}
+\usepackage{comment}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{hyphenat}
+\usepackage{changepage}
+\usepackage{multicol}
+\usepackage{xspace}
+\usepackage{enumitem}
+
+% Hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    urlcolor=[rgb]{0,0,0.5},
+    linkcolor=.,
+}
+
+
+\newcommand\GIT{\mbox{Georgia Institute of Technology}\xspace}  
+\newcommand\CIT{\mbox{California Institute of Technology}\xspace}  
+\newcommand\MIT{\mbox{Massachusetts Institute of Technology}\xspace}  
+\newcommand\UIUC{\mbox{University of Illinois at Urbana--Champaign}\xspace}  
+\newcommand\UMD{\mbox{University of Michigan--Dearborn}\xspace}
+\newcommand\Florian{\mbox{F. Sch\"{a}fer}\xspace}
+
+% Remove indent spacing
+\setlength{\parindent}{0in}
+
+\defbibfilter{other}{
+  type=report or
+  type=thesis
+}
+
+\defbibfilter{invited}{
+  type=incollection and
+  keyword=invited
+}
+
+\defbibfilter{talk}{
+  type=incollection and
+  not keyword=invited
+}
+
+\addbibresource{ref.bib}
+
+% Bold my name
+\newboolean{bold}
+\newcommand{\makeauthorsbold}[1]{%
+  \DeclareNameFormat{author}{%
+  \setboolean{bold}{false}%
+    \renewcommand{\do}[1]{\expandafter\ifstrequal\expandafter{\namepartfamily}{####1}{\setboolean{bold}{true}}{}}%
+    \docsvlist{#1}%
+    \ifthenelse{\value{listcount}=1}
+    {%
+     {\expandafter\ifthenelse{\boolean{bold}}{\mkbibbold{\namepartfamily\addcomma\addspace \namepartgiveni}}{\namepartfamily\addcomma\addspace \namepartgiveni}}%
+    }{\ifnumless{\value{listcount}}{\value{liststop}}
+      {\expandafter\ifthenelse{\boolean{bold}}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}%
+      {\expandafter\ifthenelse{\boolean{bold}}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}%
+      }
+    \ifthenelse{\value{listcount}<\value{liststop}}
+    {\addcomma\space}{}
+  }
+}
+\makeauthorsbold{Bryngelson}
+
+% get reverse numbering
+\makeatletter
+\patchcmd{\blx@printbibliography}
+  {\blx@bibliography\blx@tempa}
+  {\setcounter{bibitemtotal}{0}%
+   \begingroup
+   \def\do##1{\stepcounter{bibitemtotal}}%
+   \dolistloop{\blx@tempa}%
+   \endgroup
+   \blx@bibliography\blx@tempa}{}{}
+\makeatother
+
+\newcounter{bibitemtotal}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\value{bibitemtotal}+1-#1\relax}
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{\printfield{labelprefix}\printfield{labelnumber}}}
+     {}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+% Set spacing in itemize
+\setlist{itemsep=3pt,topsep=3pt,parsep=0pt,partopsep=0pt} 
+
+% Set spacing around titles (syntax: spacing left, before, after)
+% \usepackage{titlesec}
+% \titlespacing*{\section}
+% {0pt}{6pt}{6pt}
+% \titlespacing*{\subsection}
+% {0pt}{6pt}{6pt}
+
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{12}\selectfont}
+
+% Add footer
+\usepackage[table]{xcolor}
+\definecolor{myBrown}{RGB}{155,77,40}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}\chead{}\rhead{}
+\lfoot{}
+\rfoot{}
+\cfoot{Full CV available at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \bf Spencer H. Bryngelson} \\
+    \medskip
+    Abbreviated CV | Compiled on: \today
+\end{center}
+
+\section{Basic information}
+\begin{itemize}
+    \item Title: Assistant Professor, School of Computational Science \& Engineering
+    \item Institution: \GIT
+    \item Address: S1313 CODA, 756 W Peachtree St NW, Atlanta, GA 30308
+    \item Email: \href{mailto:shb@gatech.edu}{\texttt{shb@gatech.edu}}
+    \item Website: \href{https://comp-physics.group}{\texttt{comp-physics.group}}
+\end{itemize}
+
+\section{Education}
+
+\begin{itemize}
+    \item \UIUC
+    \begin{itemize}
+        \item (2017) Doctor of Philosophy, Theoretical \& Applied Mechanics
+        \item (2015) Master of Science, Theoretical \& Applied Mechanics
+        \item (2015) Graduate Certificate, Computational Science \& Engineering
+    \end{itemize}
+    \item \UMD
+    \begin{itemize}
+        \item (2013) Batchelor of Science, Mechanical Engineering
+        \item (2013) Batchelor of Science, Engineering Mathematics
+    \end{itemize}
+\end{itemize}
+
+
+\section{Research positions}
+
+\begin{itemize}
+    \item (2021--Present) Assistant Professor, School of Computational Science \& Engineering, College of Computing, \GIT
+    \item (2018--2021) Senior Postdoctoral Scholar, \CIT, with Tim Colonius
+    \item (2019) Visiting Researcher, \MIT, with Themis Sapsis
+    \item (2017--8) Postdoctor Researcher, XPACC, with Carlos Pantano, Dan Bodony, Jon Freund
+    \item (2013--7) Graduate Research Fellow, \UIUC, with Jon Freund
+    \item (2012--3) Undergraduate Research Assistant, \UMD, with Eric Ratts
+\end{itemize}
+
+\section{Awards}
+
+\begin{itemize}
+    \item (2017) Stanley Weiss Outstanding Dissertation Award, \UIUC
+    \item (2016) Hassan Aref Award (research in fluid mechanics), \UIUC
+    \item (2015) Alumni Teaching Fellowship, \UIUC
+    \item (2010-13) Dean's List, \UMD
+    \item (2011) Pi Tau Sigma (honor society, member), \UMD
+\end{itemize}
+
+\section{Funded grants and allocations}
+
+\begin{itemize}
+    \item (2021-22) PI: XSEDE PHY210084 (200K Node Hours)
+    \item (2021-22) PI: Oak Ridge National Lab CFD154, Director's Discretionary (10K Node Hours)
+    \item (2019-20) co-PI: XSEDE CTS120005, $\$1.35$M dollar valuation (9M Node Hours)
+\end{itemize}
+
+
+\section{Publications}
+
+See \href{https://comp-physics.group/publications}{\texttt{comp-physics.group/publications}} or the attached publication list.
+
+% \nocite{*}
+
+% \newrefcontext[labelprefix=P]
+% \printbibliography[type=unpublished,title={Preprints},resetnumbers=true,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=J]
+% \printbibliography[type=article,title={Journal papers},resetnumbers=true,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=C]
+% \printbibliography[type=inproceedings,title={Refereed proceedings},resetnumbers=true,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=O]
+% \printbibliography[title={Other publications},resetnumbers=true,filter=other,heading=subbibnumbered]
+
+% \section{Talks}
+
+% \newrefcontext[labelprefix=I]
+% \printbibliography[title={Invited talks},resetnumbers=true,filter=invited,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=T]
+% \printbibliography[title={Conference talks},resetnumbers=true,filter=talk,heading=subbibnumbered]
+
+% % Software
+% \newrefcontext[labelprefix=S]
+% \printbibliography[type=software,title={Software developed},resetnumbers=true,heading=bibnumbered]
+
+\end{document}

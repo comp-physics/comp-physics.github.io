@@ -1,0 +1,11 @@
+- name: Jean-Sebastien Spratt
+  photo: pi.svg
+  info: Caltech PhD student 
+  advisor: T. Colonius
+  email: jspratt@caltech.edu
+
+- name: Alexis Charalampopoulos
+  photo: pi.svg
+  info: MIT PhD student
+  advisor: T. Sapsis
+  email: alexchar@mit.edu 
