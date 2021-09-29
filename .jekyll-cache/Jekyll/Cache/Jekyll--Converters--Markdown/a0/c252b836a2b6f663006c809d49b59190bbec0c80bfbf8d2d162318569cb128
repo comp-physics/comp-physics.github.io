@@ -1,4 +1,4 @@
-I"[&<style>
+I"î&<style>
 img{
   border-radius: 10px;
 }
@@ -35,7 +35,7 @@ iframe {
       <h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
       <p><a href="https://github.com/comp-physics/QBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: QBMMLIB</button></a>
 <a href="https://github.com/comp-physics/PyQBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: PyQBMMLIB</button></a>
-<a href="/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a></p>
+<a href="http://localhost:4000/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a></p>
 
       <p><b>Author:</b>
 <i>S. H. Bryngelson, Q. Wang, E. Cisneros</i></p>
@@ -71,12 +71,12 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.</p>
   <div class="row align-items-end">
     <div class="col-md-9 col-sm-12">
       <p><a href="https://mfc-caltech.github.io" target="_blank">
-<img src="/images/software/mfc-logo2.png" width="50%" />
+<img src="http://localhost:4000/images/software/mfc-logo2.png" width="50%" />
 </a></p>
       <h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
       <p><a href="https://mfc-caltech.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
 <a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
-<a href="/papers/bryngelson-CPC-19.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a></p>
+<a href="http://localhost:4000/papers/bryngelson-CPC-19.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a></p>
 
       <p><b>Authors:</b>
 <i>S. H. Bryngelson, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, B. Stevens, A. Charalampopoulos, S. Cao, J. Meng, K. Maeda</i></p>
@@ -105,7 +105,7 @@ The simulation method consists of:</p>
   <div class="row align-items-end">
     <div class="col-md-9 col-sm-12">
       <p><a href="https://code-mphi.github.io/ECOGEN/" target="_blank">
-<img src="/images/software/ecogen.png" width="60%" />
+<img src="http://localhost:4000/images/software/ecogen.png" width="60%" />
 </a></p>
       <h4><b>Multiphase and Capillary Flow Solver</b></h4>
       <p><a href="https://code-mphi.github.io/ECOGEN/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
@@ -132,7 +132,7 @@ The code base is object-oriented and modular, assisting future development.</p>
   <div class="row align-items-end">
     <div class="col-md-9 col-sm-12">
       <p><a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank">
-<img src="/images/software/xpacc.png" width="50%" />
+<img src="http://localhost:4000/images/software/xpacc.png" width="50%" />
 </a></p>
       <h4><b>PlasCom2: Multi-physics Turbulent Flows</b></h4>
       <p><a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a></p>
@@ -165,7 +165,7 @@ PlasCom2 utilizes home-grown libraries to manage these interactions:</p>
 <div class="jumbotron">
   <div class="row align-items-end">
     <div class="col-md-9 col-sm-12">
-      <p><img src="/images/software/rbc3d.png" width="50%" /></p>
+      <p><img src="http://localhost:4000/images/software/rbc3d.png" width="50%" /></p>
       <h4><b>Spectral Boundary Integral Solver for Cell-scale Flows</b></h4>
 
       <p><b>Authors:</b>
@@ -184,7 +184,7 @@ It solves the boundary integral form of the Stokes equations via an algorithm ta
 Parallel communication (MPI) enables large simulations, such as model vascular networks.</p>
     </div>
     <div class="col-md-3 col-sm-12">
-      <p><img src="/images/respic/network.jpeg" width="175px " /></p>
+      <p><img src="http://localhost:4000/images/respic/network.jpeg" width="175px " /></p>
     </div>
   </div>
 </div>

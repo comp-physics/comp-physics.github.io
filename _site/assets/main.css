@@ -4953,12 +4953,12 @@ a:hover { color: #ddc7a7; }
 
 .well-collapse blockquote { border-color: var(--gray-dark); border-color: rgba(0, 0, 0, 0.15); }
 
-.embed-container-home { position: relative; padding: 0px; margin: 0px; overflow: hidden; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url("/images/thumbs/3dtrain.jpeg"); }
+.embed-container-home { position: relative; padding: 0px; margin: 0px; overflow: hidden; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url("http://localhost:4000/images/thumbs/3dtrain.jpeg"); }
 
 .embed-container { position: relative; padding: 0px; margin: 0px; width: 175px; overflow: hidden; background-size: cover; background-position: center; background-repeat: no-repeat; }
 
-.embed-container-spleen { height: 155px; background-image: url("/images/thumbs/spleen.jpg"); }
+.embed-container-spleen { height: 155px; background-image: url("http://localhost:4000/images/thumbs/spleen.jpg"); }
 
-.embed-container-leuk { height: 112px; background-image: url("/images/thumbs/spleen.jpg"); }
+.embed-container-leuk { height: 112px; background-image: url("http://localhost:4000/images/thumbs/spleen.jpg"); }
 
 /*# sourceMappingURL=main.css.map */

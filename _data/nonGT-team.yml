@@ -1,11 +1,14 @@
 - name: Jean-Sebastien Spratt
-  photo: pi.svg
+  photo: jean.jpg
   info: Caltech PhD student 
-  advisor: T. Colonius
-  email: jspratt@caltech.edu
+  advisor: T. Colonius (primary)
+
+- name: Jose Rodolfo Chreim
+  photo: jose.jpg
+  info: Caltech PhD student 
+  advisor: T. Colonius (primary)
 
 - name: Alexis Charalampopoulos
-  photo: pi.svg
+  photo: alexis.jpg
   info: MIT PhD student
-  advisor: T. Sapsis
-  email: alexchar@mit.edu 
+  advisor: T. Sapsis (primary)
