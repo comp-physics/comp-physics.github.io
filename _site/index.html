@@ -9,8 +9,8 @@
   <title>Home - Computational Physics @ GT</title>
   <meta name="description" content="Webpage of the Georgia Tech Computational Physics Group">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <link rel="canonical" href="/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
@@ -18,6 +18,37 @@
   <link rel="preconnect" href="https://i.vimeocdn.com">
   <link rel="preconnect" href="https://f.vimeocdn.com">
 
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-167467135-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-02KDGRRB2T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-02KDGRRB2T');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TZ9Z7HZ');</script>
+<!-- End Google Tag Manager -->
 
 
 
@@ -33,8 +64,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
 <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
-    <a class="navbar-brand" href="http://localhost:4000/">
-     <img src="http://localhost:4000/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
       Computational Physics @ GT
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,27 +76,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-              <a class="nav-link" href="http://localhost:4000/">Home</a>
+              <a class="nav-link" href="/">Home</a>
           </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/team">Team</a>
+            <a class="nav-link" href="/team">Team</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/publications">Publications</a>
+            <a class="nav-link" href="/publications">Publications</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/research">Research</a>
+            <a class="nav-link" href="/research">Research</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/software">Software</a>
+            <a class="nav-link" href="/software">Software</a>
            </li> 
           
            <li class="nav-item">
-            <a class="nav-link" href="http://localhost:4000/teaching">Teaching</a>
+            <a class="nav-link" href="/teaching">Teaching</a>
            </li> 
           
         </ul>
@@ -88,15 +119,15 @@ We deliver open-source scientific software that utilizes these methods and scale
 <h2 id="some-examples-of-our-work">Some examples of our work</h2>
 
 <p>Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
-We developed a <a href="http://localhost:4000/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
+We developed a <a href="/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
 It utilizes a LSTM recurrent neural network to close the governing equations at low cost.
 <a href="https://mfc-caltech.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
 MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse-interface method.</p>
 
 <iframe src="https://player.vimeo.com/video/455688517?autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=1&amp;quality=360p&amp;background=1" width="100%" style="border-style:solid;border-radius:5px;" frameborder="0" allow="autoplay"></iframe>
 
-<p>The spectral boundary integral method leads to <a href="http://localhost:4000/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
-We developed a <a href="http://localhost:4000/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.</p>
+<p>The spectral boundary integral method leads to <a href="/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
+We developed a <a href="/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.</p>
 
   </div>
   <div id="newsid" class="col-sm-5 col-xs-12" >
@@ -104,12 +135,12 @@ We developed a <a href="http://localhost:4000/papers/bryngelson-PRE-19.pdf" targ
 
 <div class="jumbotron">
    <center>
-   <a href="http://localhost:4000/team"><img src="http://localhost:4000/images/teampic/spencer.jpg" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
+   <a href="/team"><img src="/images/teampic/spencer.jpg" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h4>Spencer Bryngelson</h4>
    <h5><i>Assistant Professor</i><br/> College of Computing <br/>Georgia Tech</h5>
    <div style="margin-bottom:5px">
    <a href="mailto:shb@gatech.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> 
-    <a href="http://localhost:4000/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> 
+    <a href="/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> 
     <a href="https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> 
     <a href="https://github.com/sbryngelson" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> 
     <a href="https://www.researchgate.net/profile/Spencer_Bryngelson" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> 
@@ -136,7 +167,7 @@ We developed a <a href="http://localhost:4000/papers/bryngelson-PRE-19.pdf" targ
     <p>Jean's data assimilation paper was accepted to JMPS, <a href='https://doi.org/10.1016/j.jmps.2021.104455' target='_blank'>see it here!<a></p>
   
   
-  <h5><a href="http://localhost:4000/allnews.html">... see all News</a></h5>
+  <h5><a href="/allnews.html">... see all News</a></h5>
 
 </div>
 

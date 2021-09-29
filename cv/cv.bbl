@@ -42,7 +42,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{P}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -2953,7 +2953,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{J}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -5864,7 +5864,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{C}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -8775,7 +8775,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{O}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -11686,7 +11686,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{I}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -14597,7 +14597,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{T}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -17508,7 +17508,7 @@
       \field{labeldatesource}{year}
       \field{labelprefix}{S}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
@@ -20418,7 +20418,7 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{note}{OpenACC Summit}
+      \field{note}{OpenACC Annual Summit}
       \field{year}{2021}
       \true{nocite}
       \keyw{invited}
