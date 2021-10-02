@@ -1,6 +1,6 @@
-I"�'<h1 id="spencer-bryngelsons-website">Spencer Bryngelson’s website</h1>
+I"['<h1 id="computational-physics-at-gt">Computational Physics at GT</h1>
 
-<p><strong>Note: This webpage has been upgraded to use Jekyll plugins. If you are using Github pages you will have to build the website with the Rakefile in the project root directory! My Rakefile is adopted from ones like <a href="https://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html">this.</a></strong></p>
+<h2 id="group-website-of-prof-spencer-bryngelson">Group website of Prof. Spencer Bryngelson</h2>
 
 <p>This is my statically-generated Jekyll/Liquid/Bootstrap-based website.
 I started with the <a href="https://www.allanlab.org/">Allan lab</a> webpage and modified it into a personal academic webpage that met my requirements.
@@ -10,16 +10,15 @@ Some examples are:</p>
 <ul>
   <li>Automatically-generated buttons for DOI/PDF/ARXIV/BIB/Abstract information
     <ul>
-      <li>via jekyll scholar</li>
+      <li>via Jekyll Scholar</li>
     </ul>
   </li>
   <li>Bibliography information and abstracts open in drown down wells via buttons</li>
   <li>Fontawesome icons (email, CV, Google scholar, ResearchGate, GitHub, etc.)</li>
   <li>Dark color scheme via Bootswatch</li>
-  <li>Consistent and attractive <code class="language-plaintext highlighter-rouge">About me</code> page</li>
 </ul>
 
-<p>I encourage the use of this webpage as a template for your own academic website.
+<p>I encourage the use of this webpage as a template for your own group or lab webpage.
 The remainder of this document describes how to do this.
 Broadly speaking, there are three steps:</p>
 
@@ -32,7 +31,7 @@ Broadly speaking, there are three steps:</p>
 <h2 id="fork-and-build">Fork and build</h2>
 
 <ul>
-  <li>Fork <a href="https://github.com/sbryngelson/sbryngelson.github.io">this repository</a> by clicking the <code class="language-plaintext highlighter-rouge">fork</code> button in the top-right corner of its Github page.</li>
+  <li>Fork by clicking the <code class="language-plaintext highlighter-rouge">fork</code> button in the top-right corner of its Github page.</li>
   <li>Install <a href="https://jekyllrb.com/docs/installation/">Jekyll</a>  (version less than 4.0 required) on your local computer
     <ul>
       <li>On MacOS, you will need to upgrade your Ruby version from the depricated v2.3 that is shipped. Follow the above Jekyll instructions closely.</li>
@@ -45,6 +44,7 @@ Broadly speaking, there are three steps:</p>
  Refreshing your web browser reveals these changes.</li>
     </ul>
   </li>
+  <li>This webpage also uses Jekyll plugins. If you are using Github pages you will have to build the website with the Rakefile in the project root directory! My Rakefile is included in the repository.</li>
 </ul>
 
 <h2 id="customization">Customization</h2>
@@ -144,11 +144,12 @@ For this reason, I decided to build my own theme.</p>
 <h2 id="acknowledgment">Acknowledgment</h2>
 
 <p>I credit the <a href="https://www.allanlab.org/">Allen Lab</a> for creating a beautiful academic research group webpage.
-Many parts of this site were adopted or copied from their laboratory webpage.</p>
+Many parts of this site were adopted or copied from their laboratory webpage.
+I acknowledge 3Blue1Brown for the pi logo on the <code class="language-plaintext highlighter-rouge">team</code> page.</p>
 
 <h2 id="license">License</h2>
 
-<p>Copyright 2020, Spencer H. Bryngelson</p>
+<p>Copyright 2021, Spencer H. Bryngelson</p>
 
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 

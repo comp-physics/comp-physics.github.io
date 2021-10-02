@@ -1,6 +1,6 @@
-I"Ð!<h2 id="team">Team</h2>
+I"`#<h2 id="team">Team</h2>
 
-<p><b>We are looking for new graduate students to <a href="/vacancies">join the team!</a></b></p>
+<p><b>We are looking for new graduate students to <a href="http://localhost:4000/vacancies">join the team!</a></b></p>
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
@@ -9,15 +9,15 @@
 <div class="jumbotron">
   <div class="row">
     <div class="col-sm-3">
-      <p><img src="/images/teampic/spencer.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/spencer.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-9 col-xs-12">
       <h4>Spencer Bryngelson</h4>
       <h5><i>Assistant Professor</i><br /> College of Computing <br />Georgia Tech</h5>
       <p><a href="mailto:shb@gatech.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> 
-   <a href="/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> 
+   <a href="http://localhost:4000/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> 
    <a href="https://scholar.google.com/citations?user=dM-nHdMAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> 
-   <a href="https://github.com/sbryngelson" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> 
+   <a href="https://github.com/comp-physics" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> 
    <a href="https://www.researchgate.net/profile/Spencer_Bryngelson" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a></p>
     </div>
   </div>
@@ -29,7 +29,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/carolyn.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/carolyn.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Carolyn Young</h5>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/della.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/della.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Della Phinisee</h5>
@@ -56,7 +56,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/anand2.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/anand2.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Anand Radhakrishnan</h5>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/scott.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/scott.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Scott Sims</h5>
@@ -78,7 +78,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/sriharsha.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/sriharsha.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Sriharsha Kocherla</h5>
@@ -87,7 +87,7 @@
     </div>
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/girish.jpeg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/girish.jpeg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Girish Ganesan</h5>
@@ -100,7 +100,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/qi.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/qi.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Qi Zeng</h5>
@@ -109,7 +109,7 @@
     </div>
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/pi.svg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/pi.svg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>This could be you!</h5>
@@ -128,7 +128,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/jean.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/jean.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Jean-Sebastien Spratt</h5>
@@ -138,7 +138,7 @@
     </div>
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/jose.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/jose.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Jose Rodolfo Chreim</h5>
@@ -152,7 +152,7 @@
   <div class="row">
 
     <div class="col-sm-2 col-xs-12">
-      <p><img src="/images/teampic/alexis.jpg" width="100%" style="max-width:250px" /></p>
+      <p><img src="http://localhost:4000/images/teampic/alexis.jpg" width="100%" style="max-width:250px" /></p>
     </div>
     <div class="col-sm-4 col-xs-12">
       <h5>Alexis Charalampopoulos</h5>
@@ -199,7 +199,7 @@
 <!--  -->
 
 <!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
+<!--   <img src="http://localhost:4000/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
 <!--   <h4>Ben Stevens</h4> -->
 <!--   <i> <br> Role: Caltech, Ph.D. (2021)</i> -->
 <!--   <ul style="overflow: hidden"> -->
@@ -218,7 +218,7 @@
 <!--  -->
 
 <!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
+<!--   <img src="http://localhost:4000/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
 <!--   <h4>David Mittelstein</h4> -->
 <!--   <i> <br> Role: Caltech, Ph.D. (2020)</i> -->
 <!--   <ul style="overflow: hidden"> -->
@@ -241,7 +241,7 @@
 <!--  -->
 
 <!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
+<!--   <img src="http://localhost:4000/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
 <!--   <h4>Theresa Trummler</h4> -->
 <!--   <i> <br> Role: TU Munich, Ph.D. (2020)</i> -->
 <!--   <ul style="overflow: hidden"> -->
@@ -260,7 +260,7 @@
 <!--  -->
 
 <!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
+<!--   <img src="http://localhost:4000/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
 <!--   <h4>Franz O'Meally</h4> -->
 <!--   <i> <br> Role: Johns Hopkins, B.S. (2020)</i> -->
 <!--   <ul style="overflow: hidden"> -->
@@ -283,7 +283,7 @@
 <!--  -->
 
 <!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
+<!--   <img src="http://localhost:4000/images/teampic/" class="img-responsive" width="25%" style="float: left" /> -->
 <!--   <h4>Qifan Wang</h4> -->
 <!--   <i> <br> Role: Caltech, B.S. (2020)</i> -->
 <!--   <ul style="overflow: hidden"> -->

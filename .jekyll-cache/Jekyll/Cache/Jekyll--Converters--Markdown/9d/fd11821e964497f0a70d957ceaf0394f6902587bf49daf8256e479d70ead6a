@@ -1,4 +1,4 @@
-I"æ‰<style>
+I"Ã‰<style>
 .btn{
     margin-bottom:5px;
     padding-top:1px;
@@ -38,7 +38,7 @@ pre{
 
 
 <div class="text-justify">
-<span id="invited_15">Bryngelson, S. H. (2021). OpenACC Summit.</span></div>
+<span id="invited_15">Bryngelson, S. H. (2021). OpenACC Annual Summit.</span></div>
 
 
 
@@ -55,7 +55,7 @@ pre{
 <div id="ainvited_15" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>@incollection{invited_15,
   author = {Bryngelson, S. H.},
-  note = {OpenACC Summit},
+  note = {OpenACC Annual Summit},
   publisher = {},
   year = {2021},
   keywords = {invited}

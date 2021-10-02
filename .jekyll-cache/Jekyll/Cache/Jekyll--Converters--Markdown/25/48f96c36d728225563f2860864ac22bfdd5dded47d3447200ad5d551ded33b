@@ -1,4 +1,4 @@
-I"ï<h2 id="welcome">Welcome!</h2>
+I".<h2 id="welcome">Welcome!</h2>
 
 <p>We are the <strong>Computational Physics Group</strong> at Georgia Tech!
 While nano-scale transistors fill warehouse-scale supercomputers, their performance still constrains the development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
@@ -9,13 +9,13 @@ We deliver open-source scientific software that utilizes these methods and scale
 <h2 id="some-examples-of-our-work">Some examples of our work</h2>
 
 <p>Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
-We developed a <a href="/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
+We developed a <a href="http://localhost:4000/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
 It utilizes a LSTM recurrent neural network to close the governing equations at low cost.
 <a href="https://mfc-caltech.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
 MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse-interface method.</p>
 
 <iframe src="https://player.vimeo.com/video/455688517?autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=1&amp;quality=360p&amp;background=1" width="100%" style="border-style:solid;border-radius:5px;" frameborder="0" allow="autoplay"></iframe>
 
-<p>The spectral boundary integral method leads to <a href="/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
-We developed a <a href="/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.</p>
+<p>The spectral boundary integral method leads to <a href="http://localhost:4000/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
+We developed a <a href="http://localhost:4000/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.</p>
 :ET

@@ -1,6 +1,6 @@
 # Computational Physics at GT
 
-## Group website via Prof. Spencer Bryngelson
+## Group website of Prof. Spencer Bryngelson
 
 This is my statically-generated Jekyll/Liquid/Bootstrap-based website.
 I started with the [Allan lab](https://www.allanlab.org/) webpage and modified it into a personal academic webpage that met my requirements.
@@ -23,7 +23,7 @@ Broadly speaking, there are three steps:
 
 ## Fork and build
 
-* Fork [this repository](https://github.com/sbryngelson/sbryngelson.github.io) by clicking the `fork` button in the top-right corner of its Github page.
+* Fork by clicking the `fork` button in the top-right corner of its Github page.
 * Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
     * On MacOS, you will need to upgrade your Ruby version from the depricated v2.3 that is shipped. Follow the above Jekyll instructions closely.
 * Run `$ bundle exec jekyll serve` in the repository root directory
