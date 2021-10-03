@@ -37,6 +37,13 @@ iframe {
 ## Software
 
 <div class="jumbotron">
+<div class="col-md-9 col-sm-12">
+#### <a href="https://github.com/comp-physics" target="_blank"><i class="fa fa-github-square fa-1x"></i> Click here for the group Github page</a>
+</div>
+</div>
+
+
+<div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
 <h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>

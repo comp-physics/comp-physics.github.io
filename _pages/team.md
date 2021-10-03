@@ -91,7 +91,7 @@ permalink: /team/
 </div>
 
 
-### Non-GT members 
+### Non-GT affiliates
 
 <div class="jumbotron">
 
