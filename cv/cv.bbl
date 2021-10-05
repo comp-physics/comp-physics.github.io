@@ -482,6 +482,55 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{P}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
+    \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f04329bbf340108608814661daf7e5cb}{%
@@ -3392,6 +3441,55 @@
       \field{title}{GPU-accelerated quadrature moment methods}
       \field{year}{2021}
       \true{nocite}
+    \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{J}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
     \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
@@ -6304,6 +6402,55 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{C}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
+    \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f04329bbf340108608814661daf7e5cb}{%
@@ -9214,6 +9361,55 @@
       \field{title}{GPU-accelerated quadrature moment methods}
       \field{year}{2021}
       \true{nocite}
+    \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{O}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
     \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
@@ -12126,6 +12322,55 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{I}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
+    \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f04329bbf340108608814661daf7e5cb}{%
@@ -15036,6 +15281,55 @@
       \field{title}{GPU-accelerated quadrature moment methods}
       \field{year}{2021}
       \true{nocite}
+    \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{T}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
     \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
@@ -17948,6 +18242,55 @@
       \field{year}{2021}
       \true{nocite}
     \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelprefix}{S}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
+    \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f04329bbf340108608814661daf7e5cb}{%
@@ -20847,6 +21190,54 @@
       \field{title}{GPU-accelerated quadrature moment methods}
       \field{year}{2021}
       \true{nocite}
+    \endentry
+    \entry{charalampopoulos21}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fab7679f660d6642dc5f23694c568ca}{%
+           family={Charalampopoulos},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b0f740477560cc1c751afd76fed555}{%
+           family={Bryngelson},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e5ef1e26817a9e349b85d76f7968910}{%
+           family={Colonius},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=37666afd878fa0f69b503070478e66d2}{%
+           family={Sapsis},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{fullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{bibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorbibnamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authornamehash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \strng{authorfullhash}{8d0ed0d2bf474dbc08e38b2677a24cd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.}
+      \field{note}{arXiv: 2110.01374}
+      \field{title}{Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb charalampopoulos-RSA-21.pdf
+      \endverb
     \endentry
     \entry{proceeding_8}{inproceedings}{}
       \name{author}{4}{}{%

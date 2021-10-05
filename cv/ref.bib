@@ -274,8 +274,6 @@
   keywords = "invited",
 }
 
-
-
 @inproceedings{proceeding_9,
     Author = {S. H. Bryngelson and T. Colonius},
     Year = {2021},
@@ -375,6 +373,15 @@
     Note = {Ph.D. Thesis},
     file = {bryngelson-dissertation-17.pdf},
     abstract = {This work focuses on the mechanical stability of three different capsule-viscous-flow-systems.  Red blood cells, which are often modeled as capsules, can form uniform trains when flowing in narrow confines; however, in less confined environments their flow appears disordered. This time-stationary system is analyzed through a nonmodal stability analysis which includes full coupling between the viscous fluid flow and elastic cell membranes. The linearization is constructed via a complex set of orthogonal small disturbances which are evaluated using boundary integral techniques. Transiently (t -> 0+) and asymptotically (t -> infty) unstable disturbances are identified, with their corresponding growth rates and perturbation conformations depending upon on the flow strength, viscosity ratio between the inner and exterior cell fluids, cell–cell spacing, cell at-rest shape, and vessel diameter. An ellipsoidal capsule subject to homogeneous shear flow is also considered. While this flow configuration is seemingly more simple, the base motion of the capsule is time-dependent, though periodic, rather than steady, requiring an extension of our methods. This capsule flow is known to display different kinematic behavior, depending on the flow strength, membrane material properties, and capsule shape. The stability of the capsule motion has been studied based on empirical observations of simulations; here we build upon these results though a direct stability analysis. Our analysis utilizes Floquet methods, which yields Floquet multipliers that classify the asymptotic stability of the capsule motion, and quantify how viscous dissipation will rapidly damp most disturbances. However, we also identify disturbances that decay slowly, over many periods of the capsules rotating motion, as well as neutrally stable perturbations. The last flow system considered here is a spherical capsule subject to large amplitude oscillatory extensional (LAOE) flow, which is often used to study the rheology and dynamics of complex fluids. Examining soft particles in LAOE is particularly challenging, partially due to the instability of the flow system. We again quantify this stability through linear analysis, here extending the aforementioned Floquet formulation to include nonmodal and intra-period effects. The analysis shows the asymptotic stability of the capsules for all flow descriptions, as defined by the relative flow strength and capsule time scale. Transiently unstable modes are found for all cases, though again their growth saturates quickly. We also identify an intra-period instability to capsule translations, which matches that of a rigid particle, though it does not have finite amplification from period-to-period.},
+}
+
+@unpublished{charalampopoulos21,
+    Author = {A. Charalampopoulos and S. H. Bryngelson and T. Colonius and T. P. Sapsis},
+    Title = {Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics},
+    note = {arXiv: 2110.01374},
+    file = {charalampopoulos-RSA-21.pdf},
+    year = {2021},
+    abstract = {Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.},
 }
 
 @article{spratt21,
