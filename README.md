@@ -15,7 +15,7 @@ Some examples are:
 
 I encourage the use of this webpage as a template for your own group or lab webpage.
 The remainder of this document describes how to do this.
-Broadly speaking, there are three steps:
+Broadly speaking, there are these steps:
 
 * [Fork](#fork-and-build)
 * [Customize](#customization)
