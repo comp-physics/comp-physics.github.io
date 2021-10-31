@@ -79,12 +79,12 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-<a href="https://mfc-caltech.github.io" target="_blank">
+<a href="https://mflowcode.github.io" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
 </a>
 <h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
-<a href="https://mfc-caltech.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com/ComputationalFlowPhysics/MFC-Caltech" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://github.com/ComputationalFlowPhysics/MFC" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-19.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
