@@ -35,9 +35,10 @@
 
 @incollection{conference_17,
   author = {S. H. Bryngelson and T. Colonius},
-  title = {A fast-integration-based model for polydisperse bubble cloud dynamics and their two-way-flow coupling},
+  title = {Statistical model for cavitating polydisperse bubble clouds},
   note = {Journal of the Acoustical Society of America},
   year = {2021},
+  url = {https://vimeo.com/640933361/4f9d1469ce},
 }
 
 
@@ -68,6 +69,7 @@
   title = {Conditioned quadrature moment methods for cavitating bubble dispersions},
   note = {American Physical Society},
   year = {2020},
+  url = {https://vimeo.com/640933407/2830fcf3e0},
 }
 
 @incollection{conference_12,
@@ -160,6 +162,7 @@
   publisher = {},
   year = {2021},
   keywords = "invited",
+  url={https://youtu.be/DgX6ssX2yrg},
 }
 
 @incollection{invited_14,
@@ -168,6 +171,7 @@
   publisher = {Fluid Mechanics, Combustion, \& Engineering Physics Seminar Series},
   year = {2021},
   keywords = "invited",
+  url={https://vimeo.com/640930056/b1a6c0dc62},
 }
 
 @incollection{invited_13,
@@ -282,6 +286,7 @@
     Address = {Milano, Italy},
     Abstract = {Phase-averaged bubbly flow models are closed by high-order statistical moments of the disperse bubble dynamics. Evaluating these moments in a simulation environment is computationally expensive because the integrands are highly oscillatory. The cost of this closure is demonstrated for an ensemble-averaged bubbly flow model. A machine-learning-based method for accelerating the moment evaluation is formulated.},
     file = {bryngelson-ICTAM-21.pdf},
+    url = {https://vimeo.com/640932583/0ae772bf00},
 }
 
 @inproceedings{proceeding_8,
@@ -302,6 +307,7 @@
     Address = {Osaka, Japan},
     file = {bryngelson-SNH-20.pdf},
     abstract = {Averaged models are used to represent cavitating bubbly mixtures at the sub-grid computational level. Though such averaging techniques are widely used, the relative computational performance of various adaptations remains unknown. The accuracy and computational efficiency of two such models, one ensemble-averaging and one volume-averaging, addresses this issue. Results show that the relative computational cost of the methods depends upon the degree of bubble polydispersity. The ensemble-averaged model requires more quadrature nodes for broader population sizes and increasingly broad populations become computationally untenable. A moment-based method addresses this shortcoming. It uses a Gaussian closure and is augmented via long short-term memory recurrent neural networks for high-order statistics. Results show that this approach achieves small relative errors for even high-order statistical moments using only five degrees of freedom, significantly fewer than the hundreds required by classes methods.},
+    url={https://vimeo.com/640930931/6e57ccfd89},
 }
 
 @inproceedings{proceeding_6,
@@ -342,7 +348,9 @@
   address = {Daejeon, Korea},
   abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler--Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
  file = {bryngelson-CAV-21.pdf},
+ url = {https://vimeo.com/640931949/a6cd12fc05},
 }
+
 
 @inproceedings{proceeding_2,
   author = {M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
