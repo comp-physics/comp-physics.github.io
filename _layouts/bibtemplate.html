@@ -68,6 +68,11 @@ pre{
 <pre>{{entry.abstract}}</pre>
 </div>
 
+{% if entry.url %}
+<a href="{{ entry.url }}" target="_blank"><button class="btn btn-primary btm-sm">VIDEO</button></a>
+{% endif %}
+
+
 <script>
 function toggleBibtex{{entry.key}}(parameter) {
     var x= document.getElementById('a{{entry.key}}');

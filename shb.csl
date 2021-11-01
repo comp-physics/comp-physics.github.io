@@ -706,6 +706,11 @@
       </else>
     </choose>
   </macro>
+  <macro name="shblink">
+    <group prefix="Video: ">
+        <text variable="URL"/>
+    </group>
+  </macro>
   <macro name="parenthetical">
     <!-- (Secondary contributors; Database location; Genre no. 123; Report Series 123, Version, Edition, Volume, Page) -->
     <group prefix="(" suffix=")">
@@ -1588,8 +1593,9 @@
               </group>
             </if>
           </choose>
-          <text variable="URL"/>
-          <text variable="address"/>
+          <!-- <text macro="shblink"/> -->
+          <!-- <text variable="URL"/> -->
+          <!-- <text variable="address"/> -->
         </group>
       </else-if>
     </choose>
