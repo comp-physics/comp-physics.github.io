@@ -1,13 +1,22 @@
+- name: Jesus Arias
+  photo: pi.svg
+  info: PhD student 
+  coadvise: L. Sankar
+  email: Jesus.Arias@gtri.gatech.edu
+  linkedin: https://www.linkedin.com/in/jesusarias9
+
+- name: Fatima Chrit
+  photo: fatima.jpg
+  info: PhD student 
+  coadvise: A. Alexeev
+  email: fchrit3@gatech.edu
+  linkedin: https://www.linkedin.com/in/fatima-ezahra-chrit-793197b0
+
 - name: Anand Radhakrishnan
   photo: anand2.jpg
   info: PhD student
   email: aradhakr34@gatech.edu
   linkedin: https://www.linkedin.com/in/anandr97
-  # website: https://website.com
-  # github: https://github.com/blah
-  # researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  # scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  # cv: cv/cv.pdf
 
 - name: Scott Sims
   photo: scott.jpg
@@ -15,22 +24,28 @@
   email: ssims36@gatech.edu
   linkedin: https://www.linkedin.com/in/scottsimz
 
-- name: Sriharsha Kocherla
-  photo: sriharsha.jpg
-  email: skocherla3@gatech.edu
-  info: UG student
-
 - name: Girish Ganesan
   photo: girish.jpeg
   email: girishg0110@gmail.com
   info: XSEDE Empower student
   linkedin: https://www.linkedin.com/in/girish-ganesan-9801
 
+- name: Sriharsha Kocherla
+  photo: sriharsha.jpg
+  email: skocherla3@gatech.edu
+  info: UG student
+
 - name: Qi Zeng
   photo: qi.jpg
   email: qzeng37@gatech.edu 
-  info: UG student (with F. Schaefer)
+  info: UG student
+  coadvise: F. Schaefer
 
 - name: "This could be you!"
   photo: pi.svg
   info: Contact Spencer for more information
+  # website: https://website.com
+  # github: https://github.com/blah
+  # researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
+  # scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
+  # cv: cv/cv.pdf
