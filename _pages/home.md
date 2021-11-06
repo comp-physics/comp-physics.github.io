@@ -7,11 +7,10 @@ permalink: /
 
 ## Welcome!
 
-We are the **Computational Physics Group** at Georgia Tech!
-While nano-scale transistors fill warehouse-scale supercomputers, their performance still constrains the development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
-Our group develops state-of-the-art computational models and numerical methods to push these applications forward.
-These formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
-We deliver open-source scientific software that utilizes these methods and scales to the world's largest computers. 
+Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
+We are the **Computational Physics Group** at Georgia Tech, and we develop state-of-the-art computational models and numerical methods to push these applications forward.
+Formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
+Our open-source scientific software utilizes these methods and scales to the world's largest computers. 
 
 ## Some examples of our work
 
