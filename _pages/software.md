@@ -37,8 +37,12 @@ iframe {
 ## Software
 
 <div class="jumbotron">
-<div class="col-md-9 col-sm-12">
-#### <a href="https://github.com/comp-physics" target="_blank"><i class="fa fa-github-square fa-1x"></i> Click here for the group Github page</a>
+<div class="col-md-12 col-sm-12">
+<center> 
+<h4>
+<a href="https://github.com/comp-physics" target="_blank"><i class="fa fa-github-square fa-1x"></i> Group Github page</a>
+</h4>
+</center>
 </div>
 </div>
 
