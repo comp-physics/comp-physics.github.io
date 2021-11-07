@@ -16,6 +16,11 @@ task :generate do
   })).process
 end
 
+desc "Generate and publish blog to gh-pages"
+task :check => [:generate] do
+  system "bundle exec htmlproofer ./_site --alt-ignore '/.*/' --http_status_ignore='999,403,301,302' --assume-extension"
+end
+
 
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
