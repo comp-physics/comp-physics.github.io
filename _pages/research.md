@@ -44,13 +44,13 @@ I create high-fidelity computational methods to simulate these dynamics.
 Examples are:
 * Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
 * Accelerated models using a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">statistical paradigm and neural networks</a>
-* Implementation in my open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-19.pdf" target="_blank">MFC</a>
+* Implementation in my open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank">MFC</a>
 
 These enable realistic simulation of the bubble populations that nucleate during treatment.
 This has impacted application-specific treatments, including:
 * Improved _burst-wave lithotripsy administration_ in human trials 
-* Understanding of <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JCP-20.pdf" target="_blank">bubble-collapse-rebound</a> dynamics
-* Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JFM-19.pdf" target="_blank">erosion potential</a> for rough materials
+* Understanding of <a href="{{ site.url }}{{ site.baseurl }}/papers/schmidmayer-JCP-20.pdf" target="_blank">bubble-collapse-rebound</a> dynamics
+* Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/trummler-JFM-20.pdf" target="_blank">erosion potential</a> for rough materials
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
   <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay"></iframe>
@@ -90,7 +90,7 @@ Similar outcomes are desirable for sensitive, implanted biomedical devices.
  <h4>Therapy design via adjoint-based optimization</h4>
 Designing medical therapies requires efficient optimization algorithms. 
 Current methods fail to account for the _material interfaces_ or _shock waves_ that occur during treatments like lithotripsy and histotripsy.
-I created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc18.pdf" target="_blank">optimization and sensitivity analysis</a>.
+I created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc-18.pdf" target="_blank">optimization and sensitivity analysis</a>.
 Coupling with <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">PlasCom2</a> provides a full optimization framework for medical therapies and devices.
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent" >
