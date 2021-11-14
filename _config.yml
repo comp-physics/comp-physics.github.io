@@ -5,6 +5,7 @@ email: shb@gatech.edu
 description: Webpage of the Georgia Tech Computational Physics Group
 baseurl: ""
 url: ""
+exturl: "https://comp-physics.group"
 
 # Google analytics ID: Remove or use your own!
 google_analytics: UA-167467135-1
@@ -37,7 +38,7 @@ nav_pages:
   - name: teaching
 
 # - name: about
-# - name: teaching
+# - name: talks
 
 include:
   - .htaccess
@@ -63,7 +64,8 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
-plugins: ['jekyll/scholar']
+plugins: 
+  - jekyll-scholar
 
 scholar:
 
@@ -91,6 +93,8 @@ scholar:
   bibliography_list_attributes:
     reversed: "reversed"
 
+
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -98,3 +102,5 @@ exclude:
   - switch_theme.sh
   - tags
   - Rakefile
+  - LICENSE
+  - .DS_Store

@@ -8,3 +8,4 @@ gem "kramdown-parser-gfm"
 gem 'jekyll-scholar'
 gem 'rake'
 gem 'html-proofer'
+gem 'jekyll-sitemap'
