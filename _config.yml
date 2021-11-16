@@ -93,8 +93,6 @@ scholar:
   bibliography_list_attributes:
     reversed: "reversed"
 
-
-
 exclude:
   - Gemfile
   - Gemfile.lock
