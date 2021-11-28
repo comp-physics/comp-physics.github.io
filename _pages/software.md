@@ -71,7 +71,7 @@ QBMMlib makes using these methods simple and accessible:
 The algorithm initialization and solution can span _just 13 lines of code_.
 Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 
-<b><a href="https://github.com/comp-physics/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros I developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
+<b><a href="https://github.com/comp-physics/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros we developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
 
 </div>
 <div class="col-md-3 col-sm-12">
