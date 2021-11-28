@@ -44,7 +44,7 @@ We create high-fidelity computational methods to simulate these dynamics.
 Examples are:
 * Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
 * Accelerated models using a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">statistical paradigm and neural networks</a>
-* Implementation in my open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank">MFC</a>
+* Implementation in our open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank">MFC</a>
 
 These enable realistic simulation of the bubble populations that nucleate during treatment.
 This has impacted application-specific treatments, including:
@@ -74,7 +74,7 @@ Specifically, they
 * Swim up and through the interior, lunge feeding on the fish
 
 While fascinating, the acoustic mechanisms enabling this behavior are not understood.
-My ensemble-averaged bubbly flow model simulates the relevant acoustic phenomena, <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JASA-20.pdf" target="_blank">advancing our interpretation of this behavior</a>.
+Our ensemble-averaged bubbly flow model simulates the relevant acoustic phenomena, <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JASA-20.pdf" target="_blank">advancing our interpretation of this behavior</a>.
 Similar outcomes are desirable for sensitive, implanted biomedical devices.
 </div>
 <div class="col-md-3 col-sm-12" >
@@ -106,7 +106,7 @@ Coupling with <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blan
  <h4>An _in silico_ microfluidics and microcirculation</h4>
 We create simulation methods for the cellular flows that occur _in vivo_ and in biomicrofluidic devices.
 These tools are composed of physical models for the cells and particles and numerical methods to solve for their motion.
-These are implemented in <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">RBC3D</a>, my state-of-the-art flow solver that resolves <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-16.pdf" target="_blank">all particle-scale interactions</a>.
+These are implemented in <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">RBC3D</a>, our state-of-the-art flow solver that resolves <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-16.pdf" target="_blank">all particle-scale interactions</a>.
 Coupling RBC3D with <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">stability and optimization tools</a> We discovered:
 * The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-RA-16.pdf" target="_blank">buckling mechanism</a>  mediating the flow of sickle cells.
 * The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">chaotic behavior</a> of microcirculatory flows, and so computational methods cannot predict cell location (or motion) at long times.
