@@ -102,3 +102,4 @@ exclude:
   - Rakefile
   - LICENSE
   - .DS_Store
+  - jekcheck.sh
