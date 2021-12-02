@@ -1,6 +1,6 @@
 \documentclass{article}
 
-\usepackage[margin=1.5in]{geometry}
+\usepackage[left=1.5in,right=1.5in,top=1in,bottom=1in]{geometry}
 \usepackage{comment}
 \usepackage{tabu}
 \usepackage{xstring}
@@ -116,7 +116,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
-\lhead{}\chead{}\rhead{}
+\lhead{}\chead{\color{myBrown}CV Compiled on: \today}\rhead{}
+    
 \cfoot{}
 \rfoot{\color{myBrown}Page \thepage\xspace of \pageref{LastPage}}
 \cfoot{\color{myBrown}Latest at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
