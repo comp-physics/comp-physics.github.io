@@ -17,7 +17,7 @@ Our open-source scientific software utilizes these methods and scales to the wor
 Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
 It utilizes a LSTM recurrent neural network to close the governing equations at low cost.
-<a href="https://mfc-caltech.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
+<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
 MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse-interface method.
 
 <iframe src="https://player.vimeo.com/video/455688517?autoplay=1&loop=1&autopause=0&muted=1&quality=360p&background=1" width="100%" style="border-style:solid;border-radius:5px;" frameborder="0" allow="autoplay"></iframe>

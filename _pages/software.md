@@ -88,7 +88,7 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 </a>
 <h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
 <a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com/ComputationalFlowPhysics/MFC" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="https://github.com/MFlowCode/MFC" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
