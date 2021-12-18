@@ -10,11 +10,33 @@ a:hover {
   color: lighten(#c0995e,20%);
 }
 
+body{
+    background-color:#141617;
+}
+
+.img-thumbnail {
+    background-color:#141617;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #141617;
+  border-color: #073642;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #141617;
+}
+
 .jumbotron {
     padding:20px; 
     padding-bottom:7px; 
     margin-top:22px; 
     margin-bottom:22px;
+    background-color:#222324;
 }
 
 .navbar {

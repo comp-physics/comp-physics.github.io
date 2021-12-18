@@ -9,3 +9,5 @@ gem 'jekyll-scholar'
 gem 'rake'
 gem 'html-proofer'
 gem 'jekyll-sitemap'
+
+gem "webrick", "~> 1.7"
