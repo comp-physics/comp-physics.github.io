@@ -1,8 +1,8 @@
 # Site settings
-title: Computational Physics @ GT
+title: Computational Physics at GT
 yourname: Spencer H. Bryngelson
 email: shb@gatech.edu
-description: Webpage of the Georgia Tech Computational Physics Group
+description: Georgia Tech Computational Physics Group
 baseurl: ""
 url: ""
 exturl: "https://comp-physics.group"
