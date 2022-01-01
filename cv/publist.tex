@@ -1,11 +1,11 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=1in,left=0.5in,right=0.5in]{geometry}
 \usepackage{comment}
 \usepackage{tabu}
 \usepackage{xstring}
 \usepackage{etoolbox}
-\usepackage[backend=biber,defernumbers=true,sorting=ydnt,style=authoryear,doi=false,maxnames=99]{biblatex}
+\usepackage[backend=bibtex,defernumbers=true,sorting=ydnt,style=authoryear,doi=false,url=false,dashed=false,maxnames=99]{biblatex}
 
 \usepackage{calc}
 \usepackage{comment}
@@ -38,6 +38,11 @@
 \defbibfilter{other}{
   type=report or
   type=thesis
+}
+
+\defbibfilter{jj}{
+  type=article or
+  type=unpublished
 }
 
 \defbibfilter{invited}{
@@ -114,8 +119,9 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
-\lhead{}\chead{}\rhead{}
-\cfoot{}
+\lhead{}\chead{{\color{myBrown}Publication list | Compiled on: \today}}
+\rhead{}
+\cfoot{{\color{myBrown}Full CV available at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}}
 \rfoot{}
 \lfoot{}
 
@@ -124,27 +130,28 @@
 \setlength\bibitemsep{-20\itemsep}
 \usepackage{setspace}
 
-
+\AtEveryCitekey{\clearfield{extradate}}
+\AtEveryBibitem{\clearfield{extradate}}
+\AtEveryBibitem{\clearfield{month}}
 
 \begin{document}
 
 \begin{center}
-    {\Large \bf Spencer H. Bryngelson} \\
-    \medskip
-    Publication list | Compiled on: \today
+    {\Large \bf Spencer H. Bryngelson} 
 \end{center}
 
 % \section{Publications}
 
 \nocite{*}
+\setstretch{1}
+% \setlength\bibitemsep{-2pt}
 
 % \newrefcontext[labelprefix=P]
-% \printbibliography[type=unpublished,title={Preprints},resetnumbers=true,heading=subbibnumbered]
+% \printbibliography[type=unpublished,title={Journal Preprints},resetnumbers=true]
 
-\setstretch{0.8}
-\setlength\bibitemsep{0pt}
+
 \newrefcontext[labelprefix=J]
-\printbibliography[type=article,title={Journal papers},resetnumbers=true]
+\printbibliography[filter=jj,title={Journal papers and preprints},resetnumbers=true]
 
 \newrefcontext[labelprefix=C]
 \printbibliography[type=inproceedings,title={Refereed proceedings},resetnumbers=true]
@@ -156,7 +163,8 @@
 % \newrefcontext[labelprefix=I]
 % \printbibliography[title={Invited talks},resetnumbers=true,filter=invited,heading=subbibnumbered]
 
-\newrefcontext[labelprefix=T]
-\printbibliography[title={Conference talks},resetnumbers=true,filter=talk]
+% \newrefcontext[labelprefix=T]
+% \printbibliography[title={Conference talks},resetnumbers=true,filter=talk]
 
 \end{document}
+
