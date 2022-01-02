@@ -4268,6 +4268,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 1.15rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4296,7 +4297,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #839496;
+  color: var(--secondary);
   background-color: transparent;
   border-color: transparent;
 }

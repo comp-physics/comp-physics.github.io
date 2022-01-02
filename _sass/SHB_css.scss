@@ -18,18 +18,24 @@ body{
     background-color:#141617;
 }
 
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: rgba(255, 255, 255, 0.75);
-  background-color: #141617;
-  border-color: #073642;
-}
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: rgba(255, 255, 255, 0.75);
-  background-color: #141617;
-}
+
+// .navbar-nav .nav-link .nav-link.active .show .nav-item .navbar {
+//   color: #fff;
+// }
+
+// .nav-pills .nav-link.active,
+// .nav-pills .show > .nav-link {
+//   color: rgba(255, 255, 255, 0.55);
+//   background-color: #141617;
+// }
+
+// .nav-tabs .nav-link.active,
+// .nav-tabs .nav-item.show .nav-link {
+//   color: rgba(255, 255, 255, 0.75);
+//   background-color: #141617;
+//   border-color: #073642;
+// }
 
 .jumbotron {
     padding:20px; 
@@ -43,6 +49,32 @@ body{
   margin-bottom: 20px;
   border-bottom: 4px solid var(--secondary);
 }
+
+// SHB NAV
+
+//.navbar-dark .nav-link.disabled {
+//  color: green;
+//  // color: #839496;
+//}
+
+//.navbar-dark .nav-tabs .nav-link.disabled {
+//  color: green;
+//  // color: var(--secondary);
+//}
+
+//.navbar-dark .nav-tabs .nav-link.active,
+//.nav-tabs .nav-item.show .nav-link {
+//  color: green;
+//  // color: rgba(255, 255, 255, 0.75);
+//}
+
+//// .navbar-dark .nav-pills .nav-link.active,
+//// .nav-pills .show > .nav-link {
+////   color: green;
+////   // color: rgba(255, 255, 255, 0.75);
+//// }
+
+////
 
 .btn {
     margin-top: 5px;
