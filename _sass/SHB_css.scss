@@ -7,6 +7,7 @@ $myprimary: darken(#C09B5D,10%) !default;
 $mysuccess: #578560 !default;
 $mydanger: #327269 !default;
 $mywarning: #2F4858 !default;
+$myinfo: #676A8B !default;
 
 img { 
     border-radius:5%;
@@ -271,6 +272,41 @@ body{
   box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
 }
 // End Btn Warning
+
+
+// Btn info
+.btn-info {
+  color: darken(#fff,5%);
+  background: $myinfo;
+  border-color: $myinfo;
+}
+
+.btn-info:hover {
+  color: darken(#fff,5%);
+  background: darken($myinfo,5%);
+  border-color: darken($myinfo,5%);
+}
+
+.btn-info:focus, .btn-info.focus {
+  color: #fff;
+  background: darken($myinfo,5%);
+  border-color: darken($myinfo,5%);
+  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
+}
+
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: darken($myinfo,5%);
+  background-image: none;
+  border-color: darken($myinfo,5%);
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
+}
+// End Btn info
 
 // Set Btn size
 .btn {

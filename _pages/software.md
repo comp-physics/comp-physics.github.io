@@ -51,8 +51,8 @@ iframe {
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
 <h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
-<a href="https://github.com/comp-physics/QBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: QBMMLIB</button></a>
-<a href="https://github.com/comp-physics/PyQBMMlib" target="_blank"><button class="btn btn-primary btn-sm">GIT: PyQBMMLIB</button></a>
+<a href="https://github.com/comp-physics/QBMMlib" target="_blank"><button class="btn btn-success btn-sm">GIT: QBMMLIB</button></a>
+<a href="https://github.com/comp-physics/PyQBMMlib" target="_blank"><button class="btn btn-success btn-sm">GIT: PyQBMMLIB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Author:</b>
@@ -87,8 +87,8 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
 </a>
 <h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
-<a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com/MFlowCode/MFC" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
+<a href="https://github.com/MFlowCode/MFC" target="_blank"><button class="btn btn-success btn-sm">GITHUB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
@@ -119,8 +119,8 @@ MFC is actively developed and gaining capabilities for QMOM-based solutions to s
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/ecogen.png" width="60%" />
 </a>
 <h4><b>Multiphase and Capillary Flow Solver</b></h4>
-<a href="https://code-mphi.github.io/ECOGEN/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com/code-mphi/ECOGEN" target="_blank"><button class="btn btn-primary btn-sm">GITHUB</button></a>
+<a href="https://code-mphi.github.io/ECOGEN/" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
+<a href="https://github.com/code-mphi/ECOGEN" target="_blank"><button class="btn btn-success btn-sm">GITHUB</button></a>
 <a href="http://dx.doi.org/10.1016/j.cpc.2019.107093" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
@@ -146,7 +146,7 @@ The code base is object-oriented and modular, assisting future development.
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/xpacc.png" width="50%" />
 </a>
 <h4><b>PlasCom2: Multi-physics Turbulent Flows</b></h4>
-<a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
 
 <b>Authors:</b>
 <i>M. Campbell, E. Cisneros, J. Wang, S. H. Bryngelson, D. Buchta, M. Anderson, M. Diener, M. Smith, and more...</i>
