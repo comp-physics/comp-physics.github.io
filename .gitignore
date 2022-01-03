@@ -2,6 +2,7 @@ tags
 *tags
 _site/
 .jekyll-cache/
+*/.jekyll-cache
 .sass-cache/
 .DS_Store
 *.DS_Store
