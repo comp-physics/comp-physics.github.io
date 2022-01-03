@@ -3,6 +3,11 @@ $darkgray: #141617 !default;
 $mediumgray: #222324 !default;
 $textgray: #b0ada8 !default;
 
+$myprimary: darken(#C09B5D,10%) !default;
+$mysuccess: #578560 !default;
+$mydanger: #327269 !default;
+$mywarning: #2F4858 !default;
+
 img { 
     border-radius:5%;
 }
@@ -36,10 +41,7 @@ body{
   border-bottom: 4px solid var(--secondary);
 }
 
-.btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 .container-fluid {
   max-width: 800px;
@@ -131,4 +133,147 @@ body{
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: lighten($textgray,20%);
   font-weight: 600;
+}
+
+// Butn Primary
+
+.btn-primary {
+  color: #fff;
+  background: $myprimary;
+  border-color: $myprimary;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: darken($myprimary,5%);
+  border-color: darken($myprimary,5%);
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background: darken($myprimary,5%);
+  border-color: darken($myprimary,5%);
+  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: darken($myprimary,5%);
+  background-image: none;
+  border-color: darken($myprimary,5%);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
+}
+// End btn primary
+
+// Btn Success
+.btn-success {
+  color: #fff;
+  background: $mysuccess;
+  border-color: $mysuccess;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background: darken($mysuccess,5%);
+  border-color: darken($mysuccess,5%);
+}
+
+.btn-success:focus, .btn-success.focus {
+  color: #fff;
+  background: darken($mysuccess,5%);
+  border-color: darken($mysuccess,5%);
+  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
+}
+
+.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: darken($mysuccess,5%);
+  background-image: none;
+  border-color: darken($mysuccess,5%);
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
+}
+// End Btn Success
+
+// Btn Danger
+.btn-danger {
+  color: #fff;
+  background: $mydanger;
+  border-color: $mydanger;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background: darken($mydanger,5%);
+  border-color: darken($mydanger,5%);
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  color: #fff;
+  background: darken($mydanger,5%);
+  border-color: darken($mydanger,5%);
+  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
+}
+
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
+.show > .btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: darken($mydanger,5%);
+  background-image: none;
+  border-color: darken($mydanger,5%);
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
+}
+// End Btn Danger
+
+// Btn Warning
+.btn-warning {
+  color: darken(#fff,5%);
+  background: $mywarning;
+  border-color: $mywarning;
+}
+
+.btn-warning:hover {
+  color: darken(#fff,5%);
+  background: darken($mywarning,5%);
+  border-color: darken($mywarning,5%);
+}
+
+.btn-warning:focus, .btn-warning.focus {
+  color: #fff;
+  background: darken($mywarning,5%);
+  border-color: darken($mywarning,5%);
+  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
+}
+
+.btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
+.show > .btn-warning.dropdown-toggle {
+  color: #fff;
+  background-color: darken($mywarning,5%);
+  background-image: none;
+  border-color: darken($mywarning,5%);
+}
+
+.btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
+.show > .btn-warning.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
+}
+// End Btn Warning
+
+// Set Btn size
+.btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
