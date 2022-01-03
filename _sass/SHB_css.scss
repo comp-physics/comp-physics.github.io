@@ -1,80 +1,40 @@
+$gtgold: #c0995e !default;
+$darkgray: #141617 !default;
+$mediumgray: #222324 !default;
+$textgray: #b0ada8 !default;
+
 img { 
     border-radius:5%;
 }
 
 a {
-  color: #c0995e;
+  color: $gtgold;
 }
 
 a:hover {
-  color: lighten(#c0995e,20%);
+  color: lighten($gtgold,20%);
 }
 
 body{
-    background-color:#141617;
+    background-color: $darkgray;
 }
 
 .img-thumbnail {
-    background-color:#141617;
+    background-color: $darkgray;
 }
-
-
-
-// .navbar-nav .nav-link .nav-link.active .show .nav-item .navbar {
-//   color: #fff;
-// }
-
-// .nav-pills .nav-link.active,
-// .nav-pills .show > .nav-link {
-//   color: rgba(255, 255, 255, 0.55);
-//   background-color: #141617;
-// }
-
-// .nav-tabs .nav-link.active,
-// .nav-tabs .nav-item.show .nav-link {
-//   color: rgba(255, 255, 255, 0.75);
-//   background-color: #141617;
-//   border-color: #073642;
-// }
 
 .jumbotron {
     padding:20px; 
     padding-bottom:7px; 
     margin-top:22px; 
     margin-bottom:22px;
-    background-color:#222324;
+    background-color:$mediumgray;
 }
 
 .navbar {
   margin-bottom: 20px;
   border-bottom: 4px solid var(--secondary);
 }
-
-// SHB NAV
-
-//.navbar-dark .nav-link.disabled {
-//  color: green;
-//  // color: #839496;
-//}
-
-//.navbar-dark .nav-tabs .nav-link.disabled {
-//  color: green;
-//  // color: var(--secondary);
-//}
-
-//.navbar-dark .nav-tabs .nav-link.active,
-//.nav-tabs .nav-item.show .nav-link {
-//  color: green;
-//  // color: rgba(255, 255, 255, 0.75);
-//}
-
-//// .navbar-dark .nav-pills .nav-link.active,
-//// .nav-pills .show > .nav-link {
-////   color: green;
-////   // color: rgba(255, 255, 255, 0.75);
-//// }
-
-////
 
 .btn {
     margin-top: 5px;
@@ -134,8 +94,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
-  // margin-left:7px;
-  // border: 1px solid red;
 
 .embed-container-spleen {
   height: 155px;
@@ -147,9 +105,30 @@ body{
   background-image: url($baseurl + "/images/thumbs/spleen.jpg");
 }
 
-// .btn-success {
-//   color: #fff;
-//   background: #c0995e; 
-//   border-color: #222324;
-// }
+// Make Navbar Orange
+.navbar-dark .navbar-nav .nav-link {
+  color: $gtgold;
+}
 
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: lighten($gtgold,20%);
+}
+
+// Make navbar group name bigger
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+// Make group name gray not white
+.navbar-dark .navbar-brand {
+  color: $textgray;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: lighten($textgray,20%);
+  font-weight: 600;
+}
