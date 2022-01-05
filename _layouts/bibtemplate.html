@@ -2,14 +2,6 @@
 ---
 
 <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px:
-}
 pre{
     white-space: pre-wrap;  
     white-space: -moz-pre-wrap; 
@@ -17,6 +9,7 @@ pre{
     white-space: -o-pre-wrap; 
     word-wrap: break-word; 
     width:100%; overflow-x:auto;
+    <!-- background-color: red; -->
 }
 </style>
 
@@ -78,6 +71,7 @@ function toggleBibtex{{entry.key}}(parameter) {
     var x= document.getElementById('a{{entry.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';
+        x.style.backgroundColor = '#141617';
     } else {
         x.style.display = 'none';
     }
@@ -86,6 +80,7 @@ function toggleAbstract{{entry.key}}(parameter) {
     var x= document.getElementById('b{{entry.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';
+        x.style.backgroundColor = '#141617';
     } else {
         x.style.display = 'none';
     }
