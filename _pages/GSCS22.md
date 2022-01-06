@@ -25,9 +25,9 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 ### Organizers
 
 Contact one of the organizers for information as needed:
-* [Spencer Bryngelson](https://comp-physics.group)
-* [Edmond Chow](https://www.cc.gatech.edu/~echow/)
-* [Xiuwei Zhang](https://xiuweizhang.wordpress.com/)
+* [Spencer Bryngelson](mailto:shb@gatech.edu)
+* [Edmond Chow](mailto:echow@cc.gatech.edu)
+* [Xiuwei Zhang](mailto:xzhang954@gatech.edu)
 
 ### Invited Speakers 
 
