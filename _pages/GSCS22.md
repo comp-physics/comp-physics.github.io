@@ -9,12 +9,18 @@ permalink: /GSCS22/
 
 The Georgia Scientific Computing Symposium is a forum for professors, postdocs, graduate students and other researchers in Georgia to meet in an informal setting, to exchange ideas, and to highlight local scientific computing research.
 The symposium has been held every year since 2009 and is open to the entire research community.
-The format of the day-long symposium is a set of invited presentations, poster sessions and a poster blitz, and plenty of time to network with other attendees.
+The 2022 event will be held at Georgia Tech.
+The format of the day-long symposium is a set of invited presentations, lightening talks, and plenty of time to network with other attendees.
 
-### Date and Location
+### Location and Key dates
 
-* Georgia Institute of Technology
-* Saturday, February 19, 2022
+* Location: Georgia Institute of Technology
+* Registration Deadline: February 2, 2022
+* Event: Saturday, February 19, 2022
+
+### Registration 
+
+[Register here]()
 
 ### Organizers
 
@@ -25,13 +31,14 @@ Contact one of the organizers for information as needed:
 
 ### Invited Speakers 
 
-* [Spencer Bryngelson](https://comp-physics.group), Georgia Institute of Technology
-* [Hannah Choi](https://hannahchoi.math.gatech.edu/), Georgia Institute of Technology
-* [Weiwei Hu](https://math.okstate.edu/people/wh/), University of Georgia 
-* [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/), Georgia State University 
-* [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton), Dalton State College
-* [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/), Georgia State University 
-* [Alessandro Veneziani](http://www.mathcs.emory.edu/~ale/), Emory University 
+| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)<br/> Georgia Institute of Technology &nbsp;	&nbsp;	&nbsp;		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Institute of Technology |
+| | | |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
+| | | |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/pi.svg" width="100"/>			| [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton)<br/> Dalton State College		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/andrey-shilnikov.jpeg" width="100"/> | [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/)<br/> Georgia State University  |
+| | | |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/alessando-veneziani.jpeg" width="100"/> | [Alessandro Veneziani](http://www.mathcs.emory.edu/~ale/)<br/> Emory University		| |
+| | | |
 
 ### Program 
 
@@ -52,12 +59,7 @@ Contact one of the organizers for information as needed:
 | 4:45 | | | IP 7							|
 | 5:30 | | | Reception				|
 | 7:00 | | | Dinner						|
-
-### Poster Sessions
-
-Poster sessions will be held during lunch and during the afternoon break.
-Anyone can present a poster, but we especially encourage graduate students and postdocs to use this opportunity to advertise their work.
-Please provide a poster title when you register.
+| | | | |
 
 ### Previous GSCS Locations and Webpages 
 
