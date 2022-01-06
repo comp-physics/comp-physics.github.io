@@ -31,11 +31,12 @@ information: >
 
 # Pages shown in navbar
 nav_pages:
-  - name: team
-  - name: publications
-  - name: research
-  - name: software
-  - name: teaching
+  - name: Team
+  - name: Publications
+  - name: Research
+  - name: Software
+  - name: Teaching
+  - name: GSCS22
 
 # - name: about
 # - name: talks
