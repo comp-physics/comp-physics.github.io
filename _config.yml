@@ -31,11 +31,11 @@ information: >
 
 # Pages shown in navbar
 nav_pages:
-  - name: Team
-  - name: Publications
-  - name: Research
-  - name: Software
-  - name: Teaching
+  - name: team
+  - name: publications
+  - name: research
+  - name: software
+  - name: teaching
 
 include:
   - .htaccess
