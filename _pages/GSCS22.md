@@ -20,7 +20,7 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 ### Registration 
 
-[Register here]()
+[Register here! (by Feb. 2)](https://forms.gle/gZWxnMuyitHPMNgz6)
 
 ### Organizers
 
