@@ -36,10 +36,6 @@ nav_pages:
   - name: Research
   - name: Software
   - name: Teaching
-  - name: GSCS22
-
-# - name: about
-# - name: talks
 
 include:
   - .htaccess

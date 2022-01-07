@@ -2,7 +2,7 @@
 title: "Team"
 layout: gridlay
 sitemap: false
-permalink: /Team/
+permalink: /team/
 ---
 
 ## Team
