@@ -2,7 +2,7 @@
 title: "Software"
 layout: gridlay
 sitemap: false
-permalink: /software/
+permalink: /Software/
 ---
 
 <style>
