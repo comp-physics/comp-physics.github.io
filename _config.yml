@@ -2,7 +2,7 @@
 title: Computational Physics @ GT
 yourname: Spencer H. Bryngelson
 email: shb@gatech.edu
-description: Georgia Tech Computational Physics Group
+description: Computational Physics Group at Georgia Tech with PI Spencer Bryngelson
 baseurl: ""
 url: ""
 exturl: "https://comp-physics.group"
@@ -63,6 +63,7 @@ kramdown:
 
 plugins: 
   - jekyll-scholar
+  - jekyll-seo-tag
 
 scholar:
 
