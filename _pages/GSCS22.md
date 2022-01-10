@@ -9,16 +9,17 @@ permalink: /GSCS22/
 
 The Georgia Scientific Computing Symposium is a forum for professors, postdocs, graduate students and other researchers in Georgia to meet in an informal setting, to exchange ideas, and to highlight local scientific computing research.
 The symposium has been held every year since 2009 and is open to the entire research community.
-**The 2022 event will be held at Georgia Tech.**
 The format of the day-long symposium is a set of invited presentations, lightening talks, and plenty of time to network with other attendees.
 
 ### Location, dates, registration
 
-* Location: Georgia Institute of Technology
-* Registration Deadline: February 2, 2022
+* Location: We are currently monitoring the COVID-19 case surge. 
+**The event will either be hybrid (with Georgia Tech for in-person attendees) or virtual.**
+We will notify registrants and update this page as soon as a choice is made.
+* Registration: Due on February 2, 2022 [**[Register here!]**](https://forms.gle/gZWxnMuyitHPMNgz6)
 * Event: Saturday, February 19, 2022
 
-[Register here! (by Feb. 2)](https://forms.gle/gZWxnMuyitHPMNgz6)
+
 
 ### Organizers
 
