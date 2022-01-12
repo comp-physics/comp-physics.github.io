@@ -23,14 +23,15 @@ We will notify registrants and update this page as soon as a choice is made.
 
 ### Organizers
 
-Contact one of the organizers for information as needed:
-* [Spencer Bryngelson](mailto:shb@gatech.edu)
-* [Edmond Chow](mailto:echow@cc.gatech.edu)
-* [Xiuwei Zhang](mailto:xzhang954@gatech.edu)
+Contact one of the organizers for more information as needed:
+
+| &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp;  | &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/edmond.jpg" width="100"/> &nbsp;  | &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/xiuwei.jpg" width="100"/> &nbsp; | 
+| <center><a href="mailto:shb@gatech.edu">Spencer<br/>Bryngelson</a></center> | <center><a href="mailto:echow@cc.gatech.edu">Edmond<br/>Chow</a></center> | <center><a href="mailto:xzhang954@gatech.edu">Xiuwei<br/>Zhang</a></center> |
+| | | |
 
 ### Invited Speakers 
 
-| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)<br/> Georgia Institute of Technology &nbsp;	&nbsp;	&nbsp;		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Institute of Technology |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)  &nbsp;	&nbsp;	&nbsp;<br/> Georgia Tech 		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Tech |
 | | | |
 | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
 | | | |
