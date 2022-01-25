@@ -19,15 +19,14 @@ We will notify registrants and update this page as soon as a choice is made.
 * Registration: Due on February 2, 2022 [**[Register here!]**](https://forms.gle/gZWxnMuyitHPMNgz6)
 * Event: Saturday, February 19, 2022
 
-
-
 ### Organizers
 
 Contact one of the organizers for more information as needed:
 
-| &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp;  | &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/edmond.jpg" width="100"/> &nbsp;  | &nbsp; <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/xiuwei.jpg" width="100"/> &nbsp; | 
-| <center><a href="mailto:shb@gatech.edu">Spencer<br/>Bryngelson</a></center> | <center><a href="mailto:echow@cc.gatech.edu">Edmond<br/>Chow</a></center> | <center><a href="mailto:xzhang954@gatech.edu">Xiuwei<br/>Zhang</a></center> |
-| | | |
+* <a href="mailto:echow@cc.gatech.edu">Edmond Chow</a>
+* <a href="mailto:shb@gatech.edu">Spencer Bryngelson</a>
+* <a href="mailto:xzhang954@gatech.edu">Xiuwei Zhang</a>
+
 
 ### Invited Speakers 
 
