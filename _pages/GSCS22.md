@@ -34,7 +34,7 @@ Contact one of the organizers for more information as needed:
 | | | |
 | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
 | | | |
-| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/pi.svg" width="100"/>			| [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton)<br/> Dalton State College		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/andrey-shilnikov.jpeg" width="100"/> | [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/)<br/> Georgia State University  |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/barry-peyton.jpg" width="100"/>			| [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton)<br/> Dalton State College		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/andrey-shilnikov.jpeg" width="100"/> | [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/)<br/> Georgia State University  |
 | | | |
 | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/alessando-veneziani.jpeg" width="100"/> | [Alessandro Veneziani](http://www.mathcs.emory.edu/~ale/)<br/> Emory University		| |
 | | | |
