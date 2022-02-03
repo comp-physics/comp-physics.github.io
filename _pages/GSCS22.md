@@ -18,7 +18,7 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 * Location: We are currently monitoring the COVID-19 case surge. 
 **The event will either be hybrid (with Georgia Tech for in-person attendees) or virtual.**
 We will notify registrants and update this page as soon as a choice is made.
-* Registration: Due on February 2, 2022 [**[Register here!]**](https://forms.gle/gZWxnMuyitHPMNgz6)
+* [**[Register here!]**](https://forms.gle/k5vYeusNCa5taCAW9)
 * Event: Saturday, February 19, 2022
 
 ### Organizers
