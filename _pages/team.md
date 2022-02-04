@@ -53,7 +53,7 @@ permalink: /team/
 </div>
 
 
-### Current members
+### Members
 
 <div class="jumbotron">
 
