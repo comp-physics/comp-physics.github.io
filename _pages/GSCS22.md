@@ -15,9 +15,7 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 ### Location, dates, registration
 
-* Location: We are currently monitoring the COVID-19 case surge. 
-**The event will either be hybrid (with Georgia Tech for in-person attendees) or virtual.**
-We will notify registrants and update this page as soon as a choice is made.
+* Location: **GSCS22 will be hybrid, with in-person attendance at Georgia Tech.**
 * [**[Register here!]**](https://forms.gle/k5vYeusNCa5taCAW9)
 * Event: Saturday, February 19, 2022
 
@@ -45,19 +43,19 @@ Contact one of the organizers for more information as needed:
 
 | Time  | | | Activity						|
 | ---   |  --- | --- | ---				|
-| 9:00  | | | Continental breakfast		|
+| 9:00  | | | Continental breakfast		 |
 | 9:25  | | | Opening remarks			|
-| 9:30  | | | IP 1								|
-| 10:05 | | | IP 2								|
+| 9:30  | | | IP: Yi Jiang				|
+| 10:05 | | | IP: Hannah Choi			|
 | 11:40 | | | Break								|
 | 11:00 | | | Lightning talks I		|
 | 12:00 | | | Lunch								|
-| 1:15  | | | IP 3								|
-| 1:50  | | | IP 4								|
-| 2:45  | | | IP 5								|
+| 1:15  | | | IP: Weiwi Hu				|
+| 1:50  | | | IP: Spencer Bryngelson	 |
+| 2:45  | | | IP: Alessandro Veneziani |
 | 3:00  | | | Break								|
-| 3:30  | | | IP 6						  	|
-| 4:05  | | | IP 7							  |
+| 3:30  | | | IP: Barry Peyton		|
+| 4:05  | | | IP: Andrey Shilnikov		 |
 | 4:40  | | | Short Break				  |
 | 4:50  | | | Lightening talks II |
 | 6:00  | | | Dinner						  |
@@ -92,8 +90,6 @@ Contact one of the organizers for more information as needed:
 * **Alessando Veneziani**
 	* Title: Cardiovascular mathematics: Data, (Reduced) Models and Clinics 
 	* Abstract: Working in Cardiovascular Mathematics is a rewarding experience, as one has the opportunity to bridge theory and practice with the ultimate purpose of improving healthcare. The reliability and efficiency required by the clinical timelines naturally triggered the development of data assimilation, uncertainty quantification, and reduced-order modeling techniques. The integration of Data-driven and Model-driven approaches is crucial in this field, where each patient may represent a different and unique challenging problem. In this talk, I will address some examples, ranging from aortic diseases to bioresorbable stents. I will point out the critical role of scientific computing and computational mechanics in the "Big-Data" era. 
-
-
 
 ### Previous GSCS Locations and Webpages 
 
