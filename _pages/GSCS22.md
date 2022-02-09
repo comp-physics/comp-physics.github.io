@@ -52,7 +52,7 @@ Contact one of the organizers for more information as needed:
 | 12:00 | | | Lunch								|
 | 1:15  | | | IP: Weiwi Hu				|
 | 1:50  | | | IP: Spencer Bryngelson	 |
-| 2:45  | | | IP: Alessandro Veneziani |
+| 2:25  | | | IP: Alessandro Veneziani |
 | 3:00  | | | Break								|
 | 3:30  | | | IP: Barry Peyton		|
 | 4:05  | | | IP: Andrey Shilnikov		 |
