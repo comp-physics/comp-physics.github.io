@@ -15,9 +15,9 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 ### Location, dates, registration
 
-* Location: **GSCS22 will be hybrid, with in-person attendance at Georgia Tech.**
+* Location: Clough Undergraduate Learning Commons (CULC), Auditorium 144, Georgia Tech (meeting links for virtual attendance will sent the week of the event). Breaks will occur in CULC102.
 * [**[Register here!]**](https://forms.gle/k5vYeusNCa5taCAW9)
-* Event: Saturday, February 19, 2022
+* Event date: Saturday, February 19, 2022
 
 ### Organizers
 
@@ -43,23 +43,24 @@ Contact one of the organizers for more information as needed:
 
 | Time  | | | Activity						|
 | ---   |  --- | --- | ---				|
-| 9:00  | | | Continental breakfast		 |
+| 9:00  | | | Continental breakfast	(CULC102) |
 | 9:25  | | | Opening remarks			|
 | 9:30  | | | IP: Yi Jiang				|
 | 10:05 | | | IP: Hannah Choi			|
-| 11:40 | | | Break								|
+| 10:40 | | | Break (CULC102)								|
 | 11:00 | | | Lightning talks I		|
-| 12:00 | | | Lunch								|
+| 12:00 | | | Lunch (CULC102)						|
 | 1:15  | | | IP: Weiwi Hu				|
 | 1:50  | | | IP: Spencer Bryngelson	 |
 | 2:25  | | | IP: Alessandro Veneziani |
-| 3:00  | | | Break								|
+| 3:00  | | | Break	(CULC102)						|
 | 3:30  | | | IP: Barry Peyton		|
 | 4:05  | | | IP: Andrey Shilnikov		 |
 | 4:40  | | | Short Break				  |
 | 4:50  | | | Lightening talks II |
-| 6:00  | | | Dinner						  |
-| | | | |
+| 5:30  | | | Adjourn |
+| 6:00  | | | Optional No-Host Dinner |
+
 
 ### Invited Speaker Talks and Abstracts
 
