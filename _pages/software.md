@@ -40,12 +40,42 @@ iframe {
 <div class="col-md-12 col-sm-12">
 <center> 
 <h4>
-<a href="https://github.com/comp-physics" target="_blank"><i class="fa fa-github-square fa-1x"></i> Group Github page</a>
+<a href="https://github.com/comp-physics" target="_blank"><i class="fab fa-github-square fa-1x"></i> Group Github page</a>
 </h4>
 </center>
 </div>
 </div>
 
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+<a href="https://mflowcode.github.io" target="_blank">
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
+</a>
+<h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
+<a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
+<a href="https://github.com/MFlowCode/MFC" target="_blank"><button class="btn btn-success btn-sm">GITHUB</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>S. H. Bryngelson, A. Radhakrishnan, H. Le Berre, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, J. Meng, K. Maeda</i>
+
+MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
+Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
+The simulation method consists of:
+- 5- and 6-equation diffuse-interface models
+- High-order-accurate WENO interface-capturing methods
+- HLL-type Riemann solvers
+- Sub-grid bubble models, including QBMMs
+- TVD time-integration schemes 
+</div>
+<div class="col-md-3 col-sm-12">
+  <iframe src="https://player.vimeo.com/video/455887952?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
+  <iframe src="https://player.vimeo.com/video/455888264?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
+</div>
+</div>
+</div>
 
 <div class="jumbotron">
 <div class="row align-items-end">
@@ -80,37 +110,7 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 </div>
 </div>
 
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
-<a href="https://mflowcode.github.io" target="_blank">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
-</a>
-<h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
-<a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
-<a href="https://github.com/MFlowCode/MFC" target="_blank"><button class="btn btn-success btn-sm">GITHUB</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-<b>Authors:</b>
-<i>S. H. Bryngelson, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, B. Stevens, A. Charalampopoulos, S. Cao, J. Meng, K. Maeda</i>
-
-MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
-Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
-The simulation method consists of:
-- 5- and 6-equation diffuse-interface models
-- High-order-accurate WENO interface-capturing methods
-- HLL-type Riemann solvers
-- Sub-grid bubble models
-- TVD time-integration schemes 
-
-MFC is actively developed and gaining capabilities for QMOM-based solutions to sub-grid flows and neural-network enhanced interface capturing.
-</div>
-<div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887952?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
-  <iframe src="https://player.vimeo.com/video/455888264?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
 
 <div class="jumbotron">
 <div class="row align-items-end">
