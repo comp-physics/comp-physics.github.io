@@ -12,7 +12,7 @@ We are the **Computational Physics Group** at Georgia Tech, and we develop state
 Formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
 Our open-source scientific software utilizes these methods and scales to the world's largest computers. 
 
-## Some examples of our work
+## Examples of our work
 
 Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
