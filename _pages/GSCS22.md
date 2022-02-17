@@ -16,7 +16,6 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 ### Location, dates, registration
 
 * Location: Clough Undergraduate Learning Commons (CULC), Auditorium 144, Georgia Tech (meeting links for virtual attendance will sent the week of the event). Breaks will occur in CULC102.
-* [**[Register here!]**](https://forms.gle/k5vYeusNCa5taCAW9)
 * Event date: Saturday, February 19, 2022
 
 ### Organizers
