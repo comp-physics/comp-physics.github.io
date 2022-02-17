@@ -15,8 +15,18 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 ### Location, dates, registration
 
-* Location: Clough Undergraduate Learning Commons (CULC), Auditorium 144, Georgia Tech (meeting links for virtual attendance will sent the week of the event). Breaks will occur in CULC102.
+* Location: Clough Undergraduate Learning Commons (CULC), Auditorium 144.
+Breaks and meals are in Room 102.
 * Event date: Saturday, February 19, 2022
+* Parking: We suggest the parking deck in the Klaus Advanced Computing Building (E40).
+Parking all day is \$5 to the attendant at entry (baseball game parking).
+If you have an annual GT parking permit, your Buzzcard will open the gate as usual without cost.
+After parking, the west parking elevators and stairwells can be used (the central elevators are Buzzcard access only).
+A map showing the parking deck entrance and walking path to GSCS is below.
+
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/map.png" width="80%"/>
+</center>
 
 ### Organizers
 
