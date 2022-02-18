@@ -72,7 +72,10 @@ Contact one of the organizers for more information as needed:
 
 ### Lightening Talk Schedule
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/schedule.png" width="80%"/>
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/schedule.png" width="100%"/>
+</center>
+
 
 ### Invited Speaker Talks and Abstracts
 
