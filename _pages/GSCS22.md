@@ -11,7 +11,7 @@ The Georgia Scientific Computing Symposium is a forum for professors, postdocs, 
 The symposium has been held every year since 2009 and is open to the entire research community.
 The format of the day-long symposium is a set of invited presentations, lightening talks, and plenty of time to network with other attendees.
 
-[**Lightening Talk Submission**: This form will close on Wed. Feb 16, 2022](https://forms.gle/siB67VHzT6kqEeEh9)
+*Below you will find a detailed schedule of the symposium and lightening talks.*
 
 ### Location, dates, registration
 
@@ -70,6 +70,9 @@ Contact one of the organizers for more information as needed:
 | 5:30  | | | Adjourn |
 | 6:00  | | | Optional No-Host Dinner |
 
+### Lightening Talk Schedule
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/schedule.png" width="80%"/>
 
 ### Invited Speaker Talks and Abstracts
 
