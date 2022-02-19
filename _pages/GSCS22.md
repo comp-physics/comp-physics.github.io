@@ -13,6 +13,10 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 *Below you will find a detailed schedule of the symposium and lightening talks.*
 
+## Virtual attendees
+
+[Please use this Zoom link](https://gatech.zoom.us/j/92206221552?pwd=dEJZQ2w2VkhOMjdZR21NVFN6dW1DZz09)
+
 ### Location, dates, registration
 
 * Location: Clough Undergraduate Learning Commons (CULC), Auditorium 144.
