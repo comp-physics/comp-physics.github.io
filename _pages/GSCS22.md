@@ -13,9 +13,16 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 
 *Below you will find a detailed schedule of the symposium and lightening talks.*
 
-## Virtual attendees
+### Event Images!
 
-[Please use this Zoom link](https://gatech.zoom.us/j/92206221552?pwd=dEJZQ2w2VkhOMjdZR21NVFN6dW1DZz09)
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/group-picture.jpg" width="100%"/>
+</center>
+
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/lightning-talks.jpg" width="100%"/>
+</center>
+
 
 ### Location, dates, registration
 
