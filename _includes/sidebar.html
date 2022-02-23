@@ -2,29 +2,29 @@
 {% for member in site.data.pi %}
 <div class="jumbotron">
    <center>
-   <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}" width="60%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
+   <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}" width="70%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h4>{{ member.name }}</h4>
-   <h5>{{ member.info }}</h5>
+   <h5><i>Asistant Professor</i></br>CSE, Gatech</h5>
    <div style="margin-bottom:5px">
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
    {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
    {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
    {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fab fa-github-square fa-3x"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
+   <!-- {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %} -->
   </div>
   </center>
 </div>
 {% endfor %}
 </div>
 
-<div class="jumbotron">
-  <h4>News</h4>
+<!-- <div class="jumbotron"> -->
+<!--   <h4>News</h4> -->
 
-  {% for article in site.data.news limit:4%}
-  <b>{{ article.date }}</b>
-    <p>{{ article.headline }}</p>
-  {% endfor %}
+<!--   {% for article in site.data.news limit:4%} -->
+<!--   <b>{{ article.date }}</b> -->
+<!--     <p>{{ article.headline }}</p> -->
+<!--   {% endfor %} -->
   
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
+<!--   <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5> -->
 
-</div>
+<!-- </div> -->
