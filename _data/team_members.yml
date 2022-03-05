@@ -13,6 +13,14 @@
   linkedin: https://www.linkedin.com/in/fatima-ezahra-chrit-793197b0
   researchgate: https://www.researchgate.net/profile/Fatima-Chrit 
 
+- name: Edouard MacHenaud
+  photo: ed.jpeg
+  info: PhD student 
+  coadvise: D. Ku
+  email: emachenaud3@gatech.edu
+  linkedin: https://fr.linkedin.com/in/edouard-machenaud
+  researchgate: https://www.researchgate.net/profile/Edouard-Machenaud
+
 - name: Anand Radhakrishnan
   photo: anand2.jpg
   info: PhD student
@@ -25,6 +33,13 @@
   info: MS student
   email: ssims36@gatech.edu
   linkedin: https://www.linkedin.com/in/scottsimz
+
+- name: Ajay Bati
+  photo: ajay.jpeg
+  email: abati7@gatech.edu
+  info: UG student
+  github: https://github.com/ajaybati
+  linkedin: https://www.linkedin.com/in/ajay-bati-4065b6191
 
 - name: Girish Ganesan
   photo: girish.jpeg
