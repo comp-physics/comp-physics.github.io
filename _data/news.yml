@@ -2,16 +2,13 @@
   headline: "Ajay Bati joins our group. He's working on deploying neural network models in HPC settings!"
 
 - date: 21 Feb, 2022 
-  headline: "<a href='https://comp-physics.group/GSCS22/' target='blank'>GSCS22</a> was this past Saturday! We had nearly 80 folks in person, 40 virtually, 7 invited talks, and 33 lightning talks. Thank you to all attendees and speakers."
+  headline: "<a href='https://comp-physics.group/GSCS22/' target='blank'>GSCS22</a> was this past Saturday! It was sponsored by COC CSE."
 
 - date: 4 Feb, 2022 
   headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank'>2022 CRNCH Summit</a> finished today! Spencer gave an invited talk on quantum computing for CFD, <a href='https://mediaspace.gatech.edu/media/CRNCH+Summit+2022+-+Spencer+Bryngleson+-+Quantum+Computing+for+Continuum+Mechanics/1_23u8ou36' target='_blank'>video here</a>."
 
 - date: 27 Jan, 2022
-  headline: "The inaugaural <a href='https://www.gpuhackathons.org/event/georgia-tech-gpu-hackathon-2022' target='_blank'>GT HPC Hackathon</a> wrapped up today! Thank you to the mentors and participants."
-
-- date: 5 Jan, 2022 
-  headline: "Edouard MacHenaud of <a href='https://kulab.gatech.edu/' target='_blank'>David Ku's</a> group joins us for joint work on multiscale modeling for thrombosis to predict heart attacks."
+  headline: "The inaugaural <a href='https://www.gpuhackathons.org/event/georgia-tech-gpu-hackathon-2022' target='_blank'>GT HPC Hackathon</a> wrapped up today! Thank you to the mentors, participants, and sponsors NVIDIA and Oak Ridge National Lab."
 
 - date: 29 Dec, 2021
   headline: "Preprint on moment-based closures for cavitating flows is <a href='https://arxiv.org/abs/2112.14172' target='_blank'>now on arXiv.</a>"
@@ -23,7 +20,7 @@
   headline: "Henry Le Berre (CS) joins the group!"
 
 - date: 3 Nov, 2021
-  headline: "Fatima Chrit (with A. Alexeev in ME) and Jesus Arias (with L. Sankar in AE) join the group! They are funded via GTQA and GTRI."
+  headline: "Fatima Chrit (advised by A. Alexeev in ME) and Jesus Arias (advised with L. Sankar in AE) are working with our group! Their research is funded in part by GTQA and GTRI."
 
 - date: 4 Oct, 2021
   headline: "Joint work with MIT SAND group on stable high-order QBMMs <a href='https://arxiv.org/abs/2110.01374' target='_blank'>is now on arXiv!<a>"

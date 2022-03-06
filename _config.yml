@@ -1,8 +1,8 @@
 # Site settings
-title: Computational Physics @ GT
+title: Comp. Phys. Group
 yourname: Spencer H. Bryngelson
 email: shb@gatech.edu
-description: Computational Physics Group at Georgia Tech with PI Spencer Bryngelson
+description: A Comp. Phys. Group at Georgia Tech
 baseurl: ""
 url: ""
 exturl: "https://comp-physics.group"
@@ -14,18 +14,18 @@ google_tag_manager: GTM-TZ9Z7HZ
 
 # Footer info
 about: >
-    Prof. Spencer H. Bryngelson<br/>
-    College of Computing, <a href="https://cse.gatech.edu/" target="_blank">CSE</a><br/>
+    <a href="https://cse.gatech.edu/" target="_blank">School of CSE</a><br/>
+    <a href="https://cc.gatech.edu/" target="_blank">College of Computing</a><br/>
     Georgia Institute of Technology
 
 coordinates: >
-  <a href="https://coda.gatech.edu/" target="_blank">S1313 CODA</a><br/>
+  CODA<br/>
   756 W Peachtree St<br/>
   Atlanta, GA 30332
 
 information: >
-    <a href="mailto:shb@gatech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Spencer via email</a> <br/>
-    <a href="/aboutwebsite.html"><i class="fab fa-github fa-1x"></i> Use my site as a template!</a> <br/>
+    <a href="mailto:shb@gatech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Email Spencer</a> <br/>
+    <a href="/aboutwebsite.html"><i class="fab fa-github fa-1x"></i> Use this site as a template</a> <br/>
     <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a>
 
 

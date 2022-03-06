@@ -1,11 +1,12 @@
 ---
 title: "GSCS22"
-layout: gridlay
+layout: nonav
 sitemap: false
 permalink: /GSCS22/
 ---
 
 ## 2022 Georgia Scientific Computing Symposium
+### Sponsored by COC CSE!
 
 The Georgia Scientific Computing Symposium is a forum for professors, postdocs, graduate students and other researchers in Georgia to meet in an informal setting, to exchange ideas, and to highlight local scientific computing research.
 The symposium has been held every year since 2009 and is open to the entire research community.
@@ -114,7 +115,7 @@ Contact one of the organizers for more information as needed:
 	* Title: Measuring chaos in the Lorenz and Rossler models: Fidelity tests for reservoir computing 
 	* Abstract: This study focuses on the qualitative and quantitative characterization of chaotic systems with the use of a symbolic description. We consider two famous systems, Lorenz and Rossler models with their iconic attractors, and demonstrate that with adequately chosen symbolic partition, three measures of complexity, such as the Shannon source entropy, the Lempel–Ziv complexity, and the Markov transition matrix, work remarkably well for characterizing the degree of chaoticity and precise detecting stability windows in the parameter space. The second message of this study is to showcase the utility of symbolic dynamics with the introduction of a fidelity test for reservoir computing for simulating the properties of the chaos in both models’ replicas. The results of these measures are validated by the comparison approach based on one- dimensional return and complexity measures. We employ the methods of qualitative theory and symbolic dynamics to measure chaos and detect stability islands in one- parametric sweeps in the Lorenz and Rossler models, as well as to compare chaotic properties in their reservoir computed surrogates. We seek to test that reservoir computing algorithms are able to pass all tests prepared for them: quantitative ones relying on all three measures extracted from binary sequences such as block entropy, Lempel–Ziv complexity, and Markov matrix structures, as well as qualitative ones based on return maps. We hope that our algorithms and findings will be helpful for a broad interdisciplinary audience including specialists and beginners in dynamical systems and machine learning.
 
-* **Alessando Veneziani**
+* **Alessandro Veneziani**
 	* Title: Cardiovascular mathematics: Data, (Reduced) Models and Clinics 
 	* Abstract: Working in Cardiovascular Mathematics is a rewarding experience, as one has the opportunity to bridge theory and practice with the ultimate purpose of improving healthcare. The reliability and efficiency required by the clinical timelines naturally triggered the development of data assimilation, uncertainty quantification, and reduced-order modeling techniques. The integration of Data-driven and Model-driven approaches is crucial in this field, where each patient may represent a different and unique challenging problem. In this talk, I will address some examples, ranging from aortic diseases to bioresorbable stents. I will point out the critical role of scientific computing and computational mechanics in the "Big-Data" era. 
 
