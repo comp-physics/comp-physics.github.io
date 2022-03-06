@@ -49,8 +49,6 @@ iframe {
 ### Some examples
 
 <div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
 <a href="https://mflowcode.github.io" target="_blank">
 <img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
 </a>
@@ -60,7 +58,7 @@ iframe {
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
-<i>S. H. Bryngelson, A. Radhakrishnan, H. Le Berre, V. Coralic, K. Schmidmayer, J. S. Spratt, M. Rodriguez, J. Meng, K. Maeda</i>
+<i>V. Coralic, A. Radhakrishnan, H. Le Berre, K. Schmidmayer, J.-S. Spratt, M. Rodriguez, J. Meng, K. Maeda, T. Colonius, and more!</i>
 
 MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
 Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
@@ -71,23 +69,15 @@ The simulation method consists of:
 - Sub-grid bubble models, including QBMMs
 - TVD time-integration schemes 
 </div>
-<div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887952?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
-  <iframe src="https://player.vimeo.com/video/455888264?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="126px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
-</div>
 
 <div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
 <h4><b>QBMMlib: Moment Methods for Fully-coupled Flows</b></h4>
 <a href="https://github.com/comp-physics/QBMMlib" target="_blank"><button class="btn btn-success btn-sm">GIT: QBMMLIB</button></a>
 <a href="https://github.com/comp-physics/PyQBMMlib" target="_blank"><button class="btn btn-success btn-sm">GIT: PyQBMMLIB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-<b>Author:</b>
-<i>S. H. Bryngelson, Q. Wang, E. Cisneros</i>
+<b>Authors:</b>
+<i>Q. Wang and E. Cisneros</i>
 
 <b>QBMMlib</b> is an <a href="https://github.com/comp-physics/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
 QBMMs are used for fully-coupled disperse flow and combustion problems.
@@ -104,9 +94,4 @@ Example notebooks demonstrate QBMMlib on bubble dynamics problems.
 
 <b><a href="https://github.com/comp-physics/PyQBMMlib" target="_blank">PyQBMMlib:</a></b> With Esteban Cisneros we developed a Python version of QBMMlib that leverages JIT compiling for significantly improved performance.
 
-</div>
-<div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/456290405?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="132px" frameborder="0" allow="autoplay"></iframe>
-</div>
-</div>
 </div>
