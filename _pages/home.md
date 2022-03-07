@@ -5,7 +5,7 @@ sitemap: false
 permalink: /
 ---
 
-<div id="homeid" class="col-sm-6 col-xs-12">
+<div id="homeid" class="col-sm-7 col-xs-12">
 ## Welcome!
 Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
 We are based in the COC CSE school at Georgia Tech, and we develop state-of-the-art computational models and numerical methods to push these applications forward.
@@ -26,7 +26,7 @@ MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse
 The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.
 </div>
-<div id="newsid" class="col-sm-6 col-xs-12" >
+<div id="newsid" class="col-sm-5 col-xs-12" >
 <!-- <div> -->
 <!-- {% for member in site.data.pi %} -->
 <!-- <div class="jumbotron"> -->
@@ -48,7 +48,7 @@ We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-1
 
 <div class="jumbotron">
 <h2>News</h2>
-  {% for article in site.data.news limit:6%}
+  {% for article in site.data.news limit:7%}
   <b>{{ article.date }}</b>
     {{ article.headline }}
   {% endfor %}

@@ -58,9 +58,9 @@ iframe {
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
-<i>V. Coralic, A. Radhakrishnan, H. Le Berre, K. Schmidmayer, J.-S. Spratt, M. Rodriguez, J. Meng, K. Maeda, T. Colonius, and more!</i>
+<i>T. Colonius, V. Coralic,  H. Le Berre, K. Maeda, J. Meng, A. Radhakrishnan, M. Rodriguez, K. Schmidmayer, J.-S. Spratt, and more!</i>
 
-MFC is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
+<b>MFC</b> is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
 Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
 The simulation method consists of:
 - 5- and 6-equation diffuse-interface models
@@ -77,7 +77,7 @@ The simulation method consists of:
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
-<i>Q. Wang and E. Cisneros</i>
+<i>E. Cisneros and Q. Wang</i>
 
 <b>QBMMlib</b> is an <a href="https://github.com/comp-physics/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
 QBMMs are used for fully-coupled disperse flow and combustion problems.
