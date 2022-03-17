@@ -16,17 +16,22 @@ google_tag_manager: GTM-TZ9Z7HZ
 about: >
     <a href="https://cse.gatech.edu/" target="_blank">School of CSE</a><br/>
     <a href="https://cc.gatech.edu/" target="_blank">College of Computing</a><br/>
-    Georgia Institute of Technology
+    Georgia Tech
 
 coordinates: >
-  CODA<br/>
-  756 W Peachtree St<br/>
-  Atlanta, GA 30332
+  <br/>
+  <img src='/images/logopic/logo3.png' width=90%>
+
+# coordinates: >
+#   CODA<br/>
+#   756 W Peachtree St<br/>
+#   Atlanta, GA 30332
 
 information: >
     <a href="mailto:shb@gatech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Email Spencer</a> <br/>
-    <a href="/aboutwebsite.html"><i class="fab fa-github fa-1x"></i> Use this site as a template</a> <br/>
-    <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a>
+    <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a> <br/>
+    <a href="/aboutwebsite.html"><i class="fab fa-github fa-1x"></i> Site template</a> 
+
 
 
 # Pages shown in navbar
