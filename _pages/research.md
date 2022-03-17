@@ -36,6 +36,23 @@ iframe {
 </style>
 
 <div class="jumbotron">
+ <h4>Quantum computing for partial differential equations</h4>
+Computational fluid dynamics simulations use the lion's share of the world's HPC resources.
+These simulations are based on PDEs and are thus expensive, both in node hours and dollars.
+They are also inefficient: A staggering quantity of the marshaled computational resources are required to represent the effects of microscopically small features that accumulate to have macroscopic effects. 
+<div class="row align-items-end">
+<div class="col-md-9 col-sm-12">
+* Our group works on **quantum algorithms** for the PDEs that govern fluid flows and other phenomena
+* We develop quantum analogies to lattice-based algorithms like lattice Boltzmann and lattice gas
+* Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
+</div>
+<div class="col-md-3 col-sm-12" style="background-color:transparent">
+<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/respic/qlbm.png"/>
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
  <h4>Cavitation as a gateway to better therapies</h4>
