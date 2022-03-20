@@ -42,8 +42,8 @@ These simulations are based on PDEs and are thus expensive, both in node hours a
 They are also inefficient: A staggering quantity of the marshaled computational resources are required to represent the effects of microscopically small features that accumulate to have macroscopic effects. 
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-* Our group works on **quantum algorithms** for the PDEs that govern fluid flows and other phenomena
-* We develop quantum analogies to lattice-based algorithms like lattice Boltzmann and lattice gas
+* Our group works on **quantum algorithms** for the PDEs that govern fluid flows and other phenomena to gain exponential speedups
+* We develop quantum lattice-based algorithms like quantum lattice Boltzmann and lattice gas
 * Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent">
