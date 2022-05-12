@@ -91,16 +91,16 @@ permalink: /team/
 
 </div>
 
-<!-- ### Alumni -->
+### Alumni
 
-<!-- <div class="jumbotron"> -->
+<div class="jumbotron">
 
-<!-- {% assign number_printed = 0 %} -->
-<!-- {% for member in site.data.alumni_members %} -->
-<!--   * {{ member.name}}, <i> {{member.info}} </i> -->
-<!-- {% endfor %} -->
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_members %}
+  * {{ member.name}}, <i> {{member.info}} </i>
+{% endfor %}
 
-<!-- </div> -->
+</div>
 
 <!-- {% assign number_printed = 0 %} -->
 <!-- {% for member in site.data.alumni_members %} -->
