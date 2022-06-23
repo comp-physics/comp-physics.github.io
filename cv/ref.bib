@@ -494,15 +494,15 @@
     abstract = {The dynamics of cavitation bubbles are important in many flows, but their small sizes and high number densities often preclude direct numerical simulation. We present a computational model that averages their effect on the flow over larger spatiotemporal scales. The model is based on solving a generalized population balance equation (PBE) for nonlinear bubble dynamics and explicitly represents the evolving probability density of bubble radii and radial velocities. Conditional quadrature-based moment methods (QBMMs) are adapted to solve this PBE. A one-way-coupled bubble dynamics problem demonstrates the efficacy of different QBMMs for the evolving bubble statistics. Results show that enforcing hyperbolicity during moment inversion (CHyQMOM) provides comparable model-form accuracy to the traditional conditional method of moments and decreases computational costs by about ten times for a broad range of test cases. The CHyQMOM-based computational model is implemented in MFC, an open-source multi-phase and high-order-accurate flow solver. We assess the effect of the model and its parameters on a two-way coupled bubble screen flow problem.},
 }
 
-%     % note = {arXiv: 2110.01374},
-    % arxiv = {2110.01374},
 @article{charalampopoulos21,
     Author = {A. Charalampopoulos and S. H. Bryngelson and T. Colonius and T. P. Sapsis},
     Title = {Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics},
     file = {charalampopoulos-RSA-21.pdf},
     journal = {Philosophical Transactions of the Royal Society A},
     year = {2022},
-    note = {in press [arXiv: 2110.01374]},
+    volume = {380},
+    number = {2229},
+    doi = {10.1098/rsta.2021.0209},
     abstract = {Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.},
 }
 
