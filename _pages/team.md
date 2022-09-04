@@ -7,9 +7,16 @@ permalink: /team/
 
 ## Team
 
-<b>We are looking for new graduate students to [join the team!]({{ site.url }}{{ site.baseurl }}/vacancies)</b>
+<!-- <div class="jumbotron"> -->
+<center>	
+<img src="{{site.url}}{{site.baseurl}}/images/teampic/group.jpg" width="100%" style='  border-radius: 20px;'/>
+L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Xi. <i>Not Pictured: Ajay, Jack, Yash</i> <br/>
+<b>We are always looking for new students to <a href='{{ site.url }}{{ site.baseurl }}/vacancies'>join the team!</a></b>
+</center>
+<!-- </div> -->
 
-<!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
+
+
 
 ### PI
 
