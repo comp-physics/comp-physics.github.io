@@ -1,5 +1,0 @@
-description,name,url
-MATLAB simple codes to numerically simulate laser/ultrasound-induced inertial cavitation bubble dynamics in soft materials ,IMR-simple,https://github.com/InertialMicrocavitationRheometry/IMR-simple
-IMR with Data Assimilation,IMR-data-assimilation,https://github.com/InertialMicrocavitationRheometry/IMR-data-assimilation
-Vanilla IMR codebase,IMR-v1,https://github.com/InertialMicrocavitationRheometry/IMR-v1
-InertialCav supported by J. Estrada's group,inca,https://github.com/InertialMicrocavitationRheometry/inca
