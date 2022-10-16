@@ -10,7 +10,7 @@
 \usepackage{calc}
 \usepackage{comment}
 \usepackage{microtype}
-% \usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{hyphenat}
 \usepackage{changepage}
 \usepackage{multicol}
@@ -18,37 +18,10 @@
 \usepackage{enumitem}
 
 % Hyperlink colors
-% \hypersetup{
-%     colorlinks=true,
-%     urlcolor=[rgb]{0,0,0.5},
-%     linkcolor=.,
-% }
-
-
-\usepackage{hyperref}
-\usepackage[]{xcolor}
-
-
-
-\definecolor{lightblue}{rgb}{0.63, 0.74, 0.78}
-\definecolor{seagreen}{rgb}{0.18, 0.42, 0.41}
-\definecolor{orange}{rgb}{0.85, 0.55, 0.13}
-\definecolor{silver}{rgb}{0.69, 0.67, 0.66}
-\definecolor{rust}{rgb}{0.72, 0.26, 0.06}
-
-\colorlet{lightsilver}{silver!30!white}
-\colorlet{darkorange}{orange!75!black}
-\colorlet{darksilver}{silver!65!black}
-\colorlet{darklightblue}{lightblue!65!black}
-\colorlet{darkrust}{rust!85!black}
-
-
 \hypersetup{
-  colorlinks=true,
-  linkcolor=silver,
-  citecolor=silver,
-  urlcolor=seagreen,
-  pdfauthor=author,
+    colorlinks=true,
+    urlcolor=[rgb]{0,0,0.5},
+    linkcolor=.,
 }
 
 
@@ -137,18 +110,18 @@
 {0pt}{6pt}{6pt}
 
 % Add footer
-% \usepackage[table]{xcolor}
-% \definecolor{myBrown}{RGB}{155,77,40}
+\usepackage[table]{xcolor}
+\definecolor{myBrown}{RGB}{155,77,40}
 
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
-
-\lhead{}\chead{\color{silver}CV Compiled on: \today}\rhead{}
+\lhead{}\chead{\color{myBrown}CV Compiled on: \today}\rhead{}
+    
 \cfoot{}
-\rfoot{\color{silver}Page \thepage\xspace of \pageref{LastPage}}
-\cfoot{\color{silver}Latest at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
-\lfoot{\color{silver}Spencer H. Bryngelson}
+\rfoot{\color{myBrown}Page \thepage\xspace of \pageref{LastPage}}
+\cfoot{\color{myBrown}Latest at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
+\lfoot{\color{myBrown}Spencer H. Bryngelson}
 
 
