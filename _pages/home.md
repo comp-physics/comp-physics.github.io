@@ -9,15 +9,14 @@ permalink: /
 ## Welcome!
 Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
 We are the **Computational Physics Group at Georgia Tech CSE** and we develop state-of-the-art computational models and numerical methods to push these applications forward.
-Formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
-Our open-source scientific software utilizes these methods and scales to the world's largest computers. 
+Our open-source scientific software utilizes these methods and scales to the world's largest CPU- and GPU-based supercomputers. 
 Check out the links above to learn more, or visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) if you're interested in joining our group.
 
 ## Examples of our work
 
 Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
-We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">data-driven sub-grid method</a> for simulating this phenomenon.
-It utilizes a LSTM recurrent neural network to close the governing equations at low cost.
+We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos-RSA-21.pdf" target="_blank">sub-grid method</a> for simulating this phenomenon.
+It uses a hybrid quadrature method of moments scheme to close the governing equations at low cost.
 <a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
 MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse-interface method.
 
