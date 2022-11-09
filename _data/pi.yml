@@ -1,8 +1,8 @@
 - name: Spencer Bryngelson
   photo: spencer.jpeg
   gt: https://cse.gatech.edu/people/spencer-bryngelson 
-  info: <i>Assistant Professor</i><br/> College of Computing, CSE <br/>Georgia Tech 
-  infoshort: <i>Assistant Professor</i>, College of Computing, CSE, Georgia Tech
+  info: <i>Assistant Professor</i><br/> College of Computing, CSE <br/>Georgia Tech
+  infoshort: "<i>Assistant Professor</i>, College of Computing, CSE, Georgia Tech <br/>Office: CODA S1313"
   email: shb@gatech.edu
   github: https://github.com/comp-physics
   researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson

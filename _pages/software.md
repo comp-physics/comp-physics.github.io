@@ -50,7 +50,7 @@ iframe {
 
 <div class="jumbotron">
 <a href="https://mflowcode.github.io" target="_blank">
-<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo2.png" width="50%" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/software/mfc-logo3.png" width="50%" />
 </a>
 <h4><b>High-fidelity Multiphase Flow Simulation</b></h4>
 <a href="https://mflowcode.github.io" target="_blank"><button class="btn btn-primary btn-sm">WEBSITE</button></a>
