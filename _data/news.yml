@@ -1,5 +1,8 @@
+- date: 18 November, 2022
+  headline: "Ajay Bati pushes the first public release of <a href='https://github.com/comp-physics/roseNNa' target='_blank'>roseNNa</a>, a fast, portable, and minimally-intrusive neural network inference library for use with Fortran and C."
+
 - date: 15 November, 2022
-  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank'>their work</a>!"
+  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank'>their work</a>! <a href='https://comp-physics.group/images/conferences/sc22.jpg' target='_blank'>Here's</a> a nice photo of us."
 
 - date: 13 October, 2022
   headline: "We posted our preprint on a spectral method for electrodynamic flows in drops <a href='https://arxiv.org/pdf/2210.04957.pdf' target='_blank'>on the arXiv!</a> Awesome outcome from a collaboration with Hossein and <a href='http://stokeslet.ucsd.edu/' target='_blank'>Prof. David Saintillan</a> at UCSD (who has the coolest website subdomain)."
