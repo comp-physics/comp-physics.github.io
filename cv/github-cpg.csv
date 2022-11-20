@@ -1,0 +1,20 @@
+description,name,url
+A fast and minimally-intrusive neural network inference library,roseNNa,https://github.com/comp-physics/roseNNa
+Resources for learning about numerical methods.,awesome-numerics,https://github.com/comp-physics/awesome-numerics
+3D Spectral boundary integral solver for cell-scale blood flow,RBC3D,https://github.com/comp-physics/RBC3D
+2D Spectral boundary integral solver for cell-scale blood flow,RBC2D,https://github.com/comp-physics/RBC2D
+Mathematica package for quadrature-based moment methods and population balance equations.,QBMMlib,https://github.com/comp-physics/QBMMlib
+PyQBMMlib is a Python extension of QBMMlib. ,PyQBMMlib,https://github.com/comp-physics/PyQBMMlib
+Dynamics of cavitating bubble populations,PyCav,https://github.com/comp-physics/PyCav
+Competitive Physics Informed Networks,CPINN,https://github.com/comp-physics/CPINN
+Integrate bubble dynamics faster!,bubble-dynamics-resnet,https://github.com/comp-physics/bubble-dynamics-resnet
+modal decomposition via high-order statistics for people,tensor-modal-decomp,https://github.com/comp-physics/tensor-modal-decomp
+Benchmarking FVMs on different hardware and under different optimizations,fvm-risc,https://github.com/comp-physics/fvm-risc
+Inertial Microcavitation Rheometry,IMR,https://github.com/comp-physics/IMR
+A WENO solver for 1D scalar PDEs,WENO-scalar,https://github.com/comp-physics/WENO-scalar
+A modified WENO method that improves interface sharpness via neural networks.,WENO-NN,https://github.com/comp-physics/WENO-NN
+A version of ECOGEN that was developed and used at Caltech,ECOGEN-CIT,https://github.com/comp-physics/ECOGEN-CIT
+1D Ensemble-averaging solver for dilute cavitating bubbly flows. Finite volume with WENO/Riemann solvers.,EnsAvg-1D-Tait,https://github.com/comp-physics/EnsAvg-1D-Tait
+A shock-capturing adjoint solver for the compressible flow equations,1D-Shocks-Adjoint,https://github.com/comp-physics/1D-Shocks-Adjoint
+A solver for the eigenmodes of an unstable viscoelastic jet,capillary-instability,https://github.com/comp-physics/capillary-instability
+Additional documentation for SPHEREPACK,spherepack-doc,https://github.com/comp-physics/spherepack-doc

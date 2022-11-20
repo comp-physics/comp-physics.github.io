@@ -13,4 +13,4 @@ rm -f ./*.json
 latexmk -c cv.tex
 latexmk -pdf cv.tex
 
-rm -f ./*.csv 
+# rm -f ./*.csv 
