@@ -108,7 +108,6 @@ Similar outcomes are desirable for sensitive, implanted biomedical devices.
 Designing medical therapies requires efficient optimization algorithms. 
 Current methods fail to account for the _material interfaces_ or _shock waves_ that occur during treatments like lithotripsy and histotripsy.
 We created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc-18.pdf" target="_blank">optimization and sensitivity analysis</a>.
-Coupling with <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">PlasCom2</a> provides a full optimization framework for medical therapies and devices.
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent" >
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/lithotripsy.jpg" width="175px"/>
