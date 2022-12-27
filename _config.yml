@@ -37,10 +37,11 @@ information: >
 # Pages shown in navbar
 nav_pages:
   - name: team
-  - name: publications
+  - name: papers
   - name: research
   - name: software
   - name: teaching
+  - name: hardware
 
 include:
   - .htaccess
