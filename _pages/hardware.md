@@ -12,7 +12,9 @@ This page gives a brief overview of servers we marshal for our work.
 
 ### In house
 
-#### CPG
+<div class="jumbotron">
+
+#### Group-owned
 
 * 3x, "Instinct", Dual AMD EPYC 7713 Milan, 2x AMD MI210 80GB
 * 1x, "Wingtip3", Dual Intel 6338, 5x NVIDIA A100 80GB
@@ -50,3 +52,21 @@ Phoenix houses a variety of CPU and GPU nodes.
 You can see what is available [here](https://docs.pace.gatech.edu/phoenix_cluster/resources_phnx/), though it's not always fully up-to-date.
 In December 2022, Phoenix housed just over 1000 CPU nodes and 100 GPU nodes.
 
+</div>
+
+### Outside resources
+
+<div class="jumbotron">
+
+We maintain allocations on clusters and leadership class supercomputers around the country. 
+This includes leadership-class DOE systems like
+* [OLCF Summit (Top500 #5)](https://www.olcf.ornl.gov/summit/)
+* [OLCF Crusher (Frontier early-readiness system, Top500 #1)](https://docs.olcf.ornl.gov/systems/crusher_quick_start_guide.html)
+* [OLCF Wombat](https://www.olcf.ornl.gov/olcf-resources/compute-systems/wombat/)
+
+as well as university systems like
+* [PSC Bridges2](https://www.psc.edu/resources/bridges-2/)
+* [SDSC Expanse](https://www.sdsc.edu/services/hpc/expanse/)
+* [TACC Stampede2](https://portal.tacc.utexas.edu/user-guides/stampede2)
+
+</div>
