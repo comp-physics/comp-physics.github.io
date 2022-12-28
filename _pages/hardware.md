@@ -16,7 +16,7 @@ This page gives a brief overview of the computing resources we investigate and m
 
 #### Group-owned
 
-* 3x, "Instinct", Dual AMD EPYC 7713 Milan, 2x AMD MI210 80GB
+* 3x, "Instinct", Dual AMD EPYC 7713 Milan, 2x AMD MI210 64GB
 * 1x, "Wingtip3", Dual Intel 6338, 5x NVIDIA A100 80GB
 * 4x, NVIDIA Bluefield 2 DPUs
 
