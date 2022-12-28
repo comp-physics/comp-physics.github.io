@@ -39,8 +39,8 @@ nav_pages:
   - name: team
   - name: papers
   - name: research
-  - name: software
   - name: teaching
+  - name: software
   - name: hardware
 
 include:

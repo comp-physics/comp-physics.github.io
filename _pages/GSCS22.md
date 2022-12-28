@@ -51,7 +51,7 @@ Contact one of the organizers for more information as needed:
 
 ### Invited Speakers 
 
-| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)  &nbsp;	&nbsp;	&nbsp;<br/> Georgia Tech 		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Tech |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpeg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)  &nbsp;	&nbsp;	&nbsp;<br/> Georgia Tech 		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Tech |
 | | | |
 | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
 | | | |

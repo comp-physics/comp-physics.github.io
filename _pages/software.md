@@ -61,13 +61,17 @@ iframe {
 <i>S. H. Bryngelson, T. Colonius, V. Coralic,  H. Le Berre, K. Maeda, J. Meng, A. Radhakrishnan, M. Rodriguez, K. Schmidmayer, J.-S. Spratt, and more!</i> (alpha by last name)
 
 <b>MFC</b> is an open source parallel simulation software for multi-component, multi-phase, and bubbly flows. 
-Its efficient simulation algorithm is capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
+MFC runs on entirely on either GPUs or CPUs, dealer's choice. 
+It weak scales _ideally_ to 95% of OLCF Summit (__14,000 V100 GPUs__) at 48% of the compute roof-line.
+Its efficient simulation algorithms are capable of solving flows like droplet atomization, bubble cavitation, and their interactions with strong shocks.
 The simulation method consists of:
 - 5- and 6-equation diffuse-interface models
 - High-order-accurate WENO interface-capturing methods
 - HLL-type Riemann solvers
-- Sub-grid bubble models, including QBMMs
+- Sub-grid physics models, mostly based on moment methods
+* Soft material models
 - TVD time-integration schemes 
+* Characteristic-based boundary conditions
 </div>
 
 <div class="jumbotron">
