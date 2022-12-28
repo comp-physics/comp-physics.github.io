@@ -38,7 +38,7 @@ CPU nodes
 
 Find more information [here](https://docs.pace.gatech.edu/ice_cluster/ice/).
 
-#### The Rouges 
+#### The Rogues 
 
 We work with [CRNCH](https://crnch.gatech.edu/), the Center for Research into Novel Computing Hierarchies.
 CRNCH maintains the [Rogues Gallery](https://gt-crnch-rg.readthedocs.io/en/main/general/rg-hardware.html), a collection of (mostly) non-von Neumann systems. 
