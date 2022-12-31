@@ -16,9 +16,10 @@ This page gives a brief overview of the computing resources we investigate and m
 
 #### Group-owned
 
+* In transit: [NVIDIA H100](https://www.nvidia.com/en-us/data-center/h100/) GPU
 * 3x, "[Instinct](https://www.cc.gatech.edu/news/new-hardware-brings-students-closer-exascale-computing)", Dual AMD EPYC 7713 Milan, 2x AMD MI210 64GB
 * 1x, "Wingtip3", Dual Intel 6338, 5x NVIDIA A100 80GB
-* 4x, NVIDIA Bluefield 2 DPUs
+* 4x, [NVIDIA Bluefield 2](https://resources.nvidia.com/en-us-accelerated-networking-resource-library/bluefield-2-dpu-datasheet?lx=LbHvpR&topic=networking-cloud) DPUs
 
 #### COC/PACE ICE
 
