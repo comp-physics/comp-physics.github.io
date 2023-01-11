@@ -28,15 +28,14 @@
     abstract = {Physics Informed Neural Networks (PINNs) solve partial differential equations (PDEs) by representing them as neural networks. The original PINN implementation does not provide high accuracy, typically attaining about 0.1 percent relative error. We formulate and test an adversarial approach called competitive PINNs (CPINNs) to overcome this limitation. CPINNs train a discriminator that is rewarded for predicting PINN mistakes. The discriminator and PINN participate in a zero-sum game with the exact PDE solution as an optimal strategy. This approach avoids the issue of squaring the large condition numbers of PDE discretizations. Numerical experiments show that a CPINN trained with competitive gradient descent can achieve errors two orders of magnitude smaller than that of a PINN trained with Adam or stochastic gradient descent.},
 }
 
-
-
-@unpublished{bryngelson21,
+@article{bryngelson23,
     Author = {S. H. Bryngelson and R. O. Fox and T. Colonius},
     Title = {Conditional moment methods for polydisperse cavitating flows},
-    note = {arXiv: 2112.14172},
-    file = {bryngelson-21.pdf},
-    arxiv = {2112.14172},
-    year = {2021},
+    file = {bryngelson-23.pdf},
+    journal = {Journal of Computational Physics},
+    year = {2023},
+    doi = {10.1016/j.jcp.2023.111917},
+    pages = {111917},
     abstract = {The dynamics of cavitation bubbles are important in many flows, but their small sizes and high number densities often preclude direct numerical simulation. We present a computational model that averages their effect on the flow over larger spatiotemporal scales. The model is based on solving a generalized population balance equation (PBE) for nonlinear bubble dynamics and explicitly represents the evolving probability density of bubble radii and radial velocities. Conditional quadrature-based moment methods (QBMMs) are adapted to solve this PBE. A one-way-coupled bubble dynamics problem demonstrates the efficacy of different QBMMs for the evolving bubble statistics. Results show that enforcing hyperbolicity during moment inversion (CHyQMOM) provides comparable model-form accuracy to the traditional conditional method of moments and decreases computational costs by about ten times for a broad range of test cases. The CHyQMOM-based computational model is implemented in MFC, an open-source multi-phase and high-order-accurate flow solver. We assess the effect of the model and its parameters on a two-way coupled bubble screen flow problem.},
 }
 
