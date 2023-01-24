@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "4.1.1"
+# gem "jekyll", "4.1.1"
+gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
 gem "thin", ">=1.8.0"
 gem "rack", ">= 2.2.3"
 gem "sassc", ">2.0.1"

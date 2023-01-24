@@ -1,3 +1,9 @@
+- date: 24 January, 2023
+  headline: "Spencer is giving a talk on competitive optimization methods at the next <a href='https://www.librom.net/ddps.html' target='_blank'>Lawrence Livermore DDPS Webinar</a>."
+
+- date: 22 January, 2023
+  headline: "Qi Zeng and Yash Kothari's <a href='https://arxiv.org/abs/2204.11144' target='_blank'>CPINNs work</a> accepted to ICLR 2023! Joint with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schaefer</a>."
+
 - date: 11 January, 2023
   headline: "<a href='http://doi.org/10.1016/j.jcp.2023.111917' target='_blank'>Paper</a> on sub-grid moment methods for fully-coupled cavitating flows published in JCP."
 
@@ -5,13 +11,13 @@
   headline: "<a href='http://dx.doi.org/10.1016/j.jcp.2022.111870' target='_blank'>Paper</a> on numerics for the 7-equation model with Prof. Menon and Achyut Panchal of GT AE accepted to JCP!"
 
 - date: 22 November, 2022
-  headline: "CPG attended APS DFD! Were on 10 abstracts in one way or another. Spencer had particular fun chairing the <a href='https://comp-physics.group/images/conferences/apsdfd22/qc-session.jpg' target='_blank'>quantum computing session (standing room only!)</a>, where Fatima gave an excellent talk."
+  headline: "CPG attended APS DFD! Were on 10 abstracts in one way or another. Spencer had fun chairing the <a href='https://comp-physics.group/images/conferences/apsdfd22/qc-session.jpg' target='_blank'>quantum computing session (standing room only!)</a>, where Fatima gave an excellent talk."
 
 - date: 18 November, 2022
   headline: "Ajay Bati pushes the first public release of <a href='https://github.com/comp-physics/roseNNa' target='_blank'>roseNNa</a>, a fast, portable, and minimally-intrusive neural network inference library for use with Fortran and C."
 
 - date: 15 November, 2022
-  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank'>their work</a>! <a href='https://comp-physics.group/images/conferences/sc22.jpg' target='_blank'>Here's</a> a nice photo of us."
+  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank'>their work</a>! <a href='https://comp-physics.group/images/conferences/sc22.jpg' target='_blank'>Here's</a> a photo of us."
 
 - date: 13 October, 2022
   headline: "We posted our preprint on a spectral method for electrodynamic flows in drops <a href='https://arxiv.org/pdf/2210.04957.pdf' target='_blank'>on the arXiv!</a> Awesome outcome from a collaboration with Hossein and <a href='http://stokeslet.ucsd.edu/' target='_blank'>Prof. David Saintillan</a> at UCSD (who has the coolest website subdomain)."

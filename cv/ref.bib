@@ -253,6 +253,8 @@
     Title = {Scalable GPU accelerated simulation of multiphase compressible flow},
     Booktitle = {The International Conference for High Performance Computing, Networking, Storage, and Analysis},
     Address = {Dallas, TX, USA},
+    file = {radhakrishnan-SC-22.pdf},
+    abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.}
 }
 
 @inproceedings{proceeding_11,
