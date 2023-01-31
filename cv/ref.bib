@@ -8,26 +8,6 @@
     abstract = {A weakly conducting liquid droplet immersed in another leaky dielectric liquid can exhibit rich dynamical behaviors under the effect of an applied electric field. Depending on material properties and field strength, the nonlinear coupling of interfacial charge transport and fluid flow can trigger electrohydrodynamic instabilities that lead to shape deformations and complex dynamics. We present a spectral boundary integral method to simulate droplet electrohydrodynamics in a uniform electric field. All physical variables, such as drop shape and interfacial charge density, are represented using spherical harmonic expansions. In addition to its exponential accuracy, the spectral representation affords a nondissipative dealiasing method required for numerical stability. A comprehensive charge transport model, valid under a wide range of electric field strengths, accounts for charge relaxation, Ohmic conduction, and surface charge convection by the flow. A shape reparametrization technique enables the exploration of significant droplet deformation regimes. For low-viscosity drops, the convection by the flow drives steep interfacial charge gradients near the drop equator. This introduces numerical ringing artifacts we treat via a weighted spherical harmonic expansion, resulting in solution convergence. The method and simulations are validated against experimental data and analytical predictions in the axisymmetric Taylor and Quincke electrorotation regimes.},
 }
 
-@unpublished{elwasif22,
-    Author = {W. Elwasif and S. Bastrakov and S. H. Bryngelson and M. Bussmann and S. Chandrasekaran and F. Ciorba and M. A. Clark and A. Debus and W. Godoy and N. Hagerty and J. Hammond and D. Hardy and J. A. Harris and O. Hernandez and B. Joo and S. Keller and P. Kent and H. Le Berre and D. Lebrun-Grandie and E. MacCarthy and V. G. Melesse Vergara and B. Messer and R. Miller and S. Oral and J.-G. Piccinali and A. Radhakrishnan and O. Simsek and F. Spiga and K. Steiniger and J. Stephan and J. E. Stone and C. Trott and R. Widera and J. Young},
-    Title = {Early application experiences on a modern {GPU}-accelerated {A}rm-based {HPC} platform},
-    note = {arXiv: 2209.09731},
-    file = {elwasif-tpds-22.pdf},
-    arxiv = {2209.09731},
-    year = {2022},
-    abstract = {This paper assesses and reports the experience of eleven application teams working to build, validate, and benchmark several HPC applications on a novel GPU-accerated Arm testbed. The testbed consists of the latest, at time of writing, Arm Devkits from NVIDIA with server-class Arm CPUs and NVIDIA A100 GPUs. The applications and mini-apps are written using multiple parallel programming models, including C, CUDA, Fortran, OpenACC, and OpenMP. Each application builds extensively on the other tools available in the programming environment, including scientific libraries, compilers, and other tooling. Our goal is to evaluate application readiness for the next generation of Armand GPU-based HPC systems and determine the tooling readiness for future application developers. On both accounts, the reported case studies demonstrate that the diversity of software and tools available for GPU-accelerated Arm systems are prepared for production, even before NVIDIA deploys their next-generation such platform: Grace.},
-}
-
-@unpublished{zeng22,
-    Author = {Q. Zeng and S. H. Bryngelson and F. Sch{\"a}fer},
-    Title = {Competitive physics informed networks},
-    note = {arXiv: 2204.11144},
-    file = {zeng-22.pdf},
-    arxiv = {2204.11144},
-    year = {2022},
-    abstract = {Physics Informed Neural Networks (PINNs) solve partial differential equations (PDEs) by representing them as neural networks. The original PINN implementation does not provide high accuracy, typically attaining about 0.1 percent relative error. We formulate and test an adversarial approach called competitive PINNs (CPINNs) to overcome this limitation. CPINNs train a discriminator that is rewarded for predicting PINN mistakes. The discriminator and PINN participate in a zero-sum game with the exact PDE solution as an optimal strategy. This approach avoids the issue of squaring the large condition numbers of PDE discretizations. Numerical experiments show that a CPINN trained with competitive gradient descent can achieve errors two orders of magnitude smaller than that of a PINN trained with Adam or stochastic gradient descent.},
-}
-
 @article{bryngelson23,
     Author = {S. H. Bryngelson and R. O. Fox and T. Colonius},
     Title = {Conditional moment methods for polydisperse cavitating flows},
@@ -77,7 +57,7 @@
     abstract = {Bubble cavitation can induce such strain rates, and the resulting bubble dynamics are sensitive to the material properties. Thus, in principle, these properties can be inferred via measurements of the bubble dynamics. Estrada et al. (2018) demonstrated such bubble-dynamic high-strain-rate rheometry by using least-squares shooting to minimize the difference between simulated and experimental bubble radius histories. We generalize their technique to account for additional uncertainties in the model, initial conditions, and material properties needed to uniquely simulate the bubble dynamics. Ensemble-based data assimilation minimizes the computational expense associated with the bubble cavitation model. We test an ensemble Kalman filter (EnKF), an iterative ensemble Kalman smoother (IEnKS), and a hybrid ensemble-based 4D–Var method (En4D-Var) on synthetic data, assessing their estimations of the viscosity and shear modulus of a Kelvin-Voigt material. Results show that En4D–Var and IEnKS provide better moduli estimates than EnKF. Applying these methods to the experimental data of Estrada et al. (2018) yields similar material property estimates to those they obtained, but provides additional information about uncertainties. In particular, the En4D–Var yields lower viscosity estimates for some experiments, and the dynamic estimators reveal a potential mechanism that is unaccounted for in the model, whereby the viscosity is reduced in some cases due to material damage occurring at bubble collapse.},
 }
 
-@report{bryngelson_xpacc,
+@report{report_1,
     Author = {S. H. Bryngelson and C. Pantano and D. Bodony and J. B. Freund},
     Title = {Adjoint-based sensitivity for flows with shocks},
     Institution = {Technical Report, XPACC},
@@ -164,7 +144,7 @@
     Author = {S. H. Bryngelson and K. Schmidmayer and T. Colonius},
     Year = {2019},
     Volume = {115},
-    Pages = {137--143},
+    Pages = {137-143},
     Journal = {International Journal of Multiphase Flow},
     Title = {A quantitative comparison of phase-averaged models for bubbly, cavitating flows},
     file = {bryngelson-IJMF-19.pdf},
@@ -187,7 +167,7 @@
 @article{bryngelson19_LAOE,
     Author = {S. H. Bryngelson and J. B. Freund},
     Volume = {77},
-    Pages = {171--176},
+    Pages = {171-176},
     Year = {2019},
     Journal = {European Journal of Mechanics B/Fluids},
     Title = {Non-modal {F}loquet stability of a capsule in large amplitude oscillatory extension},
@@ -199,7 +179,7 @@
 @article{bryngelson18_JFM,
     Author = {S. H. Bryngelson and J. B. Freund},
     Journal = {Joural of Fluid Mechanics},
-    Pages = {663--677},
+    Pages = {663-677},
     Title = {Floquet stability analysis of capsules in viscous shear flow},
     Volume = {852},
     Year = {2018},
@@ -247,11 +227,41 @@
     abstract = {Elastic capsules flowing in small enough tubes, such as red blood cells in capillaries, are well known to line up into regular single-file trains. The stability of such trains in somewhat wider channels, where this organization is not observed, is studied in a two-dimensional model system that includes full coupling between the viscous flow and suspended capsules. A diverse set of linearly amplifying disturbances, both long-time asymptotic (modal) and transient (nonmodal) perturbations, is identified and analyzed. These have a range of amplification rates and their corresponding forms are wavelike, typically dominated by one of five principal perturbation classes: longitudinal and transverse translations, tilts, and symmetric and asymmetric shape distortions. Finite-amplitude transiently amplifying perturbations are shown to provide a mechanism that can bypass slower asymptotic modal linear growth and precipitate the onset of nonlinear effects. Direct numerical simulations are used to verify the linear analysis and track the subsequent transition of the regular capsule trains into an apparently chaotic flow.},
 }
 
+@inproceedings{proceeding_15,
+    Author = {W. Elwasif and S. Bastrakov and S. H. Bryngelson and M. Bussmann and S. Chandrasekaran and F. Ciorba and M. A. Clark and A. Debus and W. Godoy and N. Hagerty and J. Hammond and D. Hardy and J. A. Harris and O. Hernandez and B. Joo and S. Keller and P. Kent and H. Le Berre and D. Lebrun-Grandie and E. MacCarthy and V. G. Melesse Vergara and B. Messer and R. Miller and S. Oral and J.-G. Piccinali and A. Radhakrishnan and O. Simsek and F. Spiga and K. Steiniger and J. Stephan and J. E. Stone and C. Trott and R. Widera and J. Young},
+    Title = {Early application experiences on a modern {GPU}-accelerated {A}rm-based {HPC} platform},
+    Booktitle = {International Workshop on Arm-based HPC: Practice and Experience (IWAHPCE)},
+    file = {elwasif-IWAHPCE-23.pdf},
+    Address = {Singapore},
+    year = {2023},
+    abstract = {This paper assesses and reports the experience of eleven application teams working to build, validate, and benchmark several HPC applications on a novel GPU-accerated Arm testbed. The testbed consists of the latest, at time of writing, Arm Devkits from NVIDIA with server-class Arm CPUs and NVIDIA A100 GPUs. The applications and mini-apps are written using multiple parallel programming models, including C, CUDA, Fortran, OpenACC, and OpenMP. Each application builds extensively on the other tools available in the programming environment, including scientific libraries, compilers, and other tooling. Our goal is to evaluate application readiness for the next generation of Armand GPU-based HPC systems and determine the tooling readiness for future application developers. On both accounts, the reported case studies demonstrate that the diversity of software and tools available for GPU-accelerated Arm systems are prepared for production, even before NVIDIA deploys their next-generation such platform: Grace.},
+}
+
+@inproceedings{proceeding_14,
+    Author = {Q. Zeng and Y. Kothari and S. H. Bryngelson and F. Sch{\"a}fer},
+    Title = {Competitive physics informed networks},
+    Booktitle = {International Conference on Learning Representations (ICLR)},
+    file = {zeng-ICLR-23.pdf},
+    Address = {Kigali, Rwanda},
+    year = {2023},
+    abstract = {Physics Informed Neural Networks (PINNs) solve partial differential equations (PDEs) by representing them as neural networks. The original PINN implementation does not provide high accuracy, typically attaining about 0.1 percent relative error. We formulate and test an adversarial approach called competitive PINNs (CPINNs) to overcome this limitation. CPINNs train a discriminator that is rewarded for predicting PINN mistakes. The discriminator and PINN participate in a zero-sum game with the exact PDE solution as an optimal strategy. This approach avoids the issue of squaring the large condition numbers of PDE discretizations. Numerical experiments show that a CPINN trained with competitive gradient descent can achieve errors two orders of magnitude smaller than that of a PINN trained with Adam or stochastic gradient descent.},
+}
+
+@inproceedings{proceeding_13,
+    Author = {S. H. Bryngelson and F. Sch{\"a}fer and J. Liu and A. Mani},
+    Title = {Fast {M}acroscopic {F}orcing {M}ethod},
+    Booktitle = {Center for Turbulence Research, Proceedings of the Summer Program},
+    Address = {Stanford, CA, USA},
+    year = {2022},
+    file = {bryngelson-CTR-22.pdf},
+    abstract = {The macroscopic forcing method (MFM) is a method of Green's function quantification introduced by Mani and Park (2021). It recovers reduced operators by means of repeated direct numerical simulation. The MFM has already successfully recovered Reynolds-averaged Navier-Stokes (RANS)-like operators for turbulent flows. Standard algorithms for the MFM apply forcings to each coarse-scale degree of freedom and conduct a fine-scale simulation, which is expensive.  We present an algorithm that is cheaper and more general.  The fast MFM we introduce applies sparse reconstruction to expose local features in the coarse-grained differential operator and reconstructs the coarse one in only a few matrix-vector products.  For non-local operators, the algorithm first peels long-range effects with dense matrix-vector products to expose a more local operator.  We demonstrate the algorithm's performance on laminar and turbulent channel flow problems. For both problems, we recover eddy-diffusivity-like operators associated with RANS closure models. We observe that we can reconstruct the eddy diffusivity operator with an increase in accuracy by about a factor of 100 over randomized low-rank methods. Applying this operator to compute the averaged fields of interest has visually indistinguishable behavior from the exact solution, but entails 1 percent of the cost of computing the exact operator via the MFM of Mani and Park (2021) for a laminar channel flow and 13 percent for a turbulent one. Our results show that a similar number of simulations are required to reconstruct the operators to the same accuracy under grid refinement, and thus the accuracy corresponds to the physics of the problem, not the numerics. We glean that eddy-diffusivity operators can be reconstructed with reasonable accuracy using only a few simulations, regardless of simulation resolution or degrees of freedom.},
+}
+
 @inproceedings{proceeding_12,
     Author = {A. Radhakrishnan and H. {Le Berre} and S. H. Bryngelson},
     Year = {2022},
     Title = {Scalable GPU accelerated simulation of multiphase compressible flow},
-    Booktitle = {The International Conference for High Performance Computing, Networking, Storage, and Analysis},
+    Booktitle = {The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)},
     Address = {Dallas, TX, USA},
     file = {radhakrishnan-SC-22.pdf},
     abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.}
@@ -345,7 +355,7 @@
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
-  abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler--Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
+  abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler-Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
  file = {bryngelson-CAV-21.pdf},
  url = {https://vimeo.com/640931949/a6cd12fc05},
 }
@@ -367,7 +377,7 @@
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
-  abstract = {Burst-wave lithotripsy (BWL) is a therapy for ablating kidney and gall bladder stones. During therapy, high-amplitude ultrasound waves issue from a transducer array and focus near the stone. These waves can nucleate clouds of small bubbles at the surface of the stone. This can affect treatment efficacy: acoustic shielding due to the bubble clouds can attenuate stone breakup, though the collapse of individual bubbles can amplify it. Further, these collapses can cause damage to surrounding tissue. Thus, optimizing lithotripsy against potential damage requires predicting bubble-stone interactions. Simulating bubble cloud cavitation is challenging due to the breadth of spatio-temporal scales involved. Additional scale restrictions are associated with soft material dynamics, which interact with the bubble clouds during lithotripsy. The open-source solver MFC can address these challenges. It uses a phase-averaging sub-grid model for bubble cloud cavitation and has been extended to include a hypoelastic Kelvin--Voigt model to compute stresses in stones and nearby soft surfaces. These models are fully-coupled to the fluid dynamics. The capabilities of this approach are demonstrated for a model BWL problem. The stress state in a kidney stone is modeled during treatment.},
+  abstract = {Burst-wave lithotripsy (BWL) is a therapy for ablating kidney and gall bladder stones. During therapy, high-amplitude ultrasound waves issue from a transducer array and focus near the stone. These waves can nucleate clouds of small bubbles at the surface of the stone. This can affect treatment efficacy: acoustic shielding due to the bubble clouds can attenuate stone breakup, though the collapse of individual bubbles can amplify it. Further, these collapses can cause damage to surrounding tissue. Thus, optimizing lithotripsy against potential damage requires predicting bubble-stone interactions. Simulating bubble cloud cavitation is challenging due to the breadth of spatio-temporal scales involved. Additional scale restrictions are associated with soft material dynamics, which interact with the bubble clouds during lithotripsy. The open-source solver MFC can address these challenges. It uses a phase-averaging sub-grid model for bubble cloud cavitation and has been extended to include a hypoelastic Kelvin-Voigt model to compute stresses in stones and nearby soft surfaces. These models are fully-coupled to the fluid dynamics. The capabilities of this approach are demonstrated for a model BWL problem. The stress state in a kidney stone is modeled during treatment.},
  file = {spratt-CAV-21.pdf},
 }
 
@@ -410,7 +420,7 @@
 }
 
 @incollection{conference_34,
-  author = {S. H. Bryngelson and F. Schaefer and J. Liu and A. Mani},
+  author = {S. H. Bryngelson and F. Sch{\"a}fer and J. Liu and A. Mani},
   title = {Fast Macroscopic Forcing: {E}xploiting locality for operator recovery},
   note = {American Physical Society},
   year = {2022},
@@ -439,7 +449,7 @@
 
 @incollection{conference_30,
   author = {A. Panchal and A. Radhakrishnan and S. H. Bryngelson and S. Menon},
-  title = {A numerical comparison of 5-, 6-, and 7-equation {B}aer--{N}unziato-based diffuse interface methods},
+  title = {A numerical comparison of 5-, 6-, and 7-equation {B}aer-{N}unziato-based diffuse interface methods},
   note = {American Physical Society},
   year = {2022},
 }
