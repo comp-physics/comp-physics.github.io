@@ -15,9 +15,6 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 </center>
 <!-- </div> -->
 
-
-
-
 ### PI
 
 {% for member in site.data.pi %}
