@@ -35,6 +35,10 @@ pre{
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-success btm-sm">DOI</button></a>
 {% endif %}
 
+{% if entry.link %}
+<a href="{{ entry.link }}" target="_blank"><button class="btn btn-success btm-sm">DOI</button></a>
+{% endif %}
+
 {% if entry.type == 'unpublished' and entry.arxiv %}
 <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-success btm-sm">ARXIV</button></a>
 {% endif %}
