@@ -15,7 +15,7 @@ pre{
 
 
 <div class="text-justify">
-{{reference }}</div>
+{{reference | replace_first: 'Radhakrishnan, A.', '<b>Radkhakrishnan, A.</b>' | replace_first: 'Le Berre, H. A.', '<b>Le Berre, H. A.</b>' | replace_first: 'Le Berre, H.', '<b>Le Berre, H.</b>' | replace_first: 'Zeng, Q.','<b>Zeng, Q.</b>' | replace_first: 'Kothari, Y.','<b>Kothari, Y.</b>' | replace_first: 'Panchal, A.', '<b>Panchal, A.</b>' }}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
