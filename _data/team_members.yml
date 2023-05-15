@@ -6,14 +6,6 @@
   linkedin: https://www.linkedin.com/in/jesusarias9
   github: https://github.com/jarias9
 
-- name: Fatima Ezahra Chrit
-  photo: fatima.jpg
-  info: PhD student 
-  coadvise: A. Alexeev
-  email: fchrit3@gatech.edu
-  linkedin: https://www.linkedin.com/in/fatima-ezahra-chrit-793197b0
-  researchgate: https://www.researchgate.net/profile/Fatima-Chrit 
-
 - name: Anand Radhakrishnan
   photo: anand.jpg
   info: PhD student
@@ -67,13 +59,6 @@
   github: https://github.com/sriharshak27
   linkedin: https://www.linkedin.com/in/sriharsha-kocherla
 
-- name: Yash Kothari
-  photo: yash.jpg
-  email: ykothari3@gatech.edu
-  info: UG student
-  github: https://github.com/YashKothari2002
-  linkedin: https://www.linkedin.com/in/yash-kothari-5114b31b3
-
 - name: Henry Le Berre
   photo: henry.jpg
   email: hberre3@gatech.edu
@@ -83,20 +68,6 @@
   linkedin: https://www.linkedin.com/in/henry-le-berre-355b83211
   researchgate: https://www.researchgate.net/profile/Henry-Le-Berre
 
-- name: Qi Zeng
-  photo: qi.jpg
-  email: qzeng37@gatech.edu 
-  info: UG student
-  coadvise: F. Schäfer
-  linkedin: https://www.linkedin.com/in/qi-zeng-6a65381b6
-  github: https://github.com/Q1Zeng
-  website: https://q1zeng.github.io/
-
 - name: "This could be you!"
   photo: pi.svg
   info: Contact Spencer for more information
-  # website: https://website.com
-  # github: https://github.com/blah
-  # researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  # scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  # cv: cv/cv.pdf

@@ -95,56 +95,53 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 
 </div>
 
-<!-- ### Alumni -->
-
-<!-- <div class="jumbotron"> -->
-
-<!-- {% assign number_printed = 0 %} -->
-<!-- {% for member in site.data.alumni_members %} -->
-<!--   * {{ member.name}}, <i> {{member.info}} </i> -->
-<!-- {% endfor %} -->
-
-<!-- </div> -->
-
-<!-- {% assign number_printed = 0 %} -->
-<!-- {% for member in site.data.alumni_members %} -->
-
-<!-- {% assign even_odd = number_printed | modulo: 2 %} -->
-
-<!-- {% if even_odd == 0 %} -->
-<!-- <div class="row"> -->
-<!-- {% endif %} -->
-
-<!-- <div class="col-sm-6 clearfix"> -->
-<!--   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
-<!--   <h4>{{ member.name }}</h4> -->
-<!--   <i>{{ member.duration }} <br> Role: {{ member.info }}</i> -->
-<!--   <ul style="overflow: hidden"> -->
-
-<!--   </ul> -->
-<!-- </div> -->
-
-<!-- {% assign number_printed = number_printed | plus: 1 %} -->
-
-<!-- {% if even_odd == 1 %} -->
-<!-- </div> -->
-<!-- {% endif %} -->
-
-<!-- {% endfor %} -->
-
-<!-- {% assign even_odd = number_printed | modulo: 2 %} -->
-<!-- {% if even_odd == 1 %} -->
-<!-- </div> -->
-<!-- {% endif %} -->
 
 
-<!-- {% if site.data.alumni_visitors %} -->
-<!-- ## Former M.S./B.S Students, Visitors -->
-<!-- <div class="row"> -->
-<!-- <div class="col-sm-6 clearfix"> -->
-<!-- {% for member in site.data.alumni_visitors %} -->
-<!-- {{ member.name }} -->
-<!-- {% endfor %} -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- {% endif %} -->
+### Ph.D. Graduates
+
+<div class="jumbotron">
+
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_members %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-2 col-xs-12">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
+</div>
+<div class="col-sm-4 col-xs-12">
+  <h5>{{ member.name }}</h5>
+  <h6><i>{{ member.info }}</i> <br></h6>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+</div>
+
+{% if site.data.alumni_bsms %}
+## Former M.S./B.S Students
+<div class="jumbotron">
+<div class="row">
+<div class="col-sm-6 clearfix">
+{% for member in site.data.alumni_bsms %}
+* {{ member.name }}, <i>{{ member.info }}</i>
+{% endfor %}
+</div>
+</div>
+</div>
+{% endif %}
