@@ -679,7 +679,9 @@
                     <text term="issue" form="short"/>
                   </if>
                 </choose>
+                <group delimiter=" ">
                 <text variable="number"/>
+                </group>
               </group>
             </group>
           </else>
