@@ -308,6 +308,7 @@
     Booktitle = {The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)},
     Address = {Dallas, TX, USA},
     file = {radhakrishnan-SC-22.pdf},
+    link = {https://sc22.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost122.html},
     abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.}
 }
 
@@ -399,6 +400,7 @@
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
+  link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T03},
   abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler-Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
  file = {bryngelson-CAV-21.pdf},
  url = {https://vimeo.com/640931949/a6cd12fc05},
@@ -412,12 +414,14 @@
   year = {2021},
   address = {Daejeon, Korea},
   file = {rodriguez-CAV-21.pdf},
+  link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T02},
   abstract = {Biomedical therapies use focused ultrasound to treat pathogenic tissues. The ultrasound waves lead to nucleation, grow and collapse of bubbles.  Previous numerical simulations of this process have treated the bubble contents as non-condensible gas, but it is known that phase change affects the bubble dynamics as a function of the driving frequency and waveform.  In this study, we incorporate phase change in the six-equation, multiphase model previously implemented in our Multi-component Flow Code (MFC). The implementation is verified with 1D cavitation and shock problems. To highlight the effects of phase change, we simulate the expansion of a 2D bubble near a solid, rigid boundary to observe phase change near the interface.},
 }
 
 @inproceedings{proceeding_1,
   author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
   title = {Eulerian framework for bubble-cloud-kidney stone interaction},
+  link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T03},
   booktitle = {11th International Symposium on Cavitation},
   year = {2021},
   address = {Daejeon, Korea},
