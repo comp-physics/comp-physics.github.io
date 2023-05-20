@@ -11,10 +11,39 @@ pre{
     width:100%; overflow-x:auto;
     <!-- background-color: red; -->
 }
+ol li{
+  padding: 0;
+  list-style: none!important;
+  list-style-type: none;
+  padding-left: 0!important;
+  margin: 0!important;
+}
 </style>
 
 
+<!-- primary, success, danger, warning-->
+
 <div class="text-justify">
+<div class="row">
+<div class="col-sm-2 col-xs-2 d-none d-md-block" style="margin:0; padding:0; margin-top:3px;">
+<!-- <div class="col-sm-2 col-xs-2"> -->
+{% if entry.type == "article" %}
+<center><button class="btn btn-primary btm-sm" style="width:100%;border-radius:12px;">ARTICLE</button></center>&nbsp;&nbsp;
+    
+{% endif %}
+{% if entry.type == "inproceedings" %}
+<center><button class="btn btn-success btm-sm" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
+{% endif %}
+{% if entry.type == "report" %}
+<center><button class="btn btn-danger btm-sm" style="width:100%;border-radius:12px;">REPORT</button></center>
+{% endif %}
+{% if entry.type == "unpublished" %}
+<center><button class="btn btn-warning btm-sm" style="width:100%;border-radius:12px;">PREPRINT</button></center>
+{% endif %}
+</div>
+
+<div class="col-sm-10 col-xs-10">
+<div class="row">
 {{reference | replace_first: 'Radhakrishnan, A.', '<b>Radkhakrishnan, A.</b>' | replace_first: 'Le Berre, H. A.', '<b>Le Berre, H. A.</b>' | replace_first: 'Le Berre, H.', '<b>Le Berre, H.</b>' | replace_first: 'Zeng, Q.','<b>Zeng, Q.</b>' | replace_first: 'Kothari, Y.','<b>Kothari, Y.</b>' | replace_first: 'Panchal, A.', '<b>Panchal, A.</b>' | replace_first: 'Chrit, F. E.', '<b>Chrit, F. E.</b>' | replace_first: 'Kocherla, S.', '<b>Kocherla, S.</b>' | replace_first: 'Wilfong, B.', '<b>Wilfong, B.</b>'}}</div>
 
 {% assign bibtest = false %}
@@ -28,27 +57,27 @@ pre{
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-info btm-sm">PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-success btm-sm">DOI</button></a>
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-info btm-sm">DOI</button></a>
 {% endif %}
 
 {% if entry.link %}
-<a href="{{ entry.link }}" target="_blank"><button class="btn btn-success btm-sm">DOI</button></a>
+<a href="{{ entry.link }}" target="_blank"><button class="btn btn-info btm-sm">DOI</button></a>
 {% endif %}
 
 {% if entry.type == 'unpublished' and entry.arxiv %}
-<a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-success btm-sm">ARXIV</button></a>
+<a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm">ARXIV</button></a>
 {% endif %}
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
+<button class="btn btn-info btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
 {% if entry.abstract %}
-<button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+<button class="btn btn-info btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
 
 {% if entry.abstract %}
@@ -63,6 +92,10 @@ pre{
 
 <div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{entry.abstract}}</pre>
+</div>
+</div>
+
+</div>
 </div>
 
 <!-- {% if entry.url %} -->

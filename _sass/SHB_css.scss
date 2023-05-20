@@ -7,7 +7,7 @@ $myprimary: darken(#C09B5D,10%) !default;
 $mysuccess: #578560 !default;
 $mydanger: #327269 !default;
 $mywarning: #2F4858 !default;
-$myinfo: #676A8B !default;
+$myinfo: #636363 !default;
 
 img { 
     border-radius:5%;
@@ -310,15 +310,16 @@ body{
 
 // Set Btn size
 .btn {
-    margin-top:    0px;
-    margin-bottom: 5px;
+    margin-top:    3px;
+    margin-bottom: 10px;
     margin-left:   0px;
-    margin-right:  0px;
+    margin-right:  3px;
     padding-top:   0px;
     padding-bottom:0px;
-    padding-left:  15px;
-    padding-right: 15px;
-    height: 24px;
+    padding-left:  10px;
+    padding-right: 10px;
+    height: 23px;
     font-size: 1rem;
-    border-radius: 9px;
+    border-radius: 0px;
+    
 }
