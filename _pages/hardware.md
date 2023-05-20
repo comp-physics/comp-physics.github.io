@@ -61,7 +61,7 @@ Check out the links above to learn more about this ever-evolving list of systems
 
 We maintain allocations on Georgia Tech's [Phoenix](https://docs.pace.gatech.edu/phoenix_cluster/gettingstarted_phnx/), a Top500 supercomputer managed by [PACE](https://pace.gatech.edu/).
 Phoenix houses a variety of CPU and GPU nodes.
-You can [see the available resources here](https://docs.pace.gatech.edu/phoenix_cluster/resources_phnx/), though they are not always up-to-date.
+You can [see the available resources here](https://docs.pace.gatech.edu/phoenix_cluster/slurm_resources_phnx/), though they are not always up-to-date.
 In December 2022, Phoenix housed just over 1000 CPU nodes and 100 GPU nodes.
 
 </div>
