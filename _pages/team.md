@@ -97,7 +97,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 
 
 
-### Ph.D. Graduates
+### Former Ph.D. students
 
 <div class="jumbotron">
 
@@ -113,9 +113,10 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 <div class="col-sm-2 col-xs-12">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
-<div class="col-sm-4 col-xs-12">
+<div class="col-sm-10 col-xs-12">
   <h5>{{ member.name }}</h5>
-  <h6><i>{{ member.info }}</i> <br></h6>
+  <h6>{{ member.info }}<br></h6>
+  <h6>Dissertation: <i>{{ member.thesis }}</i> </h6>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -134,12 +135,13 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 </div>
 
 {% if site.data.alumni_bsms %}
-## Former M.S./B.S Students
+### Former undergraduates
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-6 clearfix">
 {% for member in site.data.alumni_bsms %}
-* {{ member.name }}, <i>{{ member.info }}</i>
+* {{ member.name }}
+<!-- , <i>{{ member.info }}</i> -->
 {% endfor %}
 </div>
 </div>
