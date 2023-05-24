@@ -5,6 +5,7 @@
   email: Jesus.Arias@gtri.gatech.edu
   linkedin: https://www.linkedin.com/in/jesusarias9
   github: https://github.com/jarias9
+  researchgate: https://www.researchgate.net/profile/Jesus-Arias-4
 
 - name: Anand Radhakrishnan
   photo: anand.jpg
@@ -13,6 +14,8 @@
   linkedin: https://www.linkedin.com/in/anandr97
   researchgate: https://www.researchgate.net/profile/Anand-Radhakrishnan-3
   website: https://anandrdbz.github.io
+  scholar: https://scholar.google.com/citations?user=sBOAsEYAAAAJ
+  github: https://github.com/anandrdbz
 
 - name: Zhixin (Jack) Song
   photo: jack.jpg
@@ -21,6 +24,7 @@
   linkedin: https://www.linkedin.com/in/kaminotesf524 
   scholar: https://scholar.google.com/citations?user=0Oy99nMAAAAJ
   github: https://github.com/kaminotesf
+  website: https://physics.gatech.edu/user/zhixin-song
 
 - name: Benjamin Wilfong
   photo: ben.jpg
@@ -68,6 +72,7 @@
   github: https://github.com/henryleberre
   linkedin: https://www.linkedin.com/in/henry-le-berre-355b83211
   researchgate: https://www.researchgate.net/profile/Henry-Le-Berre
+  scholar: https://scholar.google.com/citations?user=yqeBEmgAAAAJ
 
 - name: "This could be you!"
   photo: pi.svg
