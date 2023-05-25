@@ -210,15 +210,16 @@ Undergraduate students
     \item Computer Methods in Applied Mechanics and Engineering
     \item Fluids
     \item IEEE International Parallel \& Distributed Processing Symposium
-    \item International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)
     \item International Journal of Multiphase Flow
     \item International Journal of Offshore and Polar Engineering
     \item Journal of Computational Physics
     \item Journal of Computational Science
     \item Journal of Fluid Mechanics
+    \item PEARC (Practice and Experience in Advanced Research Computing)
     \item Physical Review E
     \item Physical Review Fluids
     \item PLOS Computational Biology
+    \item SC (International Conference for High Performance Computing, Networking, Storage, and Analysis)
     \item SIAM Scientific Computing
     \item Soft Matter
     \item Symposium of Naval Hydrodynamics
@@ -301,7 +302,10 @@ Undergraduate students
 \printbibliography[type=article,title={Journal articles},resetnumbers=true,heading=subbibnumbered]
 
 \newrefcontext[labelprefix=P]
-\printbibliography[type=inproceedings,title={Refereed proceedings},resetnumbers=true,heading=subbibnumbered]
+\printbibliography[title={Heavily reviewed conference papers},resetnumbers=true,filter=heavy,heading=subbibnumbered]
+
+\newrefcontext[labelprefix=C]
+\printbibliography[title={Conference papers},resetnumbers=true,filter=nonheavy,heading=subbibnumbered]
 
 \newrefcontext[labelprefix=O]
 \printbibliography[title={Other publications},resetnumbers=true,filter=other,heading=subbibnumbered]

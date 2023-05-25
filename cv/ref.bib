@@ -255,6 +255,7 @@
   year = {2023},
   file = {radhakrishnan-ICMF-23.pdf},
   abstract = {We present a computational model for bubbly, cavitating flows. For disperse bubbles that are small compared to mixture-averaged length-scales, we use an Euler--Euler sub-grid model that represents the bubbles as evolved statistical quantities. This strategy represents the stochastic features of bubble dynamics observed experimentally. We present numerical experiments that exercise the computational model under varying conditions, including those crafted to investigate cavitation inception.},
+  keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_16,
@@ -265,6 +266,7 @@
   year = {2023},
   file = {leberre-ICMF-23.pdf},
   abstract = {Simulations of multiphase compressible flows can take several days to produce actionable results on distributed CPU systems. We present computational techniques that accelerate such simulations by leveraging GPUs. The methodology is demonstrated on a multi-GPU simulation of a collapsing bubble cloud. The low arithmetic intensity of common algorithms for compressible flow is addressed by optimizing GPU kernels for the available hardware, leading to a 300 times speed up on an NVIDIA A100 GPU compared to a modern Intel CPU core. The method demonstrates near ideal (97\%) weak scaling on OLCF Summit for at least 13824 GPUs.},
+  keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_15,
@@ -278,6 +280,7 @@
     year = {2023},
     abstract = {This paper assesses and reports the experience of eleven application teams working to build, validate, and benchmark several HPC applications on a novel GPU-accerated Arm testbed. The testbed consists of the latest, at time of writing, Arm Devkits from NVIDIA with server-class Arm CPUs and NVIDIA A100 GPUs. The applications and mini-apps are written using multiple parallel programming models, including C, CUDA, Fortran, OpenACC, and OpenMP. Each application builds extensively on the other tools available in the programming environment, including scientific libraries, compilers, and other tooling. Our goal is to evaluate application readiness for the next generation of Armand GPU-based HPC systems and determine the tooling readiness for future application developers. On both accounts, the reported case studies demonstrate that the diversity of software and tools available for GPU-accelerated Arm systems are prepared for production, even before NVIDIA deploys their next-generation such platform: Grace.},
     acceptrate = {44},
+    keywords = "heavyref",
 }
 
 @inproceedings{proceeding_14,
@@ -289,6 +292,7 @@
     year = {2023},
     link = {https://openreview.net/pdf?id=z9SIj-IM7tn},
     abstract = {Physics Informed Neural Networks (PINNs) solve partial differential equations (PDEs) by representing them as neural networks. The original PINN implementation does not provide high accuracy, typically attaining about 0.1 percent relative error. We formulate and test an adversarial approach called competitive PINNs (CPINNs) to overcome this limitation. CPINNs train a discriminator that is rewarded for predicting PINN mistakes. The discriminator and PINN participate in a zero-sum game with the exact PDE solution as an optimal strategy. This approach avoids the issue of squaring the large condition numbers of PDE discretizations. Numerical experiments show that a CPINN trained with competitive gradient descent can achieve errors two orders of magnitude smaller than that of a PINN trained with Adam or stochastic gradient descent.},
+    keywords = "heavyref",
 }
 
 @inproceedings{proceeding_13,
@@ -300,6 +304,7 @@
     year = {2022},
     file = {bryngelson-CTR-22.pdf},
     abstract = {The macroscopic forcing method (MFM) is a method of Green's function quantification introduced by Mani and Park (2021). It recovers reduced operators by means of repeated direct numerical simulation. The MFM has already successfully recovered Reynolds-averaged Navier-Stokes (RANS)-like operators for turbulent flows. Standard algorithms for the MFM apply forcings to each coarse-scale degree of freedom and conduct a fine-scale simulation, which is expensive.  We present an algorithm that is cheaper and more general.  The fast MFM we introduce applies sparse reconstruction to expose local features in the coarse-grained differential operator and reconstructs the coarse one in only a few matrix-vector products.  For non-local operators, the algorithm first peels long-range effects with dense matrix-vector products to expose a more local operator.  We demonstrate the algorithm's performance on laminar and turbulent channel flow problems. For both problems, we recover eddy-diffusivity-like operators associated with RANS closure models. We observe that we can reconstruct the eddy diffusivity operator with an increase in accuracy by about a factor of 100 over randomized low-rank methods. Applying this operator to compute the averaged fields of interest has visually indistinguishable behavior from the exact solution, but entails 1 percent of the cost of computing the exact operator via the MFM of Mani and Park (2021) for a laminar channel flow and 13 percent for a turbulent one. Our results show that a similar number of simulations are required to reconstruct the operators to the same accuracy under grid refinement, and thus the accuracy corresponds to the physics of the problem, not the numerics. We glean that eddy-diffusivity operators can be reconstructed with reasonable accuracy using only a few simulations, regardless of simulation resolution or degrees of freedom.},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_12,
@@ -310,7 +315,8 @@
     Address = {Dallas, TX, USA},
     file = {radhakrishnan-SC-22.pdf},
     link = {https://sc22.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost122.html},
-    abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.}
+    abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_11,
@@ -321,6 +327,7 @@
     Address = {Washington D.C., USA},
     Abstract = {Cavitation near rigid and compliant surfaces leads to damage to naval structures. Phase change is involved in the nucleation, growth, and collapse of bubbles but is often ignored in interface-capturing simulations of multiphase flows. Near-surface bubble collapses and phase change have been studied independently. Still, the importance of phase change during these bubble oscillations and collapses and how this relates to the impact loads at the surface remains unknown. We use the open-source Multi-component Flow Code (MFC), a fully Eulerian framework, to access these scales and model phase change. The Eulerian six-equation multiphase physical and numerical model uses an interface- and shock-capturing approach.  Phase change is modeled as a kinetic process involving volume, thermal, and mass transfer at the interface. The numerical implementation is verified using 1D cavitation and shock tube problems and a two-phase relaxation solver with finite relaxation. We then study an underwater explosion cavitation bubble problem near a rigid wall and a rigid wall with an elastomeric coating. The sharp drop of pressure from the rarefaction wave in the wake of the underwater explosion cavitates the liquid near the boundary. We study the dependence of initial bubble stand-off distance from the nearby surface and pressure on the maximum wall pressures and water vapor mass production. The coating inhibits the phase change and reduces the pressure loading experienced at the rigid wall compared to the no-coating case.},
     file = {rodriguez-SNH-22.pdf},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_10,
@@ -331,6 +338,7 @@
     Address = {Washington D.C., USA},
     Abstract = {The dynamics of cavitation bubbles are important in many applications, but the wide range of spatio-temporal scales and a large number of bubbles often preclude direct simulations. We develop a statistical Euler–Euler description of sub-grid bubbles that includes, for the first time, the independent variables of the oscillatory cavitation dynamics. The approach stitches together several state-of-the-art computational tools: a generalized population balance representing the statics of the cavitating bubbles, conditional quadrature moment methods (QBMMs) computes them, ensemble phase-averaging couples them to the fluid flow, and high-order-accurate interface capturing stably evolves the flow in time. The one-way-coupled evolution of the forced bubbles is used to evaluate the accuracy of the QBMM statistics against truth data generated through a Monte Carlo approach. CHyQMOM provides the most computationally efficient closure for this purpose, and we implement it in the open-source MFC multiphase flow solver. An acoustically excited bubble screen problem is used to determine the importance and relevance of representing the bubble statistics in this way. Broadening the distribution of bubble radii and radial velocities significantly impacts the dynamics. Broader distributions in radii increase pressure fluctuations, as the averaged bubble oscillations occur at a shorter time scale than the transmitted pressure wave. Broadening the bubble radial velocity distribution results in the opposite effect, smoothing the pressure oscillations observed in the screen region. Our results also show that significant model-form errors can accumulate under strong and long-time pressure forcings. To address this issue, we present a long short-term memory recurrent neural network (LSTM RNN) model that adjusts the quadrature rule to improve its accuracy. The method is tested on a simple one-way-coupled test case and shown to decrease these errors by a factor of about ten. The neural network avoids introducing numerical instabilities by incorporating the moment transport equations and the moment realizability into the loss function.},
     file = {bryngelson-SNH-22.pdf},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_9,
@@ -342,6 +350,7 @@
     Abstract = {Phase-averaged bubbly flow models are closed by high-order statistical moments of the disperse bubble dynamics. Evaluating these moments in a simulation environment is computationally expensive because the integrands are highly oscillatory. The cost of this closure is demonstrated for an ensemble-averaged bubbly flow model. A machine-learning-based method for accelerating the moment evaluation is formulated.},
     file = {bryngelson-ICTAM-21.pdf},
     url = {https://vimeo.com/640932583/0ae772bf00},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_8,
@@ -352,6 +361,7 @@
     Address = {Milano, Italy},
     abstract = {Understanding the impact load mechanisms from cavitation bubbles and shocks emitted by their collapse in and near solid deformable media is important for engineering and biomedical applications. In such flows, transient pressure fluctuations can lead toa cloud of small vapor bubbles near the solid object. A unified Eulerian framework for fluid-structure interaction problems includingcavitation is developed to incorporate numerically unresolved and resolved bubbles and the solid material elasticity. The numericalmodel uses interface-capturing techniques for the fluid-structure coupling with phase change. The method is based on a high-orderaccurate weighted essentially non-oscillatory shock and interface capturing scheme. Studies of single bubble and cloud dynamics neara solid/compliant structure relevant to therapeutic ultrasound applications are presented.},
     file = {rodriguez-ICTAM-21.pdf},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_7,
@@ -363,6 +373,7 @@
     file = {bryngelson-SNH-20.pdf},
     abstract = {Averaged models are used to represent cavitating bubbly mixtures at the sub-grid computational level. Though such averaging techniques are widely used, the relative computational performance of various adaptations remains unknown. The accuracy and computational efficiency of two such models, one ensemble-averaging and one volume-averaging, addresses this issue. Results show that the relative computational cost of the methods depends upon the degree of bubble polydispersity. The ensemble-averaged model requires more quadrature nodes for broader population sizes and increasingly broad populations become computationally untenable. A moment-based method addresses this shortcoming. It uses a Gaussian closure and is augmented via long short-term memory recurrent neural networks for high-order statistics. Results show that this approach achieves small relative errors for even high-order statistical moments using only five degrees of freedom, significantly fewer than the hundreds required by classes methods.},
     url={https://vimeo.com/640930931/6e57ccfd89},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_6,
@@ -373,6 +384,7 @@
   year = {2019},
   file = {bryngelson-ICMF-19.pdf},
   abstract = {We compare volume- and ensemble-averaged bubbly flow models. Volume-averaging is a deterministic process for which bubbles are represented in a Lagrangian framework as advected particles, each sampled from a distribution of equilibrium bubble sizes. Ensemble-averaging instead uses mixture-averaged equations in an Eulerian reference frame for the associated bubble properties, each represented by bins of the equilibrium distribution. In both cases, bubbles are modeled as spherical with dynamics governed by the Keller-Miksis equation. Computationally, there are tradeoffs between these two approaches. Here, we simulate an acoustically excited dilute bubble screen and compare the computational efficiency of the two approaches.},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_5,
@@ -383,6 +395,7 @@
   year = {2016},
   file = {freund-ICTAM-16.pdf},
   abstract = {The asymptotic and transient stability of single-file trains of fluid-filled elastic capsules flowing in narrow channels is analyzed as a model for the lines of red blood cells commonly observed in small tubes or vessels. The most amplified disturbances in larger channels are found to have a rich variety of characteristics depending upon the details of the particular configuration. Transient growth mechanisms are found to be significant, even for relatively small perturbations, and are shown to precipitate nonlinear saturation and chaotic flow many times more quickly than the asymptotic stability would predict even for nominally small perturbations.},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_4,
@@ -393,6 +406,7 @@
   year = {2016},
   file = {bryngelson-ICTAM-16.pdf},
   abstract = {The rheological behavior of an elastic capsule suspension is studied in a model two-dimensional channel using detailed numerical simulations. As the rest capsule membrane aspect ratio increases, the capsules become increasingly vulnerable to a buckling instability. This buckling behavior is concomitant with a sudden increase in the effective viscosity and a near disappearance of any near-wall capsule-free layer. The microstructure dynamics suggest elongated capsules make significant rotational contributions that disrupt organized flow, as computed by their rotlet capsule-capsule interactions.},
+    keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_3,
@@ -404,6 +418,7 @@
   link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T03},
   abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler-Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
  file = {bryngelson-CAV-21.pdf},
+ keywords = "nonheavy",
  url = {https://vimeo.com/640931949/a6cd12fc05},
 }
 
@@ -417,6 +432,7 @@
   file = {rodriguez-CAV-21.pdf},
   link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T02},
   abstract = {Biomedical therapies use focused ultrasound to treat pathogenic tissues. The ultrasound waves lead to nucleation, grow and collapse of bubbles.  Previous numerical simulations of this process have treated the bubble contents as non-condensible gas, but it is known that phase change affects the bubble dynamics as a function of the driving frequency and waveform.  In this study, we incorporate phase change in the six-equation, multiphase model previously implemented in our Multi-component Flow Code (MFC). The implementation is verified with 1D cavitation and shock problems. To highlight the effects of phase change, we simulate the expansion of a 2D bubble near a solid, rigid boundary to observe phase change near the interface.},
+  keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_1,
@@ -428,6 +444,7 @@
   address = {Daejeon, Korea},
   abstract = {Burst-wave lithotripsy (BWL) is a therapy for ablating kidney and gall bladder stones. During therapy, high-amplitude ultrasound waves issue from a transducer array and focus near the stone. These waves can nucleate clouds of small bubbles at the surface of the stone. This can affect treatment efficacy: acoustic shielding due to the bubble clouds can attenuate stone breakup, though the collapse of individual bubbles can amplify it. Further, these collapses can cause damage to surrounding tissue. Thus, optimizing lithotripsy against potential damage requires predicting bubble-stone interactions. Simulating bubble cloud cavitation is challenging due to the breadth of spatio-temporal scales involved. Additional scale restrictions are associated with soft material dynamics, which interact with the bubble clouds during lithotripsy. The open-source solver MFC can address these challenges. It uses a phase-averaging sub-grid model for bubble cloud cavitation and has been extended to include a hypoelastic Kelvin-Voigt model to compute stresses in stones and nearby soft surfaces. These models are fully-coupled to the fluid dynamics. The capabilities of this approach are demonstrated for a model BWL problem. The stress state in a kidney stone is modeled during treatment.},
  file = {spratt-CAV-21.pdf},
+ keywords = "nonheavy",
 }
 
 @thesis{bryngelson_thesis,

@@ -23,6 +23,8 @@ ol li{
 
 <!-- primary, success, danger, warning-->
 
+{% if entry.keywords contains "nonheavy" %}
+{% else %}
 <div class="text-justify">
 <div class="row">
 <div class="col-sm-2 col-xs-2 d-none d-md-block" style="margin:0; padding:0; margin-top:3px;">
@@ -72,7 +74,7 @@ ol li{
 <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm">ARXIV</button></a>
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'proceedings' or entry.type == 'report' %}
 <button class="btn btn-info btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
@@ -97,6 +99,7 @@ ol li{
 
 </div>
 </div>
+{% endif %}
 
 <!-- {% if entry.url %} -->
 <!-- <a href="{{ entry.url }}" target="_blank"><button class="btn btn-info btm-sm">VIDEO</button></a> -->

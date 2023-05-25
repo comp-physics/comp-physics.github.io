@@ -78,6 +78,16 @@
   not keyword=invited
 }
 
+\defbibfilter{heavy}{
+  type=inproceedings and
+  keyword=heavyref
+}
+
+\defbibfilter{nonheavy}{
+  type=inproceedings and
+  not keyword=heavyref
+}
+
 \addbibresource{ref.bib}
 
 % Bold my name
