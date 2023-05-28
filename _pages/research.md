@@ -35,6 +35,8 @@ iframe {
 }
 </style>
 
+__Note:__ This page is always a bit out of date. Our research interests can be gleaned via <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank">our papers</a> and the <a href="{{ site.url }}{{ site.baseurl }}" target="_blank">home page</a>. 
+
 <div class="jumbotron">
  <h4>Quantum computing for partial differential equations</h4>
 Computational fluid dynamics simulations use the lion's share of the world's HPC resources.
@@ -42,7 +44,7 @@ These simulations are based on PDEs and are thus expensive, both in node hours a
 They are also inefficient: A staggering quantity of the marshaled computational resources are required to represent the effects of microscopically small features that accumulate to have macroscopic effects. 
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-* Our group works on **quantum algorithms** for the PDEs that govern fluid flows and other phenomena to gain exponential speedups
+* Our group <a href="{{ site.url }}{{ site.baseurl }}/papers/chrit-arxiv-23.pdf" target="_blank">develops quantum algorithms</a> for the PDEs that govern fluid flows and other phenomena to gain asymptotic speedups
 * We develop quantum lattice-based algorithms like quantum lattice Boltzmann and lattice gas
 * Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
 </div>
@@ -61,7 +63,7 @@ We create high-fidelity computational methods to simulate these dynamics.
 Examples are:
 * Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
 * Accelerated models using a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">statistical paradigm and neural networks</a>
-* Implementation in our open-source solver <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-CPC-20.pdf" target="_blank">MFC</a>
+* Implementation in our open-source solver <a href="https://mflowcode.github.io/" target="_blank">MFC</a>
 
 These enable realistic simulation of the bubble populations that nucleate during treatment.
 This has impacted application-specific treatments, including:
