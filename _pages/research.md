@@ -35,7 +35,7 @@ iframe {
 }
 </style>
 
-__Note:__ This page is always a bit out of date. Our research interests can be gleaned via <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank">our papers</a> and the <a href="{{ site.url }}{{ site.baseurl }}" target="_blank">home page</a>. 
+__Note:__ This page is always a bit out of date. Our research interests can be gleaned via <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank">our papers</a> and the <a href="{{ site.url }}/" target="_blank">home page</a>. 
 
 <div class="jumbotron">
  <h4>Quantum computing for partial differential equations</h4>
