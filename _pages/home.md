@@ -9,9 +9,9 @@ permalink: /
 ## Welcome!
 Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
 The **Computational Physics Group at Georgia Tech CSE** develops computational models and numerical methods to push these applications forward.
-We accompany our methods with algorithms crafted to make efficient use of the latest computer architectures, including AMD GPUs, Arm CPUs, FPGAs, and even quantum computers.
+We accompany our methods with algorithms crafted to make efficient use of the latest exascale machines and computer architectures, including AMD GPUs, Arm CPUs, FPGAs, and even quantum computers.
 We develop <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">open-source software</a> for these methods that scales to the world's largest supercomputers. 
-Check out this website to learn more and visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) if you're interested in joining our group.
+Check out the rest of this website to learn more.
 </div>
 <div id="newsid" class="col-sm-4 col-xs-12" >
 <div>
@@ -35,6 +35,11 @@ Check out this website to learn more and visit [this page]({{ site.url }}{{ site
 </div>
 </div>
 <div class="col-sm-12">
+
+<div class="jumbotron">
+__Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) if you're interested in joining our group.__
+</div>
+
 <div class="jumbotron">
 <h2>Examples of our work</h2>
 

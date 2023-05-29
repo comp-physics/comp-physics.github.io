@@ -34,7 +34,7 @@ If you are on the fence, I recommend applying for the CSE program, which is rema
 <div class="jumbotron">
 #### I am already a Ph.D. student at Georgia Tech
 
-Send Spencer [an email](mailto:{{site.email}}).
+Fill out [this form](https://forms.gle/PhQYMbcAJKbhC83w9) **then** send Spencer [an email](mailto:{{site.email}}).
 Include your current degree program, your year in that program, why you are interested in our group, your CV, current transcripts, and previous advisor(s).
 </div>
 
@@ -58,7 +58,7 @@ The group has had numerous undergraduate researchers since we started at Georgia
 Many have published great work and I am very proud of what they have accomplished.
 Continuing in this spirit, I am always open to working with keen undergraduate students.
 
-* If you have _two years or more_ remaining in your degree program, send me an [email](mailto:{{site.email}}) indicating your matriculation year/semester, degree program, CV, transcripts, and what about the group you are interested in. Be as specific as possible.
-* I __do not__ start new projects with undergraduates with _less than two years_ remaining in their degree programs. The reason: There is unlikely to be enough time for you to fully _own and complete_ a project.
+* If you have _two years or more_ remaining in your degree program, fill out [this form](https://forms.gle/PhQYMbcAJKbhC83w9) **then** send Spencer [an email](mailto:{{site.email}}) indicating your matriculation year/semester, degree program, CV, transcripts, and what about the group you are interested in. Be as specific as possible.
+* Note that I __do not__ start new projects with undergraduates with _less than two years_ remaining in their degree programs. The reason: There is unlikely to be enough time for you to fully _own and complete_ a project.
 
 </div>
