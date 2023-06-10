@@ -308,6 +308,13 @@ body{
 }
 // End Btn info
 
+.Disabled{
+  pointer-events: none;
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 // Set Btn size
 .btn {
     margin-top:    3px;
@@ -321,5 +328,4 @@ body{
     height: 23px;
     font-size: 1rem;
     border-radius: 0px;
-    
 }
