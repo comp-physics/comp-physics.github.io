@@ -18,13 +18,15 @@ year = {2023},
 abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speedup traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to eliminate classical computations and measurements at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step, removing a need for repeated measurements and state preparation (encoding).  Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method delays the need for measurement to the end of the computation, so the algorithm is better suited for modern quantum hardware. We also demonstrate how the checker-board deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical PDEs: the diffusion and Burgers' equations on different quantum simulators.  We find good agreement between quantum simulations and classical solutions of the presented algorithm.},
 }
 
-@unpublished{firouznia22,
+@article{firouznia23,
 Author = {M. Firouznia and S. H. Bryngelson and D. Saintillan},
 Title = {A spectral boundary integral method for simulating electrohydrodynamic flows in viscous drops},
-note = {arXiv: 2210.04957},
-file = {firouznia22.pdf},
-arxiv = {2210.04957},
-year = {2022},
+year = {2023},
+pages = {112248},
+volume = {489},
+file = {firouznia-JCP-23.pdf},
+journal = {Journal of Computational Physics},
+doi = {10.1016/j.jcp.2023.112248},
 abstract = {A weakly conducting liquid droplet immersed in another leaky dielectric liquid can exhibit rich dynamical behaviors under the effect of an applied electric field. Depending on material properties and field strength, the nonlinear coupling of interfacial charge transport and fluid flow can trigger electrohydrodynamic instabilities that lead to shape deformations and complex dynamics. We present a spectral boundary integral method to simulate droplet electrohydrodynamics in a uniform electric field. All physical variables, such as drop shape and interfacial charge density, are represented using spherical harmonic expansions. In addition to its exponential accuracy, the spectral representation affords a nondissipative dealiasing method required for numerical stability. A comprehensive charge transport model, valid under a wide range of electric field strengths, accounts for charge relaxation, Ohmic conduction, and surface charge convection by the flow. A shape reparametrization technique enables the exploration of significant droplet deformation regimes. For low-viscosity drops, the convection by the flow drives steep interfacial charge gradients near the drop equator. This introduces numerical ringing artifacts we treat via a weighted spherical harmonic expansion, resulting in solution convergence. The method and simulations are validated against experimental data and analytical predictions in the axisymmetric Taylor and Quincke electrorotation regimes.},
 }
 
