@@ -70,9 +70,9 @@ ol li{
 <a href="{{ entry.link }}" target="_blank"><button class="btn btn-info btm-sm">DOI</button></a>
 {% endif %}
 
-{% if entry.type == 'unpublished' and entry.arxiv %}
-<a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm">ARXIV</button></a>
-{% endif %}
+<!-- {% if entry.type == 'unpublished' and entry.arxiv %} -->
+<!-- <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm">ARXIV</button></a> -->
+<!-- {% endif %} -->
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'proceedings' or entry.type == 'report' %}
 <button class="btn btn-info btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>

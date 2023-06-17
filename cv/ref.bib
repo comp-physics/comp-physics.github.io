@@ -5,6 +5,7 @@ note = {arXiv: 2305.09163},
 file = {radhakrishnan-arxiv-23.pdf},
 arxiv = {2305.09163},
 year = {2023},
+doi = {10.48550/arXiv.2305.09163},
 abstract = {Multiphase compressible flows are often characterized by a broad range of space and time scales. Thus entailing large grids and small time steps, simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for standard finite-volume and -difference methods, damping speed-ups. Even when realized, faster GPU-based kernels lead to more intrusive communication and I/O times. We present a portable strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for portable offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access, realized via CUDA-aware MPI, reduces communication times. We implement this approach in the open-source solver MFC. Metaprogramming-based preprocessing results in an 8-times speedup of the most expensive kernels, 46\% of peak FLOPs on NVIDIA GPUs, and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single A100 GPU is 300-times faster than an Intel Xeon CPU core, corresponding to a 9-times speedup for a single A100 compared to the entire CPU die. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure negligible contribution of data transfers. Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.},
 }
 
@@ -12,6 +13,7 @@ abstract = {Multiphase compressible flows are often characterized by a broad ran
 Author = {F. E. Chrit and S. Kocherla and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
 Title = {Fully quantum algorithm for lattice {B}oltzmann methods with application to partial differential equations},
 note = {arXiv: 2305.07148},
+doi = {10.48550/arXiv.2305.07148},
 file = {chrit-arxiv-23.pdf},
 arxiv = {2305.07148},
 year = {2023},
