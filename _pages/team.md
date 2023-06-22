@@ -116,7 +116,8 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 <div class="col-sm-10 col-xs-12">
   <h5>{{ member.name }}</h5>
   <h6>{{ member.info }}<br></h6>
-  <h6>Dissertation: <i>{{ member.thesis }}</i> </h6>
+  <h6><b>Dissertation:</b> <i>{{ member.thesis }}</i> </h6>
+  <h6><b>Now at:</b> {{member.now}}</h6>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -140,8 +141,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 <div class="row">
 <div class="col-sm-6 clearfix">
 {% for member in site.data.alumni_bsms %}
-* {{ member.name }}
-<!-- , <i>{{ member.info }}</i> -->
+* {{ member.name }}<i>{{ member.info }}</i>
 {% endfor %}
 </div>
 </div>
