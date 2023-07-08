@@ -22,6 +22,7 @@
   info: PhD student
   email: zsong300@gatech.edu
   linkedin: https://www.linkedin.com/in/kaminotesf524 
+  researchgate: https://www.researchgate.net/profile/Zhixin-Song-3
   scholar: https://scholar.google.com/citations?user=0Oy99nMAAAAJ
   github: https://github.com/kaminotesf
   website: https://physics.gatech.edu/user/zhixin-song
@@ -34,6 +35,15 @@
   github: https://github.com/wilfonba
   researchgate: https://www.researchgate.net/profile/Benjamin-Wilfong
   website: https://wilfonba.github.io
+
+- name: Haocheng Yu
+  photo: haocheng.jpg
+  info: PhD student
+  coadvise: K. Ahuja
+  email: haochey@gatech.edu
+  linkedin: https://www.linkedin.com/in/haocheng-yu-3b636b128
+  github: https://github.com/haochey
+  researchgate: https://www.researchgate.net/profile/Haocheng-Yu-2
 
 - name: Ajay Bati
   photo: ajay.jpeg
