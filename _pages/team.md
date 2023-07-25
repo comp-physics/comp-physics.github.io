@@ -141,7 +141,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 <div class="row">
 <div class="col-sm-6 clearfix">
 {% for member in site.data.alumni_bsms %}
-* {{ member.name }}<i>{{ member.info }}</i>
+* {{ member.name }}. <i>{{ member.info }}</i>
 {% endfor %}
 </div>
 </div>

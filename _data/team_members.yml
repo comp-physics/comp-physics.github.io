@@ -63,13 +63,6 @@
   github: https://github.com/ajaybati
   linkedin: https://www.linkedin.com/in/ajay-bati-4065b6191
 
-- name: Arjun Bhamra
-  photo: arjun.jpg
-  email: abhamra3@gatech.edu
-  info: UG student
-  linkedin: https://www.linkedin.com/in/arjun-bhamra
-  github: https://github.com/abhamra
-
 - name: Ansh Gupta
   photo: ansh.jpg
   email: anshgupta@gatech.edu
@@ -97,4 +90,5 @@
 
 - name: "This could be you!"
   photo: pi.svg
-  info: Contact Spencer for more information
+  info: <a href='https://comp-physics.group/vacancies.html' target='_blank'>Contact Spencer</a> for more information
+
