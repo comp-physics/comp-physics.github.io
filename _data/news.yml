@@ -1,5 +1,8 @@
+- date: 25 September, 2023
+  headline: "Spencer, <a href='https://f-t-s.github.io/' target='_blank'>Florian</a>, and Stanford colleague <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a> organized a minisymposium at the latest <a href='https://www.utep.edu/engineering/mmlde/' target='_blank'>IACM MMLDE conference</a> in El Paso, Texas. Collaborator Jessie Liu (Stanford) presented our ongoing work on a targeted nonlocal closure recovery scheme via adjoint macroscopic forcing."
+
 - date: 17 September, 2023
-  headline: "Jack and Spener are at <a href='https://qce.quantum.ieee.org/2023/' target='_blank'>IEEE Quantum Week</a>! Jack is <a href='https://qce.quantum.ieee.org/2023/tutorials-program/#overview-tut27' target='_blank'>giving a tutorial</a> on solving PDEs using quantum computers."
+  headline: "Jack and Spencer are at <a href='https://qce.quantum.ieee.org/2023/' target='_blank'>IEEE International Conference on Quantum Computing and Engineering</a>! Jack is <a href='https://qce.quantum.ieee.org/2023/tutorials-program/#overview-tut27' target='_blank'>giving a tutorial</a> on solving PDEs using quantum computers (material is open source, <a href='https://github.com/comp-physics/qce23-qpde-tutorial' target='_blank'>here</a>)."
 
 - date: 14 September, 2023
   headline: "Spencer is giving a seminar at the University of Illinois at Urbana-Champaign on Friday September 14, do <a href='https://calendars.illinois.edu/detail/2791?eventId=33462362' target='_blank'>join us</a> or say hi if you are around!"
@@ -14,7 +17,7 @@
   headline: "Congraulations to group Ph.D. student Haocheng Yu, who passed his qualifying exam today!"
 
 - date: 5 July, 2023
-  headline: "Congratulations to the <a href='https://www.vip.gatech.edu/teams/vwp' target='_none'>VIP Student Cluster Competition team</a> for being accepted to the IndySCC competition!"
+  headline: "Congratulations to the <a href='https://www.vip.gatech.edu/teams/vwp' target='_blank'>VIP Student Cluster Competition team</a> for being accepted to the IndySCC competition!"
 
 - date: 25 June, 2023
   headline: "Our preprint on the fast macroscopic forcing method is <a href='https://arxiv.org/abs/2306.13625' target='_blank'>on arXiv!</a> A collaborative effort with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a> (Gatech) and Jessie Liu and <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a> (Stanford)."
@@ -23,7 +26,7 @@
   headline: "Congratulations to research scientist Dr. Bryan Gard on winning GTRI IRAD of the Year award! For work with the group on quantum algorithms for PDEs and CFD."
 
 - date: 13 June, 2023
-  headline: "Paper on electrodynamic drops <a href='https://doi.org/10.1016/j.jcp.2023.112248' target='_none'>published in JCP</a>."
+  headline: "Paper on electrodynamic drops <a href='https://doi.org/10.1016/j.jcp.2023.112248' target='_blank'>published in JCP</a>."
 
 - date: 06 June, 2023
   headline: "Spencer gave the OpenACC Webinar today. Will update this post with the recording."
