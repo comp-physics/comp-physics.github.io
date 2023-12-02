@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 
 \usepackage[text={7.5in,9in},centering]{geometry}
 \usepackage{comment}
@@ -99,14 +99,14 @@
   {\list
       {\printtext[labelnumberwidth]{[\printfield{labelprefix}\printfield{labelnumber}]}}
       {}%
-      \setlength{\itemsep}{0pt}%
+      \setlength{\itemsep}{1pt}%
       \setlength{\parsep}{0pt}%
       \renewcommand*{\makelabel}[1]{\hss##1}}
   {\endlist}
   {\item}
 
 % Set spacing in itemize
-\setlist{itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt} 
+\setlist{itemsep=2pt,topsep=1pt,parsep=0pt,partopsep=0pt} 
 
 % Set spacing around titles (syntax: spacing left, before, after)
 % \usepackage{titlesec}
@@ -134,7 +134,7 @@
 \begin{center}
     {\Large \bf Spencer H. Bryngelson} \\ \smallskip
     Assistant Professor \\ 
-    School of Computational Science \& Engineering \\ \GIT \\ \smallskip
+    School of Computational Science \& Engineering, School of Aerospace Engineering \\ \GIT \\ \smallskip
     Email: \href{mailto:shb@gatech.edu}{\texttt{shb@gatech.edu}}, Web:
     \href{https://comp-physics.group}{\texttt{comp-physics.group}}
 \end{center}
@@ -173,8 +173,12 @@
 \section*{Abbreviated funding history}
 
 \begin{itemize}
+    \item (2023--24) co-PI: DARPA ``\textit{Quantum eigensolvers in fluid-dynamic computations and applications}''
+    \item (2023--27) PI: DOD ARO ``\textit{Investigation and inference of soft material deformation mechanisms unlocked at large speeds, finite deformations, and many cycles},'' 
+    \item (2023--27) co-PI: DOD ONR MURI ``\textit{Combustion of solid fuels in high enthalpy flow}'' 
     \item (2022--26) PI: DOD ONR, ``\textit{Stochastic framework for cavitating flows}''
-    \item (2022--23) PI: DOE ORAU Powe, ``\textit{A methodologically coherent multi-scale model for multiphase flow}''
+    \item (2022--24) PI: DOE ``\textit{Vibrated bubbly flow simulation}'' ($\$100$K)
+    \item (2022--23) PI: DOE, ``\textit{A methodologically coherent multi-scale model for multiphase flow}''
     \item (2022--24) co-PI: GTRI IRAD, ``\textit{Quantum optimization for lattice Boltzmann simulation}''
     \item (2022--23) PI: GT Seed Grant, ``\textit{Quantum computing for next-generation engineering simulation}''
     \item (2022--23) PI: Georgia Tech Quantum Alliance, ``\textit{Quantum algorithms for fluid flow simulation}''
