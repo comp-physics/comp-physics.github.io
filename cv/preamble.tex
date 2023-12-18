@@ -6,29 +6,16 @@
 \usepackage{xstring}
 \usepackage{etoolbox}
 \usepackage[backend=bibtex,defernumbers=true,sorting=ydnt,style=authoryear,doi=true,maxnames=99,url=true]{biblatex}
-
 \usepackage{calc}
 \usepackage{comment}
 \usepackage{microtype}
-% \usepackage{hyperref}
 \usepackage{hyphenat}
 \usepackage{changepage}
 \usepackage{multicol}
 \usepackage{xspace}
 \usepackage{enumitem}
-
-% Hyperlink colors
-% \hypersetup{
-%     colorlinks=true,
-%     urlcolor=[rgb]{0,0,0.5},
-%     linkcolor=.,
-% }
-
-
 \usepackage{hyperref}
 \usepackage[]{xcolor}
-
-
 
 \definecolor{lightblue}{rgb}{0.63, 0.74, 0.78}
 \definecolor{seagreen}{rgb}{0.18, 0.42, 0.41}
@@ -51,7 +38,6 @@
   pdfauthor=author,
 }
 
-
 \newcommand\GIT{\mbox{Georgia Institute of Technology}\xspace}  
 \newcommand\GT{\mbox{Georgia Tech}\xspace}  
 \newcommand\CIT{\mbox{California Institute of Technology}\xspace}  
@@ -62,6 +48,9 @@
 
 % Remove indent spacing
 \setlength{\parindent}{0in}
+
+% Filters for bib
+\addbibresource{ref.bib}
 
 \defbibfilter{other}{
   type=report or
@@ -88,9 +77,11 @@
   not keyword=heavyref
 }
 
-\addbibresource{ref.bib}
+\defbibfilter{fullpapers}{
+    type=article or keyword=heavyref
+}
 
-% Bold my name
+% Bold names
 \newboolean{bold}
 \newcommand{\makeauthorsbold}[1]{%
   \DeclareNameFormat{author}{%
@@ -108,9 +99,9 @@
     {\addcomma\space}{}
   }
 }
-% \makeauthorsbold{Bryngelson}
+\makeauthorsbold{Le Berre,Bati,Chrit,Kocherla,Radhakrishnan,Arias,Song,Wilfong,Hawkins,Yu,Panchal,Zeng,Kothari}
 
-% get reverse numbering
+% Get reverse numbering
 \makeatletter
 \patchcmd{\blx@printbibliography}
   {\blx@bibliography\blx@tempa}
@@ -146,10 +137,6 @@
 \titlespacing*{\subsection}
 {0pt}{6pt}{6pt}
 
-% Add footer
-% \usepackage[table]{xcolor}
-% \definecolor{myBrown}{RGB}{155,77,40}
-
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -161,4 +148,16 @@
 \cfoot{\color{silver}Latest at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
 \lfoot{\color{silver}Spencer H. Bryngelson}
 
+% \usepackage{titletoc}
+% \setcounter{secnumdepth}{1}
+% \setcounter{tocdepth}{1}
 
+\usepackage{csvsimple}
+\usepackage{longtable}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{ebgaramond}
+% \usepackage{garamondlibre}
+% \usepackage{garamondx}
+% \usepackage{CormorantGaramond}

@@ -3,20 +3,6 @@
 
 \input{preamble.tex}
 
-% \usepackage{titletoc}
-% \setcounter{secnumdepth}{1}
-% \setcounter{tocdepth}{1}
-
-\usepackage{csvsimple}
-\usepackage{longtable}
-
-
-\usepackage[T1]{fontenc}
-\usepackage{ebgaramond}
-% \usepackage{garamondlibre}
-% \usepackage{garamondx}
-% \usepackage{CormorantGaramond}
-
 \begin{document}
 
 \begin{center}
@@ -109,7 +95,7 @@
 
 \section{Students}
 
-\subsection{Graduate}
+\subsection{Doctoral}
 
 \begin{itemize}
     \item Jesus Arias, Ph.D.\ student (CSE/AE, co-advised with L.\ Sankar)
@@ -123,7 +109,6 @@
 \subsection{Undergraduate}
 
 \begin{itemize}
-    \item Ajay Bati (CS)
     \item Ansh Gupta (CS)
     \item Sriharsha Kocherla (CS)
     \item Henry Le Berre (CS)
@@ -140,8 +125,10 @@ Graduate students
 
 Undergraduate students
 \begin{itemize}
+    \item Rasmit Devkota, Physics, 2022--23
     \item Arjun Bhamra, CS, 2022--23
     \item Yash Kothari, CS, 2022--23
+    \item Ajay Bati, CS, 2021--23
     \item Qi Zeng, CS and Math, co-advised with \Florian, 2021--23
 \end{itemize}
 
@@ -312,16 +299,17 @@ Theoretical and Computational Fluid Dynamics
 
 \section{Publications}
 
+\begin{center}
+    \textit{Bolding indicates advised or co-advised students and postdocs.}
+\end{center}
+
 \nocite{*}
 
 \newrefcontext[labelprefix=U]
 \printbibliography[type=unpublished,title={Preprints},resetnumbers=true,heading=subbibnumbered]
 
-\newrefcontext[labelprefix=J]
-\printbibliography[type=article,title={Journal articles},resetnumbers=true,heading=subbibnumbered]
-
 \newrefcontext[labelprefix=P]
-\printbibliography[title={Heavily reviewed conference papers},resetnumbers=true,filter=heavy,heading=subbibnumbered]
+\printbibliography[title={Archival, heavily refereed papers},resetnumbers=true,filter=fullpapers,heading=subbibnumbered]
 
 \newrefcontext[labelprefix=C]
 \printbibliography[title={Conference papers},resetnumbers=true,filter=nonheavy,heading=subbibnumbered]
