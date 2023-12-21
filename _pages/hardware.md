@@ -7,8 +7,8 @@ permalink: /hardware/
 
 ## Computational Resources
 
-The Computational Physics Group maintains several local servers and access to supercomputers and quantum computers around the country.
-This page gives a brief overview of the computing resources we investigate and marshal for our work.
+The group maintains several local servers and access to supercomputers and quantum computers around the country.
+This page gives a summary of the computing resources we marshal for our work.
 
 ### In house
 
@@ -18,68 +18,43 @@ This page gives a brief overview of the computing resources we investigate and m
 
 * 1x, [NVIDIA H100](https://www.nvidia.com/en-us/data-center/h100/) GPU
 * 3x, "[Instinct](https://www.cc.gatech.edu/news/new-hardware-brings-students-closer-exascale-computing)", Dual AMD EPYC 7713 Milan, 2x AMD MI210 64GB
-* 1x, "Wingtip3", Dual Intel 6338, 5x NVIDIA A100 80GB
+* 1x, "Wingtip-GPU", Dual Intel 6338, 5x NVIDIA A100 80GB
 * 4x, [NVIDIA Bluefield 2](https://resources.nvidia.com/en-us-accelerated-networking-resource-library/bluefield-2-dpu-datasheet?lx=LbHvpR&topic=networking-cloud) DPUs
 
-#### COC/PACE ICE
-
-GPU nodes
-* 10x, Dual Xeon Gold 6226, 4x NVIDIA Quadro Pro RTX6000 24GB
-* 11x, Dual Xeon Gold 6226, 2x NVIDIA V100 16GB
-* 4x,	Dual Xeon Gold 6248, 1x NVIDIA V100 32GB
-* 4x, Xeon Gold 6248, 4x NVIDIA V100 32GB
-* 2x,	Dual AMD EPYC 7452,	2x NVIDIA A40 48GB
-* 2x,	Dual AMD EPYC 7513,	2x NVIDIA A100 40GB
-* 2x,	Dual AMD EPYC 7452,	2x NVIDIA A100 80GB
-* 3x, "Newell", Power9 O2CY417, 2x NVIDIA V100 32GB
-
-CPU nodes
-* 60x, Dual Xeon Gold 6226 
-* 4x,	Dual AMD EPYC 7513
-
-Find more information [here](https://docs.pace.gatech.edu/ice_cluster/ice/).
-
-#### The Rogues 
+#### Rogues Gallery
 
 We work with [CRNCH](https://crnch.gatech.edu/), the Center for Research into Novel Computing Hierarchies.
-CRNCH maintains the [Rogues Gallery](https://gt-crnch-rg.readthedocs.io/en/main/general/rg-hardware.html), a collection of (mostly) non-von Neumann systems. 
-Here, we work with 
-* ARM servers (NVIDIA ARM HPC Dev Kits)
-* FPGAs (Xilinx Alveo U50, U250, U280, AC-510)
-* RISC-V boards (MangoPi)
-* The first RISC-V GPGPU (called [Vortex](https://vortex.cc.gatech.edu/))
-* Neuromorphic nodes
-* Near-memory servers ([Pathfinder](https://lucata.com/solutions/pathfinder/)),
-* Reconfigurable networked machines, including
-	* FPGA-based network devices
-	* CPU-based smart network devices
-	* 5G networking testbed equipment
+CRNCH maintains the [Rogues Gallery](https://gt-crnch-rg.readthedocs.io/en/main/general/rg-hardware.html), a collection of (mostly) non-von Neumann systems.
+A full hardware list is [held here](https://gt-crnch-rg.readthedocs.io/en/main/general/rg-hardware.html).
+It includes Arm servers, FPGAs, RISC-V boards, the first RISC-V GPGPU (called [Vortex](https://vortex.cc.gatech.edu/)), neuromorphic nodes, near-memory servers (like [Pathfinder](https://lucata.com/solutions/pathfinder/)), and more.
 
-Check out the links above to learn more about this ever-evolving list of systems.
-
-#### Phoenix
+#### PACE Phoenix
 
 We maintain allocations on Georgia Tech's [Phoenix](https://docs.pace.gatech.edu/phoenix_cluster/gettingstarted_phnx/), a Top500 supercomputer managed by [PACE](https://pace.gatech.edu/).
 Phoenix houses a variety of CPU and GPU nodes.
 You can [see the available resources here](https://docs.pace.gatech.edu/phoenix_cluster/slurm_resources_phnx/), though they are not always up-to-date.
-In December 2022, Phoenix housed just over 1000 CPU nodes and 100 GPU nodes.
+In December 2023, Phoenix housed just over 1000 CPU nodes and 100 GPU nodes.
+
+#### ICE
+
+[GT ICE](https://docs.pace.gatech.edu/ice_cluster/ice/) holds, at time of writing, about 50 GPU nodes and 100 CPU nodes of various flavors.
+The specific resources are listed [here](https://docs.pace.gatech.edu/ice_cluster/ice_resources/).
 
 </div>
 
 ### Outside resources
 
 <div class="jumbotron">
-
 We maintain allocations on clusters and leadership class supercomputers around the country. 
 This includes leadership-class DOE systems like
-* [OLCF Summit (Top500 #5)](https://www.olcf.ornl.gov/summit/)
-* [OLCF Crusher (Frontier early-readiness system, Top500 #1)](https://docs.olcf.ornl.gov/systems/crusher_quick_start_guide.html)
-* [OLCF Wombat](https://www.olcf.ornl.gov/olcf-resources/compute-systems/wombat/)
+* [OLCF Frontier (Top500 #1)](https://www.olcf.ornl.gov/frontier/); exascale, AMD GPU-based
+* [OLCF Summit (Top500 #5)](https://www.olcf.ornl.gov/summit/), NVIDIA GPU-based
+* [OLCF Wombat](https://www.olcf.ornl.gov/olcf-resources/compute-systems/wombat/), Arm+GPU+SmartNIC testbed
 
-We use university supercomputers like
+We use supercomputers at other university centers like
+* [NCSA Delta](https://delta.ncsa.illinois.edu/)
 * [PSC Bridges2](https://www.psc.edu/resources/bridges-2/)
 * [SDSC Expanse](https://www.sdsc.edu/services/hpc/expanse/)
-* [TACC Stampede2](https://portal.tacc.utexas.edu/user-guides/stampede2)
 </div>
 
 ## Quantum computers
@@ -89,6 +64,4 @@ We also work on quantum algorithms for solving scientific problems, often based 
 For this, we use quantum simulation (on the classical hardware above) and quantum computers from
 * [Oak Ridge QCUP](https://www.olcf.ornl.gov/olcf-resources/compute-systems/quantum-computing-user-program/)
 * [IBM Quantum](https://quantum-computing.ibm.com/services/resources/docs/resources/manage/systems/)
-* and more pending
-
 </div>
