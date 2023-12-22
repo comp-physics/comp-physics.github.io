@@ -1,3 +1,6 @@
+- date: 22 December, 2023
+  headline: "Our paper on <a href='https://doi.org/10.1016/j.jcp.2023.112721' target='_blank'>Fast Macroscopic Forcing</a> was published in the Journal of Computational Physics. Joint work with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a>, Jessie Liu, and <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a>."
+
 - date: 14 December, 2023
   headline: "Our paper on <a href='https://doi.org/10.1016/j.cpc.2023.109052' target='_blank'>RoseNNa</a> was published by Computer Physics Communications. Congrats, Ajay!"
 
@@ -14,7 +17,7 @@
   headline: "Spencer gave a talk on stochastic sub-grid models at the <a href='https://insieme.stanford.edu/multiphaseflows' target='_blank'>Workshop on Compressible Multiphase Flows</a> hosted by Stanford University. Thanks to the organizers, <a href='https://profiles.stanford.edu/ali-mani' target='_blank'>Ali</a> and <a href='https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/d-salac.html' target='_blank'>David</a>, for the invite!"
 
 - date: 16 October, 2023
-  headline: "Manuscript on non-local closure operator recovery submitted and <a href='https://arxiv.org/abs/2310.08763' target='_blank'>on the arXiv</a>. Joint work with Jessie Liu and Ali Mani (Stanford), Tamer Zaki (Johns Hopkins), and Florian Schaefer (GT)."
+  headline: "Manuscript on non-local closure operator recovery submitted and <a href='https://arxiv.org/abs/2310.08763' target='_blank'>on the arXiv</a>. Joint work with Jessie Liu and Ali Mani (Stanford), Tamer Zaki (Johns Hopkins), and Florian Schäfer(GT)."
 
 - date: 3 October, 2023
   headline: "The group was accepted to the <a href='https://www.olcf.ornl.gov/calendar/frontier-hackathon-october-2023/' target='_blank'>Frontier Hackathon</a> as we prepare to run MFC at exascale on OLCF Frontier."
