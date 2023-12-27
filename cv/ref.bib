@@ -34,19 +34,20 @@ abstract = {Fluid flow simulations marshal our most powerful computational resou
 }
 
 
-@article{bryngelsonfmfm23,
+@article{bryngelsonfmfm24,
 Author = {S. H. {*}Bryngelson and F. {*}Sch{\"a}fer and J. Liu and A. Mani},
 Title = {Fast {M}acroscopic {F}orcing {M}ethod},
-note = {Journal of Computational Physics. arXiv: 2306.13625, {*}Authors contributed equally},
-file = {bryngelson-arxiv-23.pdf},
+journal = {Journal of Computational Physics},
+file = {bryngelson-JCP-24.pdf},
 year = {2024},
+volume = 499,
+pages = 112721,
 doi = {10.1016/j.jcp.2023.112721},
+note = {{*}Authors contributed equally},
 abstract = {The macroscopic forcing method (MFM) of Mani and Park (2021) and similar methods for obtaining turbulence closure operators, such as the Green's function-based approach of Hamba (1995), recover reduced solution operators from repeated direct numerical simulations (DNS).  MFM has already been used to successfully quantify Reynolds-averaged Navier-Stokes (RANS)-like operators for homogeneous isotropic turbulence and turbulent channel flows. Standard algorithms for MFM force each coarse-scale degree of freedom (i.e., degree of freedom in the RANS space) and conduct a corresponding fine-scale simulation (i.e., DNS), which is expensive.  We combine this method with an approach recently proposed by Sch\"afer and Owhadi (2023) to recover elliptic integral operators from a polylogarithmic number of matrix-vector products. The resulting Fast MFM introduced in this work applies sparse reconstruction to expose local features in the closure operator and reconstructs this coarse-grained differential operator in only a few matrix-vector products and correspondingly, a few MFM simulations.  For flows with significant nonlocality, the algorithm first ``peels'' long-range effects with dense matrix-vector products to expose a more local operator.  We demonstrate the algorithm's performance for scalar transport in a laminar channel flow and momentum transport in a turbulent channel flow. For these problems, we recover eddy diffusivity- and eddy viscosity-like operators, respectively, at 1 percent of the cost of computing the exact operator via a brute-force approach for the laminar channel flow problem and 13 percent for the turbulent one. We observe that we can reconstruct these operators with an increase in accuracy by about a factor of 100 over randomized low-rank methods.  Applying these operators to compute the averaged fields of interest has visually indistinguishable behavior from the exact solution.  Our results show that a similar number of simulations are required to reconstruct the operators to the same accuracy under grid refinement.  Thus, the accuracy corresponds to the physics of the problem, not the numerics. We glean that for problems in which the RANS space is reducible to one dimension, eddy diffusivity and eddy viscosity operators can be reconstructed with reasonable accuracy using only a few simulations, regardless of simulation resolution or degrees of freedom.},
 }
 
-
-
-@article{bati23,
+@article{bati24,
 Author = {A. Bati and S. H. Bryngelson},
 Title = {{RoseNNa: A} performant, portable library for neural network inference with
 application to computational fluid dynamics},
@@ -96,11 +97,11 @@ doi = {10.1098/rsta.2021.0209},
 abstract = {Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.},
 }
 
-@article{panchal22,
+@article{panchal23,
 Author = {A. Panchal and S. H. Bryngelson and S. Menon},
 Title = {A seven-equation diffused interface method for resolved multiphase flows},
 journal = {Journal of Computational Physics},
-file = {panchal-jcp-23.pdf},
+file = {panchal-JCP-23.pdf},
 volume = {475},
 pages = {111870},
 year = {2023},
