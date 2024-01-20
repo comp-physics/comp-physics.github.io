@@ -97,7 +97,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 
 
 
-### Former Ph.D. students
+### Graduate alumni
 
 <div class="jumbotron">
 
@@ -136,7 +136,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 </div>
 
 {% if site.data.alumni_bsms %}
-### Former undergraduates
+### Undergraduate alumni
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-6 clearfix">
