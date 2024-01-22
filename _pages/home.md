@@ -43,19 +43,23 @@ __Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) i
 <div class="jumbotron">
 <h2>Examples of our work</h2>
 
-Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
-We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos-RSA-21.pdf" target="_blank">sub-grid method</a> for simulating this phenomenon.
-It uses a hybrid quadrature method of moments scheme to close the governing equations at low cost.
-<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source multi-phase flow solver, demonstrates this method.
-MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse-interface method.
 
-<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;margin:0 auto;overflow:hidden;">
+<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
+<iframe src="https://player.vimeo.com/video/905208069?autoplay=1&loop=1&autopause=0&muted=1&quality=360p&background=1" width="100%" height="200" frameborder="0" allow="autoplay"></iframe>
+</div>
+Bubble cavitation and droplet shedding are fundamental multiphase flow problems at the core of naval hydrodynamics, aerospace propulsion, and more.
+We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos-RSA-21.pdf" target="_blank">sub-grid method</a> for simulating these phenomena.
+<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale-capable multi-phase flow solver, demonstrates such scale-resolving simulation of a shock-droplet interaction in the above video.
+
+
+
+<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;margin:0 auto;overflow:hidden; justify-content: center;">
 <iframe src="https://player.vimeo.com/video/455688517?autoplay=1&loop=1&autopause=0&muted=1&quality=360p&background=1" frameborder="0" width="100%" allow="autoplay"></iframe>
 </div>
-
-The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
-We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.
+The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device. This method of simulation provides resolution of strong cell membrane deformation with scant computational resources (above).
+We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">stochastic model</a> for the cell-scale flow, enabling microfluidic device design and improving treatment outcomes.
 </div>
+
 <div class="jumbotron">
 <h2>News</h2>
   {% for article in site.data.news limit:10%}
