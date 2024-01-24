@@ -1,3 +1,9 @@
+- date: 23 January, 2023
+  headline: "Sriharsha's work on quantum algorithms is now posted <a href='https://arxiv.org/abs/2401.12248' target='_blank'>on arXiv</a>. He develops algorithm improvements and exposed parallelization for fluid flow problems on quantum devices with reduced gate counts."
+
+- date: 19 January, 2023
+  headline: "The group welcomes Lian Xiang, who joins as an undergraduate researcher from Physics! She is working on near-term quantum algorithms for fluid flow problems."
+
 - date: 22 December, 2023
   headline: "Our paper on <a href='https://doi.org/10.1016/j.jcp.2023.112721' target='_blank'>Fast Macroscopic Forcing</a> was published in the Journal of Computational Physics. Joint work with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a>, Jessie Liu, and <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a>."
 
