@@ -49,9 +49,7 @@ __Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) i
 </div>
 Bubble cavitation and droplet shedding are fundamental multiphase flow problems at the core of naval hydrodynamics, aerospace propulsion, and more.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos-RSA-21.pdf" target="_blank">sub-grid method</a> for simulating these phenomena.
-<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale-capable multi-phase flow solver, demonstrates such scale-resolving simulation of a shock-droplet interaction in the above video.
-
-
+<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale-capable multi-phase flow solver, demonstrates such scale-resolving simulation of a shock-droplet interaction in the above video (via Ph.D. student Ben Wilfong).
 
 <div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;margin:0 auto;overflow:hidden; justify-content: center;">
 <iframe src="https://player.vimeo.com/video/455688517?autoplay=1&loop=1&autopause=0&muted=1&quality=360p&background=1" frameborder="0" width="100%" allow="autoplay"></iframe>
