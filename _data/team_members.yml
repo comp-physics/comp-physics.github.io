@@ -1,3 +1,12 @@
+- name: Tianyi Chu
+  photo: tianyi.jpg
+  info: Postdoc fellow
+  email: tic173@ucsd.edu
+  linkedin: https://www.linkedin.com/in/tianyi-chu-b89a35149
+  github: https://github.com/tic173
+  researchgate: https://www.researchgate.net/profile/Tianyi-Chu
+  scholar: https://scholar.google.com/citations?user=yqHO1AEAAAAJ
+
 - name: Jesus Arias
   photo: jesus.jpg
   info: PhD student 
@@ -37,7 +46,6 @@
   researchgate: https://www.researchgate.net/profile/Zhixin-Song-3
   scholar: https://scholar.google.com/citations?user=0Oy99nMAAAAJ
   github: https://github.com/kaminotesf
-  website: https://physics.gatech.edu/user/zhixin-song
 
 - name: Benjamin Wilfong
   photo: ben.jpg
