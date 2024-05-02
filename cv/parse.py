@@ -9,7 +9,7 @@ for grp in groups:
     obj  = json.load(open(fn))
 
     # Ignore these repositories
-    ignore_names = [".github", "comp-physics.github.io", "MFlowCode.github.io", "benchmark"]
+    ignore_names = [".github", "comp-physics.github.io", "MFlowCode.github.io", "benchmark", "stats"]
     for ig in ignore_names:
         for i in range(len(obj)):
             if obj[i]["name"] == ig:
