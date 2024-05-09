@@ -10,7 +10,6 @@
 - name: Jesus Arias
   photo: jesus.jpg
   info: PhD student 
-  coadvise: L. Sankar
   email: Jesus.Arias@gtri.gatech.edu
   linkedin: https://www.linkedin.com/in/jesusarias9
   github: https://github.com/jarias9
@@ -98,13 +97,6 @@
   github: https://github.com/suzm10
   linkedin: https://www.linkedin.com/in/suzan-manasreh/
   researchgate: https://www.researchgate.net/profile/Suzan-Manasreh
-
-- name: Subrahmanyam Mullangi
-  photo: sub.jpg
-  email: smullangi3@gatech.edu
-  info: UG student
-  github: https://github.com/smullangi3
-  linkedin: https://www.linkedin.com/in/sub-mullangi/
 
 - name: Lian Xiang
   photo: lian.jpg
