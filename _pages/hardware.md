@@ -14,8 +14,9 @@ This page gives a summary of the computing resources we marshal for our work.
 
 <div class="jumbotron">
 
-#### Group-owned
+#### Group procured
 
+* 4x, [NVIDIA GraceHopper Superchip](https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/) nodes
 * 1x, [NVIDIA H100](https://www.nvidia.com/en-us/data-center/h100/) GPU
 * 3x, "[Instinct](https://www.cc.gatech.edu/news/new-hardware-brings-students-closer-exascale-computing)", Dual AMD EPYC 7713 Milan, 2x AMD MI210 64GB
 * 1x, "Wingtip-GPU", Dual Intel 6338, 5x NVIDIA A100 80GB
@@ -64,4 +65,5 @@ We also work on quantum algorithms for solving scientific problems, often based 
 For this, we use quantum simulation (on the classical hardware above) and quantum computers from
 * [Oak Ridge QCUP](https://www.olcf.ornl.gov/olcf-resources/compute-systems/quantum-computing-user-program/)
 * [IBM Quantum](https://quantum-computing.ibm.com/services/resources/docs/resources/manage/systems/)
+* [Quantinuum](https://www.quantinuum.com/)
 </div>
