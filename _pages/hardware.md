@@ -31,15 +31,14 @@ It includes Arm servers, FPGAs, RISC-V boards, the first RISC-V GPGPU (called [V
 
 #### PACE Phoenix
 
-We maintain allocations on Georgia Tech's [Phoenix](https://docs.pace.gatech.edu/phoenix_cluster/gettingstarted_phnx/), a Top500 supercomputer managed by [PACE](https://pace.gatech.edu/).
+We maintain allocations on Georgia Tech's Phoenix, a Top500 supercomputer managed by [PACE](https://pace.gatech.edu/).
 Phoenix houses a variety of CPU and GPU nodes.
-You can [see the available resources here](https://docs.pace.gatech.edu/phoenix_cluster/slurm_resources_phnx/), though they are not always up-to-date.
 In December 2023, Phoenix housed just over 1000 CPU nodes and 100 GPU nodes.
 
 #### ICE
 
 [GT ICE](https://docs.pace.gatech.edu/ice_cluster/ice/) holds, at time of writing, about 50 GPU nodes and 100 CPU nodes of various flavors.
-The specific resources are listed [here](https://docs.pace.gatech.edu/ice_cluster/ice_resources/).
+The specific resources are listed [here](https://gatech.service-now.com/home?id=kb_article_view&sysparm_article=KB0042095).
 
 </div>
 
