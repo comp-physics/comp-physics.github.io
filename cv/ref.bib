@@ -23,17 +23,6 @@ abstract = {Reynolds-averaged Navier-Stokes (RANS) closure must be sensitive to 
 
 
 
-@unpublished{radhakrishnan23,
-Author = {A. Radhakrishnan and H. {Le Berre} and B. Wilfong and J.-S. Spratt and M. {Rodriguez Jr.} and T. Colonius and S. H. Bryngelson},
-Title = {Method for portable, scalable, and performant {GPU}-accelerated simulation of multiphase compressible flow},
-note = {arXiv: 2305.09163},
-file = {radhakrishnan-arxiv-23.pdf},
-arxiv = {2305.09163},
-year = {2023},
-doi = {10.48550/arXiv.2305.09163},
-abstract = {Multiphase compressible flows are often characterized by a broad range of space and time scales. Thus entailing large grids and small time steps, simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for standard finite-volume and -difference methods, damping speed-ups. Even when realized, faster GPU-based kernels lead to more intrusive communication and I/O times. We present a portable strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for portable offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access, realized via CUDA-aware MPI, reduces communication times. We implement this approach in the open-source solver MFC. Metaprogramming-based preprocessing results in an 8-times speedup of the most expensive kernels, 46\% of peak FLOPs on NVIDIA GPUs, and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single A100 GPU is 300-times faster than an Intel Xeon CPU core, corresponding to a 9-times speedup for a single A100 compared to the entire CPU die. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure negligible contribution of data transfers. Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.},
-}
-
 @unpublished{chrit23,
 Author = {F. E. Chrit and S. Kocherla and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
 Title = {Fully quantum algorithm for lattice {B}oltzmann methods with application to partial differential equations},
@@ -43,6 +32,17 @@ file = {chrit-arxiv-23.pdf},
 arxiv = {2305.07148},
 year = {2023},
 abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speedup traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to eliminate classical computations and measurements at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step, removing a need for repeated measurements and state preparation (encoding).  Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method delays the need for measurement to the end of the computation, so the algorithm is better suited for modern quantum hardware. We also demonstrate how the checker-board deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical PDEs: the diffusion and Burgers' equations on different quantum simulators.  We find good agreement between quantum simulations and classical solutions of the presented algorithm.},
+}
+
+@article{radhakrishnan24,
+Author = {A. Radhakrishnan and H. {Le Berre} and B. Wilfong and J.-S. Spratt and M. {Rodriguez Jr.} and T. Colonius and S. H. Bryngelson},
+Title = {Method for portable, scalable, and performant {GPU}-accelerated simulation of multiphase compressible flow},
+file = {radhakrishnan-arxiv-23.pdf},
+year = {2024},
+doi = {10.1016/j.cpc.2024.109238},
+journal = {Computer Physics Communications},
+pages = {109238},
+abstract = {Multiphase compressible flows are often characterized by a broad range of space and time scales. Thus entailing large grids and small time steps, simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for standard finite-volume and -difference methods, damping speed-ups. Even when realized, faster GPU-based kernels lead to more intrusive communication and I/O times. We present a portable strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for portable offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access, realized via CUDA-aware MPI, reduces communication times. We implement this approach in the open-source solver MFC. Metaprogramming-based preprocessing results in an 8-times speedup of the most expensive kernels, 46\% of peak FLOPs on NVIDIA GPUs, and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single A100 GPU is 300-times faster than an Intel Xeon CPU core, corresponding to a 9-times speedup for a single A100 compared to the entire CPU die. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure negligible contribution of data transfers. Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.},
 }
 
 @article{sinha24neural,
