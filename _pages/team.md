@@ -97,7 +97,7 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 
 
 
-### Graduate alumni
+### Ph.D. graduates
 
 <div class="jumbotron">
 
