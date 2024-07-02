@@ -1,0 +1,207 @@
+\documentclass[10pt]{article}
+
+\usepackage[text={7.5in,9in},centering]{geometry}
+\usepackage{comment}
+\usepackage{tabu}
+\usepackage{xstring}
+\usepackage{etoolbox}
+\usepackage[backend=biber,defernumbers=true,sorting=ydnt,style=authoryear,doi=false,maxbibnames=3,minbibnames=3]{biblatex}
+
+\usepackage{calc}
+\usepackage{comment}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{hyphenat}
+\usepackage{changepage}
+\usepackage{multicol}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% % Hyperlink colors
+% \hypersetup{
+%     colorlinks=true,
+%     urlcolor=[rgb]{0,0,0.5},
+%     linkcolor=.,
+% }
+\usepackage{xcolor}
+\definecolor{lightblue}{rgb}{0.63, 0.74, 0.78}
+\definecolor{seagreen}{rgb}{0.18, 0.42, 0.41}
+\definecolor{orange}{rgb}{0.85, 0.55, 0.13}
+\definecolor{silver}{rgb}{0.69, 0.67, 0.66}
+\definecolor{rust}{rgb}{0.72, 0.26, 0.06}
+
+\colorlet{lightsilver}{silver!30!white}
+\colorlet{darkorange}{orange!75!black}
+\colorlet{darksilver}{silver!65!black}
+\colorlet{darklightblue}{lightblue!65!black}
+\colorlet{darkrust}{rust!85!black}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=silver,
+  citecolor=silver,
+  urlcolor=seagreen,
+  pdfauthor=author,
+}
+
+\newcommand\GIT{\mbox{Georgia Institute of Technology}\xspace}  
+\newcommand\CIT{\mbox{California Institute of Technology}\xspace}  
+\newcommand\MIT{\mbox{Massachusetts Institute of Technology}\xspace}  
+\newcommand\UIUC{\mbox{University of Illinois at Urbana--Champaign}\xspace}  
+\newcommand\UMD{\mbox{University of Michigan--Dearborn}\xspace}
+\newcommand\Florian{\mbox{F. Sch\"{a}fer}\xspace}
+
+% Remove indent spacing
+\setlength{\parindent}{0in}
+
+\defbibfilter{other}{
+  type=report or
+  type=thesis
+}
+
+\defbibfilter{invited}{
+  type=incollection and
+  keyword=invited
+}
+
+\defbibfilter{talk}{
+  type=incollection and
+  not keyword=invited
+}
+
+\defbibfilter{twopages}{
+  type=article or
+  keyword=quantum
+}
+
+\addbibresource{ref.bib}
+
+% get reverse numbering
+% \makeatletter
+% \patchcmd{\blx@printbibliography}
+%   {\blx@bibliography\blx@tempa}
+%   {\setcounter{bibitemtotal}{0}%
+%    \begingroup
+%    \def\do##1{\stepcounter{bibitemtotal}}%
+%    \dolistloop{\blx@tempa}%
+%    \endgroup
+%    \blx@bibliography\blx@tempa}{}{}
+% \makeatother
+
+% \newcounter{bibitemtotal}
+% \newrobustcmd*{\mkbibdesc}[1]{%
+%   \number\numexpr\value{bibitemtotal}+1-#1\relax}
+% \DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+% \DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+
+\defbibenvironment{bibliography}
+  {\list
+      {\printtext[labelnumberwidth]{[\printfield{labelprefix}\printfield{labelnumber}]}}
+      {}%
+      \setlength{\itemsep}{1pt}%
+      \setlength{\parsep}{0pt}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+% Set spacing in itemize
+\setlist{itemsep=2pt,topsep=1pt,parsep=0pt,partopsep=0pt} 
+
+% Set spacing around titles (syntax: spacing left, before, after)
+% \usepackage{titlesec}
+% \titlespacing*{\section}
+% {0pt}{6pt}{6pt}
+% \titlespacing*{\subsection}
+% {0pt}{6pt}{6pt}
+
+% \AtEveryBibitem{\clearfield{title}}
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{12}\selectfont}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}\chead{{\color{silver}Abbreviated CV --- Compiled on: \today}}\rhead{}
+\lfoot{}
+\rfoot{}
+\cfoot{{\color{silver}Full CV available at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \bf Spencer H. Bryngelson} \\ \smallskip
+    Assistant Professor \\ 
+    School of Computational Science \& Engineering, School of Aerospace Engineering \\ \GIT \\ \smallskip
+    Email: \href{mailto:shb@gatech.edu}{\texttt{shb@gatech.edu}}, Web:
+    \href{https://comp-physics.group}{\texttt{comp-physics.group}}
+\end{center}
+
+\section*{Education}
+
+\begin{itemize}
+    \item (Dec.\ 2017) Ph.D., Theoretical \& Applied Mechanics, \UIUC
+    \item (2015) M.S., Theoretical \& Applied Mechanics, \UIUC
+    \item (2013) B.S., Mechanical Engineering \& Engineering Mathematics, \UMD
+\end{itemize}
+
+
+\section*{Research positions}
+
+\begin{itemize}
+    \item (2021--Present) Assistant Professor, School of Computational Science \& Engineering, College of Computing, \GIT
+    \item (2022) Visiting Scholar, Stanford University, Center for Turbulence Research
+    \item (2018--21) Senior Postdoctoral Scholar, \CIT
+    \item (2019) Visiting Researcher, \MIT
+    \item (2017--18) Postdoctor Researcher, XPACC (PSAAP II)
+    \item (2013--17) Graduate Research Fellow, \UIUC
+\end{itemize}
+
+\section*{Awards (abbreviated)}
+
+\begin{itemize}
+    \item (2022--23) Georgia Tech Faculty Writing Scholar
+    \item (2022--23) Class of 1969 Teaching Fellow, \GIT
+    \item (2022) Ralph E. Powe Junior Faculty Enhancement Award, Oak Ridge National Lab
+    \item (2017) Stanley Weiss Outstanding Dissertation Award, \UIUC
+    \item (2016) Hassan Aref Award (research in fluid mechanics), \UIUC
+    \item (2015) Alumni Teaching Fellowship, \UIUC
+\end{itemize}
+
+\section*{Abbreviated funding history}
+
+\begin{itemize}
+    \item (2023--24) co-PI: DARPA ``\textit{Quantum eigensolvers in fluid-dynamic computations and applications}''
+    \item (2023--27) PI: DOD ARO ``\textit{Investigation and inference of soft material deformation mechanisms unlocked at large speeds, finite deformations, and many cycles},'' 
+    \item (2023--27) co-PI: DOD ONR MURI ``\textit{Combustion of solid fuels in high enthalpy flow}'' 
+    \item (2022--26) PI: DOD ONR, ``\textit{Stochastic framework for cavitating flows}''
+    \item (2022--24) PI: DOE ``\textit{Vibrated bubbly flow simulation}'' ($\$100$K)
+    \item (2022--23) PI: DOE, ``\textit{A methodologically coherent multi-scale model for multiphase flow}''
+    \item (2022--24) co-PI: GTRI IRAD, ``\textit{Quantum optimization for lattice Boltzmann simulation}''
+    \item (2022--23) PI: GT Seed Grant, ``\textit{Quantum computing for next-generation engineering simulation}''
+    \item (2022--23) PI: Georgia Tech Quantum Alliance, ``\textit{Quantum algorithms for fluid flow simulation}''
+    \item (2021--23) PI: OLCF Allocation, ``\textit{Accelerated sub-grid multi-component flow physics}'' 
+    \item (2022) PI: NVIDIA Academic Hardware Grant Program (4x BlueField-2 E-Series DPU, 2x A100-80)
+    \item (2022) PI: Georgia Tech Tech.\ Fee ``\textit{ARM HPC Dev Kits for next-generation supercomputing}'' (10 NVIDIA ARM HPC Dev.\ Kits, $\$240$K value)
+    \item (2022) PI: Gift: AMD MI200-series GPU Server
+    \item (2022) PI: Stanford CTR Summer Program ``\textit{Fast macroscopic forcing for operator recovery via locality and causality with application to compressible and multiphase flow}''
+\end{itemize}
+
+\section*{Papers}
+
+% See \href{https://comp-physics.group/publications}{\texttt{comp-physics.group/publications}}.
+
+\nocite{*}
+
+\begingroup
+\setstretch{0.9}
+% \setlength\bibitemsep{0pt}
+% \setlength\listsep{0pt}
+\printbibliography[resetnumbers=false,type=unpublished,heading=none]
+\vspace{-0.3cm}
+\printbibliography[resetnumbers=false,filter=twopages,heading=none]
+\endgroup
+
+\end{document}
