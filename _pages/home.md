@@ -56,7 +56,7 @@ We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos
 </div>
 The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device. This method of simulation provides resolution of strong cell membrane deformation with scant computational resources.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">stochastic model</a> for the cell-scale flow, enabling microfluidic device design and improving treatment outcomes.
-The video above shows a microaneurysm and was simulated Suzan Manasreh.
+The video above shows a microaneurysm (simulated by Suzan Manasreh).
 </div>
 
 <div class="jumbotron">
