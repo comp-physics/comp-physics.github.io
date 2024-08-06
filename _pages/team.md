@@ -37,26 +37,6 @@ L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Q
 </div>
 {% endfor %}
 
-### Administration
-
-
-<div class="jumbotron">
-<div class="row">
-{% for member in site.data.admin %}
-
-<div class="col-sm-2 col-xs-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
-</div>
-<div class="col-sm-4 col-xs-12">
-  <h5>{{ member.name }}</h5>
-  <h6><i>{{ member.info }}<br></i></h6>
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %} {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a> {% endif %}
-</div>
-
-{% endfor %}
-</div>
-</div>
-
 
 ### Members
 
