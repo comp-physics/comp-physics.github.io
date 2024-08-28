@@ -1,3 +1,6 @@
+- date: 26 August, 2024
+  headline: "Presenting our work on sub-grid cavitation models and their computation on exascale machines at <a href='https://www.ictam2024.org/' target='_blank'>ICTAM2024</a> in Korea this week!"
+
 - date: 21 August, 2024
   headline: "We achieve the first performance result of <a href='https://mflowcode.github.io' target='_blank'>MFC</a> on the <a href='https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html' target='_blank'>AMD MI300A</a> superchip that will populate <a href='https://asc.llnl.gov/exascale/el-capitan' target='_blank'>LLNL El Capitan</a>. We see a 2-times speedup over the AMD MI250X in OLCF Frontier."
 
