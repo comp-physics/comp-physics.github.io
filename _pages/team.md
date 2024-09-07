@@ -9,8 +9,8 @@ permalink: /team/
 
 <!-- <div class="jumbotron"> -->
 <center>	
-<img src="{{site.url}}{{site.baseurl}}/images/teampic/group.jpg" width="100%" style='  border-radius: 20px;'/>
-L to R: Anshuman, Ben, Jesus, Spencer, Anand, Arjun, Sriharsha, Henry, Fatima, Qi. <i>Not Pictured: Ajay, Jack, Yash</i> <br/>
+<img src="{{site.url}}{{site.baseurl}}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='  border-radius: 20px;'/>
+L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, Dimitri, Brian. <br/><i>Not Pictured: Anand, Ansh</i> <br/>
 <b>We are always looking for new students to <a href='{{ site.url }}{{ site.baseurl }}/vacancies'>join the team!</a></b>
 </center>
 <!-- </div> -->
