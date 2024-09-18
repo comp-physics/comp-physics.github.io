@@ -1,3 +1,15 @@
+@unpublished{shahane24,
+Author = {S. Shahane and  S. Chammas and  D. A. Bezgin and  A. B. Buhendwa and  S. J. Schmidt and  N. A. Adams and  S. H. Bryngelson and  Y.-F. Chen and  Q. Wang and  F. Sha and  L. Zepeda-Núñez},
+Title = {{Rational-WENO: A} lightweight, physically-consistent three-point weighted essentially non-oscillatory scheme},
+note = {arXiv: 2409.09217},
+doi = {10.48550/arXiv.2409.09217},
+file = {shahane-arxiv-24.pdf},
+arxiv = {arXiv.2409.09217},
+year = {2024},
+abstract = {Conventional WENO3 methods are known to be highly dissipative at lower resolutions, introducing significant errors in the pre-asymptotic regime. In this paper, we employ a rational neural network to accurately estimate the local smoothness of the solution, dynamically adapting the stencil weights based on local solution features. As rational neural networks can represent fast transitions between smooth and sharp regimes, this approach achieves a granular reconstruction with significantly reduced dissipation, improving the accuracy of the simulation. The network is trained offline on a carefully chosen dataset of analytical functions, bypassing the need for differentiable solvers. We also propose a robust model selection criterion based on estimates of the interpolation's convergence order on a set of test functions, which correlates better with the model performance in downstream tasks. We demonstrate the effectiveness of our approach on several one-, two-, and three-dimensional fluid flow problems: our scheme generalizes across grid resolutions while handling smooth and discontinuous solutions. In most cases, our rational network-based scheme achieves higher accuracy than conventional WENO3 with the same stencil size, and in a few of them, it achieves accuracy comparable to WENO5, which uses a larger stencil.},
+}
+
+
 @unpublished{chu24,
 Author = {T. Chu and J. B. Estrada and S. H. Bryngelson},
 Title = {Bayesian optimal design accelerates discovery of material properties from bubble dynamics},
@@ -339,6 +351,16 @@ doi = {10.1103/PhysRevFluids.1.033201},
 abstract = {Elastic capsules flowing in small enough tubes, such as red blood cells in capillaries, are well known to line up into regular single-file trains. The stability of such trains in somewhat wider channels, where this organization is not observed, is studied in a two-dimensional model system that includes full coupling between the viscous flow and suspended capsules. A diverse set of linearly amplifying disturbances, both long-time asymptotic (modal) and transient (nonmodal) perturbations, is identified and analyzed. These have a range of amplification rates and their corresponding forms are wavelike, typically dominated by one of five principal perturbation classes: longitudinal and transverse translations, tilts, and symmetric and asymmetric shape distortions. Finite-amplitude transiently amplifying perturbations are shown to provide a mechanism that can bypass slower asymptotic modal linear growth and precipitate the onset of nonlinear effects. Direct numerical simulations are used to verify the linear analysis and track the subsequent transition of the regular capsule trains into an apparently chaotic flow.},
 }
 
+@inproceedings{proceeding_25,
+  title={{OpenACC} offloading of the {MFC} compressible multiphase flow solver on {AMD} and {NVIDIA GPUs}},
+  author={B. Wilfong and A. Radhakrishnan and H. A. {Le Berre} and S. Abbott and R. D. Budiardja and S. H. Bryngelson},
+  booktitle = {Proceedings of the SC '24 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
+  year={2024},
+  doi = {10.48550/arXiv.2409.10729},
+  file = {wilfong-SC-24.pdf},
+  abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses 'gang vector' and 'collapse'. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97% and 95% are observed when scaling to 50% of Summit and 95% of Frontier. Strong scaling efficiencies of 84% and 81% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD's MI250X increases to 92% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.},
+  keywords = "heavyref",
+}
 
 @inproceedings{proceeding_24,
 Author = {A. Radhakrishnan and S. H. Bryngelson},
@@ -348,7 +370,6 @@ Booktitle = {XXVI International Congress of Theoretical and Applied Mechanics},
 Address = {Daegu, South Korea},
 keywords = "nonheavy",
 }
-
 
 @inproceedings{proceeding_23,
   title={Numerical investigation of leakage of high-amplitude sound inill-fitting earplugs},

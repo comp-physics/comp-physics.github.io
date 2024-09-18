@@ -1,3 +1,9 @@
+- date: 18 September, 2024
+  headline: "Our Supercomputing (SC) paper from the WACCPD workshop was accepted. It is now <a href='https://arxiv.org/abs/2409.10729' target='_blank'>on arXiv</a>. We show how to achieve performant compute kernels on AMD GPU devices via OpenACC offloading, and use them to scale to all of OLCF Frontier. Congrats to Ben, Anand, and Henry! and thanks to our collaborators, Steve Abbot at HPE/Cray and Reuben Budiardja at Oak Ridge!"
+
+- date: 17 September, 2024
+  headline: "Our preprint, <a href='https://arxiv.org/abs/2409.09217' target='_blank'>Rational-WENO</a>, appears on arXiv. We construct a scheme that achieves near 5th order accuracy from a three-point stencil. In collaboration with Google Research and TU Munich."
+
 - date: 13 September, 2024
   headline: "The group is awarded an <a href='https://allocations.access-ci.org/allocations-policy#maximize-access-projects' target='_blank'>ACCESS-CI Maximize</a> allocation, the largest offered by the NSF. It amounts to 225K GPU hours and focuses on algorithms for direct simulation of compressible and multiphase flow."
 
