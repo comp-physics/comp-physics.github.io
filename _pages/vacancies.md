@@ -26,7 +26,7 @@ Excellent. In this case, you have two options:
 
 1. Apply for the [CSE Ph.D. program](https://www.cc.gatech.edu/degree-programs/phd-computational-science-and-engineering). If you do this, place my name in your faculty preference list (you get to pick two faculty). If this is you, I recommend _not_ emailing me, since I will see you application regardless. Feel free to email me if you have a special circumstance that was _not_ in your application, but you would like me know about or consider. However, I encourage you to include all relevant details in the application itself for transparency purposes.
 
-2. Apply for a Ph.D. in a program where [CSE has a home unit](https://cse.gatech.edu/academics/cse-home-units-0), like Aerospace or Mechanical Engineering. If you do this and are interested in working with me, _send me an [email](mailto:{{site.email}}) indicating the program you applied to, CV, and transcripts_.
+2. Apply for a Ph.D. in a program where [CSE has a home unit](https://cse.gatech.edu/cse-home-units), like Aerospace or Mechanical Engineering. If you do this and are interested in working with me, _send me an [email](mailto:{{site.email}}) indicating the program you applied to, CV, and transcripts_.
 
 If you are on the fence, I recommend applying for the CSE program, which is remarkably flexible regarding advising and course work.
 </div>
@@ -54,7 +54,7 @@ Otherwise, see "I am interested in an M.S. from Georgia Tech."
 <div class="jumbotron">
 #### I am, or am about to be, an undergraduate at Georgia Tech
 
-The group has had numerous undergraduate researchers since we started at Georgia Tech.
+The group has had numerous undergraduate researchers.
 Many have published great work and I am very proud of what they have accomplished.
 Continuing in this spirit, I am always open to working with keen undergraduate students.
 
