@@ -46,16 +46,6 @@ abstract = {Computational fluid dynamics (CFD) simulations often entail a large 
 }
 
 
-@unpublished{liu23,
-Author = {J. Liu and F. Sch\"afer and S. H. Bryngelson and T. A. Zaki and A. Mani},
-Title = {Targeted computation of nonlocal closure operators via an adjoint-based macroscopic forcing method},
-note = {arXiv: 2310.08763},
-file = {liu-arxiv-23.pdf},
-arxiv = {2310.08763},
-year = {2023},
-doi = {10.48550/arXiv.2310.08763},
-abstract = {Reynolds-averaged Navier-Stokes (RANS) closure must be sensitive to the flow physics, including nonlocality and anisotropy of the effective eddy viscosity. Recent approaches used forced direct numerical simulations to probe these effects, including the macroscopic forcing method (MFM) of Mani and Park (Phys. Rev. Fluids 6, 054607 (2021)) and the Green's function approach of Hamba (Phys. Fluids 17, 115102 (2005)). The resulting nonlocal and anisotropic eddy viscosities are exact and relate Reynolds stresses to mean velocity gradients at all locations. They can be used to inform RANS models of the sensitivity to the mean velocity gradient and the suitability of local and isotropic approximations. However, these brute-force approaches are expensive. They force the mean velocity gradient at each point in the averaged space and measure the Reynolds stress response, requiring a separate simulation for each mean velocity gradient location. Thus, computing the eddy viscosity requires as many simulations as degrees of freedom in the averaged space, which can be cost-prohibitive for problems with many degrees of freedom. In this work, we develop an adjoint-based MFM to obtain the eddy viscosity at a given Reynolds stress location using a single simulation. This approach recovers the Reynolds stress dependence at a location of interest, such as a separation point or near a wall, on the mean velocity gradient at all locations. We demonstrate using adjoint MFM to compute the eddy viscosity for a specified wall-normal location in an incompressible turbulent channel flow using one simulation. In contrast, a brute-force approach for the same problem requires N=144 simulations (the number of grid points in the non-averaged coordinate direction). We show that a local approximation for the eddy viscosity would have been inappropriate.},
-}
 
 
 
@@ -69,6 +59,19 @@ arxiv = {2305.07148},
 year = {2023},
 abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speedup traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to eliminate classical computations and measurements at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step, removing a need for repeated measurements and state preparation (encoding).  Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method delays the need for measurement to the end of the computation, so the algorithm is better suited for modern quantum hardware. We also demonstrate how the checker-board deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical PDEs: the diffusion and Burgers' equations on different quantum simulators.  We find good agreement between quantum simulations and classical solutions of the presented algorithm.},
 }
+
+@article{liu24,
+Author = {J. Liu and F. Sch\"afer and S. H. Bryngelson and T. A. Zaki and A. Mani},
+Title = {Adjoint-based computation of nonlocal eddy viscosity in turbulent channel flow},
+year = {2024},
+journal = {Physical Review Fluids},
+volume = {9},
+pages = {094606},
+doi = {10.1103/PhysRevFluids.9.094606},
+abstract = {Reynolds-averaged Navier–Stokes (RANS) closure operators are generally nonlocal and anisotropic for many flows, including wall-bounded turbulence. The macroscopic forcing method (MFM) and Green’s function-based approaches examine these effects using forced direct numerical simulations. For these approaches, the number of simulations required to compute the nonlocal and anisotropic eddy viscosity is equal to the number of degrees of freedom in the averaged space. We reduce the computational cost by introducing an adjoint-based formulation of MFM to obtain the nonlocal and anisotropic eddy viscosity at any Reynolds stress location using a single simulation. We then quantify the streamwise and wall-normal nonlocal eddy viscosity at near-wall locations in turbulent channel flow at shear Reynolds number 180. We demonstrate that the upstream nonlocality is not fully described by Lagrangian transport. We also quantify the significant differences in the upstream nonlocality between various components of the eddy viscosity tensor. Our results can be used to guide closure modeling, including the lengthscales and timescales used in Reynolds stress models.},
+file = {liu-PRF-24.pdf},
+}
+
 
 @article{radhakrishnan24,
 Author = {A. Radhakrishnan and H. {Le Berre} and B. Wilfong and J.-S. Spratt and M. {Rodriguez Jr.} and T. Colonius and S. H. Bryngelson},

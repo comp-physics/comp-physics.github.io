@@ -1,3 +1,6 @@
+- date: 20 September, 2024
+  headline: "New paper on the use of the adjoint to compute averaged closure operators in turbulent flow <a href='https://link.aps.org/doi/10.1103/PhysRevFluids.9.094606' target='_blank'>was published in Physical Review Fluids</a>! In collaboration with Jessie Liu and Ali Mani (Stanford), Florian Schäfer (GT), and Tamer Zaki (Hopkins)."
+
 - date: 18 September, 2024
   headline: "Our Supercomputing (SC) paper from the WACCPD workshop was accepted. It is now <a href='https://arxiv.org/abs/2409.10729' target='_blank'>on arXiv</a>. We show how to achieve performant compute kernels on AMD GPU devices via OpenACC offloading, and use them to scale to all of OLCF Frontier. Congrats to Ben, Anand, and Henry! and thanks to our collaborators, Steve Abbot at HPE/Cray and Reuben Budiardja at Oak Ridge!"
 
