@@ -34,7 +34,7 @@ abstract = {Partial differential equation solvers are required to solve the Navi
 }
 
 
-@unpublished{kocherla24,
+@unpublished{kocherla24_2,
 Author = {S. Kocherla and A. Adams and Z. Song and A. Alexeev and S. H. Bryngelson},
 Title = {A two-circuit approach to reducing quantum resources for the quantum lattice {B}oltzmann method},
 note = {arXiv: 2401.12248},
@@ -45,19 +45,16 @@ year = {2024},
 abstract = {Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient at the appropriate computation. Current quantum algorithms for solving CFD problems use a single quantum circuit and, in some cases, lattice-based methods. We introduce the a novel multiple circuits algorithm that makes use of a quantum lattice Boltzmann method (QLBM). The two-circuit algorithm we form solves the Navier-Stokes equations with a marked reduction in CNOT gates compared to existing QLBM circuits. The problem is cast as a stream function-vorticity formulation of the 2D Navier-Stokes equations and verified and tested on a 2D lid-driven cavity flow. We show that using separate circuits for the stream function and vorticity lead to a marked CNOT reduction: 35\% in total CNOT count and 16\% in combined gate depth. This strategy has the additional benefit of the circuits being able to run concurrently, further halving the seen gate depth. This work is intended as a step towards practical quantum circuits for solving differential equation-based problems of scientific interest.},
 }
 
-
-
-
-
-@unpublished{chrit23,
+@article{kocherla24_1,
 Author = {S. Kocherla and Z. Song and F. E. Chrit and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
 Title = {Fully quantum algorithm for lattice {B}oltzmann methods with application to partial differential equations},
-note = {arXiv: 2305.07148},
-doi = {10.48550/arXiv.2305.07148},
-file = {chrit-arxiv-23.pdf},
-arxiv = {2305.07148},
-year = {2023},
-abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speedup traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to eliminate classical computations and measurements at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step, removing a need for repeated measurements and state preparation (encoding).  Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method delays the need for measurement to the end of the computation, so the algorithm is better suited for modern quantum hardware. We also demonstrate how the checker-board deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical PDEs: the diffusion and Burgers' equations on different quantum simulators.  We find good agreement between quantum simulations and classical solutions of the presented algorithm.},
+doi = {10.1116/5.0217675},
+file = {kocherla-AVS-24.pdf},
+year = {2024},
+volume = {6},
+pages = {033806},
+journal = {AVS Quantum Science},
+abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speed up traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to reduce classical computations and state preparation at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step. Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method optimizes the quantum resource required and makes it more appropriate for near-term quantum hardware. We also demonstrate how the checkerboard deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical partial differential equations: the diffusion and Burgers' equations on differ},
 }
 
 @article{liu24,
