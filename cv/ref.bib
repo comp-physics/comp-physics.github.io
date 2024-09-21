@@ -9,7 +9,6 @@ year = {2024},
 abstract = {Conventional WENO3 methods are known to be highly dissipative at lower resolutions, introducing significant errors in the pre-asymptotic regime. In this paper, we employ a rational neural network to accurately estimate the local smoothness of the solution, dynamically adapting the stencil weights based on local solution features. As rational neural networks can represent fast transitions between smooth and sharp regimes, this approach achieves a granular reconstruction with significantly reduced dissipation, improving the accuracy of the simulation. The network is trained offline on a carefully chosen dataset of analytical functions, bypassing the need for differentiable solvers. We also propose a robust model selection criterion based on estimates of the interpolation's convergence order on a set of test functions, which correlates better with the model performance in downstream tasks. We demonstrate the effectiveness of our approach on several one-, two-, and three-dimensional fluid flow problems: our scheme generalizes across grid resolutions while handling smooth and discontinuous solutions. In most cases, our rational network-based scheme achieves higher accuracy than conventional WENO3 with the same stencil size, and in a few of them, it achieves accuracy comparable to WENO5, which uses a larger stencil.},
 }
 
-
 @unpublished{chu24,
 Author = {T. Chu and J. B. Estrada and S. H. Bryngelson},
 Title = {Bayesian optimal design accelerates discovery of material properties from bubble dynamics},
@@ -21,7 +20,6 @@ year = {2024},
 abstract = {An optimal sequential experimental design approach is developed to characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. 2018) is used to simulate the bubble dynamics under laser-induced cavitation. Two sets of constitutive models demonstrate the method. We generate synthetic experimental data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels. Accurate and efficient characterizations of the underlying models are presented.},
 }
 
-
 @unpublished{song24,
 Author = {Z. Song and R. Deaton and B. Gard and S. H. Bryngelson},
 Title = {Incompressible {N}avier--{S}tokes solve on noisy quantum hardware via a hybrid quantum--classical scheme},
@@ -32,7 +30,6 @@ arxiv = {2406.00280},
 year = {2024},
 abstract = {Partial differential equation solvers are required to solve the Navier-Stokes equations for fluid flow. Recently, algorithms have been proposed to simulate fluid dynamics on quantum computers. Fault-tolerant quantum devices might enable exponential speedups over algorithms on classical computers. However, current and upcoming quantum hardware presents noise in the computations, requiring algorithms that make modest use of quantum resources: shallower circuit depths and fewer qubits. Variational algorithms are more appropriate and robust under resource restrictions. This work presents a hybrid quantum-classical algorithm for the incompressible Navier-Stokes equations. Classical devices perform nonlinear computations, and quantum ones use variational algorithms to solve the pressure Poisson equation. A lid-driven cavity problem benchmarks the method. We verify the algorithm via noise-free simulation and test it on noisy IBM superconducting quantum hardware. Results show that high-fidelity results can be achieved via this approach, even on current quantum devices. A multigrid preconditioning approach helps avoid local minima. HTree, a tomography technique with linear complexity in qubit count, reduces the quantum state readout time. We compare the quantum resources required for near-term and fault-tolerant solvers to determine quantum hardware requirements for fluid simulations with complexity improvements.},
 }
-
 
 @unpublished{kocherla24_2,
 Author = {S. Kocherla and A. Adams and Z. Song and A. Alexeev and S. H. Bryngelson},
@@ -47,7 +44,8 @@ abstract = {Computational fluid dynamics (CFD) simulations often entail a large 
 
 @article{kocherla24_1,
 Author = {S. Kocherla and Z. Song and F. E. Chrit and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
-Title = {Fully quantum algorithm for lattice {B}oltzmann methods with application to partial differential equations},
+Title = {Fully quantum algorithm for mesoscale fluid simulations
+with application to partial differential equations},
 doi = {10.1116/5.0217675},
 file = {kocherla-AVS-24.pdf},
 year = {2024},
@@ -1035,7 +1033,7 @@ keywords = "invited",
 }
 
 @incollection{invited_30,
-author = {{Google, \textit{Applied Science Seminar Series}}},
+author = {{Google Research, \textit{Applied Science Seminar Series}}},
 year = {2023},
 keywords = "invited",
 }
