@@ -1,5 +1,9 @@
 ---
 layout: none
 ---
+
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Allow: /
+
+User-agent: *
+Sitemap: https://mflowcode.github.io/sitemap.xml
