@@ -119,7 +119,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 ### Undergraduate alumni
 <div class="jumbotron">
 <div class="row">
-<div class="col-sm-6 clearfix">
+<div class="col-sm-12 clearfix">
 {% for member in site.data.alumni_bsms %}
 * {{ member.name }}. <i>{{ member.info }}</i>
 {% endfor %}
