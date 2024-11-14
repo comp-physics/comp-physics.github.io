@@ -1,3 +1,6 @@
+- date: 14 November, 24
+  headline: "Our project ExaMFlow, based on <a href='https://github.com/mflowcode/mfc'>MFC</a>, is participating in JUREAP, the <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter'JUPITER</a> Research and Early Access Program. ExaMFlow received the JUREAP certificate for scaling efficiency and node performance, with potential to use a significant part of the JUPITER Booster system and the first European exascale supercomputer, starting January 2025."
+
 - date: 13 November, 2024
   headline: "We will be at <a href='https://sc24.supercomputing.org/'>SC24</a> here in Atlanta next week. Our work includes cell-resolved simulations of aneurysms and exascale compressible flow methods. More <a href='https://sites.gatech.edu/research/sc-2024/'>here</a> and <a href='https://sc24.conference-program.com/presenter/?uid=478593'>here</a>."
 
