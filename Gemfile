@@ -15,3 +15,5 @@ gem "jekyll-seo-tag"
 gem "csv"
 gem "base64"
 gem "observer"
+gem 'jekyll-sass-converter', '~> 2.2'
+gem 'logger'
