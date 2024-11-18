@@ -163,8 +163,3 @@ We crafted kinematic stability analyses of this coupled dynamical system, includ
 </div>
 </div>
 
-
-## References
-
-{% bibliography --cited %}
-

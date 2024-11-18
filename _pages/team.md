@@ -7,13 +7,11 @@ permalink: /team/
 
 ## Team
 
-<!-- <div class="jumbotron"> -->
 <center>	
 <img src="{{site.url}}{{site.baseurl}}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='  border-radius: 20px;'/>
 L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, Dimitri, Brian. <br/><i>Not Pictured: Anand, Ansh</i> <br/>
 <b>We are always looking for new students to <a href='{{ site.url }}{{ site.baseurl }}/vacancies'>join the team!</a></b>
 </center>
-<!-- </div> -->
 
 ### PI
 
@@ -21,7 +19,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-2">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="100%" style="max-width:250px"/>
 </div>
 <div class="col-sm-9 col-xs-12">
   <h5>{{ member.name }}</h5>
@@ -52,7 +50,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 {% endif %}
 
 <div class="col-sm-2 col-xs-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="100%" style="max-width:250px"/>
 </div>
 <div class="col-sm-4 col-xs-12">
   <h5>{{ member.name }}</h5>
@@ -76,7 +74,6 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 </div>
 
 
-
 ### Ph.D. graduates
 
 <div class="jumbotron">
@@ -91,7 +88,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 {% endif %}
 
 <div class="col-sm-2 col-xs-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="100%" style="max-width:250px"/>
 </div>
 <div class="col-sm-10 col-xs-12">
   <h5>{{ member.name }}</h5>

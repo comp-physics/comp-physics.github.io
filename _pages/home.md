@@ -18,7 +18,7 @@ Check out the rest of this website to learn more.
 {% for member in site.data.pi %}
 <div class="jumbotron">
    <center>
-	 <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}" width="55%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
+	 <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}.jpeg" width="55%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;"/></a>
    <h5>PI: {{ member.name }}</h5>
    <h6>{{ member.info }}</h6>
    <div style="margin-bottom:5px">

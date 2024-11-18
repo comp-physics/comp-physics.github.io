@@ -1,5 +1,5 @@
 - name: Tianyi Chu
-  photo: tianyi.jpg
+  photo: tianyi
   info: Postdoc fellow
   email: tchu72@gatech.edu
   linkedin: https://www.linkedin.com/in/tianyi-chu-b89a35149
@@ -9,14 +9,14 @@
   website: https://sites.google.com/view/tianyichu
 
 - name: Dimitrios Adam
-  photo: dimitrios.jpg
+  photo: dimitrios
   info: PhD student 
   email: dadam7@gatech.edu
   linkedin: https://www.linkedin.com/in/dimitrios-adam-3056602a8/
   github: https://github.com/IamImbact98
 
 - name: Jesus Arias
-  photo: jesus.jpg
+  photo: jesus
   info: PhD student 
   email: Jesus.Arias@gtri.gatech.edu
   linkedin: https://www.linkedin.com/in/jesusarias9
@@ -24,7 +24,7 @@
   researchgate: https://www.researchgate.net/profile/Jesus-Arias-4
 
 - name: Max Hawkins
-  photo: max.jpeg
+  photo: max
   info: PhD student 
   coadvise: R. Vuduc
   email: mhawkins60@gatech.edu
@@ -35,7 +35,7 @@
   scholar: https://scholar.google.com/citations?user=u8BI4hEAAAAJ
 
 - name: Anand Radhakrishnan
-  photo: anand.jpg
+  photo: anand
   info: PhD student
   email: aradhakr34@gatech.edu
   linkedin: https://www.linkedin.com/in/anandr97
@@ -45,7 +45,7 @@
   github: https://github.com/anandrdbz
 
 - name: Zhixin (Jack) Song
-  photo: jack.jpg
+  photo: jack
   info: PhD student
   email: zsong300@gatech.edu
   website: https://kaminotesf.github.io
@@ -55,17 +55,17 @@
   github: https://github.com/kaminotesf
 
 - name: Benjamin Wilfong
-  photo: ben.jpg
+  photo: ben
   info: PhD student
   email: bwilfong3@gatech.edu
   linkedin: https://www.linkedin.com/in/ben-wilfong-798a76225
   github: https://github.com/wilfonba
   researchgate: https://www.researchgate.net/profile/Benjamin-Wilfong
   scholar: https://scholar.google.com/citations?user=I8cXvbYAAAAJ
-  website: http://benwilfong.com/
+  website: https://benwilfong.com/
 
 - name: Haocheng Yu
-  photo: haocheng.jpg
+  photo: haocheng
   info: PhD student
   coadvise: K. Ahuja
   email: haochey@gatech.edu
@@ -74,7 +74,7 @@
   researchgate: https://www.linkedin.com/in/haocheng-yu-3b636b12
 
 - name: Ansh Gupta
-  photo: ansh.jpg
+  photo: ansh
   email: anshgupta@gatech.edu
   info: UG student
   linkedin: https://www.linkedin.com/in/gupta-ansh
@@ -82,7 +82,7 @@
   website: https://anshgupta1234.github.io
 
 - name: Henry Le Berre
-  photo: henry.jpg
+  photo: henry
   email: hberre3@gatech.edu
   info: UG student
   github: https://github.com/henryleberre
@@ -92,7 +92,7 @@
   website: https://henryleberre.com/
 
 - name: Melody Lee
-  photo: melody.jpg
+  photo: melody
   email: mlee769@gatech.edu
   info: UG student
   github: https://github.com/malee4
@@ -100,22 +100,17 @@
   researchgate: https://www.researchgate.net/profile/Melody-Lee-13
 
 - name: Brian Ok
-  photo: brian.jpeg
+  photo: brian
   email: bok3@gatech.edu
   info: UG student
   github: https://github.com/okBrian
   linkedin: https://www.linkedin.com/in/brian-jinseo-ok
 
 - name: Lian Xiang
-  photo: lian.jpg
+  photo: lian
   email: lxiang36@gatech.edu
   info: UG student
   website: https://li-an-x.github.io
   scholar: https://scholar.google.com/citations?user=GLHtBwsAAAAJ
   linkedin: https://www.linkedin.com/in/lian-xiang/
   researchgate: https://www.researchgate.net/profile/Lian-Xiang-3
-
-- name: "This could be you!"
-  photo: pi.svg
-  info: <a href='https://comp-physics.group/vacancies.html' target='_blank'>Contact Spencer</a> for more information
-
