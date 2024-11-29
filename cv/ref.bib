@@ -20,16 +20,6 @@ year = {2024},
 abstract = {An optimal sequential experimental design approach is developed to characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. 2018) is used to simulate the bubble dynamics under laser-induced cavitation. Two sets of constitutive models demonstrate the method. We generate synthetic experimental data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels. Accurate and efficient characterizations of the underlying models are presented.},
 }
 
-@unpublished{song24,
-Author = {Z. Song and R. Deaton and B. Gard and S. H. Bryngelson},
-Title = {Incompressible {N}avier--{S}tokes solve on noisy quantum hardware via a hybrid quantum--classical scheme},
-note = {arXiv: 2406.00280},
-file = {song-arxiv-24.pdf},
-doi = {10.48550/arXiv.2406.00280},
-arxiv = {2406.00280},
-year = {2024},
-abstract = {Partial differential equation solvers are required to solve the Navier-Stokes equations for fluid flow. Recently, algorithms have been proposed to simulate fluid dynamics on quantum computers. Fault-tolerant quantum devices might enable exponential speedups over algorithms on classical computers. However, current and upcoming quantum hardware presents noise in the computations, requiring algorithms that make modest use of quantum resources: shallower circuit depths and fewer qubits. Variational algorithms are more appropriate and robust under resource restrictions. This work presents a hybrid quantum-classical algorithm for the incompressible Navier-Stokes equations. Classical devices perform nonlinear computations, and quantum ones use variational algorithms to solve the pressure Poisson equation. A lid-driven cavity problem benchmarks the method. We verify the algorithm via noise-free simulation and test it on noisy IBM superconducting quantum hardware. Results show that high-fidelity results can be achieved via this approach, even on current quantum devices. A multigrid preconditioning approach helps avoid local minima. HTree, a tomography technique with linear complexity in qubit count, reduces the quantum state readout time. We compare the quantum resources required for near-term and fault-tolerant solvers to determine quantum hardware requirements for fluid simulations with complexity improvements.},
-}
 
 @unpublished{kocherla24_2,
 Author = {S. Kocherla and A. Adams and Z. Song and A. Alexeev and S. H. Bryngelson},
@@ -41,6 +31,17 @@ doi = {10.48550/arXiv.2401.12248},
 year = {2024},
 abstract = {Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient at the appropriate computation. Current quantum algorithms for solving CFD problems use a single quantum circuit and, in some cases, lattice-based methods. We introduce the a novel multiple circuits algorithm that makes use of a quantum lattice Boltzmann method (QLBM). The two-circuit algorithm we form solves the Navier-Stokes equations with a marked reduction in CNOT gates compared to existing QLBM circuits. The problem is cast as a stream function-vorticity formulation of the 2D Navier-Stokes equations and verified and tested on a 2D lid-driven cavity flow. We show that using separate circuits for the stream function and vorticity lead to a marked CNOT reduction: 35\% in total CNOT count and 16\% in combined gate depth. This strategy has the additional benefit of the circuits being able to run concurrently, further halving the seen gate depth. This work is intended as a step towards practical quantum circuits for solving differential equation-based problems of scientific interest.},
 }
+
+@article{song24,
+Author = {Z. Song and R. Deaton and B. Gard and S. H. Bryngelson},
+Title = {Incompressible {N}avier--{S}tokes solve on noisy quantum hardware via a hybrid quantum--classical scheme},
+journal = {Computers \& Fluids (in press)},
+file = {song-arxiv-24.pdf},
+doi = {10.48550/arXiv.2406.00280},
+year = {2024},
+abstract = {Partial differential equation solvers are required to solve the Navier--Stokes equations for fluid flow. Recently, algorithms have been proposed to simulate fluid dynamics on quantum computers. Fault-tolerant quantum devices might enable exponential speedups over algorithms on classical computers. However, current and foreseeable quantum hardware introduce noise into computations, requiring algorithms that make judicious use of quantum resources: shallower circuit depths and fewer qubits. Under these restrictions, variational algorithms are more appropriate and robust. This work presents a hybrid quantum--classical algorithm for the incompressible Navier--Stokes equations. A classical device performs nonlinear computations, and a quantum one uses a variational solver for the pressure Poisson equation. A lid-driven cavity problem benchmarks the method. We verify the algorithm via noise-free simulation and test it on noisy IBM superconducting quantum hardware. Results show that high-fidelity results can be achieved via this approach, even on current quantum devices. Multigrid preconditioning of the Poisson problem helps avoid local minima and reduces resource requirements for the quantum device. A quantum state readout technique called HTree is used for the first time on a physical problem. HTree is appropriate for real-valued problems and achieves linear complexity in the qubit count, making the Navier--Stokes solve further tractable on current quantum devices. We compare the quantum resources required for near-term and fault-tolerant solvers to determine quantum hardware requirements for fluid simulations with complexity improvements.},
+}
+
 
 @article{kocherla24_1,
 Author = {S. Kocherla and Z. Song and F. E. Chrit and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
