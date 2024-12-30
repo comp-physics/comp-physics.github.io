@@ -21,15 +21,15 @@ abstract = {An optimal sequential experimental design approach is developed to c
 }
 
 
-@unpublished{kocherla24_2,
-Author = {S. Kocherla and A. Adams and Z. Song and A. Alexeev and S. H. Bryngelson},
-Title = {A two-circuit approach to reducing quantum resources for the quantum lattice {B}oltzmann method},
+@unpublished{lee24,
+Author = {M. Lee and Z. Song and S. Kocherla and A. Adams and A. Alexeev and S. H. Bryngelson},
+Title = {A multiple-circuit approach to quantum resource reduction with application to the quantum lattice {B}oltzmann method},
 note = {arXiv: 2401.12248},
-file = {kocherla-arxiv-24.pdf},
+file = {lee-arxiv-24.pdf},
 arxiv = {2401.12248},
 doi = {10.48550/arXiv.2401.12248},
 year = {2024},
-abstract = {Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient at the appropriate computation. Current quantum algorithms for solving CFD problems use a single quantum circuit and, in some cases, lattice-based methods. We introduce the a novel multiple circuits algorithm that makes use of a quantum lattice Boltzmann method (QLBM). The two-circuit algorithm we form solves the Navier-Stokes equations with a marked reduction in CNOT gates compared to existing QLBM circuits. The problem is cast as a stream function-vorticity formulation of the 2D Navier-Stokes equations and verified and tested on a 2D lid-driven cavity flow. We show that using separate circuits for the stream function and vorticity lead to a marked CNOT reduction: 35\% in total CNOT count and 16\% in combined gate depth. This strategy has the additional benefit of the circuits being able to run concurrently, further halving the seen gate depth. This work is intended as a step towards practical quantum circuits for solving differential equation-based problems of scientific interest.},
+abstract = {This work proposes a multi-circuit quantum lattice Boltzmann method (QLBM) algorithm that leverages parallel quantum computing to reduce quantum resource requirements. Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient for these computations. Current quantum algorithms for solving CFD problems are based on single quantum circuits and, in many cases, use lattice-based methods. Current quantum devices are adorned with sufficient noise to make large and deep circuits untenable. We introduce a multiple-circuit algorithm for a quantum lattice Boltzmann method (QLBM) solve of the incompressible Navier--Stokes equations. The method, called QLBM-frugal, aims to create more practical quantum circuits and strategies for differential equation-based problems. The presented method is validated and demonstrated for 2D lid-driven cavity flow. The two-circuit algorithm shows a marked reduction in CNOT gates, which consume the majority of the runtime on quantum devices. Compared to the baseline QLBM technique, a two-circuit strategy shows increasingly large improvements in gate counts as the qubit size, or problem size, increases. For 64 lattice sites, the CNOT count was reduced by 35\%, and the gate depth decreased by 16\%. This strategy also enables concurrent circuit execution, further halving the seen gate depth.},
 }
 
 @article{song25,
