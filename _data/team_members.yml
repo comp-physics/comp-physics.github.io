@@ -73,24 +73,6 @@
   github: https://github.com/haochey
   researchgate: https://www.linkedin.com/in/haocheng-yu-3b636b12
 
-- name: Ansh Gupta
-  photo: ansh
-  email: anshgupta@gatech.edu
-  info: UG student
-  linkedin: https://www.linkedin.com/in/gupta-ansh
-  github: https://github.com/anshgupta1234
-  website: https://anshgupta1234.github.io
-
-- name: Henry Le Berre
-  photo: henry
-  email: hberre3@gatech.edu
-  info: UG student
-  github: https://github.com/henryleberre
-  linkedin: https://www.linkedin.com/in/henry-le-berre-355b83211
-  researchgate: https://www.researchgate.net/profile/Henry-Le-Berre
-  scholar: https://scholar.google.com/citations?user=yqeBEmgAAAAJ
-  website: https://henryleberre.com/
-
 - name: Melody Lee
   photo: melody
   email: mlee769@gatech.edu
@@ -98,6 +80,7 @@
   github: https://github.com/malee4
   linkedin: https://www.linkedin.com/in/melody-lee-63a84a209/
   researchgate: https://www.researchgate.net/profile/Melody-Lee-13
+  website: https://sites.google.com/view/melody-lee
 
 - name: Brian Ok
   photo: brian
