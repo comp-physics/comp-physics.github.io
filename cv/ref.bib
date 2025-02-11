@@ -20,17 +20,6 @@ year = {2024},
 abstract = {Conventional WENO3 methods are known to be highly dissipative at lower resolutions, introducing significant errors in the pre-asymptotic regime. In this paper, we employ a rational neural network to accurately estimate the local smoothness of the solution, dynamically adapting the stencil weights based on local solution features. As rational neural networks can represent fast transitions between smooth and sharp regimes, this approach achieves a granular reconstruction with significantly reduced dissipation, improving the accuracy of the simulation. The network is trained offline on a carefully chosen dataset of analytical functions, bypassing the need for differentiable solvers. We also propose a robust model selection criterion based on estimates of the interpolation's convergence order on a set of test functions, which correlates better with the model performance in downstream tasks. We demonstrate the effectiveness of our approach on several one-, two-, and three-dimensional fluid flow problems: our scheme generalizes across grid resolutions while handling smooth and discontinuous solutions. In most cases, our rational network-based scheme achieves higher accuracy than conventional WENO3 with the same stencil size, and in a few of them, it achieves accuracy comparable to WENO5, which uses a larger stencil.},
 }
 
-@unpublished{chu24,
-Author = {T. Chu and J. B. Estrada and S. H. Bryngelson},
-Title = {Bayesian optimal design accelerates discovery of material properties from bubble dynamics},
-doi = {10.48550/arXiv.2409.00011},
-note = {arXiv: 2409.00011},
-file = {chu-arxiv-24.pdf},
-arxiv = {2409.00011},
-year = {2024},
-abstract = {An optimal sequential experimental design approach is developed to characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. 2018) is used to simulate the bubble dynamics under laser-induced cavitation. Two sets of constitutive models demonstrate the method. We generate synthetic experimental data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels. Accurate and efficient characterizations of the underlying models are presented.},
-}
-
 
 @unpublished{lee24,
 Author = {M. Lee and Z. Song and S. Kocherla and A. Adams and A. Alexeev and S. H. Bryngelson},
@@ -41,6 +30,16 @@ arxiv = {2401.12248},
 doi = {10.48550/arXiv.2401.12248},
 year = {2024},
 abstract = {This work proposes a multi-circuit quantum lattice Boltzmann method (QLBM) algorithm that leverages parallel quantum computing to reduce quantum resource requirements. Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient for these computations. Current quantum algorithms for solving CFD problems are based on single quantum circuits and, in many cases, use lattice-based methods. Current quantum devices are adorned with sufficient noise to make large and deep circuits untenable. We introduce a multiple-circuit algorithm for a quantum lattice Boltzmann method (QLBM) solve of the incompressible Navier--Stokes equations. The method, called QLBM-frugal, aims to create more practical quantum circuits and strategies for differential equation-based problems. The presented method is validated and demonstrated for 2D lid-driven cavity flow. The two-circuit algorithm shows a marked reduction in CNOT gates, which consume the majority of the runtime on quantum devices. Compared to the baseline QLBM technique, a two-circuit strategy shows increasingly large improvements in gate counts as the qubit size, or problem size, increases. For 64 lattice sites, the CNOT count was reduced by 35\%, and the gate depth decreased by 16\%. This strategy also enables concurrent circuit execution, further halving the seen gate depth.},
+}
+
+@article{chu25,
+Author = {T. Chu and J. B. Estrada and S. H. Bryngelson},
+Title = {Bayesian optimal design accelerates discovery of soft material properties from bubble dynamics},
+doi = {10.1007/s00466-025-02606-4},
+file = {chu-cm-25.pdf},
+journal = {Computational Mechanics},
+year = {2025},
+abstract = {An optimal sequential experimental design approach is developed to computationally characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown soft material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. J Mech Phys Solids 112:291–317, 2018) simulates the bubble dynamics under laser-induced cavitation. We use experimental measurements to create synthetic data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels under realistic uncertainties. The synthetic data are seeded with larger errors than state-of-the-art measurements yet matches known material properties, reaching 1 percent relative error within 10 sequential designs (experiments). We discern between two seemingly equally plausible constitutive models, Neo-Hookean Kelvin–Voigt and quadratic Kelvin–Voigt, with a probability of correctness larger than 99 percent in the same number of experiments. This strategy discovers soft material properties, including discriminating between constitutive models and discerning their parameters, using only a few experiments.}
 }
 
 @article{song25,
@@ -1085,6 +1084,12 @@ author = {S. H. Bryngelson and J. B. Freund},
 title = {Buckling and its effect on the confined flow of a capsule suspension},
 note = {American Physical Society, Division of Fluid Dynamics},
 year = {2015},
+}
+
+@incollection{invited_36,
+author = {{University of Florida, \textit{Institute for Computational Engineering Seminar}}},
+year = {2025},
+keywords = "invited",
 }
 
 @incollection{invited_35,
