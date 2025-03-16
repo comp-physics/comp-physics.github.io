@@ -1,3 +1,6 @@
+- date: 17 March 2025
+  headline: "We are at the APS March Meeting talking about <a href='https://summit.aps.org/events/MAR-B46/5' target='_blank'>exascale compressible flow simulation on El Capitan</a> and <a href='https://summit.aps.org/events/MAR-B46/4' target='_blank'>GPU-based compact finite difference algorithms</a>!" 
+
 - date: 11 March, 2025
   headline: "MFC 5.0 appears <a href='https://github.com/MFlowCode/MFC/releases/tag/v5.0.0' target='_blank'>in code</a> and as a <a href='https://arxiv.org/abs/2503.07953' target='_blank'>preprint manuscript on arXiv</a>! MFC 5.0 is a many-physics multiphase compressible flow solver that scales ideally on exascale machines, including LLNL El Capitan and OLCF Frontier. Read more about the latest features at the manuscript link."
 
