@@ -1,3 +1,26 @@
+@unpublished{wilfong253,
+Author = {Benjamin Wilfong and Anand Radhakrishnan and Henry {Le Berre} and Nikolaos Tselepidis and Benedikt Dorschner and Reuben Budiardja and Brian Cornille and Stephen Abbott and F. {*}Schäfer and S. H. {*}Bryngelson},
+Title = {Simulating many-engine spacecraft: {E}xceeding 100 trillion grid points via information geometric regularization and the MFC flow solver},
+note = {arXiv:2505.07392, {*}Equal contribution},
+file = {wilfong-arxiv-25-2.pdf},
+arxiv = {arXiv.2505.07392},
+year = {2025},
+doi = {10.48550/arXiv.2505.07392},
+abstract = {This work proposes a method and optimized implementation for exascale simulations of high-speed compressible fluid flows, enabling the simulation of multi-engine rocket craft at an unprecedented scale. We significantly improve upon the state-of-the-art in terms of computational cost and memory footprint through a carefully crafted implementation of the recently proposed information geometric regularization, which eliminates the need for numerical shock capturing. Unified addressing on tightly coupled CPU-GPU platforms increases the total problem size with negligible performance hit. Despite linear stencil algorithms being memory-bound, we achieve wall clock times that are four times faster than optimized baseline numerics. This enables the execution of CFD simulations at more than 100 trillion grid points, surpassing the largest state-of-the-art publicly available simulations by an order of magnitude. Ideal weak scaling is demonstrated on OLCF Frontier and CSCS Alps using the full system, entailing 37.8K AMD MI250X GPUs (Frontier) or 9.2K NVIDIA GH200 superchips (Alps).},
+}
+
+@unpublished{song252,
+Author = {Zhixin Song and Hang Ren and Melody Lee and Bryan Gard and Nicolas Renaud and Spencer H. Bryngelson},
+Title = {Reconstructing real-valued quantum states},
+note = {arXiv:2505.06455},
+file = {song-arxiv-25.pdf},
+arxiv = {arXiv.2505.06455},
+year = {2025},
+doi = {10.48550/arXiv.2505.06455},
+abstract = {Quantum tomography is a crucial tool for characterizing quantum states and devices and estimating nonlinear properties of the systems. Performing full quantum state tomography (FQST) on an n qubit system requires an exponentially increasing overhead with O(3^n) distinct Pauli measurement settings to resolve all complex phases and reconstruct the density matrix. However, many appealing applications of quantum computing, such as quantum linear system algorithms, require only real-valued amplitudes. Here we introduce a novel readout method for real-valued quantum states that reduces measurement settings required for state vector reconstruction to O(n), while the post-processing cost remains exponential. This approach offers a substantial speedup over conventional tomography. We experimentally validate our method up to 10 qubits on the latest available IBM quantum processor and demonstrate that it accurately extracts key properties such as entanglement and magic. Our method also outperforms the standard SWAP test for state overlap estimation. This calculation resembles a numerical integration in certain cases and can be applied to extract nonlinear properties, which are important in application fields.},
+}
+
+
 @unpublished{cisneros25,
 Author = {Esteban Cisneros-Garibay and H. {Le Berre} and Spencer H. Bryngelson and Jonathan B. Freund},
 Title = {{Pyrometheus: S}ymbolic abstractions for {XPU} and automatically differentiated computation of combustion kinetics and thermodynamics},

@@ -1,3 +1,9 @@
+- date: 13 May, 2025
+  headline: "Our work on Hadamard-tree tomography via Hadamard Random Forests (HST) <a href='https://arxiv.org/abs/2505.06455' target='_blank'>appears on arXiv<a/>. We show that, assuming real valued output states, one can reconstuct their values in linear time as opposed to exponential full state tomography. We thank our collaborators Bryan Gard (GTRI) and and Nico Renaud (Netherlands eScience Center)."
+
+- date: 13 May, 2025
+  headline: "Collaborative work using information geometric regularization and carefully tuned numerics exceeds 100 trillion grid-points for a rocket-exhuast simulation <a href='https://arxiv.org/abs/2505.07392' target='_blank'>is now on arXiv<a/>. This is the largest CFD simulation conducted to-date, to the authors' knowledge, in this case by a factor of about 10. Florian and Spencer thank collaborators at NVIDIA, AMD, ORNL, and HPE, as well as the dedicated Ph.D. students."
+
 - date: 12 May, 2025
   headline: "Spencer is in Toulouse, France at the <a href='https://www.icmf2025.com/' target='_blank'>International Conference on Multiphase Flow</a> presenting work on multiphase flow models without discontinuity capturing, joint with Florian Schäfer and Ph.D. student Anand Radhakrishnan."
 
