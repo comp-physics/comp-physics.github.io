@@ -1,3 +1,6 @@
+- date: 20 May, 2025
+  headline: "Tianyi Chu's research on optimal experimental design for soft material chacterization <a href='https://arxiv.org/abs/2505.13283' target='_blank'>is now on arXiv</a>. We show that if one uses radial basis functions as local interpolants as an intermediate step in the BOED process, the model selection process is acclerated by about two orders of magnitude."
+
 - date: 13 May, 2025
   headline: "Our work on Hadamard-tree tomography via Hadamard Random Forests (HST) <a href='https://arxiv.org/abs/2505.06455' target='_blank'>appears on arXiv<a/>. We show that, assuming real valued output states, one can reconstuct their values in linear time (in quibit count) as opposed to the exponential time of full state tomography. Thanks to our collaborators Bryan Gard (GTRI) and Nico Renaud (Netherlands eScience Center)."
 
