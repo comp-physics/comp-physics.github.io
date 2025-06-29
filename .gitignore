@@ -21,3 +21,4 @@ node_modules/
 *.blg
 *.run.xml
 *.toc
+*-blx.bib
