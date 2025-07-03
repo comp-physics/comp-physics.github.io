@@ -8,12 +8,20 @@
   scholar: https://scholar.google.com/citations?user=yqHO1AEAAAAJ
   website: https://sites.google.com/view/tianyichu
 
+- name: Daniel Vickers
+  photo: daniel
+  info: Research staff
+  email: dvickers6@gatech.edu
+  linkedin: https://www.linkedin.com/in/daniel-vickers-857821126
+  github: https://github.com/danieljvickers
+  website: http://danieljvickers.com/
+
 - name: Dimitrios Adam
   photo: dimitrios
   info: PhD student 
   email: dadam7@gatech.edu
   linkedin: https://www.linkedin.com/in/dimitrios-adam-3056602a8/
-  github: https://github.com/IamImbact98
+  github: https://github.com/DimAdam-01
 
 - name: Jesus Arias
   photo: jesus
@@ -88,12 +96,3 @@
   info: UG student
   github: https://github.com/okBrian
   linkedin: https://www.linkedin.com/in/brian-jinseo-ok
-
-- name: Lian Xiang
-  photo: lian
-  email: lxiang36@gatech.edu
-  info: UG student
-  website: https://li-an-x.github.io
-  scholar: https://scholar.google.com/citations?user=GLHtBwsAAAAJ
-  linkedin: https://www.linkedin.com/in/lian-xiang/
-  researchgate: https://www.researchgate.net/profile/Lian-Xiang-3
