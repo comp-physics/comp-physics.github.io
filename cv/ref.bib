@@ -95,11 +95,12 @@ abstract = {Conventional WENO3 methods are known to be highly dissipative at low
 @article{lee25,
 Author = {M. Lee and Z. Song and S. Kocherla and A. Adams and A. Alexeev and S. H. Bryngelson},
 Title = {A multiple-circuit approach to quantum resource reduction with application to the quantum lattice {B}oltzmann method},
-file = {lee-fgcs-25.pdf},
+file = {lee-fgcs-26.pdf},
 doi = {10.1016/j.future.2025.107975},
 journal = {Future Generation Computing Systems},
 pages = {107975},
-year = {2025},
+volume = {174},
+year = {2026},
 abstract = {This work proposes a multi-circuit quantum lattice Boltzmann method (QLBM) algorithm that leverages parallel quantum computing to reduce quantum resource requirements. Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient for these computations. Current quantum algorithms for solving CFD problems are based on single quantum circuits and, in many cases, use lattice-based methods. Current quantum devices are adorned with sufficient noise to make large and deep circuits untenable. We introduce a multiple-circuit algorithm for a quantum lattice Boltzmann method (QLBM) solve of the incompressible Navier--Stokes equations. The method, called QLBM-frugal, aims to create more practical quantum circuits and strategies for differential equation-based problems. The presented method is validated and demonstrated for 2D lid-driven cavity flow. The two-circuit algorithm shows a marked reduction in CNOT gates, which consume the majority of the runtime on quantum devices. Compared to the baseline QLBM technique, a two-circuit strategy shows increasingly large improvements in gate counts as the qubit size, or problem size, increases. For 64 lattice sites, the CNOT count was reduced by 35\%, and the gate depth decreased by 16\%. This strategy also enables concurrent circuit execution, further halving the seen gate depth.},
 }
 
