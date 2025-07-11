@@ -1,3 +1,6 @@
+- date: 11 July, 2025
+  headline: "<a href='https://www.cc.gatech.edu/news/pancaked-water-droplets-help-launch-europes-fastest-supercomputer' target='_blank'>GT wrote a news piece</a> on our group's effort and collaboration to help launch <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter' target='_blank'>JSC JUPITER</a> via its early access program. We helped benchmark the system in preparation for user access. JUPITER is now Europe's top supercomputer, in fourth place after the US's CORAL-II systems (El Cap. and friends)."
+
 - date: 8 July, 2025
   headline: "<a href='https://science.osti.gov/-/media/ascr/pdf/facilities/ALCC/ALCC_Factsheets_2025.pdf#page=37' target='_blank'>The group receives a DOE ALCC allocation</a> of about 500K node hours (2M GPU hours) on <a href='https://www.olcf.ornl.gov/frontier/' target='_blank'>OLCF Frontier</a> for the next year. This is part of a collaboration with Ryan McMullen at Sandia National Labs. The project is called <i>Multiphase Mixing Induced by Interface Breakup</i>."
 
