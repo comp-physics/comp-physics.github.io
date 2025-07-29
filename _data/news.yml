@@ -1,3 +1,6 @@
+- date: 29 July, 2025
+  headline: "Florian Schäfer and I are presenting our collaborative work on computational fluid dynamics via IGR in back-to-back talks at the joint SIAM/CAIMS Annual Meeting tomorrow in Montreal, Wed July 30. <a href='https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85319' target='_blank'>Link Here.</a> "
+
 - date: 24 July, 2025
   headline: "Our group, in collaboration with Florian Schäfer, <a href='https://www.olcf.ornl.gov/2025/07/23/shock-treatment-for-cfd-simulations/' target='_blank'>was featured in Oak Ridge News</a> for our record-setting compressible shock-laden CFD simulations. They exceeded <b>100 trillion grid points</b> while maintaining speed and accuracy via mixed-precision, unified memory addressing on the CPU-GPU interconnect, and information geometric regulariation. These simulations targeted multi-rocket-engine outflow at Mach 15. These conditions and the geometry are similar to the SpaceX Starship superheavy 33-rocket booster."
 
