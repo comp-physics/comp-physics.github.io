@@ -1,0 +1,1521 @@
+@unpublished{tchu253,
+Author = {T. Chu and B. Wilfong and T. Koehler and R. M. McMullen and S H. Bryngelson},
+Title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
+note = {arXiv:2505.23578},
+file = {chu-rt-arxiv-25.pdf},
+arxiv = {arXiv.2505.23578},
+year = {2025},
+doi = {10.48550/arXiv.2505.23578},
+abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism.},
+}
+
+
+@unpublished{tchu252,
+Author = {T. Chu and J. B Estrada and S H. Bryngelson},
+Title = {Accelerating {B}ayesian optimal experimental design via local radial basis functions: {A}pplication to soft material characterization},
+note = {arXiv:2505.13283},
+file = {chu-rbf-arxiv-25.pdf},
+arxiv = {arXiv.2505.13283},
+year = {2025},
+doi = {10.48550/arXiv.2505.13283},
+abstract = {We develop a computational approach that significantly improves the efficiency of Bayesian optimal experimental design (BOED) using local radial basis functions (RBFs). The presented RBF-BOED method uses the intrinsic ability of RBFs to handle scattered parameter points, a property that aligns naturally with the probabilistic sampling inherent in Bayesian methods. By constructing accurate deterministic surrogates from local neighborhood information, the method enables high-order approximations with reduced computational overhead. As a result, computing the expected information gain (EIG) requires evaluating only a small uniformly sampled subset of prior parameter values, greatly reducing the number of expensive forward-model simulations needed. For demonstration, we apply RBF-BOED to optimize a laser-induced cavitation (LIC) experimental setup, where forward simulations follow from inertial microcavitation rheometry (IMR) and characterize the viscoelastic properties of hydrogels. Two experimental design scenarios, single- and multi-constitutive-model problems, are explored. Results show that EIG estimates can be obtained at just 8% of the full computational cost in a five-model problem within a two-dimensional design space. This advance offers a scalable path toward optimal experimental design in soft and biological materials.},
+}
+
+
+@unpublished{wilfong253,
+Author = {Benjamin Wilfong and Anand Radhakrishnan and Henry {Le Berre} and Nikolaos Tselepidis and Benedikt Dorschner and Reuben Budiardja and Brian Cornille and Stephen Abbott and F. {*}Schäfer and S. H. {*}Bryngelson},
+Title = {Simulating many-engine spacecraft: {E}xceeding 100 trillion grid points via information geometric regularization and the {MFC} flow solver},
+note = {arXiv:2505.07392, {*}Equal contribution},
+file = {wilfong-arxiv-25-2.pdf},
+arxiv = {arXiv.2505.07392},
+year = {2025},
+doi = {10.48550/arXiv.2505.07392},
+abstract = {This work proposes a method and optimized implementation for exascale simulations of high-speed compressible fluid flows, enabling the simulation of multi-engine rocket craft at an unprecedented scale. We significantly improve upon the state-of-the-art in terms of computational cost and memory footprint through a carefully crafted implementation of the recently proposed information geometric regularization, which eliminates the need for numerical shock capturing. Unified addressing on tightly coupled CPU-GPU platforms increases the total problem size with negligible performance hit. Despite linear stencil algorithms being memory-bound, we achieve wall clock times that are four times faster than optimized baseline numerics. This enables the execution of CFD simulations at more than 100 trillion grid points, surpassing the largest state-of-the-art publicly available simulations by an order of magnitude. Ideal weak scaling is demonstrated on OLCF Frontier and CSCS Alps using the full system, entailing 37.8K AMD MI250X GPUs (Frontier) or 9.2K NVIDIA GH200 superchips (Alps).},
+}
+
+@unpublished{song252,
+Author = {Zhixin Song and Hang Ren and Melody Lee and Bryan Gard and Nicolas Renaud and Spencer H. Bryngelson},
+Title = {Reconstructing real-valued quantum states},
+note = {arXiv:2505.06455},
+file = {song-arxiv-25.pdf},
+arxiv = {arXiv.2505.06455},
+year = {2025},
+doi = {10.48550/arXiv.2505.06455},
+abstract = {Quantum tomography is a crucial tool for characterizing quantum states and devices and estimating nonlinear properties of the systems. Performing full quantum state tomography (FQST) on an n qubit system requires an exponentially increasing overhead with O(3^n) distinct Pauli measurement settings to resolve all complex phases and reconstruct the density matrix. However, many appealing applications of quantum computing, such as quantum linear system algorithms, require only real-valued amplitudes. Here we introduce a novel readout method for real-valued quantum states that reduces measurement settings required for state vector reconstruction to O(n), while the post-processing cost remains exponential. This approach offers a substantial speedup over conventional tomography. We experimentally validate our method up to 10 qubits on the latest available IBM quantum processor and demonstrate that it accurately extracts key properties such as entanglement and magic. Our method also outperforms the standard SWAP test for state overlap estimation. This calculation resembles a numerical integration in certain cases and can be applied to extract nonlinear properties, which are important in application fields.},
+}
+
+
+@unpublished{cisneros25,
+Author = {Esteban Cisneros-Garibay and H. {Le Berre} and D. Adam and Spencer H. Bryngelson and Jonathan B. Freund},
+Title = {{Pyrometheus: S}ymbolic abstractions for {XPU} and automatically differentiated computation of combustion kinetics and thermodynamics},
+note = {arXiv:2503.24286},
+file = {cisneros-arxiv-25.pdf},
+arxiv = {arXiv.2503.24286},
+year = {2025},
+doi = {10.48550/arXiv.2503.24286},
+abstract = {The cost of combustion simulations is often dominated by the evaluation of net production rates of chemical species and mixture thermodynamics (thermochemistry). Execution on computing accelerators (XPUs) like graphic processing units (GPUs) can greatly reduce this cost. However, established thermochemistry software is not readily portable to such devices or sacrifices valuable analytical forms that enable differentiation for sensitivity analysis and implicit time integration. Symbolic abstractions are developed with corresponding transformations that enable computation on accelerators and automatic differentiation by avoiding premature specification of detail. The software package Pyrometheus is introduced as an implementation of these abstractions and their transformations for combustion thermochemistry. The formulation facilitates code generation from the symbolic representation of a specific thermochemical mechanism in multiple target languages, including Python, C++, and Fortran. Computational concerns are separated: the generated code processes array-valued expressions but does not specify their semantics. These semantics are provided by compatible array libraries, such as NumPy, Pytato, and Google JAX. Thus, the generated code retains a symbolic representation of the thermochemistry, which translates to computation on accelerators and CPUs and automatic differentiation. The design and operation of these symbolic abstractions and their companion tool, Pyrometheus, are discussed throughout. Roofline demonstrations show that the computation of chemical source terms within MFC, a Fortran-based flow solver we link to Pyrometheus, is performant.},
+}
+
+
+@unpublished{wilfong252,
+Author = {Benjamin *Wilfong and Henry *{Le Berre} and Anand *Radhakrishnan and Ansh Gupta and Diego Vaca-Revelo and Dimitrios Adam and Haocheng Yu and Hyeoksu Lee and Jose Rodolfo Chreim and Mirelys {Carcana Barbosa} and Yanjun Zhang and Esteban Cisneros-Garibay and Aswin Gnanaskandan and Mauro {Rodriguez Jr.} and Reuben D. Budiardja and Stephen Abbott and Tim Colonius and Spencer H. Bryngelson},
+Title = {{MFC 5.0: A}n exascale many-physics flow solver},
+note = {arXiv:2503.07953, {*}Equal contribution},
+file = {wilfong-arxiv-25.pdf},
+arxiv = {arXiv.2503.07953},
+year = {2025},
+doi = {10.48550/arXiv.2503.07953},
+abstract = {Many problems of interest in engineering, medicine, and the fundamental sciences rely on high-fidelity flow simulation, making performant computational fluid dynamics solvers a mainstay of the open-source software community. A previous work (Bryngelson et al., Comp. Phys. Comm. (2021)) published MFC 3.0 with numerous physical features, numerics, and scalability. MFC 5.0 is a marked update to MFC 3.0, including a broad set of well-established and novel physical models and numerical methods, and the introduction of XPU acceleration. We exhibit state-of-the-art performance and ideal scaling on the first two exascale supercomputers, OLCF Frontier and LLNL El Capitan. Combined with MFC's single-accelerator performance, MFC achieves exascale computation in practice. New physical features include the immersed boundary method, N-fluid phase change, Euler-Euler and Euler-Lagrange sub-grid bubble models, fluid-structure interaction, hypo- and hyper-elastic materials, chemically reacting flow, two-material surface tension, magnetohydrodynamics (MHD), and more. Numerical techniques now represent the current state-of-the-art, including general relaxation characteristic boundary conditions, WENO variants, Strang splitting for stiff sub-grid flow features, and low Mach number treatments. Weak scaling to tens of thousands of GPUs on OLCF Summit and Frontier and LLNL El Capitan sees efficiencies within 5\% of ideal to their full system sizes. Strong scaling results for a 16-times increase in device count show parallel efficiencies over 90\% on OLCF Frontier. MFC's software stack has improved, including continuous integration, ensuring code resilience and correctness through over 300 regression tests; metaprogramming, reducing code length and maintaining performance portability; and code generation for computing chemical reactions.}
+}
+
+
+
+@unpublished{shahane24,
+Author = {S. Shahane and S. Chammas and D. A. Bezgin and A. B. Buhendwa and S. J. Schmidt and N. A. Adams and S. H. Bryngelson and Y.-F. Chen and Q. Wang and F. Sha and L. Zepeda-Núñez},
+Title = {{Rational-WENO: A} lightweight, physically-consistent three-point weighted essentially non-oscillatory scheme},
+note = {arXiv: 2409.09217},
+doi = {10.48550/arXiv.2409.09217},
+file = {shahane-arxiv-24.pdf},
+arxiv = {arXiv.2409.09217},
+year = {2024},
+abstract = {Conventional WENO3 methods are known to be highly dissipative at lower resolutions, introducing significant errors in the pre-asymptotic regime. In this paper, we employ a rational neural network to accurately estimate the local smoothness of the solution, dynamically adapting the stencil weights based on local solution features. As rational neural networks can represent fast transitions between smooth and sharp regimes, this approach achieves a granular reconstruction with significantly reduced dissipation, improving the accuracy of the simulation. The network is trained offline on a carefully chosen dataset of analytical functions, bypassing the need for differentiable solvers. We also propose a robust model selection criterion based on estimates of the interpolation's convergence order on a set of test functions, which correlates better with the model performance in downstream tasks. We demonstrate the effectiveness of our approach on several one-, two-, and three-dimensional fluid flow problems: our scheme generalizes across grid resolutions while handling smooth and discontinuous solutions. In most cases, our rational network-based scheme achieves higher accuracy than conventional WENO3 with the same stencil size, and in a few of them, it achieves accuracy comparable to WENO5, which uses a larger stencil.},
+}
+
+@article{zhu25,
+Author = {Z. Zhu and S. Remillard and B. A. Abeid and D. Frolkin and S. H. Bryngelson and J. Yang and M. {Rodriguez Jr.} and J. B. Estrada},
+Title = {Parsimonious inertial cavitation rheometry via bubble collapse time},
+journal = {Soft Matter},
+doi = {10.1039/D5SM00397K},
+year = {2025},
+abstract = {The rapid and accurate characterization of soft, viscoelastic materials at high strain rates is of interest in biological and engineering applications such as assessing the extent of non-invasive tissue surgery completion and developing injury criteria for the mitigation of blast injuries. The inertial microcavitation rheometry technique (IMR, Estrada et al. 2018) allows for the minimally invasive characterization of local viscoelastic properties at strain rates up to 100M units per second. However, IMR relies on bright-field videography of a sufficiently translucent sample at approximately 1 million frames per second and a simulation-dependent fit optimization process that can require hours of post-processing. We present an IMR-style technique that parsimoniously characterizes viscoelastic models. The approach uses experimental advancements to accurately estimate the time to first collapse of the laser-induced cavity. A theoretical energy balance analysis yields an approximate collapse time based on the material viscoelasticity parameters. The method closely matches the accuracy of the original IMR procedure while decreasing the computational cost from hours to seconds for the Kelvin--Voigt model and potentially reducing dependence on high-speed videography. This technique can enable nearly real-time characterization of a broader range of soft, viscoelastic hydrogels and biological materials.},
+file = {zhu-soft-25.pdf}
+}
+
+
+@article{lee25,
+Author = {M. Lee and Z. Song and S. Kocherla and A. Adams and A. Alexeev and S. H. Bryngelson},
+Title = {A multiple-circuit approach to quantum resource reduction with application to the quantum lattice {B}oltzmann method},
+file = {lee-fgcs-26.pdf},
+doi = {10.1016/j.future.2025.107975},
+journal = {Future Generation Computing Systems},
+pages = {107975},
+volume = {174},
+year = {2026},
+abstract = {This work proposes a multi-circuit quantum lattice Boltzmann method (QLBM) algorithm that leverages parallel quantum computing to reduce quantum resource requirements. Computational fluid dynamics (CFD) simulations often entail a large computational burden on classical computers. At present, these simulations can require up to trillions of grid points and millions of time steps. To reduce costs, novel architectures like quantum computers may be intrinsically more efficient for these computations. Current quantum algorithms for solving CFD problems are based on single quantum circuits and, in many cases, use lattice-based methods. Current quantum devices are adorned with sufficient noise to make large and deep circuits untenable. We introduce a multiple-circuit algorithm for a quantum lattice Boltzmann method (QLBM) solve of the incompressible Navier--Stokes equations. The method, called QLBM-frugal, aims to create more practical quantum circuits and strategies for differential equation-based problems. The presented method is validated and demonstrated for 2D lid-driven cavity flow. The two-circuit algorithm shows a marked reduction in CNOT gates, which consume the majority of the runtime on quantum devices. Compared to the baseline QLBM technique, a two-circuit strategy shows increasingly large improvements in gate counts as the qubit size, or problem size, increases. For 64 lattice sites, the CNOT count was reduced by 35\%, and the gate depth decreased by 16\%. This strategy also enables concurrent circuit execution, further halving the seen gate depth.},
+}
+
+@article{chu25,
+Author = {T. Chu and J. B. Estrada and S. H. Bryngelson},
+Title = {Bayesian optimal design accelerates discovery of soft material properties from bubble dynamics},
+doi = {10.1007/s00466-025-02606-4},
+file = {chu-cm-25.pdf},
+journal = {Computational Mechanics},
+year = {2025},
+abstract = {An optimal sequential experimental design approach is developed to computationally characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown soft material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. J Mech Phys Solids 112:291–317, 2018) simulates the bubble dynamics under laser-induced cavitation. We use experimental measurements to create synthetic data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels under realistic uncertainties. The synthetic data are seeded with larger errors than state-of-the-art measurements yet matches known material properties, reaching 1 percent relative error within 10 sequential designs (experiments). We discern between two seemingly equally plausible constitutive models, Neo-Hookean Kelvin–Voigt and quadratic Kelvin–Voigt, with a probability of correctness larger than 99 percent in the same number of experiments. This strategy discovers soft material properties, including discriminating between constitutive models and discerning their parameters, using only a few experiments.}
+}
+
+@article{song25,
+Author = {Z. Song and R. Deaton and B. Gard and S. H. Bryngelson},
+Title = {Incompressible {N}avier--{S}tokes solve on noisy quantum hardware via a hybrid quantum--classical scheme},
+journal = {Computers \& Fluids},
+pages = {106507},
+file = {song-caf-25.pdf},
+volume = {288},
+doi = {10.1016/j.compfluid.2024.106507},
+year = {2025},
+abstract = {Partial differential equation solvers are required to solve the Navier--Stokes equations for fluid flow. Recently, algorithms have been proposed to simulate fluid dynamics on quantum computers. Fault-tolerant quantum devices might enable exponential speedups over algorithms on classical computers. However, current and foreseeable quantum hardware introduce noise into computations, requiring algorithms that make judicious use of quantum resources: shallower circuit depths and fewer qubits. Under these restrictions, variational algorithms are more appropriate and robust. This work presents a hybrid quantum--classical algorithm for the incompressible Navier--Stokes equations. A classical device performs nonlinear computations, and a quantum one uses a variational solver for the pressure Poisson equation. A lid-driven cavity problem benchmarks the method. We verify the algorithm via noise-free simulation and test it on noisy IBM superconducting quantum hardware. Results show that high-fidelity results can be achieved via this approach, even on current quantum devices. Multigrid preconditioning of the Poisson problem helps avoid local minima and reduces resource requirements for the quantum device. A quantum state readout technique called HTree is used for the first time on a physical problem. HTree is appropriate for real-valued problems and achieves linear complexity in the qubit count, making the Navier--Stokes solve further tractable on current quantum devices. We compare the quantum resources required for near-term and fault-tolerant solvers to determine quantum hardware requirements for fluid simulations with complexity improvements.},
+}
+
+
+@article{kocherla24_1,
+Author = {S. Kocherla and Z. Song and F. E. Chrit and B. Gard and E. F. Dumitrescu and A. Alexeev and S. H. Bryngelson},
+Title = {Fully quantum algorithm for mesoscale fluid simulations
+with application to partial differential equations},
+doi = {10.1116/5.0217675},
+file = {kocherla-AVS-24.pdf},
+year = {2024},
+volume = {6},
+pages = {033806},
+journal = {AVS Quantum Science},
+abstract = {Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speed up traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to reduce classical computations and state preparation at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step. Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method optimizes the quantum resource required and makes it more appropriate for near-term quantum hardware. We also demonstrate how the checkerboard deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical partial differential equations: the diffusion and Burgers' equations on differ},
+}
+
+@article{liu24,
+Author = {J. Liu and F. Sch\"afer and S. H. Bryngelson and T. A. Zaki and A. Mani},
+Title = {Adjoint-based computation of nonlocal eddy viscosity in turbulent channel flow},
+year = {2024},
+journal = {Physical Review Fluids},
+volume = {9},
+pages = {094606},
+doi = {10.1103/PhysRevFluids.9.094606},
+abstract = {Reynolds-averaged Navier–Stokes (RANS) closure operators are generally nonlocal and anisotropic for many flows, including wall-bounded turbulence. The macroscopic forcing method (MFM) and Green’s function-based approaches examine these effects using forced direct numerical simulations. For these approaches, the number of simulations required to compute the nonlocal and anisotropic eddy viscosity is equal to the number of degrees of freedom in the averaged space. We reduce the computational cost by introducing an adjoint-based formulation of MFM to obtain the nonlocal and anisotropic eddy viscosity at any Reynolds stress location using a single simulation. We then quantify the streamwise and wall-normal nonlocal eddy viscosity at near-wall locations in turbulent channel flow at shear Reynolds number 180. We demonstrate that the upstream nonlocality is not fully described by Lagrangian transport. We also quantify the significant differences in the upstream nonlocality between various components of the eddy viscosity tensor. Our results can be used to guide closure modeling, including the lengthscales and timescales used in Reynolds stress models.},
+file = {liu-PRF-24.pdf},
+}
+
+
+@article{radhakrishnan24,
+Author = {A. Radhakrishnan and H. {Le Berre} and B. Wilfong and J.-S. Spratt and M. {Rodriguez Jr.} and T. Colonius and S. H. Bryngelson},
+Title = {Method for portable, scalable, and performant {GPU}-accelerated simulation of multiphase compressible flow},
+file = {radhakrishnan-CPC-24.pdf},
+year = {2024},
+volume = {302},
+doi = {10.1016/j.cpc.2024.109238},
+journal = {Computer Physics Communications},
+pages = {109238},
+abstract = {Multiphase compressible flows are often characterized by a broad range of space and time scales. Thus entailing large grids and small time steps, simulations of these flows on CPU-based clusters can thus take several wall-clock days. Offloading the compute kernels to GPUs appears attractive but is memory-bound for standard finite-volume and -difference methods, damping speed-ups. Even when realized, faster GPU-based kernels lead to more intrusive communication and I/O times. We present a portable strategy for GPU acceleration of multiphase compressible flow solvers that addresses these challenges and obtains large speedups at scale. We use OpenACC for portable offloading of all compute kernels while maintaining low-level control when needed. An established Fortran preprocessor and metaprogramming tool, Fypp, enables otherwise hidden compile-time optimizations. This strategy exposes compile-time optimizations and high memory reuse while retaining readable, maintainable, and compact code. Remote direct memory access, realized via CUDA-aware MPI, reduces communication times. We implement this approach in the open-source solver MFC. Metaprogramming-based preprocessing results in an 8-times speedup of the most expensive kernels, 46\% of peak FLOPs on NVIDIA GPUs, and high arithmetic intensity (about 10 FLOPs/byte). In representative simulations, a single A100 GPU is 300-times faster than an Intel Xeon CPU core, corresponding to a 9-times speedup for a single A100 compared to the entire CPU die. At the same time, near-ideal (97\%) weak scaling is observed for at least 13824 GPUs on Summit. A strong scaling efficiency of 84\% is retained for an 8-times increase in GPU count. Collective I/O, implemented via MPI3, helps ensure negligible contribution of data transfers. Large many-GPU simulations of compressible (solid-)liquid-gas flows demonstrate the practical utility of this strategy.},
+}
+
+@article{sinha24neural,
+title={Neural networks can be {FLOP}-efficient integrators of {1D} oscillatory integrands},
+author={A. Sinha and S. H. Bryngelson},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+file={sinha-TMLR-24.pdf},
+abstract={We demonstrate that neural networks can be FLOP-efficient integrators of one-dimensional oscillatory integrands. We train a feed-forward neural network to compute integrals of highly oscillatory 1D functions. The training set is a parametric combination of functions with varying characters and oscillatory behavior degrees. Numerical examples show that these networks are FLOP-efficient for sufficiently oscillatory integrands with an average FLOP gain of 1000 FLOPs. The network calculates oscillatory integrals better than traditional quadrature methods under the same computational budget or number of floating point operations. We find that feed-forward networks of 5 hidden layers are satisfactory for a relative accuracy of 0.001. The computational burden of inference of the neural network is relatively small, even compared to inner-product pattern quadrature rules. We postulate that our result follows from learning latent patterns in the oscillatory integrands that are otherwise opaque to traditional numerical integrators.},
+link = {https://openreview.net/pdf?id=5psgQEHn6t},
+}
+
+
+@article{bryngelsonfmfm24,
+Author = {S. H. {*}Bryngelson and F. {*}Sch{\"a}fer and J. Liu and A. Mani},
+Title = {Fast {M}acroscopic {F}orcing {M}ethod},
+journal = {Journal of Computational Physics},
+file = {bryngelson-JCP-24.pdf},
+year = {2024},
+volume = 499,
+pages = 112721,
+doi = {10.1016/j.jcp.2023.112721},
+note = {{*}Equal contribution},
+abstract = {The macroscopic forcing method (MFM) of Mani and Park (2021) and similar methods for obtaining turbulence closure operators, such as the Green's function-based approach of Hamba (1995), recover reduced solution operators from repeated direct numerical simulations (DNS). MFM has already been used to successfully quantify Reynolds-averaged Navier-Stokes (RANS)-like operators for homogeneous isotropic turbulence and turbulent channel flows. Standard algorithms for MFM force each coarse-scale degree of freedom (i.e., degree of freedom in the RANS space) and conduct a corresponding fine-scale simulation (i.e., DNS), which is expensive. We combine this method with an approach recently proposed by Sch\"afer and Owhadi (2023) to recover elliptic integral operators from a polylogarithmic number of matrix-vector products. The resulting Fast MFM introduced in this work applies sparse reconstruction to expose local features in the closure operator and reconstructs this coarse-grained differential operator in only a few matrix-vector products and correspondingly, a few MFM simulations. For flows with significant nonlocality, the algorithm first ``peels'' long-range effects with dense matrix-vector products to expose a more local operator. We demonstrate the algorithm's performance for scalar transport in a laminar channel flow and momentum transport in a turbulent channel flow. For these problems, we recover eddy diffusivity- and eddy viscosity-like operators, respectively, at 1 percent of the cost of computing the exact operator via a brute-force approach for the laminar channel flow problem and 13 percent for the turbulent one. We observe that we can reconstruct these operators with an increase in accuracy by about a factor of 100 over randomized low-rank methods. Applying these operators to compute the averaged fields of interest has visually indistinguishable behavior from the exact solution. Our results show that a similar number of simulations are required to reconstruct the operators to the same accuracy under grid refinement. Thus, the accuracy corresponds to the physics of the problem, not the numerics. We glean that for problems in which the RANS space is reducible to one dimension, eddy diffusivity and eddy viscosity operators can be reconstructed with reasonable accuracy using only a few simulations, regardless of simulation resolution or degrees of freedom.},
+}
+
+@article{bati24,
+Author = {A. Bati and S. H. Bryngelson},
+Title = {{RoseNNa: A} performant, portable library for neural network inference with
+application to computational fluid dynamics},
+journal = {Computer Physics Communications},
+volume = {296},
+pages = {109052},
+file = {bati-CPC-24.pdf},
+year = {2024},
+doi = {10.1016/j.cpc.2023.109052},
+abstract = {The rise of neural network-based machine learning ushered in high-level libraries, including TensorFlow and PyTorch, to support their functionality. Computational fluid dynamics (CFD) researchers have benefited from this trend and produced powerful neural networks that promise shorter simulation times. For example, multilayer perceptrons (MLPs) and Long Short Term Memory (LSTM) recurrent-based (RNN) architectures can represent sub-grid physical effects, like turbulence. Implementing neural networks in CFD solvers is challenging because the programming languages used for machine learning and CFD are mostly non-overlapping, We present the roseNNa library, which bridges the gap between neural network inference and CFD. RoseNNa is a non-invasive, lightweight (1000 lines), and performant tool for neural network inference, with focus on the smaller networks used to augment PDE solvers, like those of CFD, which are typically written in C/C++ or Fortran. RoseNNa accomplishes this by automatically converting trained models from typical neural network training packages into a high-performance Fortran library with C and Fortran APIs. This reduces the effort needed to access trained neural networks and maintains performance in the PDE solvers that CFD researchers build and rely upon. Results show that RoseNNa reliably outperforms PyTorch (Python) and libtorch (C++) on MLPs and LSTM RNNs with less than 100 hidden layers and 100 neurons per layer, even after removing the overhead cost of API calls. Speedups range from a factor of about 10 and 2 faster than these established libraries for the smaller and larger ends of the neural network size ranges tested.},
+}
+
+
+@article{firouznia23,
+Author = {M. Firouznia and S. H. Bryngelson and D. Saintillan},
+Title = {A spectral boundary integral method for simulating electrohydrodynamic flows in viscous drops},
+year = {2023},
+pages = {112248},
+volume = {489},
+file = {firouznia-JCP-23.pdf},
+journal = {Journal of Computational Physics},
+doi = {10.1016/j.jcp.2023.112248},
+abstract = {A weakly conducting liquid droplet immersed in another leaky dielectric liquid can exhibit rich dynamical behaviors under the effect of an applied electric field. Depending on material properties and field strength, the nonlinear coupling of interfacial charge transport and fluid flow can trigger electrohydrodynamic instabilities that lead to shape deformations and complex dynamics. We present a spectral boundary integral method to simulate droplet electrohydrodynamics in a uniform electric field. All physical variables, such as drop shape and interfacial charge density, are represented using spherical harmonic expansions. In addition to its exponential accuracy, the spectral representation affords a nondissipative dealiasing method required for numerical stability. A comprehensive charge transport model, valid under a wide range of electric field strengths, accounts for charge relaxation, Ohmic conduction, and surface charge convection by the flow. A shape reparametrization technique enables the exploration of significant droplet deformation regimes. For low-viscosity drops, the convection by the flow drives steep interfacial charge gradients near the drop equator. This introduces numerical ringing artifacts we treat via a weighted spherical harmonic expansion, resulting in solution convergence. The method and simulations are validated against experimental data and analytical predictions in the axisymmetric Taylor and Quincke electrorotation regimes.},
+}
+
+@article{bryngelson23,
+Author = {S. H. Bryngelson and R. O. Fox and T. Colonius},
+Title = {Conditional moment methods for polydisperse cavitating flows},
+file = {bryngelson-JCP-23.pdf},
+journal = {Journal of Computational Physics},
+year = {2023},
+volume = {477},
+doi = {10.1016/j.jcp.2023.111917},
+pages = {111917},
+abstract = {The dynamics of cavitation bubbles are important in many flows, but their small sizes and high number densities often preclude direct numerical simulation. We present a computational model that averages their effect on the flow over larger spatiotemporal scales. The model is based on solving a generalized population balance equation (PBE) for nonlinear bubble dynamics and explicitly represents the evolving probability density of bubble radii and radial velocities. Conditional quadrature-based moment methods (QBMMs) are adapted to solve this PBE. A one-way-coupled bubble dynamics problem demonstrates the efficacy of different QBMMs for the evolving bubble statistics. Results show that enforcing hyperbolicity during moment inversion (CHyQMOM) provides comparable model-form accuracy to the traditional conditional method of moments and decreases computational costs by about ten times for a broad range of test cases. The CHyQMOM-based computational model is implemented in MFC, an open-source multi-phase and high-order-accurate flow solver. We assess the effect of the model and its parameters on a two-way coupled bubble screen flow problem.},
+}
+
+@article{charalampopoulos21,
+Author = {A. Charalampopoulos and S. H. Bryngelson and T. Colonius and T. P. Sapsis},
+Title = {Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics},
+file = {charalampopoulos-RSA-21.pdf},
+journal = {Philosophical Transactions of the Royal Society A},
+year = {2022},
+volume = {380},
+number = {2229},
+doi = {10.1098/rsta.2021.0209},
+abstract = {Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.},
+}
+
+@article{panchal23,
+Author = {A. Panchal and S. H. Bryngelson and S. Menon},
+Title = {A seven-equation diffused interface method for resolved multiphase flows},
+journal = {Journal of Computational Physics},
+file = {panchal-JCP-23.pdf},
+volume = {475},
+pages = {111870},
+year = {2023},
+doi = {10.1016/j.jcp.2022.111870},
+abstract = {The seven-equation model is a compressible multiphase formulation that allows for phasic velocity and pressure disequilibrium. These equations are solved using a diffused interface method that models resolved multiphase flows. Novel extensions are proposed for including the effects of surface tension, viscosity, multi-species, and reactions. The allowed non-equilibrium of pressure in the seven-equation model provides numerical stability in strong shocks and allows for arbitrary and independent equations of states. A discrete equations method (DEM) models the fluxes. We show that even though stiff pressure- and velocity-relaxation solvers have been used, they are not needed for the DEM because the non-conservative fluxes are accurately modeled. An interface compression scheme controls the numerical diffusion of the interface, and its effects on the solution are discussed. Test cases are used to validate the computational method and demonstrate its applicability. They include multiphase shock tubes, shock propagation through a material interface, a surface-tension-driven oscillating droplet, an accelerating droplet in a viscous medium, and shock-detonation interacting with a deforming droplet. Simulation results are compared against exact solutions and experiments when possible.},
+}
+
+@article{spratt21,
+Author = {J.-S. Spratt and M. Rodriguez and K. Schmidmayer and S. H. Bryngelson and J. Yang and C. Franck and T. Colonius},
+Title = {Characterizing viscoelastic materials via ensemble-based data assimilation of bubble collapse observations},
+journal = {Journal of the Mechanics and Physics of Solids},
+file = {spratt-JMPS-21.pdf},
+year = {2021},
+volume = {152},
+pages = {104455},
+doi = {10.1016/j.jmps.2021.104455},
+abstract = {Bubble cavitation can induce such strain rates, and the resulting bubble dynamics are sensitive to the material properties. Thus, in principle, these properties can be inferred via measurements of the bubble dynamics. Estrada et al. (2018) demonstrated such bubble-dynamic high-strain-rate rheometry by using least-squares shooting to minimize the difference between simulated and experimental bubble radius histories. We generalize their technique to account for additional uncertainties in the model, initial conditions, and material properties needed to uniquely simulate the bubble dynamics. Ensemble-based data assimilation minimizes the computational expense associated with the bubble cavitation model. We test an ensemble Kalman filter (EnKF), an iterative ensemble Kalman smoother (IEnKS), and a hybrid ensemble-based 4D–Var method (En4D-Var) on synthetic data, assessing their estimations of the viscosity and shear modulus of a Kelvin-Voigt material. Results show that En4D–Var and IEnKS provide better moduli estimates than EnKF. Applying these methods to the experimental data of Estrada et al. (2018) yields similar material property estimates to those they obtained, but provides additional information about uncertainties. In particular, the En4D–Var yields lower viscosity estimates for some experiments, and the dynamic estimators reveal a potential mechanism that is unaccounted for in the model, whereby the viscosity is reduced in some cases due to material damage occurring at bubble collapse.},
+}
+
+@report{report_1,
+Author = {S. H. Bryngelson and C. Pantano and D. Bodony and J. B. Freund},
+Title = {Adjoint-based sensitivity for flows with shocks},
+Institution = {Technical Report, XPACC},
+Year = {2018},
+file = {bryngelson-xpacc-18.pdf},
+abstract = {Developing a consistent solution method for discontinuous adjoint flow problems is challenging. 
+The inviscid Burgers' equation is considered as a step toward the formulation of such a method. Results are shown for linear and nonlinear numerical methods, including WENO shock capturing. Necessary and sufficient conditions for consistent and convergent solutions to the associated adjoint equation are discussed. The adjoint Euler equations are also investigated, for which no numerical schemes are provably convergent. A characteristic-based method for this problem is proposed. It transforms the adjoint equations into an uncoupled set of transport equations. These equations have the same form as the adjoint Burgers’ equation, and thus inherit their proven consistency properties.},
+}
+
+@article{trummler19,
+doi = {10.1017/jfm.2020.432},
+title = {Near-surface dynamics of a gas bubble collapsing above a crevice},
+year = {2020},
+volume = {899},
+pages = {A16},
+Author = {T. Trummler and S. H. Bryngelson and K. Schmidmayer and S. J. Schmidt and T. Colonius and N. A. Adams},
+journal = {Journal of Fluid Mechanics},
+file = {trummler-JFM-20.pdf},
+abstract = {The impact of a collapsing gas bubble above rigid, notched walls is considered. Such surface crevices and imperfections often function as bubble nucleation sites, and thus have a direct relation to cavitation-induced erosion and damage structures. A generic configuration is investigated numerically using a second-order-accurate compressible multi-component flow solver in a two-dimensional axisymmetric coordinate system. Results show that the crevice geometry has a significant effect on the collapse dynamics, jet formation, subsequent wave dynamics, and interactions. The wall-pressure distribution associated with erosion potential is a direct consequence of development and intensity of these flow phenomena.},
+}
+
+@article{bryngelson20_qbmm,
+Author = {S. H. Bryngelson and T. Colonius and R. O. Fox},
+Title = {{QBMMlib}: A library of quadrature-based moment methods},
+Year = {2020},
+Journal = {SoftwareX},
+Volume={12},
+Pages={100615},
+file = {bryngelson-SoftX-20.pdf},
+doi = {10.1016/j.softx.2020.100615},
+abstract = {QBMMlib is an open source package of quadrature-based moment methods and their algorithms. Such methods are commonly used to solve fully-coupled disperse flow and combustion problems, though formulating and closing the corresponding governing equations can be complex. QBMMlib aims to make analyzing these techniques simple and more accessible. Its routines use symbolic manipulation to formulate the moment transport equations for a population balance equation and a prescribed dynamical system. However, the resulting moment transport equations are unclosed. QBMMlib trades the moments for a set of quadrature points and weights via an inversion algorithm, of which several are available. Quadratures then closes the moment transport equations. Embedded code snippets show how to use QBMMlib, with the algorithm initialization and solution spanning just 13 total lines of code. Examples are shown and analyzed for linear harmonic oscillator and bubble dynamics problems.},
+}
+
+@article{bryngelson19_ML,
+doi = {10.1016/j.ijmultiphaseflow.2020.103262},
+year = 2020,
+volume = {127},
+pages = {103262},
+Author = {S. H. Bryngelson and A. Charalampopoulos and T. P. Sapsis and T. Colonius},
+title = {A {G}aussian moment method and its augmentation via {LSTM} recurrent neural networks for the statistics of cavitating bubble populations},
+journal = {International Journal of Multiphase Flow},
+file = {bryngelson-IJMF-20.pdf},
+abstract = {Phase-averaged dilute bubbly flow models require high-order statistical moments of the bubble population. The method of classes, which directly evolve bins of bubbles in the probability space, are accurate but computationally expensive. Moment-based methods based upon a Gaussian closure present an opportunity to accelerate this approach, particularly when the bubble size distributions are broad (polydisperse). For linear bubble dynamics a Gaussian closure is exact, but for bubbles undergoing large and nonlinear oscillations, it results in a large error from misrepresented higher-order moments. Long short-term memory recurrent neural networks, trained on Monte Carlo truth data, are proposed to improve these model predictions. The networks are used to correct the low-order moment evolution equations and improve prediction of higher-order moments based upon the low-order ones. Results show that the networks can reduce model errors to less than 1 percent of their unaugmented values.},
+}
+
+@article{schmidmayer19,
+Author = {K. Schmidmayer and S. H. Bryngelson and T. Colonius},
+Year = {2020},
+Volume = {402},
+Pages = {109080},
+Journal = {Journal of Computational Physics},
+Title = {An assessment of multicomponent flow models and interface capturing schemes for spherical bubble dynamics},
+file = {schmidmayer-JCP-20.pdf},
+doi = {10.1016/j.jcp.2019.109080},
+abstract = {Numerical simulation of bubble dynamics and cavitation is challenging; even the seemingly simple problem of a collapsing spherical bubble is difficult to compute accurately with a general, three-dimensional, compressible, multicomponent flow solver. Difficulties arise due to both the physical model and the numerical method chosen for its solution. We consider the 5-equation model of Allaire et al. and Massoni et al., the 5-equation model of Kapila et al., and the 6-equation model of Saurel et al. as candidate approaches for spherical bubble dynamics, and both MUSCL and WENO interface-capturing methods are implemented and compared. We demonstrate the inadequacy of the traditional 5-equation model for spherical bubble collapse problems and explain the corresponding advantages of the augmented model of Kapila et al. for representing this phenomenon. Quantitative comparisons between the augmented 5-equation and 6-equation models for three-dimensional bubble collapse problems demonstrate the versatility of the pressure-disequilibrium model. Lastly, the performance of the pressure-disequilibrium model for representing a three-dimensional spherical bubble collapse for different bubble interior/exterior pressure ratios is evaluated for different numerical methods. Pathologies associated with each factor and their origins are identified and discussed.},
+}
+
+@article{bryngelson19_whales,
+doi = {10.1121/10.0000746},
+year = 2020,
+volume = {147},
+number = {2},
+pages = {1126--1135},
+Author = {S. H. Bryngelson and T. Colonius},
+title = {Simulation of humpback whale bubble-net feeding models},
+journal = {Journal of the Acoustical Society of America},
+file = {bryngelson-JASA-20.pdf},
+abstract = {Humpback whales can generate intricate bubbly regions, called bubble nets, via blowholes. Humpback whales appear to exploit these bubble nets for feeding via loud vocalizations. A fully-coupled phase-averaging approach is used to model the flow, bubble dynamics, and corresponding acoustics. A previously hypothesized waveguiding mechanism is assessed for varying acoustic frequencies and net void fractions. Reflections within the bubbly region result in observable waveguiding for only a small range of flow parameters. A configuration of multiple whales surrounding and vocalizing towards an annular bubble net is also analyzed. For a range of flow parameters, the bubble net keeps its core region substantially quieter than the exterior. This approach appears more viable, though it relies upon the cooperation of multiple whales. A spiral bubble net configuration that circumvents this requirement is also investigated. The acoustic wave behaviors in the spiral interior vary qualitatively with the vocalization frequency and net void fraction. The competing effects of vocalization guiding and acoustic attenuation are quantified. Low void fraction cases allow low-frequency waves to partially escape the spiral region, with the remaining vocalizations still exciting the net interior. Higher void fraction nets appear preferable, guiding even low-frequency vocalizations while still maintaining a quiet net interior.},
+}
+
+@article{bryngelson19_CPC,
+doi = {10.1016/j.cpc.2020.107396},
+volume = {266},
+year = 2021,
+pages = {107396},
+Author = {S. H. Bryngelson and K. Schmidmayer and V. Coralic and K. Maeda and J. Meng and T. Colonius},
+title = {{MFC: A}n open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver},
+journal = {Computer Physics Communications},
+file = {bryngelson-CPC-20.pdf},
+abstract = {MFC is an open-source tool for solving multi-component, multi-phase, and bubbly compressible flows. It is capable of efficiently solving a wide range of flows, including droplet atomization, shock-bubble interaction, and gas bubble cavitation. We present the 5- and 6-equation thermodynamically-consistent diffuse-interface models we use to handle such flows, which are coupled to high-order interface-capturing methods, HLL-type Riemann solvers, and TVD time-integration schemes that are capable of simulating unsteady flows with strong shocks. The numerical methods are implemented in a flexible, modular framework that is amenable to future development. The methods we employ are validated via comparisons to experimental results for shock-bubble, shock-droplet, and shock-water-cylinder interaction problems and verified to be free of spurious oscillations for material-interface advection and gas-liquid Riemann problems. For smooth solutions, such as the advection of an isentropic vortex, the methods are verified to be high-order accurate. Illustrative examples involving shock-bubble-vessel-wall and acoustic-bubble-net interactions are used to demonstrate the full capabilities of MFC.},
+}
+
+@article{bryngelson19_IJMF,
+Author = {S. H. Bryngelson and K. Schmidmayer and T. Colonius},
+Year = {2019},
+Volume = {115},
+Pages = {137-143},
+Journal = {International Journal of Multiphase Flow},
+Title = {A quantitative comparison of phase-averaged models for bubbly, cavitating flows},
+file = {bryngelson-IJMF-19.pdf},
+doi = {10.1016/j.ijmultiphaseflow.2019.03.028},
+abstract = {We compare the computational performance of two modeling approaches for the flow of dilute cavitation bubbles in a liquid. The first approach is a deterministic model, for which bubbles are represented in a Lagrangian framework as advected features, each sampled from a distribution of equilibrium bubble sizes. The dynamic coupling to the liquid phase is modeled through local volume averaging. The second approach is stochastic; ensemble-phase averaging is used to derive mixture-averaged equations and field equations for the associated bubble properties are evolved in an Eulerian reference frame. For polydisperse mixtures, the probability density function of the equilibrium bubble radii is discretized and bubble properties are solved for each representative bin. In both cases, the equations are closed by solving Rayleigh–Plesset-like equations for the bubble dynamics as forced by the local or mixture-averaged pressure, respectively. An acoustically excited dilute bubble screen is used as a case study for comparisons. We show that observables of ensemble- and volume-averaged simulations match closely and that their convergence is first order under grid refinement. Guidelines are established for phase-averaged simulations by comparing the computational costs of methods. The primary costs are shown to be associated with stochastic closure; polydisperse ensemble-averaging requires many samples of the underlying PDF and volume-averaging requires repeated, randomized simulations to accurately represent a homogeneous bubble population. The relative sensitivities of these costs to spatial resolution and bubble void fraction are presented.},
+}
+
+@article{bryngelson19_chaos,
+Author = {S. H. Bryngelson and F. Gu\'{e}niat and J. B. Freund},
+Volume ={100},
+Pages = {012203},
+Year = {2019},
+Journal = {Physical Review E},
+Title = {Irregular dynamics of cellular blood flow in a model microvessel},
+file = {bryngelson-PRE-19.pdf},
+doi = {10.1103/PhysRevE.100.012203},
+abstract = {The flow of red blood cells within cylindrical vessels is complex and irregular, so long as the vessel diameter is somewhat larger than the nominal cell size. Long-time-series simulations, in which cells flow 10,000 vessel diameters, are used to characterize the chaotic kinematics, particularly to inform reduced-order models. The simulation model used includes full coupling between the elastic red blood cell membranes and surrounding viscous fluid, providing a faithful representation of the cell-scale dynamics. Results show that the flow has neither classifiable recurrent features nor a dominant frequency. jInstead, its kinematics are sensitive to the initial flow configuration in a way consistent with chaos and Lagrangian turbulence. Phase-space reconstructions show that a low-dimensional attractor does not exist, so the observed long-time dynamics are effectively stochastic. Based on this, a simple Markov chain model for the dynamics is introduced and shown to reproduce the statistics of the cell positions.},
+}
+
+@article{bryngelson19_LAOE,
+Author = {S. H. Bryngelson and J. B. Freund},
+Volume = {77},
+Pages = {171-176},
+Year = {2019},
+Journal = {European Journal of Mechanics B/Fluids},
+Title = {Non-modal {F}loquet stability of a capsule in large amplitude oscillatory extension},
+file = {bryngelson-EJM-19.pdf},
+doi = {10.1016/j.euromechflu.2019.04.012},
+abstract = {We analyze the stability of a capsule in large-amplitude oscillatory extensional (LAOE) flow, as often used to study the rheology and dynamics of suspensions. Such a flow is typically established in a cross-slot configuration, with the particle (or particles) of interest observed in the stagnation region. However, controlling this configuration is challenging because the flow is unstable. We quantify such an instability for spherical elastic capsules suspended near the stagnation point using a non-modal global Floquet analysis, which is formulated to include full coupling of the capsule-viscous-flow dynamics. The flow is shown to be transiently, though not asymptotically, unstable. For each case considered, two predominant modes of transient amplification are identified: a predictable intra-period growth for translational capsule perturbations and period-to-period growth for certain capsule distortions. The amplitude of the intra-period growth depends linearly on the flow strength and oscillation period, which corresponds to a shift of the flow stagnation point, and the period-to-period growth saturates over several periods, commensurate with the asymptotic stability of the flow.},
+}
+
+@article{bryngelson18_JFM,
+Author = {S. H. Bryngelson and J. B. Freund},
+Journal = {Joural of Fluid Mechanics},
+Pages = {663-677},
+Title = {Floquet stability analysis of capsules in viscous shear flow},
+Volume = {852},
+Year = {2018},
+file = {bryngelson-JFM-18.pdf},
+doi = {10.1017/jfm.2018.574},
+abstract = {Observations in experiments and simulations show that the kinematic behaviour of an elastic capsule, suspended and rotating in shear flow, depends upon the flow strength, the capsule membrane material properties and its at-rest shape. We develop a linear stability description of the periodically rotating base state of this coupled system, as represented by a boundary integral flow formulation with spherical harmonic basis functions describing the elastic capsule geometry. This yields Floquet multipliers that classify the stability of the capsule motion for elastic capillary numbers Ca ranging from 0.01 to 5. Viscous dissipation rapidly damps most perturbations. However, for all cases, a single component grows or decays slowly, depending upon Ca, over many periods of the rotation. The transitions in this stability behaviour correspond to the different classes of rotating motion observed in previous studies.},
+}
+
+@article{bryngelson18_PRF,
+Author = {S. H. Bryngelson and J. B. Freund},
+Journal = {Physical Review Fluids},
+Number = {7},
+Pages = {073101},
+Title = {Global stability of flowing red blood cell trains},
+Volume = {3},
+Year = {2018},
+file = {bryngelson-PRF-18.pdf},
+doi = {10.1103/PhysRevFluids.3.073101},
+abstract = {A train of red blood cells flowing in a round tube will either advect steadily or break down into a complex and irregular flow, depending upon its degree of confinement. We analyze this apparent instability, including full coupling between the viscous fluid flow and the elastic cell membranes. A linear stability analysis is constructed via a complete set of orthogonal perturbations to a boundary integral formulation of the flow equations. Both transiently and asymptotically amplifying disturbances are identified. Those that amplify transiently have short-wavelength shape distortions that carry significant membrane strain energy. In contrast, asymptotic disturbances are primarily rigid-body-like tilts and translations. It is shown that an intermediate cell-cell spacing of about half a tube diameter suppresses long-time train instability, particularly when the vessel diameter is relatively small. Altering the viscosity ratio between the cytosol fluid within the cell and the suspending fluid is found to be asymptotically destabilizing for both higher and lower viscosity ratios. Altering the cytosol volume away from that of a nominally healthy discocyte alters the stability with complex dependence on train density and vessel diameter. Several of the observations are consistent with a switch from predominantly cell-cell interactions for dense trains and predominantly cell-wall interactions for less dense trains. Direct numerical simulations are used to verify the linear stability analysis and track the perturbation growth into a self-sustaining disordered regime.},
+}
+
+@article{bryngelson16_RA,
+Author = {S. H. Bryngelson and J. B. Freund},
+Journal = {Rheologica Acta},
+Number = {6},
+Pages = {451-464},
+Title = {Buckling and its effect on the confined flow of a model capsule suspension},
+Volume = {55},
+Year = {2016},
+file = {bryngelson-RA-16.pdf},
+doi = {10.1007/s00397-015-0900-9},
+abstract = {The rheology of confined flowing suspensions, such as blood, depends upon the dynamics of the components, which can be particularly rich when they are elastic capsules. Using boundary integral methods, we simulate a two-dimensional model channel through which flows a dense suspension of fluid-filled capsules. A parameter of principal interest is the equilibrium membrane perimeter, parameterized by xi_o, which ranges from round capsules with xi_o=1.0 to xi_o=3.0 capsules with a dog-bone-like equilibrium shape. It is shown that the minimum effective viscosity occurs for xi_o approx 1.6, which forms a biconcave equilibrium shape, similar to a red blood cell. The rheological behavior changes significantly over this range; transitions are linked to specific changes in the capsule dynamics. Most noteworthy is an abrupt change in behavior for xi_o = 2.0, which correlates with the onset of capsule buckling. The buckled capsules have a more varied orientation and make significant rotational (rotlet) contributions to the capsule–capsule interactions.},
+}
+
+@article{bryngelson16_PRF,
+Author = {S. H. Bryngelson and J. B. Freund},
+Journal = {Physical Review Fluids},
+Number = {3},
+Pages = {033201},
+Title = {Capsule-train stability},
+Volume = {1},
+Year = {2016},
+file = {bryngelson-PRF-16.pdf},
+doi = {10.1103/PhysRevFluids.1.033201},
+abstract = {Elastic capsules flowing in small enough tubes, such as red blood cells in capillaries, are well known to line up into regular single-file trains. The stability of such trains in somewhat wider channels, where this organization is not observed, is studied in a two-dimensional model system that includes full coupling between the viscous flow and suspended capsules. A diverse set of linearly amplifying disturbances, both long-time asymptotic (modal) and transient (nonmodal) perturbations, is identified and analyzed. These have a range of amplification rates and their corresponding forms are wavelike, typically dominated by one of five principal perturbation classes: longitudinal and transverse translations, tilts, and symmetric and asymmetric shape distortions. Finite-amplitude transiently amplifying perturbations are shown to provide a mechanism that can bypass slower asymptotic modal linear growth and precipitate the onset of nonlinear effects. Direct numerical simulations are used to verify the linear analysis and track the subsequent transition of the regular capsule trains into an apparently chaotic flow.},
+}
+
+@inproceedings{proceeding_26,
+title = {Solving diffuse interface models without tracking or dissipation},
+author = {A. Radhakrishnan and F. Sch\"afer and S. H. Bryngelson},
+booktitle = {12th International Conference on Multiphase Flow},
+address = {Toulouse, France},
+year = {2025},
+abstract = {},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_25,
+  title={{OpenACC} offloading of the {MFC} compressible multiphase flow solver on {AMD} and {NVIDIA GPUs}},
+  author={B. Wilfong and A. Radhakrishnan and H. A. {Le Berre} and S. Abbott and R. D. Budiardja and S. H. Bryngelson},
+  booktitle = {SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  year = {2024},
+  pages = {1923--1933},
+  doi = {10.1109/SCW63240.2024.00242},
+  file = {wilfong-SC-24.pdf},
+  abstract = {GPUs are the heart of the latest generations of supercomputers. We efficiently accelerate a compressible multiphase flow solver via OpenACC on NVIDIA and AMD Instinct GPUs. Optimization is accomplished by specifying the directive clauses 'gang vector' and 'collapse'. Further speedups of six and ten times are achieved by packing user-defined types into coalesced multidimensional arrays and manual inlining via metaprogramming. Additional optimizations yield seven-times speedup in array packing and thirty-times speedup of select kernels on Frontier. Weak scaling efficiencies of 97% and 95% are observed when scaling to 50% of Summit and 95% of Frontier. Strong scaling efficiencies of 84% and 81% are observed when increasing the device count by a factor of 8 and 16 on V100 and MI250X hardware. The strong scaling efficiency of AMD's MI250X increases to 92% when increasing the device count by a factor of 16 when GPU-aware MPI is used for communication.},
+  keywords = "heavyref",
+}
+
+@inproceedings{proceeding_24,
+Author = {A. Radhakrishnan and S. H. Bryngelson},
+Year = {2024},
+Title = {Stochastic computational methods for cavitation inception},
+Booktitle = {XXVI International Congress of Theoretical and Applied Mechanics},
+Address = {Daegu, South Korea},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_23,
+  title={Numerical investigation of leakage of high-amplitude sound inill-fitting earplugs},
+  author={H. Yu and K. K. Ahuja and L. N. Sankar and S. H. Bryngelson},
+  booktitle ={AIAA Aviation Forum and ASCEND 2024},
+  year={2024},
+  pages={4391},
+  doi = {10.2514/6.2024-4391},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_22,
+  title={Instability of two-species interfaces via vibration},
+  author={B. Wilfong and R. M. McMullen and T. Koehler and S. H. Bryngelson},
+  booktitle ={AIAA Aviation Forum and ASCEND 2024},
+  year={2024},
+  pages={4480},
+  doi = {10.2514/6.2024-4480},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_21,
+author = {A. Radhakrishnan and S. H. Bryngelson},
+year = {2024},
+title = {A stochastic representation of sub-grid bubble dynamics toward the modeling of cavitation inception},
+booktitle = {35th Symposium on Naval Hydrodynamics},
+address = {Nantes, France},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_20,
+author = {B. Wilfong and A. Radhakrishnan and S. H. Bryngelson},
+title = {Multiphase flow numerics: {P}erspectives from exascale simulation},
+address = {Reykjavik, Iceland},
+booktitle = {5th International Conference on Numerical Methods in Multiphase Flows (ICNMMF5)},
+year = {2024},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_19,
+author = {M. {Carcana Barbosa} and J. Yang and J. B. Estrada and S. H. Bryngelson and M. {Rodriguez Jr.}},
+title = {Numerical simulations of inertial bubble collapse near a hyperelastic object},
+address = {Crete, Greece},
+booktitle = {11th International Symposium on Cavitation},
+year = {2024},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_18,
+title = {A statistics-based sub-grid model for cavitation inception and its application to complex flows},
+author = {A. Radhakrishnan and S. H. Bryngelson},
+address = {Crete, Greece},
+booktitle = {11th International Symposium on Cavitation},
+year = {2024},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_17,
+title = {A stochastic computational method for bubbly flows with first steps towards representing inception},
+author = {A. Radhakrishnan and H. A. {Le Berre} and S. H. Bryngelson and J. Rodolfo Chreim and T. Colonius},
+booktitle = {11th International Conference on Multiphase Flow},
+address = {Kobe, Japan},
+year = {2023},
+file = {radhakrishnan-ICMF-23.pdf},
+abstract = {We present a computational model for bubbly, cavitating flows. For disperse bubbles that are small compared to mixture-averaged length-scales, we use an Euler-Euler sub-grid model that represents the bubbles as evolved statistical quantities. This strategy represents the stochastic features of bubble dynamics observed experimentally. We present numerical experiments that exercise the computational model under varying conditions, including those crafted to investigate cavitation inception.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_16,
+title = {Fast simulation of multiphase compressible flows thorugh GPU acceleration},
+author = {H. A. {Le Berre} and A. Radhakrishnan and S. H. Bryngelson},
+booktitle = {11th International Conference on Multiphase Flow},
+address = {Kobe, Japan},
+year = {2023},
+file = {leberre-ICMF-23.pdf},
+abstract = {Simulations of multiphase compressible flows can take several days to produce actionable results on distributed CPU systems. We present computational techniques that accelerate such simulations by leveraging GPUs. The methodology is demonstrated on a multi-GPU simulation of a collapsing bubble cloud. The low arithmetic intensity of common algorithms for compressible flow is addressed by optimizing GPU kernels for the available hardware, leading to a 300 times speed up on an NVIDIA A100 GPU compared to a modern Intel CPU core. The method demonstrates near ideal (97\%) weak scaling on OLCF Summit for at least 13824 GPUs.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_15,
+Author = {W. Elwasif and S. Bastrakov and S. H. Bryngelson and M. Bussmann and S. Chandrasekaran and F. Ciorba and M. A. Clark and A. Debus and W. Godoy and N. Hagerty and J. Hammond and D. Hardy and J. A. Harris and O. Hernandez and B. Joo and S. Keller and P. Kent and H. {Le Berre} and D. Lebrun-Grandie and E. MacCarthy and V. G. Melesse Vergara and B. Messer and R. Miller and S. Oral and J.-G. Piccinali and A. Radhakrishnan and O. Simsek and F. Spiga and K. Steiniger and J. Stephan and J. E. Stone and C. Trott and R. Widera and J. Young},
+Title = {Early application experiences on a modern {GPU}-accelerated {A}rm-based {HPC} platform},
+Booktitle = {HPC Asia '23},
+Series = {International Workshop on Arm-based HPC: Practice and Experience (IWAHPCE)},
+file = {elwasif-IWAHPCE-23.pdf},
+doi = {10.1145/3581576.3581621},
+Address = {Singapore},
+year = {2023},
+pages={35-49},
+abstract = {This paper assesses and reports the experience of ten teams working to port, validate, and benchmark several High Performance Computing applications on a novel GPU-accelerated Arm testbed system. The testbed consists of eight NVIDIA Arm HPC Developer Kit systems, each one equipped with a server-class Arm CPU from Ampere Computing and two data center GPUs from NVIDIA Corp. The systems are connected together using InfiniBand interconnect. The selected applications and mini-apps are written using several programming languages and use multiple accelerator-based programming models for GPUs such as CUDA, OpenACC, and OpenMP offloading. Working on application porting requires a robust and easy-to-access programming environment, including a variety of compilers and optimized scientific libraries. The goal of this work is to evaluate platform readiness and assess the effort required from developers to deploy well-established scientific workloads on current and future generation Arm-based GPU-accelerated HPC systems. The reported case studies demonstrate that the current level of maturity and diversity of software and tools is already adequate for large-scale production deployments.},
+acceptrate = {44},
+keywords = "heavyref",
+}
+
+@inproceedings{proceeding_14,
+Author = {Q. Zeng and Y. Kothari and S. H. Bryngelson and F. Sch{\"a}fer},
+Title = {Competitive physics informed networks},
+Booktitle = {International Conference on Learning Representations (ICLR)},
+file = {zeng-ICLR-23.pdf},
+note = {arXiv:2204.11144},
+Address = {Kigali, Rwanda},
+year = {2023},
+link = {https://openreview.net/pdf?id=z9SIj-IM7tn},
+abstract = {Physics Informed Neural Networks (PINNs) solve partial differential equations (PDEs) by representing them as neural networks. The original PINN implementation does not provide high accuracy, typically attaining about 0.1 percent relative error. We formulate and test an adversarial approach called competitive PINNs (CPINNs) to overcome this limitation. CPINNs train a discriminator that is rewarded for predicting PINN mistakes. The discriminator and PINN participate in a zero-sum game with the exact PDE solution as an optimal strategy. This approach avoids the issue of squaring the large condition numbers of PDE discretizations. Numerical experiments show that a CPINN trained with competitive gradient descent can achieve errors two orders of magnitude smaller than that of a PINN trained with Adam or stochastic gradient descent.},
+keywords = "heavyref",
+}
+
+@inproceedings{proceeding_13,
+Author = {S. H. Bryngelson and F. Sch{\"a}fer and J. Liu and A. Mani},
+Title = {Fast {M}acroscopic {F}orcing {M}ethod},
+Booktitle = {Center for Turbulence Research, Proceedings of the Summer Program},
+link = {https://ctr.stanford.edu/publications/summer-program-proceedings/proceedings-2022-summer-program},
+Address = {Stanford, CA, USA},
+year = {2022},
+file = {bryngelson-CTR-22.pdf},
+abstract = {The macroscopic forcing method (MFM) is a method of Green's function quantification introduced by Mani and Park (2021). It recovers reduced operators by means of repeated direct numerical simulation. The MFM has already successfully recovered Reynolds-averaged Navier-Stokes (RANS)-like operators for turbulent flows. Standard algorithms for the MFM apply forcings to each coarse-scale degree of freedom and conduct a fine-scale simulation, which is expensive.  We present an algorithm that is cheaper and more general.  The fast MFM we introduce applies sparse reconstruction to expose local features in the coarse-grained differential operator and reconstructs the coarse one in only a few matrix-vector products.  For non-local operators, the algorithm first peels long-range effects with dense matrix-vector products to expose a more local operator.  We demonstrate the algorithm's performance on laminar and turbulent channel flow problems. For both problems, we recover eddy-diffusivity-like operators associated with RANS closure models. We observe that we can reconstruct the eddy diffusivity operator with an increase in accuracy by about a factor of 100 over randomized low-rank methods. Applying this operator to compute the averaged fields of interest has visually indistinguishable behavior from the exact solution, but entails 1 percent of the cost of computing the exact operator via the MFM of Mani and Park (2021) for a laminar channel flow and 13 percent for a turbulent one. Our results show that a similar number of simulations are required to reconstruct the operators to the same accuracy under grid refinement, and thus the accuracy corresponds to the physics of the problem, not the numerics. We glean that eddy-diffusivity operators can be reconstructed with reasonable accuracy using only a few simulations, regardless of simulation resolution or degrees of freedom.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_12,
+Author = {A. Radhakrishnan and H. {Le Berre} and S. H. Bryngelson},
+Year = {2022},
+Title = {Scalable {GPU} accelerated simulation of multiphase compressible flow},
+Booktitle = {The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)},
+Address = {Dallas, TX, USA},
+file = {radhakrishnan-SC-22.pdf},
+link = {https://sc22.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost122.html},
+abstract = {We present a strategy for GPU acceleration of a multiphase compressible flow solver that brings us closer to exascale computing. Given the memory-bound nature of most CFD problems, one must be prudent in implementing algorithms and offloading work to accelerators for efficient use of resources. Through careful choice of OpenACC decorations, we achieve 46 percent of peak GPU FLOPS on the most expensive kernel, leading to a 500-times speedup on an NVIDIA A100 compared to 1 modern Intel CPU core. The implementation also demonstrates ideal weak scaling for up to 13824 GPUs on OLCF Summit. Strong scaling behavior is typical but improved by reduced computation times via CUDA-aware MPI.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_11,
+Author = {M. Rodriguez and S. H. Bryngelson and  T. Colonius},
+Year = {2022},
+Title = {Bubble dynamics with phase change near a compliant object},
+Booktitle = {34th Symposium on Naval Hydrodynamics},
+Address = {Washington D.C., USA},
+Abstract = {Cavitation near rigid and compliant surfaces leads to damage to naval structures. Phase change is involved in the nucleation, growth, and collapse of bubbles but is often ignored in interface-capturing simulations of multiphase flows. Near-surface bubble collapses and phase change have been studied independently. Still, the importance of phase change during these bubble oscillations and collapses and how this relates to the impact loads at the surface remains unknown. We use the open-source Multi-component Flow Code (MFC), a fully Eulerian framework, to access these scales and model phase change. The Eulerian six-equation multiphase physical and numerical model uses an interface- and shock-capturing approach.  Phase change is modeled as a kinetic process involving volume, thermal, and mass transfer at the interface. The numerical implementation is verified using 1D cavitation and shock tube problems and a two-phase relaxation solver with finite relaxation. We then study an underwater explosion cavitation bubble problem near a rigid wall and a rigid wall with an elastomeric coating. The sharp drop of pressure from the rarefaction wave in the wake of the underwater explosion cavitates the liquid near the boundary. We study the dependence of initial bubble stand-off distance from the nearby surface and pressure on the maximum wall pressures and water vapor mass production. The coating inhibits the phase change and reduces the pressure loading experienced at the rigid wall compared to the no-coating case.},
+file = {rodriguez-SNH-22.pdf},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_10,
+Author = {S. H. Bryngelson and A. Charalampopoulos and T. P. Sapsis and R. O. Fox and T. Colonius},
+Year = {2022},
+Title = {Representing statistics of dispersions via moment methods and recurrent neural networks with application to cavitating bubbles},
+Booktitle = {34th Symposium on Naval Hydrodynamics},
+Address = {Washington D.C., USA},
+Abstract = {The dynamics of cavitation bubbles are important in many applications, but the wide range of spatio-temporal scales and a large number of bubbles often preclude direct simulations. We develop a statistical Euler–Euler description of sub-grid bubbles that includes, for the first time, the independent variables of the oscillatory cavitation dynamics. The approach stitches together several state-of-the-art computational tools: a generalized population balance representing the statics of the cavitating bubbles, conditional quadrature moment methods (QBMMs) computes them, ensemble phase-averaging couples them to the fluid flow, and high-order-accurate interface capturing stably evolves the flow in time. The one-way-coupled evolution of the forced bubbles is used to evaluate the accuracy of the QBMM statistics against truth data generated through a Monte Carlo approach. CHyQMOM provides the most computationally efficient closure for this purpose, and we implement it in the open-source MFC multiphase flow solver. An acoustically excited bubble screen problem is used to determine the importance and relevance of representing the bubble statistics in this way. Broadening the distribution of bubble radii and radial velocities significantly impacts the dynamics. Broader distributions in radii increase pressure fluctuations, as the averaged bubble oscillations occur at a shorter time scale than the transmitted pressure wave. Broadening the bubble radial velocity distribution results in the opposite effect, smoothing the pressure oscillations observed in the screen region. Our results also show that significant model-form errors can accumulate under strong and long-time pressure forcings. To address this issue, we present a long short-term memory recurrent neural network (LSTM RNN) model that adjusts the quadrature rule to improve its accuracy. The method is tested on a simple one-way-coupled test case and shown to decrease these errors by a factor of about ten. The neural network avoids introducing numerical instabilities by incorporating the moment transport equations and the moment realizability into the loss function.},
+file = {bryngelson-SNH-22.pdf},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_9,
+Author = {S. H. Bryngelson and T. Colonius},
+Year = {2021},
+Title = {Closure of phase-averaged bubbly, cavitating flow models},
+Booktitle = {XXV International Congress of Theoretical and Applied Mechanics},
+Address = {Milano, Italy},
+Abstract = {Phase-averaged bubbly flow models are closed by high-order statistical moments of the disperse bubble dynamics. Evaluating these moments in a simulation environment is computationally expensive because the integrands are highly oscillatory. The cost of this closure is demonstrated for an ensemble-averaged bubbly flow model. A machine-learning-based method for accelerating the moment evaluation is formulated.},
+file = {bryngelson-ICTAM-21.pdf},
+url = {https://vimeo.com/640932583/0ae772bf00},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_8,
+Author = {M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+Year = {2021},
+Title = {A unified {E}ulerian multiphase framework for fluid-structure interaction problems including cavitation},
+Booktitle = {XXV International Congress of Theoretical and Applied Mechanics},
+Address = {Milano, Italy},
+abstract = {Understanding the impact load mechanisms from cavitation bubbles and shocks emitted by their collapse in and near solid deformable media is important for engineering and biomedical applications. In such flows, transient pressure fluctuations can lead toa cloud of small vapor bubbles near the solid object. A unified Eulerian framework for fluid-structure interaction problems includingcavitation is developed to incorporate numerically unresolved and resolved bubbles and the solid material elasticity. The numericalmodel uses interface-capturing techniques for the fluid-structure coupling with phase change. The method is based on a high-orderaccurate weighted essentially non-oscillatory shock and interface capturing scheme. Studies of single bubble and cloud dynamics neara solid/compliant structure relevant to therapeutic ultrasound applications are presented.},
+file = {rodriguez-ICTAM-21.pdf},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_7,
+Author = {S. H. Bryngelson and T. Colonius},
+Year = {2020},
+Title = {Phase- and mixture-averaged techniques for general bubbly flows},
+Booktitle = {33rd Symposium on Naval Hydrodynamics},
+Address = {Osaka, Japan},
+file = {bryngelson-SNH-20.pdf},
+abstract = {Averaged models are used to represent cavitating bubbly mixtures at the sub-grid computational level. Though such averaging techniques are widely used, the relative computational performance of various adaptations remains unknown. The accuracy and computational efficiency of two such models, one ensemble-averaging and one volume-averaging, addresses this issue. Results show that the relative computational cost of the methods depends upon the degree of bubble polydispersity. The ensemble-averaged model requires more quadrature nodes for broader population sizes and increasingly broad populations become computationally untenable. A moment-based method addresses this shortcoming. It uses a Gaussian closure and is augmented via long short-term memory recurrent neural networks for high-order statistics. Results show that this approach achieves small relative errors for even high-order statistical moments using only five degrees of freedom, significantly fewer than the hundreds required by classes methods.},
+url={https://vimeo.com/640930931/6e57ccfd89},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_6,
+title = {A comparison of ensemble- and volume-averaged bubbly flow models},
+author = {S. H. Bryngelson and T. Colonius},
+booktitle = {10th International Conference on Multiphase Flow},
+address = {Rio de Janeiro, Brazil},
+year = {2019},
+file = {bryngelson-ICMF-19.pdf},
+abstract = {We compare volume- and ensemble-averaged bubbly flow models. Volume-averaging is a deterministic process for which bubbles are represented in a Lagrangian framework as advected particles, each sampled from a distribution of equilibrium bubble sizes. Ensemble-averaging instead uses mixture-averaged equations in an Eulerian reference frame for the associated bubble properties, each represented by bins of the equilibrium distribution. In both cases, bubbles are modeled as spherical with dynamics governed by the Keller-Miksis equation. Computationally, there are tradeoffs between these two approaches. Here, we simulate an acoustically excited dilute bubble screen and compare the computational efficiency of the two approaches.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_5,
+title = {The stability of flowing trains of confined red blood cells},
+author = {J. B. Freund and S. H. Bryngelson},
+Booktitle = {XXIV International Congress of Theoretical and Applied Mechanics},
+address = {Montreal, Canada},
+year = {2016},
+file = {freund-ICTAM-16.pdf},
+abstract = {The asymptotic and transient stability of single-file trains of fluid-filled elastic capsules flowing in narrow channels is analyzed as a model for the lines of red blood cells commonly observed in small tubes or vessels. The most amplified disturbances in larger channels are found to have a rich variety of characteristics depending upon the details of the particular configuration. Transient growth mechanisms are found to be significant, even for relatively small perturbations, and are shown to precipitate nonlinear saturation and chaotic flow many times more quickly than the asymptotic stability would predict even for nominally small perturbations.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_4,
+title = {Buckling and the rheology of an elastic capsule suspension},
+author = {S. H. Bryngelson and J. B. Freund},
+Booktitle = {XXIV International Congress of Theoretical and Applied Mechanics},
+address = {Montreal, Canada},
+year = {2016},
+file = {bryngelson-ICTAM-16.pdf},
+abstract = {The rheological behavior of an elastic capsule suspension is studied in a model two-dimensional channel using detailed numerical simulations. As the rest capsule membrane aspect ratio increases, the capsules become increasingly vulnerable to a buckling instability. This buckling behavior is concomitant with a sudden increase in the effective viscosity and a near disappearance of any near-wall capsule-free layer. The microstructure dynamics suggest elongated capsules make significant rotational contributions that disrupt organized flow, as computed by their rotlet capsule-capsule interactions.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_3,
+author = {S. H. Bryngelson and F. O'Meally and T. Colonius and R. O. Fox},
+title = {Conditional moment method for fully-coupled phase-averaged cavitation models},
+booktitle = {11th International Symposium on Cavitation},
+year = {2021},
+address = {Daejeon, Korea},
+link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T03},
+abstract = {Eulerian sub-grid models for the bubble dynamics associated with cavitation are an increasingly viable route for simulating engineering-scale bubbly flow problems. We identify two primary concerns towards enabling physically faithful simulations: sub-grid model fidelity and computational cost. Previous Euler-Euler models considered the sub-grid bubble radius and radial velocity to be deterministic functions of the bubble dynamics model and pressure forcing. We relax this assumption, allowing the bubble radii and radial velocities to be arbitrary probability density functions conditioned on the equilibrium bubble size. Conditional moment inversion methods reconstruct quadrature nodes and weights in the internal coordinate directions, which are then used to compute the moments that close the fully coupled flow equations. A one-dimensional acoustically excited bubble screen is used to study the resulting models. Computationally, resolving radius and radial velocity variations requires only a modest additional cost when compared to that of the $R_o$-coordinate, which has a highly oscillatory behavior. The observed bubble screen pressures show that variation of the bubble probability density functions lead to variations in the dynamic response of the bubble screen.  For example, we observe an increase in pressure fluctuations with increasing radial variation, as the bubbles oscillate at shorter time scales than the transmitted acoustic wave, while increasing velocity variation reduces the observed pressure fluctuations. Thus, modeling the instantaneous radius and velocity distributions is necessary if actual cavitating bubble clouds are in such statistical disequilibria.},
+file = {bryngelson-CAV-21.pdf},
+keywords = "nonheavy",
+url = {https://vimeo.com/640931949/a6cd12fc05},
+}
+
+
+@inproceedings{proceeding_2,
+author = {M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+title = {Acoustically-induced bubble growth and phase change dynamics near compliant surfaces},
+booktitle = {11th International Symposium on Cavitation},
+year = {2021},
+address = {Daejeon, Korea},
+file = {rodriguez-CAV-21.pdf},
+link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T02},
+abstract = {Biomedical therapies use focused ultrasound to treat pathogenic tissues. The ultrasound waves lead to nucleation, grow and collapse of bubbles.  Previous numerical simulations of this process have treated the bubble contents as non-condensible gas, but it is known that phase change affects the bubble dynamics as a function of the driving frequency and waveform.  In this study, we incorporate phase change in the six-equation, multiphase model previously implemented in our Multi-component Flow Code (MFC). The implementation is verified with 1D cavitation and shock problems. To highlight the effects of phase change, we simulate the expansion of a 2D bubble near a solid, rigid boundary to observe phase change near the interface.},
+keywords = "nonheavy",
+}
+
+@inproceedings{proceeding_1,
+author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+title = {Eulerian framework for bubble-cloud-kidney stone interaction},
+link = {http://sigongji.cav2021.org/wp/SessionPaperList.asp?st=Oral&code=T03},
+booktitle = {11th International Symposium on Cavitation},
+year = {2021},
+address = {Daejeon, Korea},
+abstract = {Burst-wave lithotripsy (BWL) is a therapy for ablating kidney and gall bladder stones. During therapy, high-amplitude ultrasound waves issue from a transducer array and focus near the stone. These waves can nucleate clouds of small bubbles at the surface of the stone. This can affect treatment efficacy: acoustic shielding due to the bubble clouds can attenuate stone breakup, though the collapse of individual bubbles can amplify it. Further, these collapses can cause damage to surrounding tissue. Thus, optimizing lithotripsy against potential damage requires predicting bubble-stone interactions. Simulating bubble cloud cavitation is challenging due to the breadth of spatio-temporal scales involved. Additional scale restrictions are associated with soft material dynamics, which interact with the bubble clouds during lithotripsy. The open-source solver MFC can address these challenges. It uses a phase-averaging sub-grid model for bubble cloud cavitation and has been extended to include a hypoelastic Kelvin-Voigt model to compute stresses in stones and nearby soft surfaces. These models are fully-coupled to the fluid dynamics. The capabilities of this approach are demonstrated for a model BWL problem. The stress state in a kidney stone is modeled during treatment.},
+file = {spratt-CAV-21.pdf},
+keywords = "nonheavy",
+}
+
+@thesis{bryngelson_thesis,
+Author = {S. H. Bryngelson},
+Title = {Stability and transition of capsule-flow systems},
+Year = {2017},
+school = {University of Illinois at Urbana--Champaign},
+Note = {Ph.D. Thesis},
+file = {bryngelson-dissertation-17.pdf},
+abstract = {This work focuses on the mechanical stability of three different capsule-viscous-flow-systems.  Red blood cells, which are often modeled as capsules, can form uniform trains when flowing in narrow confines; however, in less confined environments their flow appears disordered. This time-stationary system is analyzed through a nonmodal stability analysis which includes full coupling between the viscous fluid flow and elastic cell membranes. The linearization is constructed via a complex set of orthogonal small disturbances which are evaluated using boundary integral techniques. Transiently (t -> 0+) and asymptotically (t -> infty) unstable disturbances are identified, with their corresponding growth rates and perturbation conformations depending upon on the flow strength, viscosity ratio between the inner and exterior cell fluids, cell–cell spacing, cell at-rest shape, and vessel diameter. An ellipsoidal capsule subject to homogeneous shear flow is also considered. While this flow configuration is seemingly more simple, the base motion of the capsule is time-dependent, though periodic, rather than steady, requiring an extension of our methods. This capsule flow is known to display different kinematic behavior, depending on the flow strength, membrane material properties, and capsule shape. The stability of the capsule motion has been studied based on empirical observations of simulations; here we build upon these results though a direct stability analysis. Our analysis utilizes Floquet methods, which yields Floquet multipliers that classify the asymptotic stability of the capsule motion, and quantify how viscous dissipation will rapidly damp most disturbances. However, we also identify disturbances that decay slowly, over many periods of the capsules rotating motion, as well as neutrally stable perturbations. The last flow system considered here is a spherical capsule subject to large amplitude oscillatory extensional (LAOE) flow, which is often used to study the rheology and dynamics of complex fluids. Examining soft particles in LAOE is particularly challenging, partially due to the instability of the flow system. We again quantify this stability through linear analysis, here extending the aforementioned Floquet formulation to include nonmodal and intra-period effects. The analysis shows the asymptotic stability of the capsules for all flow descriptions, as defined by the relative flow strength and capsule time scale. Transiently unstable modes are found for all cases, though again their growth saturates quickly. We also identify an intra-period instability to capsule translations, which matches that of a rigid particle, though it does not have finite amplification from period-to-period.},
+}
+
+@incollection{conference_69,
+author = {Victor Sanchez and Sawyer Remillard and David Henann and Jin Yang and Jon Estrada and Spencer H. Bryngelson and Mauro {Rodriguez Jr.}},
+title = {A theory and data integrated method for inertial microcavitation rheometry in soft materials},
+note = {The Third Joint SIAM/CAIMS Annual Meetings (AN25)},
+year = {2025},
+}
+
+@incollection{conference_68,
+author = {Spencer H. Bryngelson and Florian Sch\"afer},
+title = {Shocks without shock-capturing: {E}xtreme scale solutions to the compressible {N}avier--{S}tokes equations via inviscid geometric regularization},
+note = {The Third Joint SIAM/CAIMS Annual Meetings (AN25)},
+year = {2025},
+}
+
+@incollection{conference_67,
+author = {Spencer H. Bryngelson and Benjamin Wilfong and Anand Radhakrishnan},
+title = {Numerics for diverse exascale platforms with application to multi-phase and species flow},
+note = {18th U.S. National Congress on Computational Mechanics (USNCCM)},
+year = {2025},
+}
+
+@incollection{conference_66,
+author = {Spencer H. Bryngelson},
+title = {Shocks without shock-capturing: {E}xtreme scale solutions to the compressible {Navier}--{S}tokes equations via inviscid geometric regularization},
+note = {Algorithms For Multiphysics Models In The Post-Moore's Law Era Workshop},
+year = {2025},
+}
+
+@incollection{conference_65,
+author = {Spencer H. Bryngelson},
+title = {Efficient computation of high-amplitude acoustics in the body: {F}rom ultrasound to noise},
+note = {188th Meeting of the Acoustical Society of America joint with 25th International Congress on Acoustics},
+year = {2025},
+}
+
+@incollection{conference_64,
+author = {Hang Song and Akshay Subramaniam and Britton Olson and Andy Wu and Anjini Chandra and Spencer H. Bryngelson and Sanjiva Lele},
+title = {Parallel and GPU-optimized linear solver for compact difference schemes},
+note = {APS Global Physics Summit},
+year = {2025},
+}
+
+@incollection{conference_63,
+author = {Anand Radhakrishnan and Henry {Le Berre} and Benjamin Wilfong and Reuben Budiardja and Steve Abbott and Spencer H. Bryngelson},
+title = {Compressible flow simulation on {F}rontier and {El Capitan} architectures},
+note = {APS Global Physics Summit},
+year = {2025},
+}
+
+@incollection{conference_62,
+author = {T. Chu and J. Beckett and B. Abeid and J. B. Estrada and S. H. Bryngelson},
+title = {Bayesian optimal design accelerates discovery of material properties from bubble dynamics},
+note = {SIAM Computational Science and Engineering},
+year = {2025},
+}
+
+@incollection{conference_61,
+author = {S. Briney and T. Daoud and S. H. Bryngelson and T. L. Jackson and S. Balachandar},
+title = {Particle-resolved and Euler-Lagrange simulations of shock interaction with particle clusters using MFC},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_60,
+author = {B. Wilfong and T. Chu and R. M. McMullen and T. Koehler and S. H. Bryngelson},
+title = {Hydrodynamic instability and breakup of a liquid-gas interface via vibration},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_59,
+author = {T. Chu and J. Estrada and S. H. Bryngelson},
+title = {Bayesian optimal design accelerates discovery of material properties from bubble dynamics},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_58,
+author = {C. Jawetz and S. H. Bryngelson and A. Alexeev},
+title = {A quantum lattice {B}oltzmann algorithm for simulating heat transfer with phase change},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_57,
+author = {S. Remillard and Z. Zhu and B. Abeid and D. Froklin and S. H. Bryngelson and J. Yang and J. B. Estrada and M. Rodriguez},
+title = {Soft material mechanical property determination using a modified {R}ayleigh collapse time},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_56,
+author = {V. Sanchez and B. Abeid and J. Yang and J. Estrada and D. Henann and S. H. Bryngelson and M. Rodriguez},
+title = {Bayesian constitutive model selection for inertial microcavitation rheometry},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+@incollection{conference_55,
+author = {M. {Carcana Barbosa} and J. R. Chreim and Z. Tong and J. Yang and S. H. Bryngelson and D. Henann and T. Colonius and M. Rodriguez},
+title = {Numerical simulations of inertial microcavitation near a gel-water interface with finite elasticity and phase change},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2024},
+}
+
+
+@incollection{conference_54,
+author = {S. Manasreh and S. H. Bryngelson},
+title = {Blood flow through a microaneurysm},
+note = {Art of HPC, SC '24 The International Conference on High Performance Computing, Network, Storage, and Analysis},
+year = {2024},
+}
+
+@incollection{conference_53,
+author = {Anand Radhakrishnan and Henry {Le Berre} and Benjamin Wilfong and Reuben Budiardja and Steve Abbott and Spencer H. Bryngelson},
+title = {Compressible multi-species flow simulation on {OLCF F}rontier via {OpenACC}},
+note = {American Physical Society, March Meeting},
+year = {2024},
+}
+
+@incollection{conference_52,
+author = {Zhixin Song and Bryan Gard and Spencer H. Bryngelson},
+title = {Incompressible flow simulation via a hybrid quantum-classical approach and variational algorithm},
+note = {American Physical Society, March Meeting},
+year = {2024},
+}
+
+@incollection{conference_51,
+author = {S. H. Bryngelson},
+title = {Stochastic sub-grid methods for multiphase flows at scale},
+note = {Workshop on Compressible Multiphase Flows, Stanford University},
+year = {2023},
+}
+
+@incollection{conference_50,
+author = {H. Lee and S. H. Bryngelson and T. Colonius},
+title = {Cavitation inception in a turbulent mixing layer},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_49,
+author = {J. E. Arias and S. H. Bryngelson},
+title = {Towards stable shock-capturing via radial basis finite differences on unstructured point clouds},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_48,
+author = {A. Radhakrishnan and S. H. Bryngelson},
+title = {A statistical model for cavitation inception at the sub-grid scale},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_47,
+author = {S. Kocherla and S. H. Bryngelson},
+title = {Reducing quantum resources for the quantum lattice Boltzmann method},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_46,
+author = {Z. Song and B. Gard and S. H. Bryngelson},
+title = {Hybrid classical-quantum algorithm for solving the incompressible Navier--Stokes equations on quantum hardware},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_45,
+author = {J. Liu and F. Sch\"afer S. H. Bryngelson and T. Zaki and A. Mani},
+title = {Adjoint macroscopic forcing method for computing the nonlocal eddy viscosity in a turbulent channel flow},
+note = {Americal Physical Society, Division of Fluid Dynamics},
+year = {2023},
+}
+
+@incollection{conference_44,
+author = {J. Liu and F. Sch\"afer S. H. Bryngelson and T. Zaki and A. Mani},
+title = {Targeted quantification of nonlocal closure operators using an adjoint-based macroscopic forcing method},
+note = {International Association for Computational Mechanics MMLDE-CSET},
+year = {2023},
+}
+
+@incollection{conference_43,
+author = {Z. Song and S. H. Bryngelson},
+title = {Tutorial: {S}olving partial differential equations ({PDE}s) with quantum computers},
+note = {QCE23: 2023 IEEE International Conference on Quantum Computing \& Engineering},
+year = {2023},
+}
+
+@incollection{conference_42,
+author = {M. Firouznia and S. H. Bryngelson and D. Saintillan},
+title = {A spectral boundary element method for interfacially driven flows},
+note = {8th Micro and Nano Flows Conference},
+year = {2023},
+}
+
+@incollection{conference_41,
+author = {F. Schäfer and A. Anandkumar and S. H. Bryngelson  and Y. Kothari and H. Owhadi and Q. Zeng and H. Zheng},
+title = {Competitive gradient descent algorithms},
+note = {SIAM Computational Science and Engineering},
+year = {2023},
+}
+
+@incollection{conference_40,
+author = {S. H. Bryngelson and F. Schäfer and J. Liu and A. Mani},
+title = {Super-spectral operator recovery via the fast macroscopic forcing method},
+note = {SIAM Computational Science and Engineering},
+year = {2023},
+}
+
+@incollection{conference_39,
+author = {S. H. Bryngelson and H. {Le Berre} and A. Radhakrishnan},
+title = {Compressible multiphase flow simulation at near-exascale via a scalable GPU implementation},
+note = {American Physical Society, March Meeting},
+year = {2023},
+}
+
+@incollection{conference_38,
+author = {M. Firouznia and S. H. Bryngelson and D. Saintillan},
+title = {A spectral boundary integral method for simulating electrohydrodynamic flows in liquid droplets},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_37,
+author = {A. Bati and S. H. Bryngelson},
+title = {{RoseNNa: A} performant library for portable neural network inference with application to {CFD}},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_36,
+author = {F. E. Chrit and S. Kocherla and A. Alexeev and S. H. Bryngelson},
+title = {Quantum lattice gas algorithm for fluid flow simulations},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_35,
+author = {J. E. Arias and S. H. Bryngelson},
+title = {Radial-basis-function-based numerical methods for solving compressible flow equations at different {M}ach numbers},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_34,
+author = {S. H. Bryngelson and F. Sch{\"a}fer and J. Liu and A. Mani},
+title = {Fast Macroscopic Forcing: {E}xploiting locality for operator recovery},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_33,
+author = {A. Radhakrishnan and H. {Le Berre} and S. H. Bryngelson},
+title = {Towards exascale multiphase compressible flow simulation via scalable interface capturing-based solvers and {GPU} acceleration},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_32,
+author = {M. Rodriguez and S. H. Bryngelson},
+title = {Cavitation bubble growth near an elastic object},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_31,
+author = {J. Spratt and M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {Numerical simulations of ablation mechanisms during focused ultrasound therapies},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_30,
+author = {A. Panchal and A. Radhakrishnan and S. H. Bryngelson and S. Menon},
+title = {A numerical comparison of 5-, 6-, and 7-equation {B}aer-{N}unziato-based diffuse interface methods},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2022},
+}
+
+@incollection{conference_29,
+author = {T. Colonius and S. H. Bryngelson},
+title = {Hybrid quadrature moment methods for polydisperse cavitating flows},
+note = {1st European--American--Japanese Two-Phase Flow Group Meeting},
+year = {2022},
+}
+
+@incollection{conference_28,
+author = {F. E. Chrit and S. Kocherla and A. Adams and J. Young and A. Alexeev and S. H. Bryngelson},
+title = {Quantum lattice algorithms for solving partial differential equations},
+note = {17th Conference on Theory of Quantum Computation, Communication, and Cryptography},
+year = {2022},
+keywords = "quantum",
+}
+
+@incollection{conference_27,
+author = {Q. Zeng and S. H. Bryngelson and F. Sch{\"a}fer},
+title = {Competitive physics informed networks},
+note = {ICLR workshop ``Gamification and Multiagent Solutions''},
+year = {2022},
+}
+
+@incollection{conference_26,
+author = {M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {Numerical simulations of cavitation near an elastic object},
+note = {ECCOMAS Congress},
+year = {2022},
+}
+
+@incollection{conference_25,
+author = {M. Rodriguez and J.-S. Spratt and S. H. Bryngelson and T. Colonius},
+title = {Numerical simulations of cavitation bubble growth and collapse near a viscoelastic object},
+note = {19th U.S. National Congress on Theoretical and Applied Mechanics},
+year = {2022},
+}
+
+@incollection{conference_24,
+author = {S. H. Bryngelson},
+title = {Fast integration methods for averaging bubble dynamics at sub-grid scales},
+note = {19th U.S. National Congress on Theoretical and Applied Mechanics},
+year = {2022},
+}
+
+@incollection{conference_23,
+author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+title = {Single-framework simulations of acoustic-wave–bubble cloud–stone interactions},
+note = {Journal of the Acoustical Society of America},
+year = {2021},
+}
+
+@incollection{conference_22,
+author = {S. H. Bryngelson and A. Charalampopoulos and T. Sapsis and T. Colonius},
+title = {Machine learned model for non-Gaussian cavitation statistics},
+note = {International Association for Computational Mechanics MMLDT-CSET},
+year = {2021},
+}
+
+@incollection{conference_21,
+author = {S. H. Bryngelson and Q. Wang and E. Cisneros-Garibay and T. Colonius},
+title = {GPU-accelerated quadrature moment methods},
+note = {SIAM Annual Meeting},
+year = {2021},
+}
+
+@incollection{conference_20,
+author = {S. H. Bryngelson and A. Charalampopoulos and R. O. Fox and T. Sapsis and T. Colonius},
+title = {Bypassing quadrature moment method instability via recurrent neural networks with application to cavitating bubble dispersions},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2021},
+url = {https://vimeo.com/650700675/06006b48de},
+}
+
+@incollection{conference_19,
+author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+title = {High fidelity single framework simulations of acoustic wave--bubble cloud--elastic solid interactions},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2021},
+}
+
+@incollection{conference_18,
+author = {M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {Vapor and gas bubble growth with phase transition near a wall},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2021},
+}
+
+@incollection{conference_17,
+author = {S. H. Bryngelson and T. Colonius},
+title = {Statistical model for cavitating polydisperse bubble clouds},
+note = {Journal of the Acoustical Society of America},
+year = {2021},
+url = {https://vimeo.com/640933361/4f9d1469ce},
+}
+
+
+@incollection{conference_16,
+author = {S. H. Bryngelson and T. Colonius},
+title = {Sub-grid population balance model for cavitating flows},
+note = {14th Southern California Flow Physics Symposium},
+year = {2021},
+}
+
+@incollection{conference_15,
+author = {M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {Acoustically induced bubble growth with phase change},
+note = {14th Southern California Flow Physics Symposium},
+year = {2021},
+}
+
+@incollection{conference_14,
+author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and S. Cao and T. Colonius},
+title = {Numerical Simulations of burst-wave lithotripsy in an Eulerian framework},
+note = {14th Southern California Flow Physics Symposium},
+year = {2021},
+}
+
+
+@incollection{conference_13,
+author = {S. H. Bryngelson and R. Fox and T. Colonius},
+title = {Conditioned quadrature moment methods for cavitating bubble dispersions},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2020},
+url = {https://vimeo.com/640933407/2830fcf3e0},
+}
+
+@incollection{conference_12,
+author = {J.-S. Spratt and M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {A fully Eulerian simulation framework for cavitating bubble-clouds near viscoelastic materials},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2020},
+}
+
+@incollection{conference_11,
+author = {M. Rodriguez and S. H. Bryngelson and T. Colonius},
+title = {Cavitation bubble growth with phase transition near a rigid wall},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2020},
+}
+
+@incollection{conference_10,
+author = {S. H. Bryngelson and T. Colonius},
+title = {Annular and spiral bubble nets: A simulation-focused analysis of humpback whale feeding strategies},
+note = {Journal of the Acoustical Society of America, 146(4) 2771},
+year = {2019},
+}
+
+@incollection{conference_9,
+author = {S. H. Bryngelson and A. Charalampopoulos and T. P. Sapsis and T. Colonius},
+title = {Neural-network-augmented Gaussian moment method for the statistics of cavitating bubble populations},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2019},
+}
+
+@incollection{conference_8,
+author = {T. Trummler and K. Schmidmayer and S. H. Bryngelson and T. Colonius},
+title = {Simulations of a collapsing gas bubble above a crevice},
+note = {13th Southern California Flow Physics Symposium},
+year = {2019},
+}
+
+@incollection{conference_7,
+author = {S. H. Bryngelson and T. Colonius},
+title = {Simulations and acoustics of humpback whale bubble-net feeding},
+note = {13th Southern California Flow Physics Symposium},
+year = {2019},
+}
+
+@incollection{conference_6,
+author = {S. H. Bryngelson and T. Colonius},
+title = {Modeling approaches for bubbly, cavitating flows},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2018},
+}
+
+@incollection{conference_5,
+author = {S. H. Bryngelson and J. B. Freund},
+title = {Floquet stability of tank-treading and tumbling capsules in viscous shear flow},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2017},
+}
+
+@incollection{conference_4,
+author = {S. H. Bryngelson and J. B. Freund},
+title = {Stability of flowing red blood cell trains},
+note = {Blood Flow},
+year = {2017},
+}
+
+@incollection{conference_3,
+author = {S. H. Bryngelson and J. B. Freund},
+title = {Global stability of fully coupled capsule flow systems},
+note = {SIAM Computational Science and Engineering},
+year = {2017},
+}
+
+@incollection{conference_2,
+author = {S. H. Bryngelson and J. B. Freund},
+title = {Stability and transition to chaos of regular capsule trains},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2016},
+}
+
+@incollection{conference_1,
+author = {S. H. Bryngelson and J. B. Freund},
+title = {Buckling and its effect on the confined flow of a capsule suspension},
+note = {American Physical Society, Division of Fluid Dynamics},
+year = {2015},
+}
+
+@incollection{invited_40,
+author = {{Acoustical Society of America, \textit{Invited conference talk}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_39,
+author = {{Georgia Tech IDEaS, \textit{Cyberinfrastructure and Services for Science \& Engineering Workshop}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_38,
+author = {{University of California, Berkeley, \textit{Department of Mechanical Engineering Seminar Series}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_37,
+author = {{University of Washington, \textit{Department of Aerospace Engineering Seminar Series}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_36,
+author = {{University of Florida, \textit{Institute for Computational Engineering Seminar}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_35,
+author = {{DOE Pacific Northwest National Laboratory, \textit{Environmental Technology Seminar}}},
+year = {2025},
+keywords = "invited",
+}
+
+@incollection{invited_34,
+author = {{Supercomputing (SC) 2024, \textit{ART HPC Creates}}},
+year = {2024},
+keywords = "invited",
+}
+
+@incollection{invited_33,
+author = {{U.S. Navel Research Laboratory, \textit{Computational Physics \& Fluid Dynamics Seminar}}},
+year = {2024},
+keywords = "invited",
+}
+
+
+@incollection{invited_32,
+author = {{Center for Research into Novel Computing Hierarchies, \textit{CRNCH Summit}}},
+year = {2024},
+keywords = "invited",
+}
+
+@incollection{invited_31,
+author = {{Naval Surface Warfare Center, Carderock Division, \textit{Quantum Science Seminar}}},
+year = {2024},
+keywords = "invited",
+}
+
+@incollection{invited_30,
+author = {{Google Research, \textit{Applied Science Seminar Series}}},
+year = {2023},
+keywords = "invited",
+}
+
+@incollection{invited_29,
+author = {{Bayer AG, \textit{Field Data Science Seminar}}},
+year = {2023},
+keywords = "invited",
+}
+
+@incollection{invited_28,
+author = {{University of Illinois at Urbana--Champaign, \textit{Mechanical Science and Engineering Fluids Seminar}}},
+year = {2023},
+keywords = "invited",
+}
+
+@incollection{invited_27,
+author = {{Georgia Institute of Technology, \textit{George W. Woodruff School of Mechanical Engineering Seminar Series}}},
+year = {2023},
+keywords = "invited",
+}
+
+@incollection{invited_26,
+author = {{OpenACC Webinar}},
+year = {2023},
+keywords = "invited",
+url={https://www.youtube.com/watch?v=S0gRVIkNYPg},
+}
+
+@incollection{invited_25,
+author = {{Lawrence Livermore National Laboratory, \textit{Data-driven Physics Simulation Webinar}}},
+year = {2023},
+keywords = "invited",
+url={https://www.youtube.com/watch?v=zm-iF1FtkLE},
+}
+
+@incollection{invited_24,
+author = {{Georgia Institute of Technology, \textit{Daniel Guggenheim School of Aerospace Engineering Seminar Series}}},
+year = {2022},
+keywords = "invited",
+url={https://vimeo.com/759713173/12ef9a0220},
+}
+
+@incollection{invited_23,
+author = {{Georgia Institute of Technology, \textit{Applied and Computational Math Seminar Series}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_22,
+author = {{Arizona State University, \textit{Fluids Seminar}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_21,
+author = {{Emory University, \textit{Scientific Computing Seminar Series}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_20,
+author = {{Office of Naval Research, \textit{Basic Research Challenge Guest Talks}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_19,
+author = {{Massachusetts Institute of Technology, \textit{SAND Group}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_18,
+author = {{Brown University, 
+\textit{Center for Fluid Mechanics, Applied Math and Engineering}}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_17,
+author = {{Georgia Scientific Computing Symposium}},
+year = {2022},
+keywords = "invited",
+}
+
+@incollection{invited_16,
+author = {{Center for Research into Novel Computing Hierarchies, \textit{CRNCH Summit}}},
+year = {2022},
+keywords = "invited",
+url={https://mediaspace.gatech.edu/media/CRNCH+Summit+2022+-+Spencer+Bryngleson+-+Quantum+Computing+for+Continuum+Mechanics/1_23u8ou36},
+}
+
+@incollection{invited_15,
+author = {{OpenACC Annual Summit}},
+year = {2021},
+keywords = "invited",
+url={https://youtu.be/DgX6ssX2yrg},
+}
+
+@incollection{invited_14,
+author = {{University of California, San Diego, 
+\textit{Fluid Mechanics, Combustion, \& Engineering Physics Seminar Series}}},
+year = {2021},
+keywords = "invited",
+url={https://vimeo.com/640930056/b1a6c0dc62},
+}
+
+@incollection{invited_13,
+author = {{California Institute of Technology,
+\textit{Mechanical and Civil Engineering Seminar Series}}},
+year = {2021},
+keywords = "invited",
+}
+
+@incollection{invited_12,
+author = {{Georgia Institute of Technology,
+\textit{Computational Science \& Engineering Seminar Series}}},
+year = {2020},
+keywords = "invited",
+}
+
+@incollection{invited_11,
+author = {{University of Washington,
+\textit{Mechanical Engineering Seminar Series}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_10,
+author = {{University of Michigan--Ann Arbor,
+\textit{Mechanical Engineering Seminar Series}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_9,
+author = {{Massachusetts Institute of Technology,
+\textit{SAND Group}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_8,
+author = {{University of Vermont,
+\textit{Mechanical Engineering Seminar Series}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_7,
+author = {{University of Utah,
+\textit{Mechanical Engineering Seminar Series}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_6,
+author = {{University of Michigan--Dearborn,
+\textit{Mechanical Engineering Seminar Series}}},
+year = {2019},
+keywords = "invited",
+}
+
+@incollection{invited_5,
+author = {{California Institute of Technology,
+\textit{Flow Mechanics Research Conference}}},
+year = {2018},
+keywords = "invited",
+}
+
+@incollection{invited_4,
+author = {{California Institute of Technology,
+\textit{Computational Flow Physics Group}}},
+year = {2018},
+keywords = "invited",
+}
+
+@incollection{invited_3,
+author = {{ETH Zurich,
+\textit{Computational Science \& Engineering Lab}}},
+year = {2017},
+keywords = "invited",
+}
+
+@incollection{invited_2,
+author = {{University of Illinois at Urbana--Champaign,
+\textit{Fluid Mechanics Seminar}}},
+year = {2017},
+keywords = "invited",
+}
+
+@incollection{invited_1,
+author = {{University of Illinois at Urbana--Champaign, \textit{Biology Interest Group}}},
+year = {2015},
+keywords = "invited",
+}
+
+@software{ecogen,
+author = {K. Schmidmayer and B. Dorschner and E. Daniel and S. Le Martelot and S. H. Bryngelson and F. Petitpas},
+title = {{ECOGEN: M}ultiphase and capillary flow solver},
+url = {https://code-mphi.github.io/ECOGEN/},
+date = {2019},
+}
+
+@software{mfc,
+author = {S. H. Bryngelson and A. Radhakrishnan and H. {Le Berre} and M. Rodriguez and J.-S. Spratt and K. Schmidmayer and V. Coralic and K. Maeda and J. Meng and T. Colonius},
+title = {{MFC}: {M}ulti-component {F}low {C}ode},
+url = {https://mflowcode.github.io},
+date = {2019},
+}
+
+@software{pyqbmmlib,
+author = {S. H. Bryngelson and E. Cisneros-Garibay and Q. Wang and R. O. Fox and T. Colonius},
+title = {{PyQBMMlib: A} library of quadrature-based moment methods},
+url = {https://github.com/comp-physics/PyQBMMlib},
+date = {2020},
+}
+
+@software{qbmmlib,
+author = {S. H. Bryngelson and R. O. Fox and T. Colonius},
+title = {{QBMMlib: A} library of quadrature-based moment methods},
+url = {https://github.com/comp-physics/QBMMlib},
+date = {2020},
+}
+
+@software{plascom2,
+author = {M. Campbell and E. Cisneros and S. H. Bryngelson and D. Buchta and M. Anderson and M. Diener and M. Smith},
+title = {{PlasCom2: M}ulti-physics turbulent flows},
+url = {https://xpacc-dev.bitbucket.io/PlasCom2/},
+date = {2018},
+}
+
