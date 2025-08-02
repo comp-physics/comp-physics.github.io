@@ -7,6 +7,7 @@ permalink: /teaching/
 
 ## Teaching
 
+* Fall 2025: <a href="{{ site.url }}{{ site.baseurl }}/teaching/2025f_cse6010">CSE6010 Computational Problem Solving</a>
 * Spring 2025: <a href="{{ site.url }}{{ site.baseurl }}/teaching/2025s_cse6730">CSE6730 Modeling and Simulation</a>
 * Fall 2024: <a href="{{ site.url }}{{ site.baseurl }}/teaching/2024f_cx4640">CX4640/MATH4640 Numerical Analysis 1</a>
 * Spring 2024: <a href="{{ site.url }}{{ site.baseurl }}/teaching/2024s_cse6730">CSE6730 Modeling and Simulation</a>
