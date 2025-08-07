@@ -11,6 +11,9 @@ Nano-scale transistors fill warehouse-scale supercomputers, yet their performanc
 The **Computational Physics Group at Georgia Tech** develops computational models and numerical methods to push these applications forward.
 We accompany our methods with algorithms crafted to make efficient use of the latest exascale machines and computer architectures, including AMD GPUs, Arm/RISC CPUs, and quantum computers.
 We develop <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">open-source software</a> for these methods that scales to the world's largest supercomputers. 
+
+
+Most recently, our group set the record for the <a href='https://arxiv.org/abs/2505.07392' target='_blank'>largest CFD simulation</a> <i>ever conducted</i> at 100T grid points (as of August 2025), without loss of accuracy.
 Check out the rest of this website to learn more.
 </div>
 <div id="newsid" class="col-sm-5 col-xs-12" >
@@ -45,18 +48,19 @@ __Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) i
 
 
 <div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
-<iframe src="https://player.vimeo.com/video/905208069?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="200" frameborder="0" allow="autoplay"></iframe>
+<iframe src="https://player.vimeo.com/video/1107931231?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="250" frameborder="0" allow="autoplay"></iframe>
 </div>
-Bubble cavitation and droplet shedding are fundamental multiphase flow problems at the core of naval hydrodynamics, aerospace propulsion, and more.
-We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/charalampopoulos-RSA-21.pdf" target="_blank">sub-grid method</a> for simulating these phenomena.
-<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale-capable multi-phase flow solver, demonstrates such scale-resolving simulation of a shock-droplet interaction in the above video (via Ph.D. student Ben Wilfong).
+Multiphase flow problems at the core of biological, energy, naval, and aerodynamic problems.
+We developed an implementation of the IGR technique with Florian Schäfer for simulating these flows.
+This set the record in July 2025 for the <a href="https://arxiv.org/abs/2505.07392" target="_blank">largest CFD simulation at 100T grid points </a> for simulating these phenomena, using the entire <a href="https://www.olcf.ornl.gov/frontier/" target="_blank">OLCF Frontier</a> system.
+<a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale multi-phase flow solver, demonstrates such scale-resolving simulation of a multi-rocket-booster configuration above (viz. via Ph.D. student Ben Wilfong).
 
 <div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">
 <iframe src="https://player.vimeo.com/video/987402712?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" frameborder="0" width="100%" height="250" allow="autoplay"></iframe>
 </div>
 The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device. This method of simulation provides resolution of strong cell membrane deformation with scant computational resources.
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">stochastic model</a> for the cell-scale flow, enabling microfluidic device design and improving treatment outcomes.
-The video above shows a microaneurysm (simulated by Suzan Manasreh).
+The video above shows a microaneurysm (viz. via student Suzan Manasreh).
 </div>
 
 <div class="jumbotron">
