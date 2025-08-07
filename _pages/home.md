@@ -47,12 +47,12 @@ __Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) i
 <h2>Examples of our work</h2>
 
 
-<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
-<iframe src="https://player.vimeo.com/video/1107931231?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="250" frameborder="0" allow="autoplay"></iframe>
+<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:75%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
+<iframe src="https://player.vimeo.com/video/1107931231?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay"></iframe>
 </div>
 Multiphase flow problems at the core of biological, energy, naval, and aerodynamic problems.
 We developed an implementation of the IGR technique with Florian Schäfer for simulating these flows.
-This set the record in July 2025 for the <a href="https://arxiv.org/abs/2505.07392" target="_blank">largest CFD simulation at 100T grid points </a> for simulating these phenomena, using the entire <a href="https://www.olcf.ornl.gov/frontier/" target="_blank">OLCF Frontier</a> system.
+In July 2025 we set the record for the <a href="https://arxiv.org/abs/2505.07392" target="_blank">largest CFD simulation at 100T grid points </a> for simulating these phenomena, using the entire <a href="https://www.olcf.ornl.gov/frontier/" target="_blank">OLCF Frontier</a> system.
 <a href="https://mflowcode.github.io/" target="_blank">MFC</a>, our open-source exascale multi-phase flow solver, demonstrates such scale-resolving simulation of a multi-rocket-booster configuration above (viz. via Ph.D. student Ben Wilfong).
 
 <div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">
