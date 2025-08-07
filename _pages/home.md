@@ -46,9 +46,8 @@ __Openings? Visit [this page]({{ site.url }}{{ site.baseurl }}/vacancies.html) i
 <div class="jumbotron">
 <h2>Examples of our work</h2>
 
-
-<div style="padding:2px;background:#fff;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:75%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
-<iframe src="https://player.vimeo.com/video/1107931231?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay"></iframe>
+<div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:75%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
+<iframe src="https://player.vimeo.com/video/1108222522?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay"></iframe>
 </div>
 Multiphase flow problems at the core of biological, energy, naval, and aerodynamic problems.
 We developed an implementation of the IGR technique with Florian Schäfer for simulating these flows.
