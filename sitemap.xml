@@ -9,5 +9,5 @@ layout: null
         <loc>{{ site.exturl }}{{ page.url }}</loc>
        </url>
     {% endif %}
-  {% endfor %}
+  {% endfor %} 
    </urlset>
