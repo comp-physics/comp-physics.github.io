@@ -81,7 +81,15 @@
   email: haochey@gatech.edu
   linkedin: https://www.linkedin.com/in/haocheng-yu-3b636b128
   github: https://github.com/haochey
-  researchgate: https://www.linkedin.com/in/haocheng-yu-3b636b12
+  researchgate: https://www.researchgate.net/profile/Haocheng-Yu-6
+  scholar: https://scholar.google.com/citations?user=cm5vFjYAAAAJ
+
+- name: Mark Zhang
+  photo: mark
+  info: PhD student
+  email: markzhang@gatech.edu
+  linkedin: https://www.linkedin.com/in/mzhang314
+  github: https://github.com/Cowsreal
 
 - name: Melody Lee
   photo: melody
@@ -98,3 +106,11 @@
   info: UG student
   github: https://github.com/okBrian
   linkedin: https://www.linkedin.com/in/brian-jinseo-ok
+
+- name: Tanush Prathi
+  photo: tanush
+  email: tprathi3@gatech.edu
+  info: UG student
+  github: https://github.com/prathi-wind
+  linkedin: https://www.linkedin.com/in/tanush-prathi
+
