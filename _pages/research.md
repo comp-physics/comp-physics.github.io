@@ -44,11 +44,9 @@ These simulations are based on PDEs and are thus expensive, both in node hours a
 They are also inefficient: A staggering quantity of the marshaled computational resources are required to represent the effects of microscopically small features that accumulate to have macroscopic effects. 
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
-
 * Our group <a href="{{ site.url }}{{ site.baseurl }}/papers/chrit-arxiv-23.pdf" target="_blank">develops quantum algorithms</a> for the PDEs that govern fluid flows and other phenomena to gain asymptotic speedups
 * We develop quantum lattice-based algorithms like quantum lattice Boltzmann and lattice gas
 * Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
-
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent">
 <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/respic/qlbm.png"/>
@@ -72,7 +70,6 @@ This has impacted application-specific treatments, including:
 * Improved _burst-wave lithotripsy administration_ in human trials 
 * Understanding of <a href="{{ site.url }}{{ site.baseurl }}/papers/schmidmayer-JCP-20.pdf" target="_blank">bubble-collapse-rebound</a> dynamics
 * Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/trummler-JFM-20.pdf" target="_blank">erosion potential</a> for rough materials
-{% cite kocherla24_1 %}
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
   <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay"></iframe>

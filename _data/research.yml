@@ -1,0 +1,78 @@
+themes:
+  - slug: exascale-cfd
+    title: "Exascale many-physics CFD"
+    summary: "Portable, GPU-accelerated, many-physics flow simulation at leadership scale; code design that keeps performance and maintainability in balance."
+    bullets:
+      - "Information-geometric regularization for shock handling at scale"
+      - "XPU offload + metaprogramming, CI, and robust I/O"
+      - "Frontier/Alps full-system weak/strong scaling"
+    # Replace keys below with your exact bib keys if they differ
+    rep_keys: ["wilfong252", "wilfong253", "radhakrishnan24"]
+    links:
+      - {text: "Software: MFC", url: "https://github.com/mflowcode"}
+
+  - slug: quantum-pdes
+    title: "Quantum algorithms & readout for PDE-ish workloads"
+    summary: "Quantum tomography and lattice/linear-system building blocks targeted at physics workloads; reduce measurement settings and identify practical speedups."
+    bullets:
+      - "Real-valued state tomography with O(n) settings"
+      - "Mesoscale/linear-system primitives for fluids"
+      - "Benchmarks on current hardware + simulators"
+    rep_keys: ["song252"]
+
+  - slug: learning-infused-numerics
+    title: "Learning-infused numerics & fast inference"
+    summary: "Tiny, physics-aware networks where they cut FLOPs/error: smoothness indicators, quadrature, and zero-overhead, in-solver inference."
+    bullets:
+      - "roseNNa: portable ONNX inference in C/Fortran solvers"
+      - "FLOP-efficient neural quadrature (oscillatory integrals)"
+      - "Rational-WENO: NN-based, physically consistent WENO3"
+    rep_keys: ["bati24", "sinha24neural", "shahane24"]
+    links:
+      - {text: "Software: roseNNa", url: "https://github.com/comp-physics/roseNNa"}
+
+  - slug: operator-inference
+    title: "Fast operator inference & turbulence closures"
+    summary: "Recover coarse-grained operators (transport, eddy viscosity) orders-of-magnitude faster, with accuracy tied to physics not grid size."
+    bullets:
+      - "Fast Macroscopic Forcing Method (polylog work per MV)"
+      - "Adjoint-aware estimation of nonlocal closures"
+      - "Bridges DNS ↔ RANS with actionable operators"
+    rep_keys: ["bryngelsonfmfm24"]
+
+  - slug: cavitation-rheometry
+    title: "Cavitation acoustics & soft-matter rheometry"
+    summary: "Near-real-time material characterization via collapse-time estimators; cuts reliance on Mfps videography and long fits."
+    bullets:
+      - "Collapse-time IMR estimator for viscoelasticity"
+      - "Surrogates to accelerate design loops"
+      - "Therapy-relevant parameter recovery"
+    rep_keys: ["zhu25"]
+
+  - slug: instabilities-interfaces
+    title: "Instabilities at vibrated, stratified interfaces"
+    summary: "RT vs. Faraday competition → multi-modal regimes, transitions, and breakup maps under vibration."
+    bullets:
+      - "Floquet/modal analysis of regime transitions"
+      - "DNS through nonlinear breakup"
+      - "Mixing control in layered flows"
+    rep_keys: ["tchu253"]
+
+  - slug: optimal-experimental-design
+    title: "Optimal experimental design for soft materials"
+    summary: "Local-RBF surrogates make Bayesian EIG affordable, enabling BOED for LIC setups with orders-of-magnitude fewer solves."
+    bullets:
+      - "Local RBFs for high-order EIG"
+      - "~8% of full computational cost in demos"
+      - "Single- & multi-model scenarios"
+    rep_keys: ["tchu252"]
+
+  # Optional extra card; keep or remove
+  # - slug: symbolic-thermochemistry
+  #   title: "Symbolic thermochemistry on XPUs"
+  #   summary: "Symbolic abstractions for auto-diff and accelerator-ready combustion kinetics; codegen to Python/C++/Fortran with roofline-level performance."
+  #   bullets:
+  #     - "Array-semantics separation + AD"
+  #     - "Multi-language code generation"
+  #     - "Coupling with MFC for performant source terms"
+  #   rep_keys: ["cisneros25"]

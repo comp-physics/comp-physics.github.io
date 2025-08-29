@@ -79,7 +79,7 @@ scholar:
   style: shb
   locale: en
 
-  source: /cv/
+  source: cv/
   bibliography: ref.bib
   bibliography_template: bibtemplate
   sort_by: year, month
