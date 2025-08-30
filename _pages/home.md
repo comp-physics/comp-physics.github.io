@@ -17,7 +17,7 @@ We develop <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">
 In August 2025 our group conducted the <a href='https://arxiv.org/abs/2505.07392' target='_blank'>largest-ever CFD simulation</a> at 200T grid points (1 quadrillion degrees of freedom) on OLCF Frontier and LLNL El Capitan without loss of accuracy.
 This work is a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' target='_blank'>Gordon Bell Prize</a> finalist.
 
-Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers.html) to learn more.
+Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
 </div>
 <div id="newsid" class="col-sm-4 col-xs-12" >
