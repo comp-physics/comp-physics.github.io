@@ -1,5 +1,5 @@
 # Site settings
-title: Comp. Physics @ GT
+title: Computational Physics @ GT
 yourname: Spencer H. Bryngelson
 email: shb@gatech.edu
 description: Compuational Physics Group at Georgia Tech CSE
@@ -38,10 +38,10 @@ information: >
 nav_pages:
   - name: team
   - name: papers
-  - name: research
+  # - name: research
   - name: teaching
   - name: software
-  - name: hardware
+  # - name: hardware
 
 include:
   - .htaccess

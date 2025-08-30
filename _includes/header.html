@@ -7,7 +7,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
     <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
         <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
-        {{ site.title | escape }}
+        <b>{{ site.title | escape }}</b>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,14 +16,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/"><b>Home</b></a>
                 </li> 
                 {% for page in site.nav_pages %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize}}</a>
+                        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}"><b>{{page.name | capitalize}}</b></a>
                     </li> 
                 {% endfor %}
-                <!-- <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/GSCS22">GSCS22</a> -->
             </li>
         </ul>
     </div>
