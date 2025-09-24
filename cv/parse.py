@@ -1,27 +1,38 @@
 #!/usr/bin/env python
 import pandas as pd
 import json
+from pathlib import Path
 
-groups = ["cpg","mfc","imr"]
+groups = ["cpg", "mfc", "imr"]
+
+ignore_names = {
+    ".github", "comp-physics.github.io", "MFlowCode.github.io", "benchmark",
+    "stats"}
+
 for grp in groups:
-    # Load json from gh
-    fn = grp + ".json"
-    obj  = json.load(open(fn))
+    fn = Path(f"{grp}.json")
+    with fn.open() as f:
+        obj = json.load(f)
 
-    # Ignore these repositories
-    ignore_names = [".github", "comp-physics.github.io", "MFlowCode.github.io", "benchmark", "stats", "qce23-qpde-tutorial", "IMR_simple", "IMR-simple"]
-    for ig in ignore_names:
-        for i in range(len(obj)):
-            if obj[i]["name"] == ig:
-                obj.pop(i)
-                break
+    # Drop ignored repos
+    obj = [item for item in obj if item.get("name") not in ignore_names]
 
-    myinp = json.dumps(obj, sort_keys=True, indent=4, separators=(',', ': '))
-    df = pd.read_json(myinp)
+    # Build DataFrame
+    df = pd.DataFrame(obj)
 
-    # Get rid of stuf that TeX won't like
-    df = df.replace('_','-',regex=True)
-    df = df.replace('@','at',regex=True)
+    # Escape LaTeX-unfriendly characters in ALL string columns
+    # 1) underscores -> \_
+    # 2) @ -> "at"
+    if not df.empty:
+        str_cols = df.select_dtypes(include="object").columns
+        for col in str_cols:
+            s = df[col].astype(str)  # ensure string ops, keeps non-nulls fine
+            s = s.str.replace('_', r'\_', regex=False)
+            s = s.str.replace('@', 'at', regex=False)
+            df[col] = s
 
-    # CSV file to read from github
-    df.to_csv("github-" + grp + ".csv", encoding='utf-8', index=False)
+        # Also escape underscores in column names
+        df = df.rename(columns=lambda c: c.replace('_', r'\_'))
+
+    # Write CSV
+    df.to_csv(f"github-{grp}.csv", encoding="utf-8", index=False)
