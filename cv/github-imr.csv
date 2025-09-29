@@ -1,0 +1,8 @@
+description,name,url
+IMR version 2,IMRv2,https://github.com/InertialMicrocavitationRheometry/IMRv2
+Accelerated BOED via RBFs,IMR\_RBF\_BOED,https://github.com/InertialMicrocavitationRheometry/IMR\_RBF\_BOED
+IMR-based Bayesian Optimal Experimental Design,IMR\_Bayesian\_design,https://github.com/InertialMicrocavitationRheometry/IMR\_Bayesian\_design
+Simple codes to numerically simulate laser/ultrasound-induced inertial cavitation bubble dynamics in soft materials ,Intro-to-IMR,https://github.com/InertialMicrocavitationRheometry/Intro-to-IMR
+IMR with Data Assimilation,IMR\_data\_assimilation,https://github.com/InertialMicrocavitationRheometry/IMR\_data\_assimilation
+Vanilla IMR codebase,IMR\_v1,https://github.com/InertialMicrocavitationRheometry/IMR\_v1
+InertialCav supported by J. Estrada's group,inca,https://github.com/InertialMicrocavitationRheometry/inca

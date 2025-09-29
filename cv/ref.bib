@@ -9,18 +9,6 @@ doi = {10.48550/arXiv.2509.21630},
 abstract = {Heat transfer involving phase change is computationally intensive due to moving phase boundaries, nonlinear computations, and time step restrictions. This paper presents a quantum lattice Boltzmann method (QLBM) for simulating heat transfer with phase change. The approach leverages the statistical nature of the lattice Boltzmann method (LBM) while addressing the challenges of nonlinear phase transitions in quantum computing. The method implements an interface-tracking strategy that partitions the problem into separate solid and liquid domains, enabling the algorithm to handle the discontinuity in the enthalpy-temperature relationship. We store phase change information in the quantum circuit to avoid frequent information exchange between classical and quantum hardware, a bottleneck in many quantum applications. Results from the implementation agree with both classical LBM and analytical solutions, demonstrating QLBM as an effective approach for analyzing thermal systems with phase transitions. Simulations using 17 lattice nodes with 51 qubits demonstrate root-mean-square (RMS) errors below 0.005 when compared against classical solutions. The method accurately tracks interface movement during phase transition.},
 }
 
-@unpublished{tchu253,
-Author = {T. Chu and B. Wilfong and T. Koehler and R. M. McMullen and S. H. Bryngelson},
-Title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
-note = {arXiv:2505.23578},
-file = {chu-rt-arxiv-25.pdf},
-arxiv = {arXiv.2505.23578},
-year = {2025},
-doi = {10.48550/arXiv.2505.23578},
-abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. Two hydrodynamic instabilities have long been thought to govern the interface behavior: the pressure gradient-driven long-wavelength Rayleigh-Taylor (RT) instability and resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms act concurrently. Instead, we identify a previously unseen multi-modal instability emerging from their coexistence. We show how vibrations govern transitions between the RT and Faraday instabilities, with the two competing instead of resonantly enhancing each other. The initial transient growth is captured by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes, in which the growing RT modes are shown to suppress Faraday responses via a nonlinear mechanism.},
-}
-
-
 @unpublished{tchu252,
 Author = {T. Chu and J. B Estrada and S H. Bryngelson},
 Title = {Accelerating {B}ayesian optimal experimental design via local radial basis functions: {A}pplication to soft material characterization},
@@ -91,6 +79,18 @@ arxiv = {arXiv.2409.09217},
 year = {2024},
 abstract = {Conventional WENO3 methods are known to be highly dissipative at lower resolutions, introducing significant errors in the pre-asymptotic regime. In this paper, we employ a rational neural network to accurately estimate the local smoothness of the solution, dynamically adapting the stencil weights based on local solution features. As rational neural networks can represent fast transitions between smooth and sharp regimes, this approach achieves a granular reconstruction with significantly reduced dissipation, improving the accuracy of the simulation. The network is trained offline on a carefully chosen dataset of analytical functions, bypassing the need for differentiable solvers. We also propose a robust model selection criterion based on estimates of the interpolation's convergence order on a set of test functions, which correlates better with the model performance in downstream tasks. We demonstrate the effectiveness of our approach on several one-, two-, and three-dimensional fluid flow problems: our scheme generalizes across grid resolutions while handling smooth and discontinuous solutions. In most cases, our rational network-based scheme achieves higher accuracy than conventional WENO3 with the same stencil size, and in a few of them, it achieves accuracy comparable to WENO5, which uses a larger stencil.},
 }
+
+@article{tchu253,
+Author = {T. Chu and B. Wilfong and T. Koehler and R. M. McMullen and S. H. Bryngelson},
+Title = {Competing mechanisms at vibrated interfaces of density-stratified fluids},
+file = {chu-prf-25.pdf},
+year = {2025},
+doi = {10.1103/r9b3-psg4},
+volume = {10},
+pages = {093904},
+abstract = {Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. The hydrodynamic instability of fluid interfaces has long centered on the pressure gradient-driven long-wavelength Rayleigh-Taylor instability and the resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms are present. We identify a previously unseen multi-modal instability emerging from their coexistence. When the denser fluid is polydimethylsiloxane, the mixed region at a high density contrast (Atwood number = 0.9) spans a vibration amplitude range approximately twice the gravitational acceleration. Using Floquet stability analysis, we show how vibrations govern transitions between the RT and Faraday instabilities, leading to contention between these instabilities rather than resonant enhancement. The initial transient growth is represented by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes. Specifically, we show that growing RT modes nonlinearly suppresses Faraday responses even when the initial growth rate of the Faraday instability is 3.63 times that of RT, so a bidirectional competition hinders their sustained coexistence.},
+}
+
 
 @article{zhu25,
 Author = {Z. Zhu and S. Remillard and B. A. Abeid and D. Frolkin and S. H. Bryngelson and J. Yang and M. {Rodriguez Jr.} and J. B. Estrada},
