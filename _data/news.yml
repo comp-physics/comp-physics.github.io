@@ -1,4 +1,7 @@
 - date: September 30, 2025
+  headline: "Oak Ridge National Laboratory <a href='https://www.ornl.gov/news/fluid-flow-simulation-frontier-earns-gordon-bell-finalist-selection' target='_blank'>publishes news</a> on our Gordon Bell <a href='https://arxiv.org/abs/2505.07392' target='_blank'>finalist effort</a> simulating many-rocket exhaust at high Mach, exceeding 1 quadrillion degrees of freedom."
+
+- date: September 30, 2025
   headline: "Postdoc Dr. Tianyi Chi and Ph.D. student Ben Wilfong <a href='https://journals.aps.org/prfluids/abstract/10.1103/r9b3-psg4' target='_blank'>lead published work</a> that now appears in Phys. Rev. Fluids. They discover a new hydrodynamic instability at the confluence of Faraday and Rayleigh-Taylor modes, which we demonstrate in numerical experiments and linear Floquet theory. Shout out to collaborators Tim Koehler and Ryan McMullen at Sandia for the collaboration."
 
 - date: September 29, 2025
