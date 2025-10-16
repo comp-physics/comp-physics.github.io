@@ -1,3 +1,6 @@
+- date: October 16, 2025
+  headline: "Spencer presents our work, <i>Symbolic Computational Representations of Combustion Thermochemistry</i>, at the <a href='https://www.icnc2025.com/' target='_blank'>2025 International Conference on Numerical Combustion</a> in Rome, Italy. Part of a collaboration with Prof. Esteban Cisneros-Garibay at the University of Tennessee Space Institute; the work is also conducted by CSE Ph.D. student Dimitrios Adam and (nominally) Spencer. <a href='https://doi.org/10.48550/arXiv.2503.24286' target='_blank'>We achieve near-peak compute performance</a> on diverse accelerators for diverse flavors of chemical reactions via optimal symbolic traversal of the computational graph."
+
 - date: October 7, 2025
   headline: "Spencer is a select speaker at the <a href='https://www.openhackathons.org/s/oac-summit' target='_blank'>OAC Summit</a> today."
 
