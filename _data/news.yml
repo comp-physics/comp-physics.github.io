@@ -1,6 +1,9 @@
 - date: October 21, 2025
   headline: "Group Ph.D. student Haocheng Yu leads work that now <a href='https://arxiv.org/abs/2510.16355' target='_blank'>appears on arXiv</a>. Collaboration with Profs. L. Sankar and K. Ahuja in AE. The work focuses on high amplitude sound through good but still imperfect ear plugs, and the physical mechanisms that maintain them."
 
+- date: October 20, 2025
+  headline: "NCSA has written a piece on the group and our collaborator's work towards the Gordon Bell Prize and its use of the Grace Hopper architecture. <a href='https://ncsa.illinois.edu/it-is-rocket-science/' target='_blank'>Find it here.</a>"
+
 - date: October 16, 2025
   headline: "Spencer presents our work, <i>Symbolic Computational Representations of Combustion Thermochemistry</i>, at the <a href='https://www.icnc2025.com/' target='_blank'>2025 International Conference on Numerical Combustion</a> in Rome, Italy. Part of a collaboration with Prof. Esteban Cisneros-Garibay at the University of Tennessee Space Institute; the work is also conducted by CSE Ph.D. student Dimitrios Adam and (nominally) Spencer. <a href='https://doi.org/10.48550/arXiv.2503.24286' target='_blank'>We achieve near-peak compute performance</a> on diverse accelerators for diverse flavors of chemical reactions via optimal symbolic traversal of the computational graph."
 
