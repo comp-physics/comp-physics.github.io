@@ -15,7 +15,7 @@ Our methods buttress algorithms crafted for efficient use of the latest supercom
 We develop <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">open-source software</a> for these methods that scales to the world's largest supercomputers. 
 
 In August 2025 our group conducted the <a href='https://arxiv.org/abs/2505.07392' target='_blank'>largest-ever CFD simulation</a> at 200T grid points (1 quadrillion degrees of freedom) on OLCF Frontier and LLNL El Capitan without loss of accuracy.
-This work is a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' target='_blank'>Gordon Bell Prize</a> finalist.
+This work was a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' target='_blank'>Gordon Bell Prize</a> finalist.
 
 Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
