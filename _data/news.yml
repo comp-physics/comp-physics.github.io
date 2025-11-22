@@ -1,5 +1,5 @@
 - date: November 19, 2025
-  headline: "Lawrence Livermore National Lab ran <a href='https://www.llnl.gov/article/53626/gordon-bell-finalist-team-pushes-scale-rocket-simulation-el-capitan' target='_blank'>a nice story</a> about our work on the largest and fastest CFD simulation (in particular on El Capitan), which is a 2025 ACM Gordon Bell Finalist."
+  headline: "Lawrence Livermore National Lab ran <a href='https://www.llnl.gov/article/53626/gordon-bell-finalist-team-pushes-scale-rocket-simulation-el-capitan' target='_blank'>a nice story</a> about our work on the largest and fastest CFD simulation (in particular on El Capitan), which is a 2025 ACM Gordon Bell Finalist. NVIDIA also posted about us in a blog post on <a href='https://blogs.nvidia.com/blog/gordon-bell-finalists-2025/' target='_blank'>their website</a>."
 
 - date: November 15, 2025
   headline: "Much of the group is at SC25 this week. Spencer is giving invited talks at the OpenACC BoF and the Gordon Bell Prize presentations on Tuesday and the NVIDIA Booth on Wednesday. Ben Wilfong is giving a paper talk at the HPCTESTS workshop."
