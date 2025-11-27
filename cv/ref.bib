@@ -1,3 +1,14 @@
+@unpublished{vaca25,
+Author = {D. Vaca-Revelo and B. Wilfong and S. H. Bryngelson and A. Gnanaskandan},
+Title = {Hardware-Accelerated Phase-Averaging for Cavitating Bubbly Flows},
+note = {arXiv:2511:21031},
+file = {vaca-arxiv-25.pdf},
+arxiv = {arxiv.2511.21031},
+year = {2025},
+doi = {10.48550/arXiv.2511.21031},
+abstract = {We present a comprehensive validation, performance characterization, and scalability analysis of a hardware-accelerated phase-averaged multiscale solver designed to simulate acoustically driven dilute bubbly suspensions. The carrier fluid is modeled using the compressible Navier-Stokes equations. The dispersed phase is represented through two distinct subgrid formulations: a volume-averaged model that explicitly treats discrete bubbles within a Lagrangian framework, and an ensemble-averaged model that statistically represents the bubble population through a discretized distribution of bubble sizes. For both models, the bubble dynamics are modeled via the Keller--Miksis equation. For the GPU cases, we use OpenACC directives to offload computation to the GPUs. The volume-averaged model is validated against the analytical Keller-Miksis solution and experimental measurements, showing excellent agreement with root-mean-squared errors of less than 8% for both single-bubble oscillation and collapse scenarios. The ensemble-averaged model is validated by comparing it to volume-averaged simulations. On an NCSA Delta node with 4 NVIDIA A100 GPUs, we observe a speedup 16-fold compared to a 64-core AMD Milan CPU. The ensemble-averaged model offers additional reductions in computational cost by solving a single set of averaged equations, rather than multiple stochastic realizations. However, the volume-averaged model enables the interrogation of individual bubble dynamics, rather than the averaged statistics of the bubble dynamics. Weak and strong scaling tests demonstrate good scalability across both CPU and GPU platforms. These results show the proposed method is robust, accurate, and efficient for the multiscale simulation of acoustically driven dilute bubbly flows.},
+}
+
 @unpublished{sanchez25,
 Author = {Victor Sanchez and Sawyer Remillard and Bachir A. Abeid and Lehu Bu and Spencer H. Bryngelson and Jin Yang and Jonathan B. Estrada and Mauro {Rodriguez Jr.}},
 Title = {Hierarchical {B}ayesian constitutive model selection for high-strain-rate soft material characterization},
