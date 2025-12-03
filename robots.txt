@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Sitemap: https://mflowcode.github.io/sitemap.xml
