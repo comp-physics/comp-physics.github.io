@@ -45,11 +45,11 @@ iframe {
 3. **Join the Slack** (<a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer">link here</a>) to ask questions and discuss use cases.
 4. If you're at GT, **email Spencer** (<a href="mailto:shb@gatech.edu">shb@gatech.edu</a>) to discuss using MFC in your research or course projects.
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 20px 0;" markdown="0">
   <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">🌐 MFC Website</a>
   <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-github"></i> GitHub</a>
   <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-slack"></i> Slack</a>
-  <a href="#cite" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">📄 Cite MFC</a>
+  {% include mfc_cite_dropdown.html %}
 </div>
 
 <div class="jumbotron">
@@ -114,10 +114,10 @@ S. H. Bryngelson, K. Schmidmayer, V. Coralic, J. Meng, K. Maeda, and T. Colonius
 </p>
 
 <p><strong>BibTeX for MFC 5.0:</strong></p>
-<pre style="background-color: #1f2020; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>@unpublished{wilfong2025mfc50,
+<pre style="background-color: #1f2020; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>@article{wilfong2025mfc50,
   title={MFC 5.0: An exascale many-physics flow solver},
-  author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and others},
-  note={arXiv:2503.07953},
+  author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and Gupta, Ansh and Vaca-Revelo, Diego and Adam, Dimitrios and Yu, Haocheng and Lee, Hyeoksu and Chreim, Jose Rodolfo and {Carcana Barbosa}, Mirelys and Zhang, Yanjun and Cisneros-Garibay, Esteban and Gnanaskandan, Aswin and {Rodriguez Jr.}, Mauro and Budiardja, Reuben D. and Abbott, Stephen and Colonius, Tim and Bryngelson, Spencer H.},
+  journal={arXiv preprint arXiv:2503.07953},
   year={2025},
   doi={10.48550/arXiv.2503.07953}
 }</code></pre>

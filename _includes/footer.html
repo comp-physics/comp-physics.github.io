@@ -27,4 +27,46 @@
 <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/back-to-top.js" | relative_url }}"></script>
+<script>
+function copyToClipboard(version) {
+  const bibtex = {
+    mfc50: `@article{wilfong2025mfc50,
+  title={MFC 5.0: An exascale many-physics flow solver},
+  author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and Gupta, Ansh and Vaca-Revelo, Diego and Adam, Dimitrios and Yu, Haocheng and Lee, Hyeoksu and Chreim, Jose Rodolfo and {Carcana Barbosa}, Mirelys and Zhang, Yanjun and Cisneros-Garibay, Esteban and Gnanaskandan, Aswin and {Rodriguez Jr.}, Mauro and Budiardja, Reuben D. and Abbott, Stephen and Colonius, Tim and Bryngelson, Spencer H.},
+  journal={arXiv preprint arXiv:2503.07953},
+  year={2025},
+  doi={10.48550/arXiv.2503.07953}
+}`,
+    mfc30: `@article{bryngelson2021mfc,
+  title={MFC: An open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver},
+  author={Bryngelson, Spencer H. and Schmidmayer, Kevin and Coralic, Vedran and Meng, Jianchun and Maeda, Kazuki and Colonius, Tim},
+  journal={Computer Physics Communications},
+  volume={266},
+  pages={108029},
+  year={2021},
+  doi={10.1016/j.cpc.2021.108029}
+}`
+  };
+  
+  navigator.clipboard.writeText(bibtex[version]).then(function() {
+    alert('BibTeX copied to clipboard!');
+  }, function(err) {
+    console.error('Failed to copy: ', err);
+    // Fallback for older browsers
+    const textArea = document.createElement('textarea');
+    textArea.value = bibtex[version];
+    textArea.style.position = 'fixed';
+    textArea.style.opacity = '0';
+    document.body.appendChild(textArea);
+    textArea.select();
+    try {
+      document.execCommand('copy');
+      alert('BibTeX copied to clipboard!');
+    } catch (err) {
+      alert('Failed to copy. Please copy manually from the citation section.');
+    }
+    document.body.removeChild(textArea);
+  });
+}
+</script>
 

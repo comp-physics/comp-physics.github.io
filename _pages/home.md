@@ -75,11 +75,11 @@ MFC is our flagship open-source solver for compressible multiphase flow at exasc
 👉 Visit the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a> or the <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer">GitHub repo</a> to get started.
 </div>
 
-<div style="text-align: center; margin: 20px 0;">
+<div style="text-align: center; margin: 20px 0;" markdown="0">
   <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">🌐 MFC Website</a>
   <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-github"></i> GitHub</a>
   <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-slack"></i> Slack</a>
-  <a href="{{ site.url }}{{ site.baseurl }}/software/#cite" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">📄 Cite MFC</a>
+  {% include mfc_cite_dropdown.html id="Home" external=true %}
 </div>
 
 Many of the techniques used in our record-setting rocket simulations are available in MFC, so external users can reproduce similar workflows on their own clusters.
