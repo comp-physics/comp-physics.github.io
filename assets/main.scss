@@ -4,10 +4,8 @@
 
 $baseurl: "{{ site.url }}{{ site.baseurl }}";
 
-// @import "variables";
+// Bootstrap 5 (Sass source)
 @import "bootstrap/bootstrap";
-// @import "syntax-highlighting";
-@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
-// @import "bootstrap_customization";
-@import "bootstrap";
+
+// Site-specific overrides (keep last so it wins)
 @import "SHB_css";

@@ -1,3 +1,10 @@
+// CSS variables that were previously provided by Bootstrap 4 theme
+:root {
+  --gray: #839496;
+  --gray-dark: #141617;
+  --secondary: #b1ada9;
+}
+
 $gtgold: #c0995e !default;
 $darkgray: #1f2020 !default;
 $mediumgray: #252829 !default;
@@ -23,6 +30,10 @@ a:hover {
 
 body{
     background-color: $darkgray;
+    color: #c0b8b0; /* Slightly bright gray instead of bright white */
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                 "Segoe UI Symbol";
 }
 
 // Font display optimization

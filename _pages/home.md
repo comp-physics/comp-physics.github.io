@@ -5,7 +5,7 @@ sitemap: false
 permalink: /
 ---
 
-<div id="homeid" class="col-sm-8 col-xs-10">
+<div id="homeid" class="col-sm-8 col-10">
 ## Welcome!
 Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the energy sources that will power our generation into the next.
 
@@ -20,7 +20,7 @@ This work was a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' t
 Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
 </div>
-<div id="newsid" class="col-sm-4 col-xs-12" >
+<div id="newsid" class="col-sm-4 col-12" >
 <div>
 {% for member in site.data.pi %}
 <div class="jumbotron">
