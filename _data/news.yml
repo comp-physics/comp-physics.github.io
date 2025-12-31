@@ -1,480 +1,480 @@
 - date: December 22, 2025
   headline: "A new group preprint appears on arXiv, led by graduate student Haocheng Yu and postdoc Tianyi Chu: Energy dissipation mechanisms in an acoustically-driven slit (Yu, Chu & Bryngelson, 2025), <a href='
-https://doi.org/10.48550/arXiv.2512.19507' target='_blank'>available on arXiv</a>. Using direct numerical simulations and spectral proper orthogonal decomposition (SPOD), we quantify how incident acoustic energy is converted into vortical motion and viscous dissipation across sound pressure level, Strouhal number, and Reynolds number, identifying the coherent structures and mode-by-mode mechanisms that govern absorption. We show peak conversion near Keulegan-Carpenter number O(1) where boundary-layer separation and vortex shedding dominate damping, while higher frequencies reduce energy input via near-slit X-shaped modes and >99% of viscous loss remains confined near the slit mouth."
+https://doi.org/10.48550/arXiv.2512.19507' target='_blank' rel='noopener noreferrer'>available on arXiv</a>. Using direct numerical simulations and spectral proper orthogonal decomposition (SPOD), we quantify how incident acoustic energy is converted into vortical motion and viscous dissipation across sound pressure level, Strouhal number, and Reynolds number, identifying the coherent structures and mode-by-mode mechanisms that govern absorption. We show peak conversion near Keulegan-Carpenter number O(1) where boundary-layer separation and vortex shedding dominate damping, while higher frequencies reduce energy input via near-slit X-shaped modes and >99% of viscous loss remains confined near the slit mouth."
 
 - date: December 11, 2025
-  headline: "Our paper on <i>Pyrometheus</i>, which provides symbolic abstractions for XPU and automatic differention of thermochemistry/combustion was accepted and available at <a href='https://doi.org/10.1016/j.cpc.2025.109987' target='_blank'>Computer Physics Communications</a>. Collaboration with Prof. Esteban Cisneros-Garibay at UTSI, group Ph.D. student Dimitrios Adam, and group alumni Henry Le Berre."
+  headline: "Our paper on <i>Pyrometheus</i>, which provides symbolic abstractions for XPU and automatic differention of thermochemistry/combustion was accepted and available at <a href='https://doi.org/10.1016/j.cpc.2025.109987' target='_blank' rel='noopener noreferrer'>Computer Physics Communications</a>. Collaboration with Prof. Esteban Cisneros-Garibay at UTSI, group Ph.D. student Dimitrios Adam, and group alumni Henry Le Berre."
 
 - date: December 4, 2025
-  headline: "Georgia Tech <a href='https://www.cc.gatech.edu/news/record-breaking-simulation-boosts-rocket-science-and-supercomputing-new-limits' target='_blank'>runs a story</a> on our rocket simulations, <a href='https://dl.acm.org/doi/10.1145/3712285.3771783' target='_blank'>as discussed heretofore</a>. This is closely related to the ACM 2025 Gordon Bell Finalist work with former GT faculty, new at the Courant Institute, Prof. Florian Schaefer."
+  headline: "Georgia Tech <a href='https://www.cc.gatech.edu/news/record-breaking-simulation-boosts-rocket-science-and-supercomputing-new-limits' target='_blank' rel='noopener noreferrer'>runs a story</a> on our rocket simulations, <a href='https://dl.acm.org/doi/10.1145/3712285.3771783' target='_blank' rel='noopener noreferrer'>as discussed heretofore</a>. This is closely related to the ACM 2025 Gordon Bell Finalist work with former GT faculty, new at the Courant Institute, Prof. Florian Schaefer."
 
 - date: November 26, 2025
-  headline: "Our group collaborated with Diego Vaca-Revelo and Aswin Gnanaskandan of WPI on the hardware acceleration of bubbly flow models in Navier-Stokes solvers, demonstrated in MFC. The preprint <a href='https://arxiv.org/abs/2511.21031' target='_blank'>is available here.</a>"
+  headline: "Our group collaborated with Diego Vaca-Revelo and Aswin Gnanaskandan of WPI on the hardware acceleration of bubbly flow models in Navier-Stokes solvers, demonstrated in MFC. The preprint <a href='https://arxiv.org/abs/2511.21031' target='_blank' rel='noopener noreferrer'>is available here.</a>"
 
 - date: November 24, 2025
   headline: "Our group, along with collaborators at UT-Austin, Michigan, and Brown, have pushed a preprint on Bayesian model selection for soft materials at very high strain rates. It's available <a href='https://arxiv.org/abs/2511.16794'>here!</a>"
 
 - date: November 22, 2025
-  headline: "We are at <a href='https://www.aps.org/events/2025/78th-dfd-annual-meeting' target='_blank'>APS DFD 2025</a> in Houston for the next few days. Ben, Spencer, and Tianyi are giving talks. Say hello if you see us!"
+  headline: "We are at <a href='https://www.aps.org/events/2025/78th-dfd-annual-meeting' target='_blank' rel='noopener noreferrer'>APS DFD 2025</a> in Houston for the next few days. Ben, Spencer, and Tianyi are giving talks. Say hello if you see us!"
 
 - date: November 19, 2025
-  headline: "Lawrence Livermore National Lab ran <a href='https://www.llnl.gov/article/53626/gordon-bell-finalist-team-pushes-scale-rocket-simulation-el-capitan' target='_blank'>a nice story</a> about our work on the largest and fastest CFD simulation (in particular on El Capitan), which is a 2025 ACM Gordon Bell Finalist. NVIDIA also posted about us in a blog post on <a href='https://blogs.nvidia.com/blog/gordon-bell-finalists-2025/' target='_blank'>their website</a>."
+  headline: "Lawrence Livermore National Lab ran <a href='https://www.llnl.gov/article/53626/gordon-bell-finalist-team-pushes-scale-rocket-simulation-el-capitan' target='_blank' rel='noopener noreferrer'>a nice story</a> about our work on the largest and fastest CFD simulation (in particular on El Capitan), which is a 2025 ACM Gordon Bell Finalist. NVIDIA also posted about us in a blog post on <a href='https://blogs.nvidia.com/blog/gordon-bell-finalists-2025/' target='_blank' rel='noopener noreferrer'>their website</a>."
 
 - date: November 15, 2025
   headline: "Much of the group is at SC25 this week. Spencer is giving invited talks at the OpenACC BoF and the Gordon Bell Prize presentations on Tuesday and the NVIDIA Booth on Wednesday. Ben Wilfong is giving a paper talk at the HPCTESTS workshop."
 
 - date: October 25, 2025
-  headline: "Spencer <a href='https://doi.org/10.1016/j.compfluid.2025.106877' target='_blank'>published a paper</a> in Computers and Fluids. It presents a scheme that can integrate for the moments of radial bubble dynamics with time-independent spectral accuracy."
+  headline: "Spencer <a href='https://doi.org/10.1016/j.compfluid.2025.106877' target='_blank' rel='noopener noreferrer'>published a paper</a> in Computers and Fluids. It presents a scheme that can integrate for the moments of radial bubble dynamics with time-independent spectral accuracy."
 
 - date: October 21, 2025
-  headline: "Group Ph.D. student Haocheng Yu leads work that now <a href='https://arxiv.org/abs/2510.16355' target='_blank'>appears on arXiv</a>. Collaboration with Profs. L. Sankar and K. Ahuja in AE. The work focuses on high amplitude sound through good but still imperfect ear plugs, and the physical mechanisms that maintain them."
+  headline: "Group Ph.D. student Haocheng Yu leads work that now <a href='https://arxiv.org/abs/2510.16355' target='_blank' rel='noopener noreferrer'>appears on arXiv</a>. Collaboration with Profs. L. Sankar and K. Ahuja in AE. The work focuses on high amplitude sound through good but still imperfect ear plugs, and the physical mechanisms that maintain them."
 
 - date: October 20, 2025
-  headline: "NCSA has written a piece on the group and our collaborator's work towards the Gordon Bell Prize and its use of the Grace Hopper architecture. <a href='https://ncsa.illinois.edu/it-is-rocket-science/' target='_blank'>Find it here.</a>"
+  headline: "NCSA has written a piece on the group and our collaborator's work towards the Gordon Bell Prize and its use of the Grace Hopper architecture. <a href='https://ncsa.illinois.edu/it-is-rocket-science/' target='_blank' rel='noopener noreferrer'>Find it here.</a>"
 
 - date: October 16, 2025
-  headline: "Spencer presents our work, <i>Symbolic Computational Representations of Combustion Thermochemistry</i>, at the <a href='https://www.icnc2025.com/' target='_blank'>2025 International Conference on Numerical Combustion</a> in Rome, Italy. Part of a collaboration with Prof. Esteban Cisneros-Garibay at the University of Tennessee Space Institute; the work is also conducted by CSE Ph.D. student Dimitrios Adam and (nominally) Spencer. <a href='https://doi.org/10.48550/arXiv.2503.24286' target='_blank'>We achieve near-peak compute performance</a> on diverse accelerators for diverse flavors of chemical reactions via optimal symbolic traversal of the computational graph."
+  headline: "Spencer presents our work, <i>Symbolic Computational Representations of Combustion Thermochemistry</i>, at the <a href='https://www.icnc2025.com/' target='_blank' rel='noopener noreferrer'>2025 International Conference on Numerical Combustion</a> in Rome, Italy. Part of a collaboration with Prof. Esteban Cisneros-Garibay at the University of Tennessee Space Institute; the work is also conducted by CSE Ph.D. student Dimitrios Adam and (nominally) Spencer. <a href='https://doi.org/10.48550/arXiv.2503.24286' target='_blank' rel='noopener noreferrer'>We achieve near-peak compute performance</a> on diverse accelerators for diverse flavors of chemical reactions via optimal symbolic traversal of the computational graph."
 
 - date: October 7, 2025
-  headline: "Spencer is a select speaker at the <a href='https://www.openhackathons.org/s/oac-summit' target='_blank'>OAC Summit</a> today."
+  headline: "Spencer is a select speaker at the <a href='https://www.openhackathons.org/s/oac-summit' target='_blank' rel='noopener noreferrer'>OAC Summit</a> today."
 
 - date: September 30, 2025
-  headline: "Oak Ridge National Laboratory <a href='https://www.ornl.gov/news/fluid-flow-simulation-frontier-earns-gordon-bell-finalist-selection' target='_blank'>publishes news</a> on our Gordon Bell <a href='https://arxiv.org/abs/2505.07392' target='_blank'>finalist effort</a> simulating many-rocket exhaust at high Mach, exceeding 1 quadrillion degrees of freedom."
+  headline: "Oak Ridge National Laboratory <a href='https://www.ornl.gov/news/fluid-flow-simulation-frontier-earns-gordon-bell-finalist-selection' target='_blank' rel='noopener noreferrer'>publishes news</a> on our Gordon Bell <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>finalist effort</a> simulating many-rocket exhaust at high Mach, exceeding 1 quadrillion degrees of freedom."
 
 - date: September 30, 2025
-  headline: "Postdoc Dr. Tianyi Chi and Ph.D. student Ben Wilfong <a href='https://journals.aps.org/prfluids/abstract/10.1103/r9b3-psg4' target='_blank'>lead published work</a> that now appears in Phys. Rev. Fluids. They discover a new hydrodynamic instability at the confluence of Faraday and Rayleigh-Taylor modes, which we demonstrate in numerical experiments and linear Floquet theory. Shout out to collaborators Tim Koehler and Ryan McMullen at Sandia for the collaboration."
+  headline: "Postdoc Dr. Tianyi Chi and Ph.D. student Ben Wilfong <a href='https://journals.aps.org/prfluids/abstract/10.1103/r9b3-psg4' target='_blank' rel='noopener noreferrer'>lead published work</a> that now appears in Phys. Rev. Fluids. They discover a new hydrodynamic instability at the confluence of Faraday and Rayleigh-Taylor modes, which we demonstrate in numerical experiments and linear Floquet theory. Shout out to collaborators Tim Koehler and Ryan McMullen at Sandia for the collaboration."
 
 - date: September 29, 2025
-  headline: "Collaborative work on representing transient and melting heat transfer on quantum devices <a href='https://arxiv.org/abs/2509.21630' target='_blank'>appears on arXiv</a>. Ph.D. student contributors include Chris Jawetz (ME) and  Jack Song (Physics)."
+  headline: "Collaborative work on representing transient and melting heat transfer on quantum devices <a href='https://arxiv.org/abs/2509.21630' target='_blank' rel='noopener noreferrer'>appears on arXiv</a>. Ph.D. student contributors include Chris Jawetz (ME) and  Jack Song (Physics)."
 
 - date: September 26, 2025
-  headline: "I'm at the <a href='https://cims.nyu.edu/dynamic/' target='_blank'>Courant Institute today</a>, giving their <a href='https://cims.nyu.edu/dynamic/calendars/seminars/computational-mathematics-and-scientific-computing-seminar/4428/' target='_blank'>Computational Math and Scientific Computing seminar</a>, discussing the regularization of the Navier-Stokes and its optimized implementation. The work is partially reported in our <a href='https://arxiv.org/abs/2505.07392' target='_blank'>Gordon Bell Prize manuscript</a>. Thanks to <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a>, <a href='https://math.nyu.edu/~stadler/' target='_blank'>Georg Stadler</a>, and <a href='https://cims.nyu.edu/~pehersto/' target='_blank'>Benjamin Peherstorfer</a> for the invite and hosting me!"
+  headline: "I'm at the <a href='https://cims.nyu.edu/dynamic/' target='_blank' rel='noopener noreferrer'>Courant Institute today</a>, giving their <a href='https://cims.nyu.edu/dynamic/calendars/seminars/computational-mathematics-and-scientific-computing-seminar/4428/' target='_blank' rel='noopener noreferrer'>Computational Math and Scientific Computing seminar</a>, discussing the regularization of the Navier-Stokes and its optimized implementation. The work is partially reported in our <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>Gordon Bell Prize manuscript</a>. Thanks to <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian Schäfer</a>, <a href='https://math.nyu.edu/~stadler/' target='_blank' rel='noopener noreferrer'>Georg Stadler</a>, and <a href='https://cims.nyu.edu/~pehersto/' target='_blank' rel='noopener noreferrer'>Benjamin Peherstorfer</a> for the invite and hosting me!"
 
 - date: September 17, 2025
-  headline: "Ph.D. students Ben Wilfong and Anand Radhakrishnan, along with group undergrad Tanush Prathi, <a href='https://arxiv.org/abs/2509.13575' target='_blank'>lead work</a> accepted to the SC25 workshop <a href='https://olcf.github.io/hpc-system-test-wg/hpctests/hpctests2025.html' target='_blank'>HPCTESTS</a>. The workshop focuses on state-of-the-art HPC system testing methodologies, tools, benchmarks, procedures, and best practices. We use <a href='https://github.com/mflowcode/mfc' target='_blank'>MFC</a> to conduct these tests and pull out compiler bugs, performance regressions, and even repeatable driver failures on new flagship systems."
+  headline: "Ph.D. students Ben Wilfong and Anand Radhakrishnan, along with group undergrad Tanush Prathi, <a href='https://arxiv.org/abs/2509.13575' target='_blank' rel='noopener noreferrer'>lead work</a> accepted to the SC25 workshop <a href='https://olcf.github.io/hpc-system-test-wg/hpctests/hpctests2025.html' target='_blank' rel='noopener noreferrer'>HPCTESTS</a>. The workshop focuses on state-of-the-art HPC system testing methodologies, tools, benchmarks, procedures, and best practices. We use <a href='https://github.com/mflowcode/mfc' target='_blank' rel='noopener noreferrer'>MFC</a> to conduct these tests and pull out compiler bugs, performance regressions, and even repeatable driver failures on new flagship systems."
 
 - date: September 15, 2025
-  headline: "Spencer is at the <a href='https://hypersonics.tamu.edu/event/ucah-forum-2025/' target='_blank'>UCAH Forum</a> in Alexandria, Virginia this week. Say hi if you're around!"
+  headline: "Spencer is at the <a href='https://hypersonics.tamu.edu/event/ucah-forum-2025/' target='_blank' rel='noopener noreferrer'>UCAH Forum</a> in Alexandria, Virginia this week. Say hi if you're around!"
 
 - date: September 4, 2025
-  headline: "The group is part of two <a href='https://psaap.llnl.gov/' target='_blank'>DOE PSAAP IV</a> centers! Official announcement <a href='https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program' target='_blank'>here</a>. <br><br> One is a 'large' predictive science center called the Center for Multiscale Modeling of Multiphase Combustion directed by S. Balachandar (UFlorida). Our group heads the HPC and CFD efforts. <br><br> The other is a slightly 'smaller' focused investigatory center (FIC), co-directed by Florian Schäfer at the Courant Institute and Brendan Keith at Brown. It is called CIGMO (Center for Information Geometric Mechanics and Optimization), where GT focuses on information-based regularization of computational hydrodynamics (Bryngelson institutional PI, along with Qi Tang (CSE) and Molei Tao (Math))."
+  headline: "The group is part of two <a href='https://psaap.llnl.gov/' target='_blank' rel='noopener noreferrer'>DOE PSAAP IV</a> centers! Official announcement <a href='https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program' target='_blank' rel='noopener noreferrer'>here</a>. <br><br> One is a 'large' predictive science center called the Center for Multiscale Modeling of Multiphase Combustion directed by S. Balachandar (UFlorida). Our group heads the HPC and CFD efforts. <br><br> The other is a slightly 'smaller' focused investigatory center (FIC), co-directed by Florian Schäfer at the Courant Institute and Brendan Keith at Brown. It is called CIGMO (Center for Information Geometric Mechanics and Optimization), where GT focuses on information-based regularization of computational hydrodynamics (Bryngelson institutional PI, along with Qi Tang (CSE) and Molei Tao (Math))."
 
-- date: 26 August, 2025
+- date: August 26, 2025
   headline: "New Ph.D. student Mark Zhang joins the grouop (UCLA undergrad.). Undergraduates Tanush Prathi and Mohammed Al-Mahrouqi join us as well, who were part of the team as undergraduate interns over the summer!"
 
-- date: 6 August, 2025
-  headline: "Spencer gives an invited user talk at the annual <a href='https://www.olcf.ornl.gov/olcf-user-meeting/' target='_blank'>Oak Ridge Leadership Computing (OLCF) User Meeting</a>. The topic was the combination of information geometric regularization, closely coupled compute optimizations, and networking via tight CPU-GPU interconnects for <a href='https://arxiv.org/abs/2505.07392' target='_blank'>record-setting CFD simulations</a>. <br><br> Also, Ph.D. student Ben Wilfong and Spencer <b>win the data visualization showcase</b> with <a href='https://player.vimeo.com/video/1107931231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479%22%20frameborder=%220%22%20allow=%22autoplay;%20fullscreen;%20picture-in-picture;%20clipboard-write;%20encrypted-media;%20web-share%22%20referrerpolicy=%22strict-origin-when-cross-origin' target='_blank'>with this animation</a> of our simulation of Mach 10 rocket boosters! <br><br> Also, Spencer is elected to the <a href='https://www.olcf.ornl.gov/community/oug/' target='blank'><i>OLCF User Group Executive Board</i></a>."
+- date: August 6, 2025
+  headline: "Spencer gives an invited user talk at the annual <a href='https://www.olcf.ornl.gov/olcf-user-meeting/' target='_blank' rel='noopener noreferrer'>Oak Ridge Leadership Computing (OLCF) User Meeting</a>. The topic was the combination of information geometric regularization, closely coupled compute optimizations, and networking via tight CPU-GPU interconnects for <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>record-setting CFD simulations</a>. <br><br> Also, Ph.D. student Ben Wilfong and Spencer <b>win the data visualization showcase</b> with <a href='https://player.vimeo.com/video/1107931231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479%22%20frameborder=%220%22%20allow=%22autoplay;%20fullscreen;%20picture-in-picture;%20clipboard-write;%20encrypted-media;%20web-share%22%20referrerpolicy=%22strict-origin-when-cross-origin' target='_blank' rel='noopener noreferrer'>with this animation</a> of our simulation of Mach 10 rocket boosters! <br><br> Also, Spencer is elected to the <a href='https://www.olcf.ornl.gov/community/oug/' target='blank'><i>OLCF User Group Executive Board</i></a>."
 
-- date: 5 August, 2025
+- date: August 5, 2025
   headline: "Spencer is working with DOE lab collaborators as a Visiting Professor at <a href='https://www.pnnl.gov/quantum-information-sciences' taret='_blank'>PNNL</a> on a potential quantum advantage for simulating CFD problems. Ph.D. student Zhixin Song spent the summer collaborating with PNNL on this front as well!"
 
-- date: 2 August, 2025
+- date: August 2, 2025
   headline: "Our group is funded to continue working with Sandia National Lab and Ryan McMullen to work on multiphase bubbly flows and their hydrodynamic instabilities under extreme conditions."
 
-- date: 30 July, 2025
-  headline: "Our work on parsimonious IMR (pIMR) <a href='https://doi.org/10.1039/D5SM00397K' target='_blank'>has now appeared in <i>Soft Matter!</i></a> It describes and demonstrates a scheme for high-fidelity material inference that reduces the cost of experimentation or simulation by two orders of magnitude. With this, we enable material characterization in tractable time. In collaboration with Michigan, Brown, and UT Austin."
+- date: July 30, 2025
+  headline: "Our work on parsimonious IMR (pIMR) <a href='https://doi.org/10.1039/D5SM00397K' target='_blank' rel='noopener noreferrer'>has now appeared in <i>Soft Matter!</i></a> It describes and demonstrates a scheme for high-fidelity material inference that reduces the cost of experimentation or simulation by two orders of magnitude. With this, we enable material characterization in tractable time. In collaboration with Michigan, Brown, and UT Austin."
 
-- date: 29 July, 2025
-  headline: "Florian Schäfer and I are presenting our collaborative work on computational fluid dynamics via IGR in back-to-back talks at the joint SIAM/CAIMS Annual Meeting tomorrow in Montreal, Wed July 30. <a href='https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85319' target='_blank'>Link Here.</a> "
+- date: July 29, 2025
+  headline: "Florian Schäfer and I are presenting our collaborative work on computational fluid dynamics via IGR in back-to-back talks at the joint SIAM/CAIMS Annual Meeting tomorrow in Montreal, Wed July 30. <a href='https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=85319' target='_blank' rel='noopener noreferrer'>Link Here.</a> "
 
-- date: 24 July, 2025
-  headline: "Our group, in collaboration with Florian Schäfer, <a href='https://www.olcf.ornl.gov/2025/07/23/shock-treatment-for-cfd-simulations/' target='_blank'>was featured in Oak Ridge News</a> for our record-setting compressible shock-laden CFD simulations. They exceeded <b>100 trillion grid points</b> while maintaining speed and accuracy via mixed-precision, unified memory addressing on the CPU-GPU interconnect, and information geometric regularization. These simulations targeted multi-rocket-engine outflow at Mach 15. These conditions and the geometry are similar to the SpaceX Starship superheavy 33-rocket booster."
+- date: July 24, 2025
+  headline: "Our group, in collaboration with Florian Schäfer, <a href='https://www.olcf.ornl.gov/2025/07/23/shock-treatment-for-cfd-simulations/' target='_blank' rel='noopener noreferrer'>was featured in Oak Ridge News</a> for our record-setting compressible shock-laden CFD simulations. They exceeded <b>100 trillion grid points</b> while maintaining speed and accuracy via mixed-precision, unified memory addressing on the CPU-GPU interconnect, and information geometric regularization. These simulations targeted multi-rocket-engine outflow at Mach 15. These conditions and the geometry are similar to the SpaceX Starship superheavy 33-rocket booster."
 
-- date: 21 July, 2025
-  headline: "Spencer is in Chicago at the <a href='https://usnccm18.usacm.org/' target='_blank'>18th U.S. National Congress on Computational Mechanics (USNCCM)</a> giving a talk in the special session on compressible multiphase flows. He's talking about <i>Numerics for diverse exascale platforms for multi-species flow</i>, joint work group Ph.D. students Ben Wilfong and Anand Radhakrishnan in collaboration with Prof. Florian Schäfer and Stephen Abbott."
+- date: July 21, 2025
+  headline: "Spencer is in Chicago at the <a href='https://usnccm18.usacm.org/' target='_blank' rel='noopener noreferrer'>18th U.S. National Congress on Computational Mechanics (USNCCM)</a> giving a talk in the special session on compressible multiphase flows. He's talking about <i>Numerics for diverse exascale platforms for multi-species flow</i>, joint work group Ph.D. students Ben Wilfong and Anand Radhakrishnan in collaboration with Prof. Florian Schäfer and Stephen Abbott."
 
-- date: 11 July, 2025
-  headline: "<a href='https://www.cc.gatech.edu/news/pancaked-water-droplets-help-launch-europes-fastest-supercomputer' target='_blank'>GT wrote a news piece</a> on our group's effort and collaboration to help launch <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter' target='_blank'>JSC JUPITER</a> via its early access program. We helped benchmark the system in preparation for user access. JUPITER is now Europe's top supercomputer, in fourth place after the US's CORAL-II systems (El Cap. and friends)."
+- date: July 11, 2025
+  headline: "<a href='https://www.cc.gatech.edu/news/pancaked-water-droplets-help-launch-europes-fastest-supercomputer' target='_blank' rel='noopener noreferrer'>GT wrote a news piece</a> on our group's effort and collaboration to help launch <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter' target='_blank' rel='noopener noreferrer'>JSC JUPITER</a> via its early access program. We helped benchmark the system in preparation for user access. JUPITER is now Europe's top supercomputer, in fourth place after the US's CORAL-II systems (El Cap. and friends)."
 
-- date: 8 July, 2025
-  headline: "<a href='https://science.osti.gov/-/media/ascr/pdf/facilities/ALCC/ALCC_Factsheets_2025.pdf#page=37' target='_blank'>The group receives a DOE ALCC allocation</a> of about 500K node hours (2M GPU hours) on <a href='https://www.olcf.ornl.gov/frontier/' target='_blank'>OLCF Frontier</a> for the next year. This is part of a collaboration with Ryan McMullen at Sandia National Labs. The project is called <i>Multiphase Mixing Induced by Interface Breakup</i>."
+- date: July 8, 2025
+  headline: "<a href='https://science.osti.gov/-/media/ascr/pdf/facilities/ALCC/ALCC_Factsheets_2025.pdf#page=37' target='_blank' rel='noopener noreferrer'>The group receives a DOE ALCC allocation</a> of about 500K node hours (2M GPU hours) on <a href='https://www.olcf.ornl.gov/frontier/' target='_blank' rel='noopener noreferrer'>OLCF Frontier</a> for the next year. This is part of a collaboration with Ryan McMullen at Sandia National Labs. The project is called <i>Multiphase Mixing Induced by Interface Breakup</i>."
 
-- date: 7 July, 2025
+- date: July 7, 2025
   headline: "We welcome Dan Vickers to the group! He joins us from his previous appointment at MIT Lincoln Lab."
 
-- date: 29 June, 2025
-  headline: "Our paper on <a href='https://doi.org/10.1016/j.future.2025.107975' target='_blank'>quantum-resource frugal</a> algorithms for solving CFD problems was published by Future Generation Computing Systems. Congrats to group undergraduates Melody Lee and Sriharsha Kocherla and Ph.D. student Jack Song and thank you to collaborators Austin Adams and Alex Alexeev!"
+- date: June 29, 2025
+  headline: "Our paper on <a href='https://doi.org/10.1016/j.future.2025.107975' target='_blank' rel='noopener noreferrer'>quantum-resource frugal</a> algorithms for solving CFD problems was published by Future Generation Computing Systems. Congrats to group undergraduates Melody Lee and Sriharsha Kocherla and Ph.D. student Jack Song and thank you to collaborators Austin Adams and Alex Alexeev!"
 
-- date: 5 June, 2025
-  headline: "Spencer gives a talk at the workshop on <a href='https://sites.google.com/msu.edu/modeling-beyond-moore/home?authuser=0' target='_blank'>Algorithms For Multiphysics Models In The Post-Moore's Law Era</a> on extreme scale compressible flow simulation via information geometric regularization."
+- date: June 5, 2025
+  headline: "Spencer gives a talk at the workshop on <a href='https://sites.google.com/msu.edu/modeling-beyond-moore/home?authuser=0' target='_blank' rel='noopener noreferrer'>Algorithms For Multiphysics Models In The Post-Moore's Law Era</a> on extreme scale compressible flow simulation via information geometric regularization."
 
-- date: 29 May, 2025
-  headline: "Our group, including postdoc Tianyi Chu and Ph.D. student Ben Wilfong, collaborate with Sandia National Lab to uncover a <a href='https://arxiv.org/abs/2505.23578' target='_blank'>new hydrodynamic instability</a> that occurs when Rayleigh-Taylor and Faraday behaviors meaningfully co-exist. The preprint is linked above. Theory and simulations demonstrate our result."
+- date: May 29, 2025
+  headline: "Our group, including postdoc Tianyi Chu and Ph.D. student Ben Wilfong, collaborate with Sandia National Lab to uncover a <a href='https://arxiv.org/abs/2505.23578' target='_blank' rel='noopener noreferrer'>new hydrodynamic instability</a> that occurs when Rayleigh-Taylor and Faraday behaviors meaningfully co-exist. The preprint is linked above. Theory and simulations demonstrate our result."
 
-- date: 22 May, 2025
-  headline: "Spencer gave an invited conference talk at the joint <a href='https://acousticalsociety.org/new-orleans-2025/' target='_blank'>Meeting of the Acoustical Society of America and International Congress on Acoustics</a>. He talked about the computation of high-amplitude acoustics with application of therapeutic ultrasound and implication of noise." 
+- date: May 22, 2025
+  headline: "Spencer gave an invited conference talk at the joint <a href='https://acousticalsociety.org/new-orleans-2025/' target='_blank' rel='noopener noreferrer'>Meeting of the Acoustical Society of America and International Congress on Acoustics</a>. He talked about the computation of high-amplitude acoustics with application of therapeutic ultrasound and implication of noise." 
 
-- date: 20 May, 2025
-  headline: "Tianyi Chu's research on optimal experimental design for soft material cauterization <a href='https://arxiv.org/abs/2505.13283' target='_blank'>is now on arXiv</a>. We show that if one uses radial basis functions as local interpolants as an intermediate step in the BOED process, the model selection process is accelerated by about two orders of magnitude."
+- date: May 20, 2025
+  headline: "Tianyi Chu's research on optimal experimental design for soft material cauterization <a href='https://arxiv.org/abs/2505.13283' target='_blank' rel='noopener noreferrer'>is now on arXiv</a>. We show that if one uses radial basis functions as local interpolants as an intermediate step in the BOED process, the model selection process is accelerated by about two orders of magnitude."
 
-- date: 13 May, 2025
-  headline: "Our work on Hadamard-tree tomography via Hadamard Random Forests (HST) <a href='https://arxiv.org/abs/2505.06455' target='_blank'>appears on arXiv<a/>. We show that, assuming real valued output states, one can reconstruct their values in linear time (in qubit count) as opposed to the exponential time of full state tomography. Thanks to our collaborators Bryan Gard (GTRI) and Nico Renaud (Netherlands eScience Center)."
+- date: May 13, 2025
+  headline: "Our work on Hadamard-tree tomography via Hadamard Random Forests (HST) <a href='https://arxiv.org/abs/2505.06455' target='_blank' rel='noopener noreferrer'>appears on arXiv<a/>. We show that, assuming real valued output states, one can reconstruct their values in linear time (in qubit count) as opposed to the exponential time of full state tomography. Thanks to our collaborators Bryan Gard (GTRI) and Nico Renaud (Netherlands eScience Center)."
 
-- date: 13 May, 2025
-  headline: "Collaborative work using information geometric regularization and carefully tuned numerics exceeds 100 trillion grid-points for a rocket-exhaust simulation <a href='https://arxiv.org/abs/2505.07392' target='_blank'>is now on arXiv<a/>. This is the largest CFD simulation conducted to-date, to the authors' knowledge, in this case by a factor of about 10. Florian and Spencer thank collaborators at NVIDIA, AMD, ORNL, and HPE, as well as the dedicated Ph.D. students."
+- date: May 13, 2025
+  headline: "Collaborative work using information geometric regularization and carefully tuned numerics exceeds 100 trillion grid-points for a rocket-exhaust simulation <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>is now on arXiv<a/>. This is the largest CFD simulation conducted to-date, to the authors' knowledge, in this case by a factor of about 10. Florian and Spencer thank collaborators at NVIDIA, AMD, ORNL, and HPE, as well as the dedicated Ph.D. students."
 
-- date: 12 May, 2025
-  headline: "Spencer is in Toulouse, France at the <a href='https://www.icmf2025.com/' target='_blank'>International Conference on Multiphase Flow</a> presenting work on multiphase flow models without discontinuity capturing, joint with Florian Schäfer and Ph.D. student Anand Radhakrishnan."
+- date: May 12, 2025
+  headline: "Spencer is in Toulouse, France at the <a href='https://www.icmf2025.com/' target='_blank' rel='noopener noreferrer'>International Conference on Multiphase Flow</a> presenting work on multiphase flow models without discontinuity capturing, joint with Florian Schäfer and Ph.D. student Anand Radhakrishnan."
 
-- date: 1 April, 2025
-  headline: "Our work on symbolic expressions and transversal for accelerated and differentiable reacting flow simulation is <a href='https://arxiv.org/abs/2503.24286' target='_blank'>on arXiv</a>! The method is implemented in an open source package called <a href='https://github.com/pyrometheus'>Pyrometheus</a> and has been linked into MFC."
+- date: April 1, 2025
+  headline: "Our work on symbolic expressions and transversal for accelerated and differentiable reacting flow simulation is <a href='https://arxiv.org/abs/2503.24286' target='_blank' rel='noopener noreferrer'>on arXiv</a>! The method is implemented in an open source package called <a href='https://github.com/pyrometheus'>Pyrometheus</a> and has been linked into MFC."
 
-- date: 17 March 2025
-  headline: "We are at the APS March Meeting talking about <a href='https://summit.aps.org/events/MAR-B46/5' target='_blank'>exascale compressible flow simulation on El Capitan</a> and <a href='https://summit.aps.org/events/MAR-B46/4' target='_blank'>GPU-based compact finite difference algorithms</a>!" 
+- date: March 17, 2025
+  headline: "We are at the APS March Meeting talking about <a href='https://summit.aps.org/events/MAR-B46/5' target='_blank' rel='noopener noreferrer'>exascale compressible flow simulation on El Capitan</a> and <a href='https://summit.aps.org/events/MAR-B46/4' target='_blank' rel='noopener noreferrer'>GPU-based compact finite difference algorithms</a>!" 
 
-- date: 11 March, 2025
-  headline: "MFC 5.0 appears <a href='https://github.com/MFlowCode/MFC/releases/tag/v5.0.0' target='_blank'>in code</a> and as a <a href='https://arxiv.org/abs/2503.07953' target='_blank'>preprint manuscript on arXiv</a>! MFC 5.0 is a many-physics multiphase compressible flow solver that scales ideally on exascale machines, including LLNL El Capitan and OLCF Frontier. Read more about the latest features at the manuscript link."
+- date: March 11, 2025
+  headline: "MFC 5.0 appears <a href='https://github.com/MFlowCode/MFC/releases/tag/v5.0.0' target='_blank' rel='noopener noreferrer'>in code</a> and as a <a href='https://arxiv.org/abs/2503.07953' target='_blank' rel='noopener noreferrer'>preprint manuscript on arXiv</a>! MFC 5.0 is a many-physics multiphase compressible flow solver that scales ideally on exascale machines, including LLNL El Capitan and OLCF Frontier. Read more about the latest features at the manuscript link."
 
-- date: 5 March, 2025
+- date: March 5, 2025
   headline: "We are at SIAM CSE in Fort Worth, Texas this week! Postdoc Tianyi Chu is presenting his work on Bayesian optimal design for discovery of soft material properties."
 
-- date: 11 February, 2025
+- date: February 11, 2025
   headline: "An article on the work of our group and our collaborators on new exascale computers, including OLCF Frontier (mostly) and now LLNL El Capitan, <a href='https://www.olcf.ornl.gov/2025/02/11/the-olcfs-problem-busters/'>has been published</a> by the Oak Ridge Leadership Computing Facility."
 
-- date: 11 February, 2025
+- date: February 11, 2025
   headline: "Today Spencer gives a Seminar at the Institute of Computational Engineering at the University of Florida! Thanks to <a href='https://mae.ufl.edu/people/name/s-bala-balachandar/'>Bala</a> for the invitation!"
 
-- date: 10 February, 2025
+- date: February 10, 2025
   headline: "Dr. Tianyi Chu's paper on <a href='https://doi.org/10.1007/s00466-025-02606-4'>optimal discovery of soft material properties via targeted deformations</a>, in collaboration with <a href='https://me.engin.umich.edu/people/faculty/jon-estrada/'>Jon Estrada</a> of Michigan, was published in Computation Mechanics!"
 
-- date: 28 January, 2025
+- date: January 28, 2025
   headline: "Spencer is at PNNL, a DOE lab., this week. He is giving a seminar on solving PDEs with quantum devices. Thank you <a href='https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=10102'>Xianyu Li</a> and <a href='https://home.uni-leipzig.de/~jmuelmen/index.html'>Johannes Muelmenstaedt</a> for the kind invitation!"
 
-- date: 27 January, 2025
+- date: January 27, 2025
   headline: "In exascale supercomputing news, our group was granted a DAT (dedicated access time) for 100% of LLNL El Capitan (40K+ GPUs) for one day. This time was used to measure the performance of <a href='https://mflowcode.github.io/'>MFC</a>, our flagship open source solver, and evaluate the readiness of the El Capitan system before it moves to the classified network. Further, our OLCF Frontier allocation was renewed into FY25. Our work with the JSC JUPITER team continues, who manage Europe's first exascale supercomputer and early access systems."
 
-- date: 8 January, 2025
-  headline: "The <a href='https://arxiv.org/abs/2302.04227' target='_blank'>pIMR</a> manuscript appears on arXiv! We devise a parsimonious scheme for high-fidelity material inference that cuts the cost of experimentation or simulation by two orders of magnitude. With this, we enable material characterization in tractable time. In collaboration with Michigan, Brown, and UT Austin."
+- date: January 8, 2025
+  headline: "The <a href='https://arxiv.org/abs/2302.04227' target='_blank' rel='noopener noreferrer'>pIMR</a> manuscript appears on arXiv! We devise a parsimonious scheme for high-fidelity material inference that cuts the cost of experimentation or simulation by two orders of magnitude. With this, we enable material characterization in tractable time. In collaboration with Michigan, Brown, and UT Austin."
 
-- date: 28 November, 2024
-  headline: "Our paper on quantum solves of the Navier-Stokes equations using current quantum devices was accepted to Computers & Fluids! Congrats to Ph.D. student Jack Song and our collaborators at GTRI! You can view it <a href='https://doi.org/10.1016/j.compfluid.2024.106507' target='_blank'>here</a>."
+- date: November 28, 2024
+  headline: "Our paper on quantum solves of the Navier-Stokes equations using current quantum devices was accepted to Computers & Fluids! Congrats to Ph.D. student Jack Song and our collaborators at GTRI! You can view it <a href='https://doi.org/10.1016/j.compfluid.2024.106507' target='_blank' rel='noopener noreferrer'>here</a>."
 
-- date: 24 November, 2024
+- date: November 24, 2024
   headline: "Our group is at <a href='https://dfd-meeting.aps.org/'>APS DFD</a> this week. Say hi and consider checking out some of our talks on multiphase flow, FSI, particle-laden flow, material characterization, and more! (most easily found via <a href='https://meetings.aps.org/Meeting/DFD24/PersonIndex/4610'>here</a> and searching <i>Bryngelson</i>.)"
 
-- date: 16 November, 2024
+- date: November 16, 2024
   headline: "Spencer is speaking at <a href='https://www.stem-trek.org/2024/03/17/artsc24/'>ART@SC24</a> today on HPC for PDE solves and large-scale training."
 
-- date: 14 November, 2024
+- date: November 14, 2024
   headline: "Our project ExaMFlow, based on <a href='https://github.com/mflowcode/mfc'>MFC</a>, is participating in JUREAP, the <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter'>JUPITER</a> Research and Early Access Program. ExaMFlow received the JUREAP certificate for scaling efficiency and node performance, with potential to use a significant part of the JUPITER Booster system and the first European exascale supercomputer, starting January 2025."
 
-- date: 13 November, 2024
+- date: November 13, 2024
   headline: "We will be at <a href='https://sc24.supercomputing.org/'>SC24</a> here in Atlanta next week. Our work includes cell-resolved simulations of aneurysms and exascale compressible flow methods. More <a href='https://sites.gatech.edu/research/sc-2024/'>here</a> and <a href='https://sc24.conference-program.com/presenter/?uid=478593'>here</a>."
 
-- date: 10 October, 2024
+- date: October 10, 2024
   headline: "The group is awarded ACCESS-CI Accelerate annual allocation of 3M credits (equivalent to 45K A100 GPU hours) for developing sub-grid physics models!"
 
-- date: 20 September, 2024
-  headline: "Our work on a fully quantum lattice algorithm for solving the Navier-Stokes equations was <a href='https://doi.org/10.1116/5.0217675' target='_blank'>recently published in AVS Quantum Science</a>. Congrats to Sriharsha and Jack! We appreciate the collaboration with Bryan Gard (GTRI), Eugene Dumitrescu (ORNL), and Alex Alexeev (GT ME)."
+- date: September 20, 2024
+  headline: "Our work on a fully quantum lattice algorithm for solving the Navier-Stokes equations was <a href='https://doi.org/10.1116/5.0217675' target='_blank' rel='noopener noreferrer'>recently published in AVS Quantum Science</a>. Congrats to Sriharsha and Jack! We appreciate the collaboration with Bryan Gard (GTRI), Eugene Dumitrescu (ORNL), and Alex Alexeev (GT ME)."
 
-- date: 19 September, 2024
-  headline: "New paper on the use of the adjoint to compute averaged closure operators in turbulent flow <a href='https://link.aps.org/doi/10.1103/PhysRevFluids.9.094606' target='_blank'>was published in Physical Review Fluids</a>! In collaboration with Jessie Liu and Ali Mani (Stanford), Florian Schäfer (GT), and Tamer Zaki (Hopkins)."
+- date: September 19, 2024
+  headline: "New paper on the use of the adjoint to compute averaged closure operators in turbulent flow <a href='https://link.aps.org/doi/10.1103/PhysRevFluids.9.094606' target='_blank' rel='noopener noreferrer'>was published in Physical Review Fluids</a>! In collaboration with Jessie Liu and Ali Mani (Stanford), Florian Schäfer (GT), and Tamer Zaki (Hopkins)."
 
-- date: 18 September, 2024
-  headline: "Our Supercomputing (SC) paper from the WACCPD workshop was accepted. It is now <a href='https://arxiv.org/abs/2409.10729' target='_blank'>on arXiv</a>. We show how to achieve performant compute kernels on AMD GPU devices via OpenACC offloading, and use them to scale to all of OLCF Frontier. Congrats to Ben, Anand, and Henry! and thanks to our collaborators, Steve Abbot at HPE/Cray and Reuben Budiardja at Oak Ridge!"
+- date: September 18, 2024
+  headline: "Our Supercomputing (SC) paper from the WACCPD workshop was accepted. It is now <a href='https://arxiv.org/abs/2409.10729' target='_blank' rel='noopener noreferrer'>on arXiv</a>. We show how to achieve performant compute kernels on AMD GPU devices via OpenACC offloading, and use them to scale to all of OLCF Frontier. Congrats to Ben, Anand, and Henry! and thanks to our collaborators, Steve Abbot at HPE/Cray and Reuben Budiardja at Oak Ridge!"
 
-- date: 17 September, 2024
-  headline: "Our preprint, <a href='https://arxiv.org/abs/2409.09217' target='_blank'>Rational-WENO</a>, appears on arXiv. We construct a scheme that achieves near 5th order accuracy from a three-point stencil. In collaboration with Google Research and TU Munich."
+- date: September 17, 2024
+  headline: "Our preprint, <a href='https://arxiv.org/abs/2409.09217' target='_blank' rel='noopener noreferrer'>Rational-WENO</a>, appears on arXiv. We construct a scheme that achieves near 5th order accuracy from a three-point stencil. In collaboration with Google Research and TU Munich."
 
-- date: 13 September, 2024
-  headline: "The group is awarded an <a href='https://allocations.access-ci.org/allocations-policy#maximize-access-projects' target='_blank'>ACCESS-CI Maximize</a> allocation, the largest offered by the NSF. It amounts to 225K GPU hours and focuses on algorithms for direct simulation of compressible and multiphase flow."
+- date: September 13, 2024
+  headline: "The group is awarded an <a href='https://allocations.access-ci.org/allocations-policy#maximize-access-projects' target='_blank' rel='noopener noreferrer'>ACCESS-CI Maximize</a> allocation, the largest offered by the NSF. It amounts to 225K GPU hours and focuses on algorithms for direct simulation of compressible and multiphase flow."
 
-- date: 4 September, 2024
-  headline: "Tianyi's manuscript on inferring rheological properties via Bayesian optimal design and bubble dynamics <a href='https://arxiv.org/abs/2409.00011' target='_blank'>is now on arXiv</a>!"
+- date: September 4, 2024
+  headline: "Tianyi's manuscript on inferring rheological properties via Bayesian optimal design and bubble dynamics <a href='https://arxiv.org/abs/2409.00011' target='_blank' rel='noopener noreferrer'>is now on arXiv</a>!"
 
-- date: 1 September, 2024
-  headline: "We start a collaborative effort with the <a href='https://bhamla.gatech.edu/' target='_blank'>Bhamla Lab</a> on bio-inspired propulsion! Acknowledgement to DARPA for the funding."
+- date: September 1, 2024
+  headline: "We start a collaborative effort with the <a href='https://bhamla.gatech.edu/' target='_blank' rel='noopener noreferrer'>Bhamla Lab</a> on bio-inspired propulsion! Acknowledgement to DARPA for the funding."
 
-- date: 31 August, 2024
+- date: August 31, 2024
   headline: "Ph.D. student Ben Wilfong is a recipient of the 2024-25 CRNCH Fellowship for application optimization on superchip architectures. Congrats!"
 
-- date: 28 August, 2024
+- date: August 28, 2024
   headline: "Our work with Sandia National Labs received a funding renewal. We are working on two-phase hydrodynamic instability and direct simulation."
 
-- date: 26 August, 2024
-  headline: "Presenting our work on sub-grid cavitation models and their computation on exascale machines at <a href='https://www.ictam2024.org/' target='_blank'>ICTAM2024</a> in Korea this week!"
+- date: August 26, 2024
+  headline: "Presenting our work on sub-grid cavitation models and their computation on exascale machines at <a href='https://www.ictam2024.org/' target='_blank' rel='noopener noreferrer'>ICTAM2024</a> in Korea this week!"
 
-- date: 21 August, 2024
-  headline: "We achieve the first performance result of <a href='https://mflowcode.github.io' target='_blank'>MFC</a> on the <a href='https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html' target='_blank'>AMD MI300A</a> superchip that will populate <a href='https://asc.llnl.gov/exascale/el-capitan' target='_blank'>LLNL El Capitan</a>. We see a 2-times speedup over the AMD MI250X in OLCF Frontier."
+- date: August 21, 2024
+  headline: "We achieve the first performance result of <a href='https://mflowcode.github.io' target='_blank' rel='noopener noreferrer'>MFC</a> on the <a href='https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html' target='_blank' rel='noopener noreferrer'>AMD MI300A</a> superchip that will populate <a href='https://asc.llnl.gov/exascale/el-capitan' target='_blank' rel='noopener noreferrer'>LLNL El Capitan</a>. We see a 2-times speedup over the AMD MI250X in OLCF Frontier."
 
-- date: 16 August, 2024
+- date: August 16, 2024
   headline: "Dimiti Adam joins the group as a Ph.D. student. Welcome!"
 
-- date: 29 July, 2024
-  headline: "We will be at AIAA Aviation this week! On Thursday, Ben and Haocheng are presenting their papers on <a href='https://arc.aiaa.org/doi/10.2514/6.2024-4480' target='_blank'>two-phase interfacial instabilities</a> and <a href='https://arc.aiaa.org/doi/10.2514/6.2024-4391' target='_blank'>sound generation through mildly misfit earplugs</a>."
+- date: July 29, 2024
+  headline: "We will be at AIAA Aviation this week! On Thursday, Ben and Haocheng are presenting their papers on <a href='https://arc.aiaa.org/doi/10.2514/6.2024-4480' target='_blank' rel='noopener noreferrer'>two-phase interfacial instabilities</a> and <a href='https://arc.aiaa.org/doi/10.2514/6.2024-4391' target='_blank' rel='noopener noreferrer'>sound generation through mildly misfit earplugs</a>."
 
-- date: 10 July, 2024
+- date: July 10, 2024
   headline: "Spencer gives a seminar at the US Naval Research Lab on exascale simulation of multiphase, shock-laden, and reacting flows."
 
-- date: 1 July, 2024
-  headline: "<a href='https://mflowcode.github.io' target='_blank'>MFC</a> accepted into <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter' target='_blank'>JUREAP</a> Phase 1, the JUIPTER Exascale Early Access Program at JSC."
+- date: July 1, 2024
+  headline: "<a href='https://mflowcode.github.io' target='_blank' rel='noopener noreferrer'>MFC</a> accepted into <a href='https://www.fz-juelich.de/en/ias/jsc/jupiter' target='_blank' rel='noopener noreferrer'>JUREAP</a> Phase 1, the JUIPTER Exascale Early Access Program at JSC."
 
-- date: 26 June, 2024
-  headline: "Presenting our work on exascale multiphase flow simulation at <a href='https://sites.psu.edu/icnmmf5/' target='_blank'>ICNMMF5</a> in Reykjavik, Iceland!"
+- date: June 26, 2024
+  headline: "Presenting our work on exascale multiphase flow simulation at <a href='https://sites.psu.edu/icnmmf5/' target='_blank' rel='noopener noreferrer'>ICNMMF5</a> in Reykjavik, Iceland!"
 
-- date: 4 June, 2024
-  headline: "Jack's manuscript on solving the Navier-Stokes equations on actual (IBM) quantum devices <a href='https://arxiv.org/abs/2406.00280' target='_blank'>is now on arXiv</a>!"
+- date: June 4, 2024
+  headline: "Jack's manuscript on solving the Navier-Stokes equations on actual (IBM) quantum devices <a href='https://arxiv.org/abs/2406.00280' target='_blank' rel='noopener noreferrer'>is now on arXiv</a>!"
 
-- date: 3 June, 2024
+- date: June 3, 2024
   headline: "Presenting our work on stochastic modeling of cavitation inception at CAV2024 in Crete, Greece; say hello if you catch me!"
 
-- date: 21 May, 2024
+- date: May 21, 2024
   headline: "Work starts on our new contract with LLNL on regularization of kinetic-based PDEs. Looking forward to the collaboration!"
 
-- date: 12 May, 2024
-  headline: "Our paper, <a href='https://doi.org/10.1016/j.cpc.2024.109238' target='_blank'>Method for portable, scalable, and performant GPU-accelerated simulation of multiphase compressible flow</a>, was accepted to Computer Physics Communications. Congrats to Anand, Henry, and Ben!"
+- date: May 12, 2024
+  headline: "Our paper, <a href='https://doi.org/10.1016/j.cpc.2024.109238' target='_blank' rel='noopener noreferrer'>Method for portable, scalable, and performant GPU-accelerated simulation of multiphase compressible flow</a>, was accepted to Computer Physics Communications. Congrats to Anand, Henry, and Ben!"
 
-- date: 9 May, 2024
+- date: May 9, 2024
   headline: "Congratulations to Jesus and Ben, who passed their Ph.D. qualifying exams!"
 
-- date: 6 May, 2024
+- date: May 6, 2024
   headline: "Subrahmanyam, resident sickle cell dynamics expert, graduates with his BSCS and heads to a snazzy industry gig. Congratulations, Sub!"
 
-- date: 4 May, 2024
+- date: May 4, 2024
   headline: "Max starts his NVIDIA summer internship. Congrats, Max!"
 
-- date: 8 April, 2024
-  headline: "Congraulations to Suzan on winning the PURA Salary Award for research this summer, and Anshuman on our latest publication: <a href='https://openreview.net/pdf?id=5psgQEHn6t' target='_blank'>Neural networks can be FLOP-efficient integrators of 1D oscillatory integrands</a>."
+- date: April 8, 2024
+  headline: "Congraulations to Suzan on winning the PURA Salary Award for research this summer, and Anshuman on our latest publication: <a href='https://openreview.net/pdf?id=5psgQEHn6t' target='_blank' rel='noopener noreferrer'>Neural networks can be FLOP-efficient integrators of 1D oscillatory integrands</a>."
 
-- date: 4 March, 2024
-  headline: "We are at the <a href='https://march.aps.org/' target='_blank'>2024 APS March Meeting</a>! We have talks on simulating fluid flow <a href='https://march.aps.org/sessions/K49/9' target='_blank'>on quantum devices</a> as well as <a href='https://march.aps.org/sessions/T58/4' target='_blank'>exascale machines like Frontier</a>."
+- date: March 4, 2024
+  headline: "We are at the <a href='https://march.aps.org/' target='_blank' rel='noopener noreferrer'>2024 APS March Meeting</a>! We have talks on simulating fluid flow <a href='https://march.aps.org/sessions/K49/9' target='_blank' rel='noopener noreferrer'>on quantum devices</a> as well as <a href='https://march.aps.org/sessions/T58/4' target='_blank' rel='noopener noreferrer'>exascale machines like Frontier</a>."
 
-- date: 23 February, 2024
+- date: February 23, 2024
   headline: "Dr. Tianyi Chu joins the group as a postdoc. Welcome, Tianyi!"
 
-- date: 19 February, 2024
-  headline: "Spencer gains coutesy appointment in Georgia Tech's <a href='https://www.me.gatech.edu' target='_blank'>Woodruff School of Mechanical Engineering</a>."
+- date: February 19, 2024
+  headline: "Spencer gains coutesy appointment in Georgia Tech's <a href='https://www.me.gatech.edu' target='_blank' rel='noopener noreferrer'>Woodruff School of Mechanical Engineering</a>."
 
-- date: 13 February, 2024
-  headline: "<a href='https://mflowcode.github.io' target='_blank'>MFC</a> has been accepted to the second round of the Oak Ridge Frontier Hackathon! MFC scales to 100% of the world's largest computer, but extracting maximum performance still needs attention. We look forward to working on it!"
+- date: February 13, 2024
+  headline: "<a href='https://mflowcode.github.io' target='_blank' rel='noopener noreferrer'>MFC</a> has been accepted to the second round of the Oak Ridge Frontier Hackathon! MFC scales to 100% of the world's largest computer, but extracting maximum performance still needs attention. We look forward to working on it!"
 
-- date: 9 February, 2024
-  headline: "Spencer gives an invited talk at the <a href='https://crnch.gatech.edu/crnch-summit-2024/' target='_blank'>2024 CRNCH Summit</a> on CFD on an existing IBM quantum device. Great event!"
+- date: February 9, 2024
+  headline: "Spencer gives an invited talk at the <a href='https://crnch.gatech.edu/crnch-summit-2024/' target='_blank' rel='noopener noreferrer'>2024 CRNCH Summit</a> on CFD on an existing IBM quantum device. Great event!"
 
-- date: 1 February, 2024
+- date: February 1, 2024
   headline: "Spencer gave a (virtual) talk for NSWC Carderock on solving flow problems with current quantum devices. Thanks for the invitation!"
 
-- date: 28 January, 2024
+- date: January 28, 2024
   headline: "ONR funded a 3-year grant to our group, collaborative with Prof. Suresh Menon (AE) on solid fuel propellants and CFD. Looking forward to it!"
 
-- date: 26 January, 2024
+- date: January 26, 2024
   headline: "ONR funded a MURI on solid fuel ramjets and high-enthalpy flows to Georgia Tech with co-PIs Suresh and Spencer, among others. PI Greg Young (VT). Looking forward to the collaboration!"
 
-- date: 23 January, 2024
-  headline: "Sriharsha's work on quantum algorithms is now posted <a href='https://arxiv.org/abs/2401.12248' target='_blank'>on arXiv</a>. He develops algorithm improvements and exposed parallelization for fluid flow problems on quantum devices with reduced gate counts."
+- date: January 23, 2024
+  headline: "Sriharsha's work on quantum algorithms is now posted <a href='https://arxiv.org/abs/2401.12248' target='_blank' rel='noopener noreferrer'>on arXiv</a>. He develops algorithm improvements and exposed parallelization for fluid flow problems on quantum devices with reduced gate counts."
 
-- date: 19 January, 2024
+- date: January 19, 2024
   headline: "The group welcomes Lian Xiang, who joins as an undergraduate researcher from Physics! She is working on near-term quantum algorithms for fluid flow problems."
 
-- date: 22 December, 2023
-  headline: "Our paper on <a href='https://doi.org/10.1016/j.jcp.2023.112721' target='_blank'>Fast Macroscopic Forcing</a> was published in the Journal of Computational Physics. Joint work with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a>, Jessie Liu, and <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a>."
+- date: December 22, 2023
+  headline: "Our paper on <a href='https://doi.org/10.1016/j.jcp.2023.112721' target='_blank' rel='noopener noreferrer'>Fast Macroscopic Forcing</a> was published in the Journal of Computational Physics. Joint work with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian Schäfer</a>, Jessie Liu, and <a href='https://manigroup.stanford.edu/' target='_blank' rel='noopener noreferrer'>Ali Mani</a>."
 
-- date: 14 December, 2023
-  headline: "Our paper on <a href='https://doi.org/10.1016/j.cpc.2023.109052' target='_blank'>RoseNNa</a> was published by Computer Physics Communications. Congrats, Ajay!"
+- date: December 14, 2023
+  headline: "Our paper on <a href='https://doi.org/10.1016/j.cpc.2023.109052' target='_blank' rel='noopener noreferrer'>RoseNNa</a> was published by Computer Physics Communications. Congrats, Ajay!"
 
-- date: 7 December, 2023
-  headline: "Spencer gives a virtual talk for Google Research, Applied Science. Thanks for the invite, <a href='https://research.google/people/qingwang/' target='_blank'>Qing Wang</a>!"
+- date: December 7, 2023
+  headline: "Spencer gives a virtual talk for Google Research, Applied Science. Thanks for the invite, <a href='https://research.google/people/qingwang/' target='_blank' rel='noopener noreferrer'>Qing Wang</a>!"
 
-- date: 5 December, 2023
+- date: December 5, 2023
   headline: "Congratulations to group undergraduate researcher Subramanyam on winning a PURA Salary Award for Spring semester research!"
 
-- date: 19 November, 2023
-  headline: "Anand, Jesus, Spencer, and Sriharsha are at <a href='https://www.2023apsdfd.org/' target='_blank'>APS DFD</a> in Washington, DC. Our talks are <a href='https://meetings.aps.org/Meeting/DFD23/PersonIndex/4447' target='_blank'>here</a>. Say hi if you see us!"
+- date: November 19, 2023
+  headline: "Anand, Jesus, Spencer, and Sriharsha are at <a href='https://www.2023apsdfd.org/' target='_blank' rel='noopener noreferrer'>APS DFD</a> in Washington, DC. Our talks are <a href='https://meetings.aps.org/Meeting/DFD23/PersonIndex/4447' target='_blank' rel='noopener noreferrer'>here</a>. Say hi if you see us!"
 
-- date: 6 November, 2023
-  headline: "Spencer gave a talk on stochastic sub-grid models at the <a href='https://insieme.stanford.edu/multiphaseflows' target='_blank'>Workshop on Compressible Multiphase Flows</a> hosted by Stanford University. Thanks to the organizers, <a href='https://profiles.stanford.edu/ali-mani' target='_blank'>Ali</a> and <a href='https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/d-salac.html' target='_blank'>David</a>, for the invite!"
+- date: November 6, 2023
+  headline: "Spencer gave a talk on stochastic sub-grid models at the <a href='https://insieme.stanford.edu/multiphaseflows' target='_blank' rel='noopener noreferrer'>Workshop on Compressible Multiphase Flows</a> hosted by Stanford University. Thanks to the organizers, <a href='https://profiles.stanford.edu/ali-mani' target='_blank' rel='noopener noreferrer'>Ali</a> and <a href='https://engineering.buffalo.edu/mechanical-aerospace/people/faculty/d-salac.html' target='_blank' rel='noopener noreferrer'>David</a>, for the invite!"
 
-- date: 16 October, 2023
-  headline: "Manuscript on non-local closure operator recovery submitted and <a href='https://arxiv.org/abs/2310.08763' target='_blank'>on the arXiv</a>. Joint work with Jessie Liu and Ali Mani (Stanford), Tamer Zaki (Johns Hopkins), and Florian Schäfer(GT)."
+- date: October 16, 2023
+  headline: "Manuscript on non-local closure operator recovery submitted and <a href='https://arxiv.org/abs/2310.08763' target='_blank' rel='noopener noreferrer'>on the arXiv</a>. Joint work with Jessie Liu and Ali Mani (Stanford), Tamer Zaki (Johns Hopkins), and Florian Schäfer(GT)."
 
-- date: 3 October, 2023
-  headline: "The group was accepted to the <a href='https://www.olcf.ornl.gov/calendar/frontier-hackathon-october-2023/' target='_blank'>Frontier Hackathon</a> as we prepare to run MFC at exascale on OLCF Frontier."
+- date: October 3, 2023
+  headline: "The group was accepted to the <a href='https://www.olcf.ornl.gov/calendar/frontier-hackathon-october-2023/' target='_blank' rel='noopener noreferrer'>Frontier Hackathon</a> as we prepare to run MFC at exascale on OLCF Frontier."
 
-- date: 25 September, 2023
-  headline: "Spencer, <a href='https://f-t-s.github.io/' target='_blank'>Florian</a>, and Stanford colleague <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a> organized a minisymposium at the latest <a href='https://www.utep.edu/engineering/mmlde/' target='_blank'>IACM MMLDE conference</a> in El Paso, Texas. Collaborator Jessie Liu (Stanford) presented our ongoing work on a targeted nonlocal closure recovery scheme via adjoint macroscopic forcing."
+- date: September 25, 2023
+  headline: "Spencer, <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian</a>, and Stanford colleague <a href='https://manigroup.stanford.edu/' target='_blank' rel='noopener noreferrer'>Ali Mani</a> organized a minisymposium at the latest <a href='https://www.utep.edu/engineering/mmlde/' target='_blank' rel='noopener noreferrer'>IACM MMLDE conference</a> in El Paso, Texas. Collaborator Jessie Liu (Stanford) presented our ongoing work on a targeted nonlocal closure recovery scheme via adjoint macroscopic forcing."
 
-- date: 17 September, 2023
-  headline: "Jack and Spencer are at <a href='https://qce.quantum.ieee.org/2023/' target='_blank'>IEEE International Conference on Quantum Computing and Engineering</a>! Jack is <a href='https://qce.quantum.ieee.org/2023/tutorials-program/#overview-tut27' target='_blank'>giving a tutorial</a> on solving PDEs using quantum computers (material is open source, <a href='https://github.com/comp-physics/qce23-qpde-tutorial' target='_blank'>here</a>)."
+- date: September 17, 2023
+  headline: "Jack and Spencer are at <a href='https://qce.quantum.ieee.org/2023/' target='_blank' rel='noopener noreferrer'>IEEE International Conference on Quantum Computing and Engineering</a>! Jack is <a href='https://qce.quantum.ieee.org/2023/tutorials-program/#overview-tut27' target='_blank' rel='noopener noreferrer'>giving a tutorial</a> on solving PDEs using quantum computers (material is open source, <a href='https://github.com/comp-physics/qce23-qpde-tutorial' target='_blank' rel='noopener noreferrer'>here</a>)."
 
-- date: 14 September, 2023
-  headline: "Spencer is giving a seminar at the University of Illinois at Urbana-Champaign on Friday September 14, do <a href='https://calendars.illinois.edu/detail/2791?eventId=33462362' target='_blank'>join us</a> or say hi if you are around!"
+- date: September 14, 2023
+  headline: "Spencer is giving a seminar at the University of Illinois at Urbana-Champaign on Friday September 14, do <a href='https://calendars.illinois.edu/detail/2791?eventId=33462362' target='_blank' rel='noopener noreferrer'>join us</a> or say hi if you are around!"
 
-- date: 6 September, 2023
-  headline: "Spencer <a href='http://www2.me.gatech.edu/www/calendar/view_seminar.asp?speaker=Spencer%20Bryngelson&startDate=9/6/2023&startTime=1:00%20PM' target='_blank'>gave a seminar</a> for the Georgia Tech Woodruff School of Mechanical Engineering."
+- date: September 6, 2023
+  headline: "Spencer <a href='http://www2.me.gatech.edu/www/calendar/view_seminar.asp?speaker=Spencer%20Bryngelson&startDate=9/6/2023&startTime=1:00%20PM' target='_blank' rel='noopener noreferrer'>gave a seminar</a> for the Georgia Tech Woodruff School of Mechanical Engineering."
 
-- date: 31 July, 2023
-  headline: "Ajay's neural net. inference library, <a href='https://github.com/comp-physics/rosenna' target='_blank'>roseNNa</a>, is now also described <a href='https://arxiv.org/pdf/2307.16322.pdf' target='_blank'>in this manuscript</a>!"
+- date: July 31, 2023
+  headline: "Ajay's neural net. inference library, <a href='https://github.com/comp-physics/rosenna' target='_blank' rel='noopener noreferrer'>roseNNa</a>, is now also described <a href='https://arxiv.org/pdf/2307.16322.pdf' target='_blank' rel='noopener noreferrer'>in this manuscript</a>!"
 
-- date: 6 July, 2023
+- date: July 6, 2023
   headline: "Congraulations to group Ph.D. student Haocheng Yu, who passed his qualifying exam today!"
 
-- date: 5 July, 2023
-  headline: "Congratulations to the <a href='https://www.vip.gatech.edu/teams/vwp' target='_blank'>VIP Student Cluster Competition team</a> for being accepted to the IndySCC competition!"
+- date: July 5, 2023
+  headline: "Congratulations to the <a href='https://www.vip.gatech.edu/teams/vwp' target='_blank' rel='noopener noreferrer'>VIP Student Cluster Competition team</a> for being accepted to the IndySCC competition!"
 
-- date: 25 June, 2023
-  headline: "Our preprint on the fast macroscopic forcing method is <a href='https://arxiv.org/abs/2306.13625' target='_blank'>on arXiv!</a> A collaborative effort with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a> (Gatech) and Jessie Liu and <a href='https://manigroup.stanford.edu/' target='_blank'>Ali Mani</a> (Stanford)."
+- date: June 25, 2023
+  headline: "Our preprint on the fast macroscopic forcing method is <a href='https://arxiv.org/abs/2306.13625' target='_blank' rel='noopener noreferrer'>on arXiv!</a> A collaborative effort with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian Schäfer</a> (Gatech) and Jessie Liu and <a href='https://manigroup.stanford.edu/' target='_blank' rel='noopener noreferrer'>Ali Mani</a> (Stanford)."
 
-- date: 17 June, 2023
+- date: June 17, 2023
   headline: "Congratulations to research scientist Dr. Bryan Gard on winning GTRI IRAD of the Year award! For work with the group on quantum algorithms for PDEs and CFD."
 
-- date: 13 June, 2023
-  headline: "Paper on electrodynamic drops <a href='https://doi.org/10.1016/j.jcp.2023.112248' target='_blank'>published in JCP</a>."
+- date: June 13, 2023
+  headline: "Paper on electrodynamic drops <a href='https://doi.org/10.1016/j.jcp.2023.112248' target='_blank' rel='noopener noreferrer'>published in JCP</a>."
 
-- date: 06 June, 2023
+- date: June 6, 2023
   headline: "Spencer gave the OpenACC Webinar today. Will update this post with the recording."
 
-- date: 16 May, 2023
-  headline: "We posted our preprint on a strategy for performant simulation of multiphase flows approaching exascale <a href='https://arxiv.org/abs/2305.09163' target='_blank'>on arXiv!</a>"
+- date: May 16, 2023
+  headline: "We posted our preprint on a strategy for performant simulation of multiphase flows approaching exascale <a href='https://arxiv.org/abs/2305.09163' target='_blank' rel='noopener noreferrer'>on arXiv!</a>"
 
-- date: 15 May, 2023
-  headline: "Our preprint on a lattice-based quantum algorithm for fluid flows is now <a href='https://arxiv.org/abs/2305.07148' target='_blank'>on arXiv!</a> Fun continued collaboration with ORNL and GTRI."
+- date: May 15, 2023
+  headline: "Our preprint on a lattice-based quantum algorithm for fluid flows is now <a href='https://arxiv.org/abs/2305.07148' target='_blank' rel='noopener noreferrer'>on arXiv!</a> Fun continued collaboration with ORNL and GTRI."
 
-- date: 3 May, 2023
+- date: May 3, 2023
   headline: "Congratulations to Fatima Ezahra Chrit on a successful Ph.D. defense!"
 
-- date: 21 April, 2023
-  headline: "<a href='https://www.nvidia.com/en-us/data-center/h100/' target='_blank'>NVIDIA H100s</a> finally arrive in the lab!"
+- date: April 21, 2023
+  headline: "<a href='https://www.nvidia.com/en-us/data-center/h100/' target='_blank' rel='noopener noreferrer'>NVIDIA H100s</a> finally arrive in the lab!"
 
-- date: 13 April, 2023
+- date: April 13, 2023
   headline: "Congratulations to Qi Zeng for winnning the 2023 Outstanding Undergraduate Researcher Award from the College of Computing and Ansh Gupta for winning a PURA Salary award for this summer!"
 
-- date: 9 April, 2023
-  headline: "Spencer and Anand travel to Kobe, Japan to present their papers at <a href='http://www.jsmf.gr.jp/icmf2022/' target='_blank'>ICMF23</a>."
+- date: April 9, 2023
+  headline: "Spencer and Anand travel to Kobe, Japan to present their papers at <a href='http://www.jsmf.gr.jp/icmf2022/' target='_blank' rel='noopener noreferrer'>ICMF23</a>."
 
-- date: 13 March, 2023
-  headline: "Anand and Henry's work on near-exascale compressible CFD was presented at the APS March Meeting <a href='https://meetings.aps.org/Meeting/MAR23/Session/F60' target='_blank'>in a focus session."
+- date: March 13, 2023
+  headline: "Anand and Henry's work on near-exascale compressible CFD was presented at the APS March Meeting <a href='https://meetings.aps.org/Meeting/MAR23/Session/F60' target='_blank' rel='noopener noreferrer'>in a focus session."
 
-- date: 26 January, 2023
-  headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank'>2023 CRNCH Summit</a> is Feb 2-3! Many members of the CPG are presenting posters and many great external scientists giving talks! SHB moderating the SciML panel. (update: <a href='https://comp-physics.group/images/conferences/crnch23.jpg' target='_blank'>photo here</a>)"
+- date: January 26, 2023
+  headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank' rel='noopener noreferrer'>2023 CRNCH Summit</a> is Feb 2-3! Many members of the CPG are presenting posters and many great external scientists giving talks! SHB moderating the SciML panel. (update: <a href='https://comp-physics.group/images/conferences/crnch23.jpg' target='_blank' rel='noopener noreferrer'>photo here</a>)"
 
-- date: 24 January, 2023
-  headline: "Spencer is giving a talk on competitive optimization methods at the next <a href='https://www.librom.net/ddps.html' target='_blank'>Lawrence Livermore DDPS Webinar</a>. (Update: <a href='https://www.youtube.com/watch?v=zm-iF1FtkLE' target='_blank'>video here</a>)"
+- date: January 24, 2023
+  headline: "Spencer is giving a talk on competitive optimization methods at the next <a href='https://www.librom.net/ddps.html' target='_blank' rel='noopener noreferrer'>Lawrence Livermore DDPS Webinar</a>. (Update: <a href='https://www.youtube.com/watch?v=zm-iF1FtkLE' target='_blank' rel='noopener noreferrer'>video here</a>)"
 
-- date: 22 January, 2023
-  headline: "Qi Zeng and Yash Kothari's <a href='https://arxiv.org/abs/2204.11144' target='_blank'>CPINNs work</a> accepted to ICLR 2023! Joint with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a>."
+- date: January 22, 2023
+  headline: "Qi Zeng and Yash Kothari's <a href='https://arxiv.org/abs/2204.11144' target='_blank' rel='noopener noreferrer'>CPINNs work</a> accepted to ICLR 2023! Joint with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian Schäfer</a>."
 
-- date: 11 January, 2023
-  headline: "The <a href='https://www.openhackathons.org/s/siteevent/a0C5e000005V6AoEAK/se000150' target='_blank'>Georgia Tech Open Hackathon</a> official started! SHB organizing with NVIDIA. (story <a href='https://www.cc.gatech.edu/news/researchers-optimize-hpc-software-interdisciplinary-hackathon' target='_blank'>here</a>)"
+- date: January 11, 2023
+  headline: "The <a href='https://www.openhackathons.org/s/siteevent/a0C5e000005V6AoEAK/se000150' target='_blank' rel='noopener noreferrer'>Georgia Tech Open Hackathon</a> official started! SHB organizing with NVIDIA. (story <a href='https://www.cc.gatech.edu/news/researchers-optimize-hpc-software-interdisciplinary-hackathon' target='_blank' rel='noopener noreferrer'>here</a>)"
 
-- date: 11 January, 2023
-  headline: "<a href='https://doi.org/10.1016/j.jcp.2023.111917' target='_blank'>Paper</a> on sub-grid moment methods for fully-coupled cavitating flows published in JCP."
+- date: January 11, 2023
+  headline: "<a href='https://doi.org/10.1016/j.jcp.2023.111917' target='_blank' rel='noopener noreferrer'>Paper</a> on sub-grid moment methods for fully-coupled cavitating flows published in JCP."
 
-- date: 02 January, 2023
+- date: January 2, 2023
   headline: "Group awarded subcontract from Sandia National Lab on bubbly flows. We look forward to the collaboration!"
 
-- date: 28 December, 2022
-  headline: "<a href='https://dx.doi.org/10.1016/j.jcp.2022.111870' target='_blank'>Paper</a> on numerics for the 7-equation model with Prof. Menon and Achyut Panchal of GT AE accepted to JCP!"
+- date: December 28, 2022
+  headline: "<a href='https://dx.doi.org/10.1016/j.jcp.2022.111870' target='_blank' rel='noopener noreferrer'>Paper</a> on numerics for the 7-equation model with Prof. Menon and Achyut Panchal of GT AE accepted to JCP!"
 
-- date: 22 November, 2022
-  headline: "CPG attended APS DFD! Were on 10 abstracts in one way or another. Spencer had fun chairing the <a href='https://comp-physics.group/images/conferences/apsdfd22/qc-session.jpg' target='_blank'>quantum computing session (standing room only!)</a>, where Fatima gave an excellent talk."
+- date: November 22, 2022
+  headline: "CPG attended APS DFD! Were on 10 abstracts in one way or another. Spencer had fun chairing the <a href='https://comp-physics.group/images/conferences/apsdfd22/qc-session.jpg' target='_blank' rel='noopener noreferrer'>quantum computing session (standing room only!)</a>, where Fatima gave an excellent talk."
 
-- date: 18 November, 2022
-  headline: "Ajay Bati pushes the first public release of <a href='https://github.com/comp-physics/roseNNa' target='_blank'>roseNNa</a>, a fast, portable, and minimally-intrusive neural network inference library for use with Fortran and C."
+- date: November 18, 2022
+  headline: "Ajay Bati pushes the first public release of <a href='https://github.com/comp-physics/roseNNa' target='_blank' rel='noopener noreferrer'>roseNNa</a>, a fast, portable, and minimally-intrusive neural network inference library for use with Fortran and C."
 
-- date: 15 November, 2022
-  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank'>their work</a>! <a href='https://comp-physics.group/images/conferences/sc22.jpg' target='_blank'>Here's</a> a photo of us."
+- date: November 15, 2022
+  headline: "We are at <a href='https://sc22.supercomputing.org/' target='_blank' rel='noopener noreferrer'>SC22</a> where Anand and Henry are presenting <a href='https://sc22.supercomputing.org/presentation/?id=rpost122&sess=sess273' target='_blank' rel='noopener noreferrer'>their work</a>! <a href='https://comp-physics.group/images/conferences/sc22.jpg' target='_blank' rel='noopener noreferrer'>Here's</a> a photo of us."
 
-- date: 13 October, 2022
-  headline: "We posted our preprint on a spectral method for electrodynamic flows in drops <a href='https://arxiv.org/pdf/2210.04957.pdf' target='_blank'>on the arXiv!</a> Awesome outcome from a collaboration with Hossein and <a href='http://stokeslet.ucsd.edu/' target='_blank'>Prof. David Saintillan</a> at UCSD (who has the coolest website subdomain)."
+- date: October 13, 2022
+  headline: "We posted our preprint on a spectral method for electrodynamic flows in drops <a href='https://arxiv.org/pdf/2210.04957.pdf' target='_blank' rel='noopener noreferrer'>on the arXiv!</a> Awesome outcome from a collaboration with Hossein and <a href='http://stokeslet.ucsd.edu/' target='_blank' rel='noopener noreferrer'>Prof. David Saintillan</a> at UCSD (who has the coolest website subdomain)."
 
-- date: 12 October, 2022
+- date: October 12, 2022
   headline: "SHB gave talks at GT Aero and GT Applied and Computational Math. Thanks to Professors Cristina Riso and Wenjing Liao for the invitations!"
 
-- date: 20 September, 2022
-  headline: "Preprint on application performance on ARM+GPU supercomputers submitted and <a href='https://arxiv.org/abs/2209.09731' target='_blank'>posted on the arXiv!</a> Anand and Henry contributed the MFC portion."
+- date: September 20, 2022
+  headline: "Preprint on application performance on ARM+GPU supercomputers submitted and <a href='https://arxiv.org/abs/2209.09731' target='_blank' rel='noopener noreferrer'>posted on the arXiv!</a> Anand and Henry contributed the MFC portion."
 
-- date: 24 August, 2022
-  headline: "NVIDIA awards the group four <a href='https://www.nvidia.com/en-us/networking/products/data-processing-unit/' target='_blank'>BlueField2 DPUs</a>!"
+- date: August 24, 2022
+  headline: "NVIDIA awards the group four <a href='https://www.nvidia.com/en-us/networking/products/data-processing-unit/' target='_blank' rel='noopener noreferrer'>BlueField2 DPUs</a>!"
 
-- date: 18 August, 2022
-  headline: "Congrats to Ph.D. student Jack Song on winning a <a href='https://crnch.gatech.edu/' target='_blank'>CRNCH</a> fellowship to work on quantum computing for PDEs!"
+- date: August 18, 2022
+  headline: "Congrats to Ph.D. student Jack Song on winning a <a href='https://crnch.gatech.edu/' target='_blank' rel='noopener noreferrer'>CRNCH</a> fellowship to work on quantum computing for PDEs!"
 
-- date: 14 August, 2022
-  headline: "Spencer and <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a> return from the <a href='https://comp-physics.group/images/ctr.jpg' target='_blank'>Stanford CTR Summer Program</a>. Very productive time, thanks to <a href='https://profiles.stanford.edu/ali-mani' target='_blank'>Ali Mani</a> and Jessie Liu for hosting us!"
+- date: August 14, 2022
+  headline: "Spencer and <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Florian Schäfer</a> return from the <a href='https://comp-physics.group/images/ctr.jpg' target='_blank' rel='noopener noreferrer'>Stanford CTR Summer Program</a>. Very productive time, thanks to <a href='https://profiles.stanford.edu/ali-mani' target='_blank' rel='noopener noreferrer'>Ali Mani</a> and Jessie Liu for hosting us!"
 
-- date: 8 August, 2022
+- date: August 8, 2022
   headline: "Ben Wilfong joins the group as a PhD student! He's working on multiphase computational fluid dynamics."
 
-- date: 5 August, 2022
-  headline: "Spencer named a <a href='https://ctl.gatech.edu/faculty/groups/1969' target='_blank'>Class of 1969 Teaching Fellow</a> and a <a href='https://faculty.gatech.edu/faculty-writing-scholars' target='_blank'>Georgia Tech Faculty Writing Scholar</a>."
+- date: August 5, 2022
+  headline: "Spencer named a <a href='https://ctl.gatech.edu/faculty/groups/1969' target='_blank' rel='noopener noreferrer'>Class of 1969 Teaching Fellow</a> and a <a href='https://faculty.gatech.edu/faculty-writing-scholars' target='_blank' rel='noopener noreferrer'>Georgia Tech Faculty Writing Scholar</a>."
 
-- date: 22 June, 2022
-  headline: "AMD donates an <a href='https://www.cc.gatech.edu/news/new-hardware-brings-students-closer-exascale-computing' target='_blank'>MI200-series GPU server</a> to the group!"
+- date: June 22, 2022
+  headline: "AMD donates an <a href='https://www.cc.gatech.edu/news/new-hardware-brings-students-closer-exascale-computing' target='_blank' rel='noopener noreferrer'>MI200-series GPU server</a> to the group!"
 
-- date: 9 June, 2022
-  headline: "Ph.D. student Fatima Chrit and incoming freshman Sriharsha Kocherla have their first conference abstract on quantum algorithms for fluid flows accepted to <a href='https://tqc2022-conference.iquist.illinois.edu/' target='_blank'>TQC 2022</a>!"
+- date: June 9, 2022
+  headline: "Ph.D. student Fatima Chrit and incoming freshman Sriharsha Kocherla have their first conference abstract on quantum algorithms for fluid flows accepted to <a href='https://tqc2022-conference.iquist.illinois.edu/' target='_blank' rel='noopener noreferrer'>TQC 2022</a>!"
 
-- date: 28 May, 2022
-  headline: "Spencer wins <a href='https://www.orau.org/news/releases/2022/orau-awards-36-research-grants-totalling-180,000-to-junior-faculty-at-its-member-universities.html' target='_blank'>Powe Junior Faculty Enhancement Award</a> from Oak Ridge National Lab."
+- date: May 28, 2022
+  headline: "Spencer wins <a href='https://www.orau.org/news/releases/2022/orau-awards-36-research-grants-totalling-180,000-to-junior-faculty-at-its-member-universities.html' target='_blank' rel='noopener noreferrer'>Powe Junior Faculty Enhancement Award</a> from Oak Ridge National Lab."
 
-- date: 14 May, 2022
+- date: May 14, 2022
   headline: "Group wins GT Seed Grant for quantum simulation!"
 
-- date: 4 May, 2022
-  headline: "Ph.D. students <a href='https://comp-physics.group/images/conferences/GTQA22/fatima-gtqa.jpg' target='_blank'>Fatima Chrit</a> and  <a href='https://comp-physics.group/images/conferences/GTQA22/austin-gtqa.jpg' target='_blank'>Austin Adams</a> presented their work on quantum algorithms and compiler backends at the GT Quantum Alliance Workshop!"
+- date: May 4, 2022
+  headline: "Ph.D. students <a href='https://comp-physics.group/images/conferences/GTQA22/fatima-gtqa.jpg' target='_blank' rel='noopener noreferrer'>Fatima Chrit</a> and  <a href='https://comp-physics.group/images/conferences/GTQA22/austin-gtqa.jpg' target='_blank' rel='noopener noreferrer'>Austin Adams</a> presented their work on quantum algorithms and compiler backends at the GT Quantum Alliance Workshop!"
 
-- date: 25 Apr, 2022 
-  headline: "Congratulations to Qi Zeng on his first conference paper, which was accepted to an ICLR workshop! It's arXived <a href='https://arxiv.org/abs/2204.11144' target='_blank'>here</a>."
+- date: April 25, 2022 
+  headline: "Congratulations to Qi Zeng on his first conference paper, which was accepted to an ICLR workshop! It's arXived <a href='https://arxiv.org/abs/2204.11144' target='_blank' rel='noopener noreferrer'>here</a>."
 
-- date: 15 Apr, 2022 
-  headline: "Spencer gives talks at <a href='https://www.math.emory.edu/events/seminars/seminar.php?SEMID=1456' target='_blank'>Emory</a> and <a href='https://semte.engineering.asu.edu/'>Arizona State Universities</a>. Thanks to Professors Veneziani and Xi (Emory) and Kim (ASU) for hosting!"
+- date: April 15, 2022 
+  headline: "Spencer gives talks at <a href='https://www.math.emory.edu/events/seminars/seminar.php?SEMID=1456' target='_blank' rel='noopener noreferrer'>Emory</a> and <a href='https://semte.engineering.asu.edu/'>Arizona State Universities</a>. Thanks to Professors Veneziani and Xi (Emory) and Kim (ASU) for hosting!"
 
-- date: 13 Apr, 2022
+- date: April 13, 2022
   headline: "Undergraduates Ajay Bati and Qi Zeng gave great talks at the <a href='https://symposium.urop.gatech.edu/' target='blank'>Annual GT Undergraduate Research Symposium</a>, well done!"
 
-- date: 26 Mar, 2022 
+- date: March 26, 2022 
   headline: "Spencer visits Brown, MIT, and Harvard. Thanks to Professors Rodriguez, Sapsis, and Koumoutsakos for hosting!"
 
-- date: 1 Mar, 2022 
+- date: March 1, 2022 
   headline: "Ajay Bati joins our group. He's working on deploying neural network models in HPC settings!"
 
-- date: 21 Feb, 2022 
+- date: February 21, 2022 
   headline: "<a href='https://comp-physics.group/GSCS22/' target='blank'>GSCS22</a> was this past Saturday! It was sponsored by COC CSE."
 
-- date: 4 Feb, 2022 
-  headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank'>2022 CRNCH Summit</a> finished today! Spencer gave an invited talk on quantum computing for CFD, <a href='https://mediaspace.gatech.edu/media/CRNCH+Summit+2022+-+Spencer+Bryngleson+-+Quantum+Computing+for+Continuum+Mechanics/1_23u8ou36' target='_blank'>video here</a>."
+- date: February 4, 2022 
+  headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank' rel='noopener noreferrer'>2022 CRNCH Summit</a> finished today! Spencer gave an invited talk on quantum computing for CFD, <a href='https://mediaspace.gatech.edu/media/CRNCH+Summit+2022+-+Spencer+Bryngleson+-+Quantum+Computing+for+Continuum+Mechanics/1_23u8ou36' target='_blank' rel='noopener noreferrer'>video here</a>."
 
-- date: 27 Jan, 2022
-  headline: "The inaugaural <a href='https://www.gpuhackathons.org/event/georgia-tech-gpu-hackathon-2022' target='_blank'>GT HPC Hackathon</a> wrapped up today! Thank you to the mentors, participants, and sponsors NVIDIA and Oak Ridge National Lab."
+- date: January 27, 2022
+  headline: "The inaugaural <a href='https://www.gpuhackathons.org/event/georgia-tech-gpu-hackathon-2022' target='_blank' rel='noopener noreferrer'>GT HPC Hackathon</a> wrapped up today! Thank you to the mentors, participants, and sponsors NVIDIA and Oak Ridge National Lab."
 
-- date: 29 Dec, 2021
-  headline: "Preprint on moment-based closures for cavitating flows is <a href='https://arxiv.org/abs/2112.14172' target='_blank'>now on arXiv.</a>"
+- date: December 29, 2021
+  headline: "Preprint on moment-based closures for cavitating flows is <a href='https://arxiv.org/abs/2112.14172' target='_blank' rel='noopener noreferrer'>now on arXiv.</a>"
 
-- date: 9 Dec, 2021
+- date: December 9, 2021
   headline: "GTRI Scientist Bryan Gard awarded IRAD to work with our group for 2022 on quantum algorithms!"
 
-- date: 10 Nov, 2021
+- date: November 10, 2021
   headline: "Henry Le Berre (CS) joins the group!"
 
-- date: 3 Nov, 2021
+- date: November 3, 2021
   headline: "Fatima Chrit (advised by A. Alexeev in ME) and Jesus Arias (advised with L. Sankar in AE) are working with our group! Their research is funded in part by GTQA and GTRI."
 
-- date: 4 Oct, 2021
-  headline: "Joint work with MIT SAND group on stable high-order QBMMs <a href='https://arxiv.org/abs/2110.01374' target='_blank'>is now on arXiv!</a>"
+- date: October 4, 2021
+  headline: "Joint work with MIT SAND group on stable high-order QBMMs <a href='https://arxiv.org/abs/2110.01374' target='_blank' rel='noopener noreferrer'>is now on arXiv!</a>"
 
-- date: 14 Sept, 2021
-  headline: "Spencer gave an invited talk on GPU acceleration of multiphase CFD at <a href='https://www.openacc.org/events/openacc-summit-2021' target='_blank'>OpenACC summit!</a> Watch it <a href='https://youtu.be/DgX6ssX2yrg' target='_blank'>here</a>."
+- date: September 14, 2021
+  headline: "Spencer gave an invited talk on GPU acceleration of multiphase CFD at <a href='https://www.openacc.org/events/openacc-summit-2021' target='_blank' rel='noopener noreferrer'>OpenACC summit!</a> Watch it <a href='https://youtu.be/DgX6ssX2yrg' target='_blank' rel='noopener noreferrer'>here</a>."
 
-- date: 1 Sept, 2021
+- date: September 1, 2021
   headline: "Girish Ganesan (GPU computing) and Sriharsha Kocherla (quantum algorithms) joined the group!"
 
-- date: 15 August, 2021
+- date: August 15, 2021
   headline: "Anand Radhakrishnan (multiphase flow models) and Scott Sims (multiscale time-steppers) joined the group!"
 
-- date: 20 April, 2021
-  headline: "Jean's data assimilation paper was accepted to JMPS, <a href='https://doi.org/10.1016/j.jmps.2021.104455' target='_blank'>see it here!</a>"
+- date: April 20, 2021
+  headline: "Jean's data assimilation paper was accepted to JMPS, <a href='https://doi.org/10.1016/j.jmps.2021.104455' target='_blank' rel='noopener noreferrer'>see it here!</a>"
 
-- date: 5 November, 2020
-  headline: "Paper on QBMMlib <a href='https://www.sciencedirect.com/science/article/pii/S2352711020303289' target='_blank'>was published by SoftwareX</a>. It's open access, check it out!"
+- date: November 5, 2020
+  headline: "Paper on QBMMlib <a href='https://www.sciencedirect.com/science/article/pii/S2352711020303289' target='_blank' rel='noopener noreferrer'>was published by SoftwareX</a>. It's open access, check it out!"
 
-- date: 13 August, 2020
-  headline: "<a href='https://arxiv.org/abs/2008.05063' target='_blank'>Preprint</a> released on QBMMlib, our <a href='https://github.com/comp-physics/QBMMlib' target='_blank'>open-source solver</a> for quadrature moment methods!"
+- date: August 13, 2020
+  headline: "<a href='https://arxiv.org/abs/2008.05063' target='_blank' rel='noopener noreferrer'>Preprint</a> released on QBMMlib, our <a href='https://github.com/comp-physics/QBMMlib' target='_blank' rel='noopener noreferrer'>open-source solver</a> for quadrature moment methods!"
 
-- date: 11 August, 2020
-  headline: "<a href='https://arxiv.org/abs/2008.04410' target='_blank'>Preprint</a> submitted on data assimilation for rheometric data!"
+- date: August 11, 2020
+  headline: "<a href='https://arxiv.org/abs/2008.04410' target='_blank' rel='noopener noreferrer'>Preprint</a> submitted on data assimilation for rheometric data!"
 
-- date: 22 May, 2020
-  headline: "<a href='https://dx.doi.org/10.1017/jfm.2020.432' target='_blank'>Paper</a> on near-crevice bubble collapse with N. Adam's TU Munich group accepted to JFM!"
+- date: May 22, 2020
+  headline: "<a href='https://dx.doi.org/10.1017/jfm.2020.432' target='_blank' rel='noopener noreferrer'>Paper</a> on near-crevice bubble collapse with N. Adam's TU Munich group accepted to JFM!"
 
-- date: 2 May, 2020
-  headline: "<a href='https://dx.doi.org/10.1016/j.cpc.2020.107396' target='_blank'>MFC paper</a> accepted to Computer Physics Communications!"
+- date: May 2, 2020
+  headline: "<a href='https://dx.doi.org/10.1016/j.cpc.2020.107396' target='_blank' rel='noopener noreferrer'>MFC paper</a> accepted to Computer Physics Communications!"

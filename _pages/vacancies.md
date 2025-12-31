@@ -8,12 +8,20 @@ permalink: /vacancies
 
 ## Group openings
 
+<div style="background-color: #252829; padding: 15px; border-left: 4px solid #c0995e; margin: 20px 0;">
+<strong>TL;DR – Who should contact us?</strong><br/>
+• <strong>Ph.D. applicants</strong> (CSE or home-unit programs like AE/ME) who like HPC, numerics, and continuum physics<br/>
+• <strong>Current GT Ph.D. students</strong> interested in exascale CFD or multiphase flows<br/>
+• <strong>GT undergraduates</strong> (≥ 2 years left) with strong coding skills and interest in scientific computing<br/>
+• We are <strong>not currently taking standalone M.S. students</strong>
+</div>
+
 In the Computational Physics Group, you will work on the latest methods in computational science for pressing societal problems.
 Our work spans a broad range of 
 * __Technical advancements:__ Modeling, design, numerical methods, simulation, algorithms, high-performance computing, non-von Neumann emerging architectures (quantum, RISC-V and Arm, etc.)
 * __Application areas:__ Biology, medicine, and therapies, defense, aerodynamics, fluid dynamics, and flight, solid mechanics, hydrodynamics, energy
 
-Check out <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank">our papers</a> to learn more.
+Check out <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">our papers</a> to learn more.
 
 __We are _always_ hiring determined new group members.__
 
@@ -61,4 +69,32 @@ Continuing in this spirit, I am always open to working with keen undergraduate s
 * If you have _two years or more_ remaining in your degree program, fill out [this form](https://forms.gle/PhQYMbcAJKbhC83w9) **then** send Spencer [an email](mailto:{{site.email}}) indicating your matriculation year/semester, degree program, CV, transcripts, and what about the group you are interested in. Be as specific as possible.
 * Note that I __do not__ start new projects with undergraduates with _less than two years_ remaining in their degree programs. The reason: There is unlikely to be enough time for you to fully _own and complete_ a project.
 
+</div>
+
+<div class="jumbotron">
+<h4>Frequently Asked Questions</h4>
+
+<strong>Should I email before applying?</strong><br/>
+• <strong>Ph.D. applicants to CSE:</strong> No need to email—I'll see your application. Only email if you have special circumstances not covered in your application.<br/>
+• <strong>Ph.D. applicants to home-unit programs (AE/ME):</strong> Yes, email me after applying with your program, CV, and transcripts.<br/>
+• <strong>Current GT students:</strong> Fill out the form first, then email with all requested materials.
+
+<strong>What should I include in my email?</strong><br/>
+• Your CV, transcripts, and a brief explanation of why you're interested in the group<br/>
+• For current GT students: your degree program, year, and previous advisor(s)
+
+<strong>What counts as "2 years left" for undergraduates?</strong><br/>
+You should have at least 4 semesters remaining (including the current one) before graduation. This ensures enough time to complete a meaningful research project.
+
+<strong>Do you fund rotations or trial periods?</strong><br/>
+We don't have formal rotation programs, but current GT students can discuss potential projects before committing.
+
+<strong>What are typical timelines?</strong><br/>
+• <strong>Ph.D. applications:</strong> Follow GT's application deadlines (typically December for Fall admission)<br/>
+• <strong>Current GT students:</strong> Can join at any time, but earlier is better for project planning<br/>
+• <strong>Undergraduates:</strong> Can start in any semester, but we prefer students who can commit for multiple semesters
+</div>
+
+<div class="jumbotron">
+If you're unsure whether the group is a fit, skim a few of our recent <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">papers</a> and the <a href="{{ site.url }}{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">MFC</a> and <a href="{{ site.url }}{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">software</a> pages, then send a short email explaining what excites you and how your background connects.
 </div>
