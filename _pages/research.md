@@ -48,7 +48,7 @@ They are also inefficient: A staggering quantity of the marshaled computational 
 * Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent">
-<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/respic/qlbm.png" loading="lazy" alt="Quantum lattice Boltzmann method visualization"/>
+<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/respic/qlbm.png" alt="Quantum lattice Boltzmann method visualization"/>
 </div>
 </div>
 </div>
@@ -71,7 +71,7 @@ This has impacted application-specific treatments, including:
 * Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/trummler-JFM-20.pdf" target="_blank">erosion potential</a> for rough materials
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent;">
-  <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay" loading="lazy" title="Cavitation bubble dynamics simulation"></iframe>
+  <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay" title="Cavitation bubble dynamics simulation"></iframe>
 </div>
 </div>
 </div>
@@ -96,7 +96,7 @@ Our ensemble-averaged bubbly flow model simulates the relevant acoustic phenomen
 Similar outcomes are desirable for sensitive, implanted biomedical devices.
 </div>
 <div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455688521?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="192px" frameborder="0" allow="autoplay" loading="lazy" title="Humpback whale bubble net hunting simulation"></iframe>
+  <iframe src="https://player.vimeo.com/video/455688521?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="192px" frameborder="0" allow="autoplay" title="Humpback whale bubble net hunting simulation"></iframe>
 </div>
 </div>
 </div>
@@ -111,7 +111,7 @@ Current methods fail to account for the _material interfaces_ or _shock waves_ t
 We created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc-18.pdf" target="_blank">optimization and sensitivity analysis</a>.
 </div>
 <div class="col-md-3 col-sm-12" style="background-color:transparent" >
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/lithotripsy.jpg" width="175px" loading="lazy" alt="Lithotripsy therapy visualization"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/lithotripsy.jpg" width="175px" alt="Lithotripsy therapy visualization"/>
 </div>
 </div>
 </div>
@@ -130,7 +130,7 @@ Coupling RBC3D with <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-
 * A <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">data-driven low-order model</a> for the flow statistics.
 </div>
 <div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay" loading="lazy" title="Microfluidics and microcirculation simulation"></iframe>
+  <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay" title="Microfluidics and microcirculation simulation"></iframe>
 </div>
 </div>
 </div>
@@ -146,7 +146,7 @@ We crafted kinematic stability analyses of this coupled dynamical system, includ
 * <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-EJM-19.pdf" target="_blank">Non-modal extensions</a> of the stability analysis, enabling the prediction of rheometric flows and characterization of the capsule's mechanical properties
 </div>
 <div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455887720?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="156px" frameborder="0" allow="autoplay" loading="lazy" title="Microcapsule drug delivery simulation"></iframe>
+  <iframe src="https://player.vimeo.com/video/455887720?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="156px" frameborder="0" allow="autoplay" title="Microcapsule drug delivery simulation"></iframe>
 </div>
 </div>
 </div>

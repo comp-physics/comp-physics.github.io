@@ -8,7 +8,7 @@ permalink: /team/
 ## Team
 
 <center>	
-<img src="{{site.url}}{{site.baseurl}}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='  border-radius: 20px;' loading="lazy" alt="Group photo of Computational Physics Group members"/>
+<img src="{{site.url}}{{site.baseurl}}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='  border-radius: 20px;' alt="Group photo of Computational Physics Group members"/>
 L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, Dimitri, Brian. <br/><i>Not Pictured: Anand, Ansh</i> <br/>
 <b>We are always looking for new students to <a href='{{ site.url }}{{ site.baseurl }}/vacancies'>join the team!</a></b>
 </center>
@@ -21,7 +21,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 <h3>{{ member.name }}</h3>
 <div class="col-sm-3">
 <center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="90%" style="max-width:250px" loading="lazy" alt="Photo of {{ member.name }}"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="90%" style="max-width:250px" alt="Photo of {{ member.name }}"/>
 </center>
 </div>
 <div class="col-sm-9 col-xs-12">
@@ -52,7 +52,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 {% endif %}
 
 <div class="col-sm-2 col-xs-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="100%" style="max-width:250px" loading="lazy" alt="Photo of {{ member.name }}"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="100%" style="max-width:250px" alt="Photo of {{ member.name }}"/>
 </div>
 <div class="col-sm-4 col-xs-12">
   <h5>{{ member.name }}</h5>

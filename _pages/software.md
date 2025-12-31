@@ -69,7 +69,7 @@ Please visit the above GitHub page to view it.
 <div class="col-md-12 col-sm-12">
 <center> 
 <a href="https://mflowcode.github.io" target="_blank" rel="noopener noreferrer">
-<img src="/images/software/mfc-logo3.png" width="70%" loading="lazy" alt="MFC (MFlowCode) logo"/>
+<img src="/images/software/mfc-logo3.png" width="70%" alt="MFC (MFlowCode) logo"/>
 </a>
 </center>
 MFC has a <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">website</a> and <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer">open source GitHub repo.</a>
@@ -77,7 +77,7 @@ It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of th
 It has many other useful features, so check out those links if it seems interesting.
 <center> 
 <a href="https://mflowcode.github.io" target="_blank" rel="noopener noreferrer">
-<img src="/images/software/shockdrop.png" width="70%" loading="lazy" alt="Shock-droplet interaction simulation using MFC"/>
+<img src="/images/software/shockdrop.png" width="70%" alt="Shock-droplet interaction simulation using MFC"/>
 </a>
 </center>
 Above is an example of simulating shock-droplet interaction using MFC at thousands of modern GPUs.
