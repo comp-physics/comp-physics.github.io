@@ -25,6 +25,40 @@ body{
     background-color: $darkgray;
 }
 
+// Font display optimization
+@font-face {
+  font-family: 'FontAwesome';
+  font-display: swap;
+}
+
+// Mobile menu improvements
+@media (max-width: 767px) {
+  .navbar-nav {
+    padding-top: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+  }
+  
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .jumbotron {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .img-thumbnail {
     background-color: $darkgray;
 }
@@ -328,4 +362,64 @@ body{
     height: 23px;
     font-size: 1rem;
     border-radius: 0px;
+}
+
+// Skip to content link for accessibility
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: $gtgold;
+  color: $darkgray;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+// Back to top button
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: $gtgold;
+  color: $darkgray;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: opacity 0.3s;
+}
+
+.back-to-top:hover {
+  background: lighten($gtgold, 10%);
+  opacity: 0.9;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+// Print styles
+@media print {
+  .navbar, .back-to-top, .skip-to-content, footer {
+    display: none !important;
+  }
+  
+  .jumbotron {
+    page-break-inside: avoid;
+  }
+  
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+  }
 }

@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <generator>Jekyll</generator>
+    {% for article in site.data.news limit:20 %}
+    <item>
+      <title>{{ article.date | xml_escape }}</title>
+      <description>{{ article.headline | xml_escape }}</description>
+      <pubDate>{{ article.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <link>{{ site.url }}{{ site.baseurl }}/allnews.html</link>
+      <guid isPermaLink="false">{{ site.url }}{{ site.baseurl }}/allnews.html#{{ forloop.index }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
+

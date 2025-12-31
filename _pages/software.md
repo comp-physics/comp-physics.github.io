@@ -13,9 +13,6 @@ iframe {
   width: 175px;
   display: inline;
   vertical-align:middle;
-  <!-- margin-bottom:5px; -->
-  <!-- margin-left:5px; -->
-  <!-- border: 1px solid red; -->
 }
 .col-md-3 {
   margin:0;
@@ -30,7 +27,6 @@ iframe {
   float: none;
   background:white;
   border-radius:20px;
-  <!-- border: 1px solid black; -->
 }
 </style>
 
@@ -40,7 +36,7 @@ iframe {
 <div class="col-md-12 col-sm-12">
 <center> 
 <h4>
-<a href="https://github.com/comp-physics" target="_blank"><i class="fab fa-github-square fa-1x"></i> Group GitHub page</a>
+<a href="https://github.com/comp-physics" target="_blank" aria-label="Visit Computational Physics Group GitHub page"><i class="fab fa-github-square fa-1x"></i> Group GitHub page</a>
 </h4>
 </center>
 The group writes and maintains a large amount of open source software, all available under the MIT license.
@@ -53,7 +49,7 @@ Please visit the above GitHub page to view it.
 <div class="col-md-12 col-sm-12">
 <center> 
 <a href="https://mflowcode.github.io" target="_blank">
-<img src="/images/software/mfc-logo3.png" width="70%" />
+<img src="/images/software/mfc-logo3.png" width="70%" loading="lazy" alt="MFC (MFlowCode) logo"/>
 </a>
 </center>
 MFC has a <a href="https://mflowcode.github.io/" target="_blank">website</a> and <a href="https://github.com/MFlowCode/MFC" target="_blank">open source GitHub repo.</a>
@@ -61,7 +57,7 @@ It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of th
 It has many other useful features, so check out those links if it seems interesting.
 <center> 
 <a href="https://mflowcode.github.io" target="_blank">
-<img src="/images/software/shockdrop.png" width="70%" />
+<img src="/images/software/shockdrop.png" width="70%" loading="lazy" alt="Shock-droplet interaction simulation using MFC"/>
 </a>
 </center>
 Above is an example of simulating shock-droplet interaction using MFC at thousands of modern GPUs.
