@@ -7,6 +7,7 @@ permalink: /teaching/
 
 ## Teaching
 
+* Spring 2026: CSE6730 Modeling and Simulation
 * Fall 2025: CSE6010 Computational Problem Solving
 * Spring 2025: CSE6730 Modeling and Simulation
 * Fall 2024: CX4640/MATH4640 Numerical Analysis 1
