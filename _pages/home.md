@@ -82,6 +82,11 @@ MFC is our flagship open-source solver for compressible multiphase flow at exasc
   {% include mfc_cite_dropdown.html id="Home" external=true %}
 </div>
 
+<div style="margin-top: 10px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center;">
+<a href="https://github.com/MFlowCode/MFC/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/MFlowCode/MFC?style=social" alt="GitHub stars"/></a>
+<a href="https://github.com/MFlowCode/MFC/releases/latest" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/v/release/MFlowCode/MFC" alt="Latest release"/></a>
+</div>
+
 Many of the techniques used in our record-setting rocket simulations are available in MFC, so external users can reproduce similar workflows on their own clusters.
 
 <div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">

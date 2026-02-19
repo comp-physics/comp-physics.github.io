@@ -30,6 +30,37 @@ iframe {
 }
 </style>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "MFC",
+  "alternateName": "Multi-Component Flow Code",
+  "description": "Open-source exascale multiphase flow solver for compressible flows. 2025 Gordon Bell Prize Finalist. Scales to 200+ trillion grid points on 43,000+ GPUs.",
+  "url": "https://mflowcode.github.io",
+  "codeRepository": "https://github.com/MFlowCode/MFC",
+  "license": "https://opensource.org/licenses/MIT",
+  "programmingLanguage": ["Fortran", "Python"],
+  "operatingSystem": "Linux",
+  "applicationCategory": "Computational Fluid Dynamics",
+  "author": {
+    "@type": "ResearchOrganization",
+    "name": "Computational Physics Group at Georgia Tech",
+    "url": "https://comp-physics.group"
+  },
+  "maintainer": {
+    "@type": "Person",
+    "name": "Spencer H. Bryngelson",
+    "url": "https://comp-physics.group",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Georgia Institute of Technology"
+    }
+  },
+  "award": "2025 ACM Gordon Bell Prize Finalist"
+}
+</script>
+
 ## Software
 
 ### Who is MFC for?
