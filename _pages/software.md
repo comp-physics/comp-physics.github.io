@@ -1,8 +1,10 @@
 ---
-title: "Software"
+title: "MFC"
 layout: gridlay
 sitemap: false
 permalink: /software/
+description: "MFC is an open-source exascale multiphase flow solver. 2025 Gordon Bell Prize Finalist. Scales to 200+ trillion grid points on 43,000+ GPUs."
+og_image: "https://mflowcode.github.io/res/banner.png"
 ---
 
 <style>
