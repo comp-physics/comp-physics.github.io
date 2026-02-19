@@ -115,6 +115,13 @@ It has many other useful features, so check out those links if it seems interest
 <a href="https://github.com/MFlowCode/MFC/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/contributors/MFlowCode/MFC" alt="Contributors"/></a>
 </div>
 
+<div style="margin-top: 20px; text-align: center;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px;">
+<iframe src="https://www.youtube.com/embed/NSn3OVF8N4I?autoplay=1&mute=1&loop=1&playlist=NSn3OVF8N4I&rel=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="MFC: Mach 12 Starship Super Heavy simulation"></iframe>
+</div>
+<p style="margin-top: 8px; font-size: 0.9em; color: #999;">Mach 12 Starship Super Heavy booster simulation &mdash; <a href="https://www.youtube.com/@MFCode" target="_blank" rel="noopener noreferrer">more videos on YouTube</a></p>
+</div>
+
 <h4 style="margin-top: 25px;">Simulation gallery</h4>
 <p style="margin-bottom: 15px;">Featured simulations powered by MFC, pulled live from the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a>.</p>
 <div id="mfc-sims-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
