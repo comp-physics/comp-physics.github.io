@@ -76,6 +76,12 @@ MFC has a <a href="https://mflowcode.github.io/" target="_blank" rel="noopener n
 It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of thousands of NVIDIA or AMD GPUs) via machines like Oak Ridge Summit and <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">Frontier</a>.
 It has many other useful features, so check out those links if it seems interesting.
 
+<div style="margin-top: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+<a href="https://github.com/MFlowCode/MFC/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/MFlowCode/MFC?style=social" alt="GitHub stars"/></a>
+<a href="https://github.com/MFlowCode/MFC/releases/latest" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/v/release/MFlowCode/MFC" alt="Latest release"/></a>
+<a href="https://github.com/MFlowCode/MFC/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/contributors/MFlowCode/MFC" alt="Contributors"/></a>
+</div>
+
 <h4 style="margin-top: 25px;">Simulation gallery</h4>
 <p style="margin-bottom: 15px;">Featured simulations powered by MFC, pulled live from the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a>.</p>
 <div id="mfc-sims-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
@@ -118,6 +124,29 @@ It has many other useful features, so check out those links if it seems interest
     .catch(function() {
       document.getElementById("mfc-sims-gallery").innerHTML =
         '<p>Could not load simulations. <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">View them on the MFC website</a>.</p>';
+    });
+})();
+</script>
+
+<h4 style="margin-top: 25px;">Contributors</h4>
+<div id="mfc-contributors" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
+<p style="color: #888;"><i>Loading contributors...</i></p>
+</div>
+<script>
+(function() {
+  fetch("https://api.github.com/repos/MFlowCode/MFC/contributors?per_page=100")
+    .then(function(r) { return r.json(); })
+    .then(function(contributors) {
+      var el = document.getElementById("mfc-contributors");
+      el.innerHTML = contributors.filter(function(c) { return c.type === "User"; }).map(function(c) {
+        return '<a href="' + c.html_url + '" target="_blank" rel="noopener noreferrer" title="' + c.login + ' (' + c.contributions + ' contributions)">' +
+          '<img src="' + c.avatar_url + '&s=48" alt="' + c.login + '" width="48" height="48" style="border-radius:50%; border:2px solid #eee;" loading="lazy"/>' +
+        '</a>';
+      }).join("");
+    })
+    .catch(function() {
+      document.getElementById("mfc-contributors").innerHTML =
+        '<p>Could not load contributors. <a href="https://github.com/MFlowCode/MFC/graphs/contributors" target="_blank" rel="noopener noreferrer">View them on GitHub</a>.</p>';
     });
 })();
 </script>
