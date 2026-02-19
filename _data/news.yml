@@ -1,3 +1,6 @@
+- date: February 19, 2026
+  headline: "Spencer is giving a talk at the <a href='https://www.aerosociety.com/events-calendar/raes-aerodynamics-workshop-2026-cfd-validation-challenges-perspectives-from-modellers-and-measurers/' target='_blank' rel='noopener noreferrer'>RAeS Aerodynamics Workshop 2026</a> in London on characterizing soft materials at high strain rates using high-fidelity constitutive models and Bayesian comparison to experiments, as well as the use of surrogate models for turbulence and their utility from a computational budget perspective. Collaboration with UT Austin, Michigan, and Brown."
+
 - date: January 18, 2026
   headline: "Our paper on MFC 5.0 (<a href='https://arxiv.org/pdf/2503.07953' target='_blank'>preprint here</a>) was accepted for publication in <i>Computer Physics Communications</i>. Thanks to all the authors, collaborators, and referees!"
 

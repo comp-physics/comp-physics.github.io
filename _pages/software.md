@@ -67,7 +67,7 @@ Please visit the above GitHub page to view it.
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<center> 
+<center>
 <a href="https://mflowcode.github.io" target="_blank" rel="noopener noreferrer">
 <img src="/images/software/mfc-logo3.png" width="70%" alt="MFC (MFlowCode) logo"/>
 </a>
@@ -75,12 +75,53 @@ Please visit the above GitHub page to view it.
 MFC has a <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">website</a> and <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer">open source GitHub repo.</a>
 It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of thousands of NVIDIA or AMD GPUs) via machines like Oak Ridge Summit and <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">Frontier</a>.
 It has many other useful features, so check out those links if it seems interesting.
-<center> 
-<a href="https://mflowcode.github.io" target="_blank" rel="noopener noreferrer">
-<img src="/images/software/shockdrop.png" width="70%" alt="Shock-droplet interaction simulation using MFC"/>
-</a>
-</center>
-Above is an example of simulating shock-droplet interaction using MFC at thousands of modern GPUs.
+
+<h4 style="margin-top: 25px;">Simulation gallery</h4>
+<p style="margin-bottom: 15px;">Featured simulations powered by MFC, pulled live from the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a>.</p>
+<div id="mfc-sims-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
+<p style="color: #888;"><i>Loading simulations...</i></p>
+</div>
+
+<script>
+(function() {
+  var MFC = "https://mflowcode.github.io";
+  fetch(MFC + "/simulations.json")
+    .then(function(r) { return r.json(); })
+    .then(function(sims) {
+      var gallery = document.getElementById("mfc-sims-gallery");
+      gallery.innerHTML = sims.map(function(s) {
+        var icon = s.source.indexOf("youtube.com") !== -1
+          ? "fa-brands fa-youtube" : "fa-solid fa-arrow-up-right-from-square";
+        return '<div style="background:#1f2020; border-radius:8px; overflow:hidden;">' +
+          '<a href="' + s.source + '" target="_blank" rel="noopener noreferrer" style="display:block;">' +
+            '<img src="' + MFC + '/' + s.image + '" alt="' + s.name + '" style="width:100%; display:block; background:#fff;" loading="lazy"/>' +
+          '</a>' +
+          '<div style="padding:10px;">' +
+            '<div style="font-weight:600; margin-bottom:6px;">' +
+              '<a href="' + s.source + '" target="_blank" rel="noopener noreferrer" style="color:#fff; text-decoration:none;">' +
+                s.name + ' <i class="' + icon + '" style="font-size:0.85em; color:#c0995e;"></i>' +
+              '</a>' +
+            '</div>' +
+            '<div style="display:flex; gap:12px; font-size:0.85em; color:#999;">' +
+              '<span><i class="fa-solid fa-server" style="margin-right:4px;"></i>' +
+                (s.computerUrl
+                  ? '<a href="' + s.computerUrl + '" target="_blank" rel="noopener noreferrer" style="color:#c0995e;">' + s.computer + '</a>'
+                  : s.computer) +
+              '</span>' +
+              '<span><i class="fa-solid fa-microchip" style="margin-right:4px;"></i>' + s.accelerators + '</span>' +
+              '<span><i class="fa-solid fa-clock" style="margin-right:4px;"></i>' + s.walltime + '</span>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+      }).join("");
+    })
+    .catch(function() {
+      document.getElementById("mfc-sims-gallery").innerHTML =
+        '<p>Could not load simulations. <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">View them on the MFC website</a>.</p>';
+    });
+})();
+</script>
+
 We have an active Slack channel where you can post questions or learn more, just <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer">click here!</a>
 You can also <a href="mailto:shb@gatech.edu">email Spencer</a> to see if it's appropriate for your use case or to discuss further.
 In either case, I recommend checking out the GitHub page and website above!
@@ -104,8 +145,8 @@ In either case, I recommend checking out the GitHub page and website above!
 If you use MFC in your research, please cite our papers:
 
 <p><strong>MFC 5.0 (recommended for recent work):</strong><br/>
-B. Wilfong, H. Le Berre, A. Radhakrishnan, et al. "MFC 5.0: An exascale many-physics flow solver." <i>arXiv preprint</i> arXiv:2503.07953 (2025).<br/>
-<a href="https://arxiv.org/abs/2503.07953" target="_blank" rel="noopener noreferrer">arXiv:2503.07953</a> | <a href="https://doi.org/10.48550/arXiv.2503.07953" target="_blank" rel="noopener noreferrer">DOI: 10.48550/arXiv.2503.07953</a>
+B. Wilfong, H. Le Berre, A. Radhakrishnan, et al. "MFC 5.0: An exascale many-physics flow solver." <i>Computer Physics Communications</i> 322 (2026): 110055.<br/>
+<a href="https://doi.org/10.1016/j.cpc.2026.110055" target="_blank" rel="noopener noreferrer">DOI: 10.1016/j.cpc.2026.110055</a>
 </p>
 
 <p><strong>MFC 3.0 (original release):</strong><br/>
@@ -114,12 +155,14 @@ S. H. Bryngelson, K. Schmidmayer, V. Coralic, J. Meng, K. Maeda, and T. Colonius
 </p>
 
 <p><strong>BibTeX for MFC 5.0:</strong></p>
-<pre style="background-color: #1f2020; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>@article{wilfong2025mfc50,
+<pre style="background-color: #1f2020; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>@article{wilfong26,
   title={MFC 5.0: An exascale many-physics flow solver},
-  author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and Gupta, Ansh and Vaca-Revelo, Diego and Adam, Dimitrios and Yu, Haocheng and Lee, Hyeoksu and Chreim, Jose Rodolfo and {Carcana Barbosa}, Mirelys and Zhang, Yanjun and Cisneros-Garibay, Esteban and Gnanaskandan, Aswin and {Rodriguez Jr.}, Mauro and Budiardja, Reuben D. and Abbott, Stephen and Colonius, Tim and Bryngelson, Spencer H.},
-  journal={arXiv preprint arXiv:2503.07953},
-  year={2025},
-  doi={10.48550/arXiv.2503.07953}
+  author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and Gupta, Ansh and Vickers, Daniel J. and Vaca-Revelo, Diego and Adam, Dimitrios and Yu, Haocheng and Lee, Hyeoksu and Chreim, Jose Rodolfo and {Carcana Barbosa}, Mirelys and Zhang, Yanjun and Cisneros-Garibay, Esteban and Gnanaskandan, Aswin and {Rodriguez Jr.}, Mauro and Budiardja, Reuben D. and Abbott, Stephen and Colonius, Tim and Bryngelson, Spencer H.},
+  journal={Computer Physics Communications},
+  volume={322},
+  pages={110055},
+  year={2026},
+  doi={10.1016/j.cpc.2026.110055}
 }</code></pre>
 </div>
 </div>
