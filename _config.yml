@@ -41,6 +41,7 @@ nav_pages:
   # - name: research
   - name: teaching
   - name: software
+    display: MFC
   # - name: hardware
 
 include:
