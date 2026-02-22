@@ -44,11 +44,12 @@ Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 <div class="col-sm-12">
 
 <div class="jumbotron">
-<strong>Thinking about joining the group?</strong><br/>
-We're always looking for new Ph.D. and undergraduate students who like building models, algorithms, and software.<br/>
-• Strong coding + numerics background is a plus<br/>
-• Projects span exascale CFD, quantum algorithms, cavitation, microfluidics, and more<br/>
-<br/>
+<h2>Thinking about joining the group?</h2>
+
+We're always looking for new Ph.D. and undergraduate students who like building models, algorithms, and software.
+* Strong coding + numerics background is a plus
+* Projects span exascale CFD, quantum algorithms, cavitation, microfluidics, and more
+
 👉 Visit the <a href="{{ site.url }}{{ site.baseurl }}/vacancies.html">Vacancies</a> page for detailed instructions.<br/>
 <br/>
 <strong>What strong applicants usually have:</strong> Experience with C/C++/Fortran, numerical methods, and HPC. Familiarity with CFD, continuum mechanics, or scientific computing is helpful but not required.
@@ -60,6 +61,7 @@ We're always looking for new Ph.D. and undergraduate students who like building 
 <div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:75%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
 <iframe src="https://player.vimeo.com/video/1108222522?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay" title="Multiphase flow simulation video"></iframe>
 </div>
+<br/>
 Multiphase flow problems at the core of biological, energy, naval, and aerodynamic problems.
 We developed an implementation of the IGR technique with Florian Schäfer for simulating these flows.
 In August 2025 we set the record for the <a href="https://arxiv.org/abs/2505.07392" target="_blank" rel="noopener noreferrer">largest CFD simulation at 1 quadrillion degrees of freedom (200T grid points)</a> for simulating these phenomena, using the entire <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> system.
@@ -92,6 +94,7 @@ Many of the techniques used in our record-setting rocket simulations are availab
 <div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">
 <iframe src="https://player.vimeo.com/video/987402712?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" frameborder="0" width="100%" height="250" allow="autoplay" title="Blood cell simulation video"></iframe>
 </div>
+<br/>
 The spectral boundary integral method leads to high-fidelity prediction and analysis of blood cells transitioning to chaos in a microfluidic device.
 This method of simulation provides resolution of strong cell membrane deformation with scant computational resources.
 We developed a stochastic model for the cell-scale flow, enabling microfluidic device design and improving treatment outcomes.
