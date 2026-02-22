@@ -1,0 +1,272 @@
+%!TEX-root = cv-3pg.tex
+%!TEX TS-program = pdflatex
+
+\documentclass{article}
+
+\usepackage[margin=1in,top=1in,bottom=1in]{geometry}
+\usepackage{comment}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{xstring}
+\usepackage{etoolbox}
+\usepackage[backend=bibtex,defernumbers=true,sorting=ydnt,style=authoryear,doi=true,maxnames=99,url=true]{biblatex}
+
+
+\usepackage{calc}
+\usepackage{comment}
+\usepackage{microtype}
+\usepackage{hyphenat}
+\usepackage{changepage}
+\usepackage{multicol}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[]{xcolor}
+
+\definecolor{lightblue}{rgb}{0.63, 0.74, 0.78}
+\definecolor{seagreen}{rgb}{0.18, 0.42, 0.41}
+\definecolor{orange}{rgb}{0.85, 0.55, 0.13}
+\definecolor{silver}{rgb}{0.69, 0.67, 0.66}
+\definecolor{rust}{rgb}{0.72, 0.26, 0.06}
+
+\colorlet{lightsilver}{silver!30!white}
+\colorlet{darkorange}{orange!75!black}
+\colorlet{darksilver}{silver!65!black}
+\colorlet{darklightblue}{lightblue!65!black}
+\colorlet{darkrust}{rust!85!black}
+
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=silver,
+  citecolor=silver,
+  urlcolor=seagreen,
+  pdfauthor=author,
+}
+
+\newcommand\GIT{\mbox{Georgia Institute of Technology}\xspace}  
+\newcommand\GT{\mbox{Georgia Tech}\xspace}  
+\newcommand\CIT{\mbox{California Institute of Technology}\xspace}  
+\newcommand\MIT{\mbox{Massachusetts Institute of Technology}\xspace}  
+\newcommand\UIUC{\mbox{University of Illinois at Urbana--Champaign}\xspace}  
+\newcommand\UMD{\mbox{University of Michigan--Dearborn}\xspace}
+
+\newcommand\Florian{\mbox{F. Sch\"{a}fer}\xspace}
+\newcommand\Rich{\mbox{R. Vuduc}\xspace}
+
+\newcommand\APBC{\mbox{Assistant Professor by Courtesy (0\%)}\xspace}
+
+% Remove indent spacing
+\setlength{\parindent}{0in}
+
+% Filters for bib
+\addbibresource{ref.bib}
+
+\defbibfilter{other}{
+  type=report or
+  type=thesis
+}
+
+\defbibfilter{invited}{
+  type=incollection and
+  keyword=invited
+}
+
+\defbibfilter{talk}{
+  type=incollection and
+  not keyword=invited
+}
+
+\defbibfilter{heavy}{
+  type=inproceedings and
+  keyword=heavyref
+}
+
+\defbibfilter{nonheavy}{
+  type=inproceedings and
+  not keyword=heavyref
+}
+
+\defbibfilter{fullpapers}{
+    type=article or keyword=heavyref
+}
+
+
+% Get reverse numbering
+\makeatletter
+\patchcmd{\blx@printbibliography}
+  {\blx@bibliography\blx@tempa}
+  {\setcounter{bibitemtotal}{0}%
+   \begingroup
+   \def\do##1{\stepcounter{bibitemtotal}}%
+   \dolistloop{\blx@tempa}%
+   \endgroup
+   \blx@bibliography\blx@tempa}{}{}
+\makeatother
+
+\newcounter{bibitemtotal}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\value{bibitemtotal}+1-#1\relax}
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{\printfield{labelprefix}\printfield{labelnumber}}}
+     {}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+% Set spacing in itemize
+\setlist{itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt} 
+
+
+
+% Set spacing around titles (syntax: spacing left, before, after)
+\usepackage[]{titlesec}
+\titlespacing*{\section}
+{0pt}{3pt}{3pt}
+\titlespacing*{\subsection}
+{0pt}{3pt}{3pt}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\lhead{}\chead{\color{silver}CV Compiled on: \today}\rhead{}
+\cfoot{}
+\rfoot{\color{silver}Page \thepage\xspace of \pageref{LastPage}}
+\cfoot{\color{silver}Latest at \href{https://comp-physics.group/cv/cv.pdf}{\tt comp-physics.group/cv/cv.pdf}}
+\lfoot{\color{silver}Spencer H. Bryngelson}
+
+% \usepackage{titletoc}
+% \setcounter{secnumdepth}{1}
+% \setcounter{tocdepth}{1}
+
+\usepackage{csvsimple}
+\usepackage{longtable}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{ebgaramond}
+% \usepackage{garamondlibre}
+% \usepackage{garamondx}
+% \usepackage{CormorantGaramond}
+
+\begin{document}
+
+\begin{center}
+    {\Large \bf Spencer H. Bryngelson} 
+\end{center}
+
+% \tableofcontents
+
+\section{Basic information}
+\begin{itemize}
+    \item[] \textbf{Title:} Assistant Professor, School of Computational Science \& Engineering \\
+        \phantom{\textbf{Title:}} \APBC, Daniel Guggenheim School of Aerospace Engineering \\
+        \phantom{\textbf{Title:}} \APBC, George W. Woodruff School of Mechanical Engineering
+    \item[] \textbf{Institution:} \GIT
+    \item[] \textbf{Email:} \href{mailto:shb@gatech.edu}{\texttt{shb@gatech.edu}}
+    \item[] \textbf{Website:} \href{https://comp-physics.group}{\texttt{https://comp-physics.group}}
+\end{itemize}
+
+\section{Education}
+
+\begin{itemize}
+    \item \UIUC
+    \begin{itemize}
+        \item[] (2018) Doctor of Philosophy, Theoretical \& Applied Mechanics \\
+            \phantom{(2018)} Advisor: Jonathan Freund
+        \item[] (2015) Master of Science, Theoretical \& Applied Mechanics
+    \end{itemize}
+    \item \UMD
+    \begin{itemize}
+        \item[] (2013) Bachelor of Science, Mechanical Engineering
+        \item[] (2013) Bachelor of Science, Engineering Mathematics
+    \end{itemize}
+\end{itemize}
+
+
+\section{Positions held}
+
+\begin{itemize}
+    \item (2021--Present) Assistant Professor, School of Computational Science \& Engineering, \GIT
+    \item (2023--Present) Assistant Professor by Courtesy (0\%), Daniel Guggenheim School of Aerospace Engineering, College of Engineering, \GIT
+    \item (2024--Present) Assistant Professor by Courtesy (0\%), George W.\ Woodruff School of Mechanical Engineering, College of Engineering, \GIT
+    \item (2022) Visiting Scholar, Stanford University, Center for Turbulence Research (Summer Program)
+    \item (2018--21) Senior Postdoctoral Scholar, \CIT, with Tim Colonius
+    \item (2019) Visiting Researcher, \MIT, with Themis Sapsis
+    \item (2018) Postdoctoral Researcher, XPACC (PSAAP II center), with Carlos Pantano, Dan Bodony, Jon Freund
+\end{itemize}
+
+\section{Research support}
+
+\input{grants-pending.tex}
+
+\subsection{Funded grants}
+
+\begin{itemize}
+    \item (2024--29) Senior personnel: DARPA Young Faculty Award ``\textit{Squid-inspired nozzles for enhanced  efficiency and thrust in rotary propulsors}'' ($\$1$M), PI:~S.~Bhamla (GT), SHB~Share: $\$150$K Y1--2
+    \item (2024--27) co-PI: DOD ONR N00014-24-1-2094 ``\textit{Multi-scale simulations of combustion in a solid propellant ramjet with embedded reactive metal particles}'' ($\$375$K), PI:~S.~Menon (GT), SHB~Share: $\$125$K 
+    \item (2024) PI: DOE DE-AC52-07NA27344 (Lawrence Livermore National Laboratories subcontract), ``\textit{Accelerated, Compressed, and Regularized Computation of Kinetic-based PDEs}'' ($\$80$K)
+    \item (2023--28) co-PI: DOD ONR MURI N00014-23-1-2501, ``\textit{Combustion of solid fuels in high enthalpy flow}'' ($\$3.8$M) PI:~G.~Young (Virginia Polytechnic Institute and State University), 7 other co-PIs. SHB Share: $\$270$K Y1--3
+    \item (2023--27) PI: DOD ARO W911NF-23-10324, ``\textit{Investigation and inference of soft material deformation mechanisms unlocked at large speeds, finite deformations, and many cycles},'' collaborative with University of Michigan, Jon Estrada. (Total: $\$835$K; SHB Share: $\$314$K)
+    \item (2023--24) PI: DOE DE-NA0003525 (Sandia National Laboratories subcontract), ``\textit{Vibrated bubbly flow simulation}'' ($\$100$K)
+    \item (2023--24) co-PI: DARPA HR0011-23-3-0006, ``\textit{Quantum eigensolvers in fluid-dynamic computations and applications}'' ($\$300$K), PI B.~Gard (Georgia Tech Research Institute), SHB~Share:~$\$100$K
+    \item (2022--23) PI: DOE DE-NA0003525 (Sandia National Laboratories subcontract), ``\textit{Vibrated bubbly flow simulation}'' ($\$65$K)
+    \item (2022--23) PI: DOE ORAU Powe, ``\textit{A methodologically coherent multi-scale model for multiphase flow}'' ($\$10$K)
+    \item (2022--26) PI: DOD ONR N00014-22-12519, ``\textit{Stochastic framework for cavitating flows: mesoscale modeling and acceleration}'' ($\$560$K)
+    \item (2022--23) co-PI: GTRI IRAD, ``\textit{Quantum optimization for lattice Boltzmann simulation (QOLBS)}'' ($\$40$K), PI:~B.~Gard (Georgia Tech Research Institute)
+    \item (2022) PI: GT Seed Grant, Forming Teams ``\textit{Quantum computing for next-generation engineering simulation}'' ($\$50$K)
+    \item (2022) PI: GTQA DE-00013211, ``\textit{Quantum algorithms for lattice Boltzmann fluid flow simulation}'' ($\$14.5$K)
+\end{itemize}
+
+% \subsection{Funded resource and hardware awards}
+
+% \begin{itemize}
+%     \item (2024--Present) PI: J\"ulich Supercomputing Center, JUPITER Exascale Early Access Program, ``\textit{ExaMFlow: Exascale simulation enables multiphase flow simulation at the finest scales}''
+%     % \item (2021--Present) PI: Oak Ridge National Lab CFD154, Director's Discretionary, ``\textit{Accelerated sub-grid multi-component flow physics}'' (50K node hours+)
+%     \item (2021--Present) PI: ACCESS TG-PHY210084, ``\textit{High-fidelity simulation of high-speed flowing dispersions via a stochastic sub-grid model}'' (1.2M Node Hours+)
+%     \item (2024) co-PI: Georgia Tech Tech.\ Fee, ``\textit{Next Generation NVIDIA HPC Cluster}'' (4x NVIDIA GraceHopper Superchip nodes, $\$250$K)
+%     \item (2022) PI: NVIDIA Academic Hardware Grant Program (4x BlueField-2 E-Series DPU, $\$12$K value)
+%     % \item (2022) PI: Georgia Tech Tech.\ Fee ``\textit{ARM HPC Dev Kits for next-generation supercomputing}'' (10x NVIDIA ARM HPC Dev.\ Kits, $\$240$K)
+%     \item (2022) PI: AMD MI200-series GPU Server ($\$77$K value)
+%     \item (2022) PI: NVIDIA Academic Hardware Grant Program (2x A100 80GB PCIe GPUs, $\$30$K value)
+%     \item (2019--20) co-PI: XSEDE TG-CTS120005, ``\textit{Advanced immersed boundary and interface-capturing methods for simulations of complex flows}'' (9M Node Hours, $\$1.35$M value)
+% \end{itemize}
+
+\section{Publications}
+
+% \begin{center}
+%     \textit{Bolding indicates advised or co-advised students and postdocs.}
+% \end{center}
+
+\nocite{*}
+
+\newrefcontext[labelprefix=U]
+\printbibliography[type=unpublished,title={Preprints},resetnumbers=true,heading=subbibnumbered]
+
+\newrefcontext[labelprefix=P]
+\printbibliography[title={Archival, heavily refereed papers},resetnumbers=true,filter=fullpapers,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=C]
+% \printbibliography[title={Conference papers},resetnumbers=true,filter=nonheavy,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=O]
+% \printbibliography[title={Other publications},resetnumbers=true,filter=other,heading=subbibnumbered]
+
+% \section{Talks}
+
+% \newrefcontext[labelprefix=I]
+% \printbibliography[title={Invited talks},resetnumbers=true,filter=invited,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=T]
+% \printbibliography[title={Conference presentations},resetnumbers=true,filter=talk,heading=subbibnumbered]
+
+% \newrefcontext[labelprefix=S]
+% \printbibliography[type=software,title={Software},resetnumbers=true,heading=bibnumbered]
+
+\end{document}
