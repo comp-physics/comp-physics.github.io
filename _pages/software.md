@@ -87,27 +87,13 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<center> 
-<h4>
-<a href="https://github.com/comp-physics" target="_blank" rel="noopener noreferrer" aria-label="Visit Computational Physics Group GitHub page"><i class="fab fa-github-square fa-1x"></i> Group GitHub page</a>
-</h4>
-</center>
-The group writes and maintains a large amount of open source software, all available under the MIT license.
-Please visit the above GitHub page to view it.
-</div>
-</div>
-
-
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12">
 <center>
 <a href="https://mflowcode.github.io" target="_blank" rel="noopener noreferrer">
 <img src="/images/software/mfc-logo3.png" width="70%" alt="MFC (MFlowCode) logo"/>
 </a>
 </center>
 MFC has a <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">website</a> and <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer">open source GitHub repo.</a>
-It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of thousands of NVIDIA or AMD GPUs) via machines like Oak Ridge Summit and <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">Frontier</a>.
-It has many other useful features, so check out those links if it seems interesting.
+It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of thousands of NVIDIA or AMD GPUs) on machines like <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> and <a href="https://asc.llnl.gov/exascale/el-capitan" target="_blank" rel="noopener noreferrer">LLNL El Capitan</a>.
 
 <div style="margin-top: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
 <a href="https://github.com/MFlowCode/MFC/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/MFlowCode/MFC?style=social" alt="GitHub stars"/></a>
@@ -123,50 +109,7 @@ It has many other useful features, so check out those links if it seems interest
 </div>
 
 <h4 style="margin-top: 25px;">Simulation gallery</h4>
-<p style="margin-bottom: 15px;">Featured simulations powered by MFC, pulled live from the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a>.</p>
-<div id="mfc-sims-gallery" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
-<p style="color: #888;"><i>Loading simulations...</i></p>
-</div>
-
-<script>
-(function() {
-  var MFC = "https://mflowcode.github.io";
-  fetch(MFC + "/simulations.json")
-    .then(function(r) { return r.json(); })
-    .then(function(sims) {
-      var gallery = document.getElementById("mfc-sims-gallery");
-      gallery.innerHTML = sims.map(function(s) {
-        var icon = s.source.indexOf("youtube.com") !== -1
-          ? "fa-brands fa-youtube" : "fa-solid fa-arrow-up-right-from-square";
-        return '<div style="background:#1f2020; border-radius:8px; overflow:hidden;">' +
-          '<a href="' + s.source + '" target="_blank" rel="noopener noreferrer" style="display:block;">' +
-            '<img src="' + MFC + '/' + s.image + '" alt="' + s.name + '" style="width:100%; display:block; background:#fff;" loading="lazy"/>' +
-          '</a>' +
-          '<div style="padding:10px;">' +
-            '<div style="font-weight:600; margin-bottom:6px;">' +
-              '<a href="' + s.source + '" target="_blank" rel="noopener noreferrer" style="color:#fff; text-decoration:none;">' +
-                s.name + ' <i class="' + icon + '" style="font-size:0.85em; color:#c0995e;"></i>' +
-              '</a>' +
-            '</div>' +
-            '<div style="display:flex; gap:12px; font-size:0.85em; color:#999;">' +
-              '<span><i class="fa-solid fa-server" style="margin-right:4px;"></i>' +
-                (s.computerUrl
-                  ? '<a href="' + s.computerUrl + '" target="_blank" rel="noopener noreferrer" style="color:#c0995e;">' + s.computer + '</a>'
-                  : s.computer) +
-              '</span>' +
-              '<span><i class="fa-solid fa-microchip" style="margin-right:4px;"></i>' + s.accelerators + '</span>' +
-              '<span><i class="fa-solid fa-clock" style="margin-right:4px;"></i>' + s.walltime + '</span>' +
-            '</div>' +
-          '</div>' +
-        '</div>';
-      }).join("");
-    })
-    .catch(function() {
-      document.getElementById("mfc-sims-gallery").innerHTML =
-        '<p>Could not load simulations. <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">View them on the MFC website</a>.</p>';
-    });
-})();
-</script>
+<p>See featured simulations on the <a href="https://mflowcode.github.io/#simulations" target="_blank" rel="noopener noreferrer">MFC website</a>.</p>
 
 <h4 style="margin-top: 25px;">Contributors</h4>
 <div id="mfc-contributors" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
@@ -191,18 +134,15 @@ It has many other useful features, so check out those links if it seems interest
 })();
 </script>
 
-We have an active Slack channel where you can post questions or learn more, just <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer">click here!</a>
-You can also <a href="mailto:shb@gatech.edu">email Spencer</a> to see if it's appropriate for your use case or to discuss further.
-In either case, I recommend checking out the GitHub page and website above!
 </div>
 </div>
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Other open-source projects</h4>
-• <strong>Pyrometheus</strong> – symbolic thermochemistry and autodiff for reacting flows<br/>
-• <strong>QBMMlib</strong> – quadrature-based moment methods for multiphase flows<br/>
-• <strong>RBC3D</strong> – detailed microcirculation and cell-resolved blood-flow simulation<br/>
+• <strong><a href="https://github.com/pyrometheus/pyrometheus" target="_blank" rel="noopener noreferrer">Pyrometheus</a></strong> – symbolic thermochemistry and autodiff for reacting flows<br/>
+• <strong><a href="https://github.com/comp-physics/QBMMlib" target="_blank" rel="noopener noreferrer">QBMMlib</a></strong> – quadrature-based moment methods for multiphase flows<br/>
+• <strong><a href="https://github.com/comp-physics/RBC3D" target="_blank" rel="noopener noreferrer">RBC3D</a></strong> – detailed microcirculation and cell-resolved blood-flow simulation<br/>
 <br/>
 👉 See the <a href="https://github.com/comp-physics" target="_blank" rel="noopener noreferrer">group GitHub page</a> for these and more.
 </div>

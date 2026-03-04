@@ -7,15 +7,16 @@ permalink: /
 
 <div id="homeid" class="col-sm-8 col-10">
 ## Welcome!
-Nano-scale transistors fill warehouse-scale supercomputers, yet their performance still constrains development of the jets that defend us, the medical therapies our lives depend upon, and the energy sources that will power our generation into the next.
 
-We're the **Computational Physics Group at Georgia Tech**.
-We develop computational models and numerical methods for these applications.
-Our methods buttress algorithms crafted for efficient use of the latest supercomputers and their architectures.
-We develop <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for these methods that scales to the world's largest supercomputers. 
+We're the **Computational Physics Group at Georgia Tech**. We build numerical methods, computational models, and <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for problems in defense, energy, and medicine — optimized for the world's largest supercomputers.
 
-In August 2025 our group conducted the <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>largest-ever CFD simulation</a> at 200T grid points (1 quadrillion degrees of freedom) on OLCF Frontier and LLNL El Capitan without loss of accuracy.
-This work was a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' target='_blank' rel='noopener noreferrer'>Gordon Bell Prize</a> finalist.
+**Some of our research areas:**
+* Exascale CFD and multiphase flow
+* Numerical methods for shock-laden and compressible flows
+* Reacting flows and combustion
+* Cavitation, microfluidics, and soft material characterization
+
+**Recent highlight:** In August 2025 we conducted the <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>largest-ever CFD simulation</a> (1 quadrillion DOFs) on OLCF Frontier and LLNL El Capitan — a 2025 <a href='https://en.wikipedia.org/wiki/Gordon_Bell_Prize' target='_blank' rel='noopener noreferrer'>Gordon Bell Prize</a> finalist.
 
 Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
@@ -48,7 +49,7 @@ Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
 We're always looking for new Ph.D. and undergraduate students who like building models, algorithms, and software.
 * Strong coding + numerics background is a plus
-* Projects span exascale CFD, quantum algorithms, cavitation, microfluidics, and more
+* Projects span exascale CFD, cavitation, microfluidics, and more
 
 👉 Visit the <a href="{{ site.url }}{{ site.baseurl }}/vacancies.html">Vacancies</a> page for detailed instructions.<br/>
 <br/>
@@ -62,10 +63,7 @@ We're always looking for new Ph.D. and undergraduate students who like building 
 <iframe src="https://player.vimeo.com/video/1108222522?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay" title="Multiphase flow simulation video"></iframe>
 </div>
 <br/>
-Multiphase flow problems at the core of biological, energy, naval, and aerodynamic problems.
-We developed an implementation of the IGR technique with Florian Schäfer for simulating these flows.
-In August 2025 we set the record for the <a href="https://arxiv.org/abs/2505.07392" target="_blank" rel="noopener noreferrer">largest CFD simulation at 1 quadrillion degrees of freedom (200T grid points)</a> for simulating these phenomena, using the entire <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> system.
-<a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC</a>, an open-source solver we maintain, demonstrates such scale-resolving simulation of a multi-rocket-booster configuration above (viz. via Ph.D. student Ben Wilfong).
+<b>Exascale multiphase flow</b>: Scale-resolving simulation of a multi-rocket-booster configuration via <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC</a> and information geometric regularization (IGR), developed with Florian Schäfer. Record-setting at <a href="https://arxiv.org/abs/2505.07392" target="_blank" rel="noopener noreferrer">1 quadrillion DOFs (200T grid points)</a> on <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> (viz. via Ph.D. student Ben Wilfong).
 
 <div style="background-color: #252829; padding: 15px; border-left: 4px solid #c0995e; margin: 20px 0;">
 <strong>Interested in using MFC?</strong><br/>
@@ -95,10 +93,7 @@ Many of the techniques used in our record-setting rocket simulations are availab
 <iframe src="https://player.vimeo.com/video/987402712?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" frameborder="0" width="100%" height="250" allow="autoplay" title="Blood cell simulation video"></iframe>
 </div>
 <br/>
-The spectral boundary integral method leads to high-fidelity prediction and analysis of blood cells transitioning to chaos in a microfluidic device.
-This method of simulation provides resolution of strong cell membrane deformation with scant computational resources.
-We developed a stochastic model for the cell-scale flow, enabling microfluidic device design and improving treatment outcomes.
-The video above shows a microaneurysm (viz. via student Suzan Manasreh).
+<b>Cell-scale flow in microfluidics</b>: High-fidelity spectral boundary integral simulation of blood cells transitioning to chaos. We developed stochastic models enabling microfluidic device design and improved treatment outcomes. Above: a microaneurysm (viz. via student Suzan Manasreh).
 </div>
 
 <div class="jumbotron">
