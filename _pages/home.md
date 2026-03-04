@@ -26,7 +26,7 @@ Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 {% for member in site.data.pi %}
 <div class="jumbotron">
    <center>
-	 <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}.jpeg" width="75%" style="block:inline; margin-left:auto; margin-right:auto; margin-bottom:5px;" alt="Photo of {{ member.name }}"/></a>
+	 <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}.jpeg" width="75%" style="display:inline-block; margin-left:auto; margin-right:auto; margin-bottom:5px;" alt="Photo of {{ member.name }}"/></a>
    <h5>{{ member.name }}</h5>
    <h6>{{ member.info }}</h6>
    <div style="margin-bottom:5px">
@@ -59,13 +59,13 @@ We're always looking for new Ph.D. and undergraduate students who like building 
 <div class="jumbotron">
 <h2>Examples of our work</h2>
 
-<div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:75%;height=100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
+<div style="padding:2px;background:#000;border-radius:8px;width:75%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">
 <iframe src="https://player.vimeo.com/video/1108222522?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" width="100%" height="270" frameborder="0" allow="autoplay" title="Multiphase flow simulation video"></iframe>
 </div>
 <br/>
 <b>Exascale multiphase flow</b>: Scale-resolving simulation of a multi-rocket-booster configuration via <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC</a> and information geometric regularization (IGR), developed with Florian Schäfer. Record-setting at <a href="https://arxiv.org/abs/2505.07392" target="_blank" rel="noopener noreferrer">1 quadrillion DOFs (200T grid points)</a> on <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> (viz. via Ph.D. student Ben Wilfong).
 
-<div style="background-color: #252829; padding: 15px; border-left: 4px solid #c0995e; margin: 20px 0;">
+<div style="background-color: #252829; padding: 20px; border-left: 4px solid #c0995e; margin: 22px 0;">
 <strong>Interested in using MFC?</strong><br/>
 MFC is our flagship open-source solver for compressible multiphase flow at exascale.<br/>
 • GPU-optimized for AMD and NVIDIA<br/>
@@ -76,9 +76,9 @@ MFC is our flagship open-source solver for compressible multiphase flow at exasc
 </div>
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
-  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">🌐 MFC Website</a>
-  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-slack"></i> Slack</a>
+  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">🌐 MFC Website</a>
+  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-slack"></i> Slack</a>
   {% include mfc_cite_dropdown.html id="Home" external=true %}
 </div>
 
@@ -89,7 +89,7 @@ MFC is our flagship open-source solver for compressible multiphase flow at exasc
 
 Many of the techniques used in our record-setting rocket simulations are available in MFC, so external users can reproduce similar workflows on their own clusters.
 
-<div style="padding:2px;background:#000;webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">
+<div style="padding:2px;background:#000;border-radius:8px;width:60%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content: center">
 <iframe src="https://player.vimeo.com/video/987402712?autoplay=1&loop=1&autopause=0&muted=1&quality=720p&background=1" frameborder="0" width="100%" height="250" allow="autoplay" title="Blood cell simulation video"></iframe>
 </div>
 <br/>

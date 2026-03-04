@@ -9,10 +9,11 @@ og_image: "https://mflowcode.github.io/res/banner.png"
 
 <style>
 img{
-  border-radius: 10px;
+  border-radius: 8px;
 }
-iframe {
-  width: 175px;
+iframe:not([allowfullscreen]) {
+  width: 100%;
+  max-width: 175px;
   display: inline;
   vertical-align:middle;
 }
@@ -21,14 +22,13 @@ iframe {
   padding:0;
   margin-top:10px;
   margin-bottom:10px;
-  display:block;
   overflow:hidden;
   text-align:center;
   display: table-cell;
   height: auto;
   float: none;
   background:white;
-  border-radius:20px;
+  border-radius:8px;
 }
 </style>
 
@@ -79,9 +79,9 @@ iframe {
 4. If you're at GT, **email Spencer** (<a href="mailto:shb@gatech.edu">shb@gatech.edu</a>) to discuss using MFC in your research or course projects.
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
-  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;">🌐 MFC Website</a>
-  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin: 5px; border-radius: 0.375rem;"><i class="fab fa-slack"></i> Slack</a>
+  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">🌐 MFC Website</a>
+  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-slack"></i> Slack</a>
   {% include mfc_cite_dropdown.html %}
 </div>
 
@@ -164,7 +164,7 @@ S. H. Bryngelson, K. Schmidmayer, V. Coralic, J. Meng, K. Maeda, and T. Colonius
 </p>
 
 <p><strong>BibTeX for MFC 5.0:</strong></p>
-<pre style="background-color: #1f2020; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>@article{wilfong26,
+<pre style="background-color: #1f2020; padding: 15px; border-radius: 8px; overflow-x: auto;"><code>@article{wilfong26,
   title={MFC 5.0: An exascale many-physics flow solver},
   author={Wilfong, Benjamin and {Le Berre}, Henry and Radhakrishnan, Anand and Gupta, Ansh and Vickers, Daniel J. and Vaca-Revelo, Diego and Adam, Dimitrios and Yu, Haocheng and Lee, Hyeoksu and Chreim, Jose Rodolfo and {Carcana Barbosa}, Mirelys and Zhang, Yanjun and Cisneros-Garibay, Esteban and Gnanaskandan, Aswin and {Rodriguez Jr.}, Mauro and Budiardja, Reuben D. and Abbott, Stephen and Colonius, Tim and Bryngelson, Spencer H.},
   journal={Computer Physics Communications},

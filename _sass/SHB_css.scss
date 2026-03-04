@@ -371,16 +371,16 @@ h2 {
 // Set Btn size
 .btn {
     margin-top:    3px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     margin-left:   0px;
     margin-right:  3px;
-    padding-top:   4px;
-    padding-bottom:4px;
-    padding-left:  10px;
-    padding-right: 10px;
+    padding-top:   2px;
+    padding-bottom:2px;
+    padding-left:  8px;
+    padding-right: 8px;
     min-height: 23px;
     font-size: 1rem;
-    border-radius: 0px;
+    border-radius: 0.375rem;
 }
 
 // Skip to content link for accessibility
@@ -400,37 +400,10 @@ h2 {
   top: 0;
 }
 
-// Back to top button
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: $gtgold;
-  color: $darkgray;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-  display: none;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  transition: opacity 0.3s;
-}
-
-.back-to-top:hover {
-  background: lighten($gtgold, 10%);
-  opacity: 0.9;
-}
-
-.back-to-top.show {
-  display: block;
-}
 
 // Print styles
 @media print {
-  .navbar, .back-to-top, .skip-to-content, footer {
+  .navbar, .skip-to-content, footer {
     display: none !important;
   }
   

@@ -8,7 +8,7 @@ permalink: /vacancies
 
 ## Group openings
 
-<div style="background-color: #252829; padding: 15px; border-left: 4px solid #c0995e; margin: 20px 0;">
+<div style="background-color: #252829; padding: 20px; border-left: 4px solid #c0995e; margin: 22px 0;">
 <strong>TL;DR – Who should contact us?</strong><br/>
 • <strong>Ph.D. applicants</strong> (CSE or home-unit programs like AE/ME) who like HPC, numerics, and continuum physics<br/>
 • <strong>Current GT Ph.D. students</strong> interested in exascale CFD or multiphase flows<br/>

@@ -18,6 +18,11 @@ ol li{
   padding-left: 0!important;
   margin: 0!important;
 }
+.bib-btn {
+  font-size: 0.8rem;
+  padding: 1px 6px;
+  margin-bottom: 2px;
+}
 </style>
 
 
@@ -59,40 +64,40 @@ ol li{
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-info btm-sm">PDF</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank"><button class="btn btn-info btm-sm">DOI</button></a>
+<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">DOI</button></a>
 {% endif %}
 
 {% if entry.link %}
-<a href="{{ entry.link }}" target="_blank"><button class="btn btn-info btm-sm">DOI</button></a>
+<a href="{{ entry.link }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">DOI</button></a>
 {% endif %}
 
 <!-- {% if entry.type == 'unpublished' and entry.arxiv %} -->
-<!-- <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm">ARXIV</button></a> -->
+<!-- <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">ARXIV</button></a> -->
 <!-- {% endif %} -->
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'proceedings' or entry.type == 'report' %}
-<button class="btn btn-info btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
+<button class="btn btn-info btm-sm bib-btn"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
 {% endif %}
 
 {% if entry.abstract %}
-<button class="btn btn-info btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+<button class="btn btn-info btm-sm bib-btn"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
 
 {% if entry.abstract %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
 </div>
 {% else %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex }}</pre>
 </div>
 {% endif %}
 
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
 <pre>{{entry.abstract}}</pre>
 </div>
 </div>

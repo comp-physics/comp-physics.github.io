@@ -20,7 +20,7 @@
   headline: "Our paper on <i>Pyrometheus</i>, which provides symbolic abstractions for XPU and automatic differention of thermochemistry/combustion was accepted and available at <a href='https://doi.org/10.1016/j.cpc.2025.109987' target='_blank' rel='noopener noreferrer'>Computer Physics Communications</a>. Collaboration with Prof. Esteban Cisneros-Garibay at UTSI, group Ph.D. student Dimitrios Adam, and group alumni Henry Le Berre."
 
 - date: December 4, 2025
-  headline: "Georgia Tech <a href='https://www.cc.gatech.edu/news/record-breaking-simulation-boosts-rocket-science-and-supercomputing-new-limits' target='_blank' rel='noopener noreferrer'>runs a story</a> on our rocket simulations, <a href='https://dl.acm.org/doi/10.1145/3712285.3771783' target='_blank' rel='noopener noreferrer'>as discussed heretofore</a>. This is closely related to the ACM 2025 Gordon Bell Finalist work with former GT faculty, new at the Courant Institute, Prof. Florian Schaefer."
+  headline: "Georgia Tech <a href='https://www.cc.gatech.edu/news/record-breaking-simulation-boosts-rocket-science-and-supercomputing-new-limits' target='_blank' rel='noopener noreferrer'>runs a story</a> on our rocket simulations, <a href='https://dl.acm.org/doi/10.1145/3712285.3771783' target='_blank' rel='noopener noreferrer'>as discussed heretofore</a>. This is closely related to the ACM 2025 Gordon Bell Finalist work with former GT faculty, new at the Courant Institute, Prof. Florian Schäfer."
 
 - date: November 26, 2025
   headline: "Our group collaborated with Diego Vaca-Revelo and Aswin Gnanaskandan of WPI on the hardware acceleration of bubbly flow models in Navier-Stokes solvers, demonstrated in MFC. The preprint <a href='https://arxiv.org/abs/2511.21031' target='_blank' rel='noopener noreferrer'>is available here.</a>"
@@ -56,7 +56,7 @@
   headline: "Oak Ridge National Laboratory <a href='https://www.ornl.gov/news/fluid-flow-simulation-frontier-earns-gordon-bell-finalist-selection' target='_blank' rel='noopener noreferrer'>publishes news</a> on our Gordon Bell <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>finalist effort</a> simulating many-rocket exhaust at high Mach, exceeding 1 quadrillion degrees of freedom."
 
 - date: September 30, 2025
-  headline: "Postdoc Dr. Tianyi Chi and Ph.D. student Ben Wilfong <a href='https://journals.aps.org/prfluids/abstract/10.1103/r9b3-psg4' target='_blank' rel='noopener noreferrer'>lead published work</a> that now appears in Phys. Rev. Fluids. They discover a new hydrodynamic instability at the confluence of Faraday and Rayleigh-Taylor modes, which we demonstrate in numerical experiments and linear Floquet theory. Shout out to collaborators Tim Koehler and Ryan McMullen at Sandia for the collaboration."
+  headline: "Postdoc Dr. Tianyi Chu and Ph.D. student Ben Wilfong <a href='https://journals.aps.org/prfluids/abstract/10.1103/r9b3-psg4' target='_blank' rel='noopener noreferrer'>lead published work</a> that now appears in Phys. Rev. Fluids. They discover a new hydrodynamic instability at the confluence of Faraday and Rayleigh-Taylor modes, which we demonstrate in numerical experiments and linear Floquet theory. Shout out to collaborators Tim Koehler and Ryan McMullen at Sandia for the collaboration."
 
 - date: September 29, 2025
   headline: "Collaborative work on representing transient and melting heat transfer on quantum devices <a href='https://arxiv.org/abs/2509.21630' target='_blank' rel='noopener noreferrer'>appears on arXiv</a>. Ph.D. student contributors include Chris Jawetz (ME) and  Jack Song (Physics)."
@@ -74,13 +74,13 @@
   headline: "The group is part of two <a href='https://psaap.llnl.gov/' target='_blank' rel='noopener noreferrer'>DOE PSAAP IV</a> centers! Official announcement <a href='https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program' target='_blank' rel='noopener noreferrer'>here</a>. <br><br> One is a 'large' predictive science center called the Center for Multiscale Modeling of Multiphase Combustion directed by S. Balachandar (UFlorida). Our group heads the HPC and CFD efforts. <br><br> The other is a slightly 'smaller' focused investigatory center (FIC), co-directed by Florian Schäfer at the Courant Institute and Brendan Keith at Brown. It is called CIGMO (Center for Information Geometric Mechanics and Optimization), where GT focuses on information-based regularization of computational hydrodynamics (Bryngelson institutional PI, along with Qi Tang (CSE) and Molei Tao (Math))."
 
 - date: August 26, 2025
-  headline: "New Ph.D. student Mark Zhang joins the grouop (UCLA undergrad.). Undergraduates Tanush Prathi and Mohammed Al-Mahrouqi join us as well, who were part of the team as undergraduate interns over the summer!"
+  headline: "New Ph.D. student Mark Zhang joins the group (UCLA undergrad.). Undergraduates Tanush Prathi and Mohammed Al-Mahrouqi join us as well, who were part of the team as undergraduate interns over the summer!"
 
 - date: August 6, 2025
-  headline: "Spencer gives an invited user talk at the annual <a href='https://www.olcf.ornl.gov/olcf-user-meeting/' target='_blank' rel='noopener noreferrer'>Oak Ridge Leadership Computing (OLCF) User Meeting</a>. The topic was the combination of information geometric regularization, closely coupled compute optimizations, and networking via tight CPU-GPU interconnects for <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>record-setting CFD simulations</a>. <br><br> Also, Ph.D. student Ben Wilfong and Spencer <b>win the data visualization showcase</b> with <a href='https://player.vimeo.com/video/1107931231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479%22%20frameborder=%220%22%20allow=%22autoplay;%20fullscreen;%20picture-in-picture;%20clipboard-write;%20encrypted-media;%20web-share%22%20referrerpolicy=%22strict-origin-when-cross-origin' target='_blank' rel='noopener noreferrer'>with this animation</a> of our simulation of Mach 10 rocket boosters! <br><br> Also, Spencer is elected to the <a href='https://www.olcf.ornl.gov/community/oug/' target='blank'><i>OLCF User Group Executive Board</i></a>."
+  headline: "Spencer gives an invited user talk at the annual <a href='https://www.olcf.ornl.gov/olcf-user-meeting/' target='_blank' rel='noopener noreferrer'>Oak Ridge Leadership Computing (OLCF) User Meeting</a>. The topic was the combination of information geometric regularization, closely coupled compute optimizations, and networking via tight CPU-GPU interconnects for <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>record-setting CFD simulations</a>. <br><br> Also, Ph.D. student Ben Wilfong and Spencer <b>win the data visualization showcase</b> with <a href='https://player.vimeo.com/video/1107931231?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479%22%20frameborder=%220%22%20allow=%22autoplay;%20fullscreen;%20picture-in-picture;%20clipboard-write;%20encrypted-media;%20web-share%22%20referrerpolicy=%22strict-origin-when-cross-origin' target='_blank' rel='noopener noreferrer'>with this animation</a> of our simulation of Mach 10 rocket boosters! <br><br> Also, Spencer is elected to the <a href='https://www.olcf.ornl.gov/community/oug/' target='_blank'><i>OLCF User Group Executive Board</i></a>."
 
 - date: August 5, 2025
-  headline: "Spencer is working with DOE lab collaborators as a Visiting Professor at <a href='https://www.pnnl.gov/quantum-information-sciences' taret='_blank'>PNNL</a> on a potential quantum advantage for simulating CFD problems. Ph.D. student Zhixin Song spent the summer collaborating with PNNL on this front as well!"
+  headline: "Spencer is working with DOE lab collaborators as a Visiting Professor at <a href='https://www.pnnl.gov/quantum-information-sciences' target='_blank'>PNNL</a> on a potential quantum advantage for simulating CFD problems. Ph.D. student Zhixin Song spent the summer collaborating with PNNL on this front as well!"
 
 - date: August 2, 2025
   headline: "Our group is funded to continue working with Sandia National Lab and Ryan McMullen to work on multiphase bubbly flows and their hydrodynamic instabilities under extreme conditions."
@@ -257,7 +257,7 @@
   headline: "Dr. Tianyi Chu joins the group as a postdoc. Welcome, Tianyi!"
 
 - date: February 19, 2024
-  headline: "Spencer gains coutesy appointment in Georgia Tech's <a href='https://www.me.gatech.edu' target='_blank' rel='noopener noreferrer'>Woodruff School of Mechanical Engineering</a>."
+  headline: "Spencer gains courtesy appointment in Georgia Tech's <a href='https://www.me.gatech.edu' target='_blank' rel='noopener noreferrer'>Woodruff School of Mechanical Engineering</a>."
 
 - date: February 13, 2024
   headline: "<a href='https://mflowcode.github.io' target='_blank' rel='noopener noreferrer'>MFC</a> has been accepted to the second round of the Oak Ridge Frontier Hackathon! MFC scales to 100% of the world's largest computer, but extracting maximum performance still needs attention. We look forward to working on it!"
@@ -434,7 +434,7 @@
   headline: "Spencer gives talks at <a href='https://www.math.emory.edu/events/seminars/seminar.php?SEMID=1456' target='_blank' rel='noopener noreferrer'>Emory</a> and <a href='https://semte.engineering.asu.edu/'>Arizona State Universities</a>. Thanks to Professors Veneziani and Xi (Emory) and Kim (ASU) for hosting!"
 
 - date: April 13, 2022
-  headline: "Undergraduates Ajay Bati and Qi Zeng gave great talks at the <a href='https://symposium.urop.gatech.edu/' target='blank'>Annual GT Undergraduate Research Symposium</a>, well done!"
+  headline: "Undergraduates Ajay Bati and Qi Zeng gave great talks at the <a href='https://symposium.urop.gatech.edu/' target='_blank'>Annual GT Undergraduate Research Symposium</a>, well done!"
 
 - date: March 26, 2022 
   headline: "Spencer visits Brown, MIT, and Harvard. Thanks to Professors Rodriguez, Sapsis, and Koumoutsakos for hosting!"
@@ -443,7 +443,7 @@
   headline: "Ajay Bati joins our group. He's working on deploying neural network models in HPC settings!"
 
 - date: February 21, 2022 
-  headline: "<a href='https://comp-physics.group/GSCS22/' target='blank'>GSCS22</a> was this past Saturday! It was sponsored by COC CSE."
+  headline: "<a href='https://comp-physics.group/GSCS22/' target='_blank'>GSCS22</a> was this past Saturday! It was sponsored by COC CSE."
 
 - date: February 4, 2022 
   headline: "The <a href='https://crnch.gatech.edu/content/crnch-summit' target='_blank' rel='noopener noreferrer'>2022 CRNCH Summit</a> finished today! Spencer gave an invited talk on quantum computing for CFD, <a href='https://mediaspace.gatech.edu/media/CRNCH+Summit+2022+-+Spencer+Bryngleson+-+Quantum+Computing+for+Continuum+Mechanics/1_23u8ou36' target='_blank' rel='noopener noreferrer'>video here</a>."
