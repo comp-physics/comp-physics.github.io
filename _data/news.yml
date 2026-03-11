@@ -1,3 +1,9 @@
+- date: March 12, 2026
+  headline: "Spencer is giving a seminar at the <a href='https://www.utsi.edu/' target='_blank' rel='noopener noreferrer'>University of Tennessee Space Institute</a> on the simulation of many-engine rocket boosters."
+
+- date: March 11, 2026
+  headline: "Spencer is giving a seminar at <a href='https://www.ornl.gov/' target='_blank' rel='noopener noreferrer'>Oak Ridge National Laboratory</a> on benchmarking scientific workloads and the scientific use of exascale machines in practice."
+
 - date: March 4, 2026
   headline: "Spencer is presenting <i>Compressible Flow with a Free Lunch: Simulating 1 Quadrillion Degrees of Freedom Via Regularization Without Loss of Accuracy</i> at <a href='https://www.siam.org/conferences-events/siam-conferences/pp26/' target='_blank' rel='noopener noreferrer'>SIAM PP26</a> this week in Berlin, Germany."
 
