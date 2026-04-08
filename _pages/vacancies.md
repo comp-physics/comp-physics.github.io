@@ -8,24 +8,26 @@ permalink: /vacancies
 
 ## Group openings
 
-<div style="background-color: #252829; padding: 20px; border-left: 4px solid #c0995e; margin: 22px 0;">
-<strong>TL;DR – Who should contact us?</strong><br/>
-• <strong>Ph.D. applicants</strong> (CSE or home-unit programs like AE/ME) who like HPC, numerics, and continuum physics<br/>
-• <strong>Current GT Ph.D. students</strong> interested in exascale CFD or multiphase flows<br/>
-• <strong>GT undergraduates</strong> (≥ 2 years left) with strong coding skills and interest in scientific computing<br/>
-• We are <strong>not currently taking standalone M.S. students</strong>
+<div class="callout-box">
+<strong>TL;DR – Who should contact us?</strong>
+<ul>
+<li><strong>Ph.D. applicants</strong> (CSE or home-unit programs like AE/ME) who like HPC, numerics, and continuum physics</li>
+<li><strong>Current GT Ph.D. students</strong> interested in exascale CFD or multiphase flows</li>
+<li><strong>GT undergraduates</strong> (≥ 2 years left) with strong coding skills and interest in scientific computing</li>
+<li>We are <strong>not currently taking standalone M.S. students</strong></li>
+</ul>
 </div>
 
-In the Computational Physics Group, you will work on the latest methods in computational science for pressing societal problems.
-Our work spans a broad range of 
+<div class="jumbotron">
+In the Computational Physics Group, you will work on the latest methods in computational science for pressing societal problems. Our work spans a broad range of:
+
 * __Technical advancements:__ Modeling, design, numerical methods, simulation, algorithms, high-performance computing, non-von Neumann emerging architectures (quantum, RISC-V and Arm, etc.)
 * __Application areas:__ Biology, medicine, and therapies, defense, aerodynamics, fluid dynamics, and flight, solid mechanics, hydrodynamics, energy
 
 Check out <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">our papers</a> to learn more.
 
-__We are _always_ hiring determined new group members.__
-
-If you are interested in joining the group, what to do next depends on who you are:
+__We are _always_ hiring determined new group members.__ What to do next depends on who you are:
+</div>
 
 <div class="jumbotron">
 #### I am interested in a Ph.D. from Georgia Tech

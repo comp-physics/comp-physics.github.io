@@ -67,9 +67,9 @@ iframe:not([allowfullscreen]) {
 
 ### Who is MFC for?
 
-• Researchers and engineers running **compressible multiphase** or **shock-dominated** flows<br/>
-• HPC practitioners targeting **GPU supercomputers** (Frontier, El Capitan, JUPITER, etc.)<br/>
-• Students who want to see _real_ exascale CFD code and contribute to it
+- Researchers and engineers running **compressible multiphase** or **shock-dominated** flows
+- HPC practitioners targeting **GPU supercomputers** (Frontier, El Capitan, JUPITER, etc.)
+- Students who want to see _real_ exascale CFD code and contribute to it
 
 ### How to get started with MFC
 
@@ -79,7 +79,7 @@ iframe:not([allowfullscreen]) {
 4. If you're at GT, **email Spencer** (<a href="mailto:shb@gatech.edu">shb@gatech.edu</a>) to discuss using MFC in your research or course projects.
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
-  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">🌐 MFC Website</a>
+  <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MFC Website</a>
   <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
   <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-slack"></i> Slack</a>
   {% include mfc_cite_dropdown.html %}
@@ -95,7 +95,7 @@ iframe:not([allowfullscreen]) {
 MFC has a <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">website</a> and <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer">open source GitHub repo.</a>
 It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of thousands of NVIDIA or AMD GPUs) on machines like <a href="https://www.olcf.ornl.gov/frontier/" target="_blank" rel="noopener noreferrer">OLCF Frontier</a> and <a href="https://asc.llnl.gov/exascale/el-capitan" target="_blank" rel="noopener noreferrer">LLNL El Capitan</a>.
 
-<div style="margin-top: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+<div class="badge-row" style="justify-content: flex-start;">
 <a href="https://github.com/MFlowCode/MFC/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/MFlowCode/MFC?style=social" alt="GitHub stars"/></a>
 <a href="https://github.com/MFlowCode/MFC/releases/latest" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/v/release/MFlowCode/MFC" alt="Latest release"/></a>
 <a href="https://github.com/MFlowCode/MFC/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/contributors/MFlowCode/MFC" alt="Contributors"/></a>
@@ -140,11 +140,11 @@ It simulates <b>compressible multiphase flows</b> at <b>exascale</b> (tens of th
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Other open-source projects</h4>
-• <strong><a href="https://github.com/pyrometheus/pyrometheus" target="_blank" rel="noopener noreferrer">Pyrometheus</a></strong> – symbolic thermochemistry and autodiff for reacting flows<br/>
-• <strong><a href="https://github.com/comp-physics/QBMMlib" target="_blank" rel="noopener noreferrer">QBMMlib</a></strong> – quadrature-based moment methods for multiphase flows<br/>
-• <strong><a href="https://github.com/comp-physics/RBC3D" target="_blank" rel="noopener noreferrer">RBC3D</a></strong> – detailed microcirculation and cell-resolved blood-flow simulation<br/>
-<br/>
-👉 See the <a href="https://github.com/comp-physics" target="_blank" rel="noopener noreferrer">group GitHub page</a> for these and more.
+- <strong><a href="https://github.com/pyrometheus/pyrometheus" target="_blank" rel="noopener noreferrer">Pyrometheus</a></strong> — symbolic thermochemistry and autodiff for reacting flows
+- <strong><a href="https://github.com/comp-physics/QBMMlib" target="_blank" rel="noopener noreferrer">QBMMlib</a></strong> — quadrature-based moment methods for multiphase flows
+- <strong><a href="https://github.com/comp-physics/RBC3D" target="_blank" rel="noopener noreferrer">RBC3D</a></strong> — detailed microcirculation and cell-resolved blood-flow simulation
+
+See the <a href="https://github.com/comp-physics" target="_blank" rel="noopener noreferrer">group GitHub page</a> for these and more.
 </div>
 </div>
 

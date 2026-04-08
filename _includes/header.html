@@ -16,15 +16,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav me-auto">
             <li class="nav-item dropdown">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/"><b>Home</b></a>
-                </li> 
-                {% for page in site.nav_pages %}
+                    <a class="nav-link{% if page.url == '/' %} nav-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/"><b>Home</b></a>
+                </li>
+                {% for navpage in site.nav_pages %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}"><b>{% if page.display %}{{page.display}}{% else %}{{page.name | capitalize}}{% endif %}</b></a>
+                        <a class="nav-link{% if page.url contains navpage.name %} nav-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{navpage.name}}"><b>{% if navpage.display %}{{navpage.display}}{% else %}{{navpage.name | capitalize}}{% endif %}</b></a>
                     </li>
                 {% endfor %}
                 <li class="nav-item">
-                    <a class="nav-link" href="https://comp-physics.group/group-docs/"><b>Docs</b></a>
+                    <a class="nav-link{% if page.url contains 'group-docs' %} nav-active{% endif %}" href="https://comp-physics.group/group-docs/"><b>Docs</b></a>
                 </li>
             </li>
         </ul>

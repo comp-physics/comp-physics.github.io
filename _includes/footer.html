@@ -1,32 +1,73 @@
-<br/>
 <section id="footer">
 <div class="container-footer">
   <div class="panel-footer">
 	  <div class="row">
-		<div class="col-sm-3">
-		    <h5>About</h5>	
+		<div class="col-sm-4">
+		    <h5>About</h5>
             <p>{{ site.about }}</p>
 		</div>
 
-		<div class="col-sm-3">
-		    <h5>Information</h5>	
+		<div class="col-sm-4">
+		    <h5>Information</h5>
             <p>{{ site.information }}</p>
 		</div>
 
-		<div class="col-sm-6">
+		<div class="col-sm-4 text-center">
             <p>{{ site.coordinates }}</p>
 		</div>
 	  </div>
 
-      <center><p>Last updated on {{ "now" | date: "%b %d, %Y" }}</br>
-      &copy; 2021-{{ "now" | date: "%Y" }} Computational Physics @ GT </p></center>
+      <p class="footer-copyright">Last updated on {{ "now" | date: "%b %d, %Y" }}<br/>
+      &copy; 2021&ndash;{{ "now" | date: "%Y" }} Computational Physics @ GT</p>
 	</div>
   </div>
 </div>
 
+<button id="scroll-top-btn" class="scroll-top-btn" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
 <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script>
+// ── Scroll-to-top ──────────────────────────────────────────────────────────
+(function() {
+  var btn = document.getElementById('scroll-top-btn');
+  if (!btn) return;
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('scroll', function() {
+    btn.classList.toggle('visible', window.scrollY > 500);
+  }, { passive: true });
+})();
+
+// ── Hide empty publication year groups ─────────────────────────────────────
+document.querySelectorAll('h2.bibliography').forEach(function(h2) {
+  var ol = h2.nextElementSibling;
+  if (ol && ol.tagName === 'OL' && !ol.querySelector('.pub-entry')) {
+    h2.style.setProperty('display', 'none', 'important');
+    ol.style.setProperty('display', 'none', 'important');
+  }
+});
+
+// ── Jumbotron entrance animations ──────────────────────────────────────────
+(function() {
+  if (!('IntersectionObserver' in window)) return;
+  var cards = document.querySelectorAll('.jumbotron');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('anim-done');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -20px 0px' });
+  cards.forEach(function(el) {
+    observer.observe(el);
+  });
+})();
+
 function copyToClipboard(version) {
   const bibtex = {
     mfc50: `@article{wilfong26,
@@ -48,12 +89,11 @@ function copyToClipboard(version) {
   doi={10.1016/j.cpc.2021.108029}
 }`
   };
-  
+
   navigator.clipboard.writeText(bibtex[version]).then(function() {
     alert('BibTeX copied to clipboard!');
   }, function(err) {
     console.error('Failed to copy: ', err);
-    // Fallback for older browsers
     const textArea = document.createElement('textarea');
     textArea.value = bibtex[version];
     textArea.style.position = 'fixed';

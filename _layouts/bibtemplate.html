@@ -3,13 +3,12 @@
 
 <style>
 pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
     width:100%; overflow-x:auto;
-    <!-- background-color: red; -->
 }
 ol li{
   padding: 0;
@@ -18,41 +17,34 @@ ol li{
   padding-left: 0!important;
   margin: 0!important;
 }
-.bib-btn {
-  font-size: 0.8rem;
-  padding: 1px 6px;
-  margin-bottom: 2px;
-}
 </style>
 
-
-<!-- primary, success, danger, warning-->
-
-{% if entry.keywords contains "nonheavy" %}
-{% else %}
-<div class="text-justify">
+{% assign _allowed = "article inproceedings report unpublished" %}
+{% if _allowed contains entry.type and entry.keywords != "nonheavy" %}
+<div class="pub-entry">
 <div class="row">
-<div class="col-sm-2 col-2 d-none d-md-block" style="margin:0; padding:0; margin-top:3px;">
-<!-- <div class="col-sm-2 col-2"> -->
+<div class="col-sm-2 col-2 d-none d-md-block" style="margin:0; padding:0; margin-top:4px;">
+
 {% if entry.type == "article" %}
-<center><button class="btn btn-primary btm-sm Disabled" style="width:100%;border-radius:12px;">ARTICLE</button></center>&nbsp;&nbsp;
-    
+<center><button class="btn btn-primary pub-type-badge Disabled">ARTICLE</button></center>
 {% endif %}
 {% if entry.type == "inproceedings" %}
-<center><button class="btn btn-success btm-sm Disabled" style="width:100%;border-radius:12px;">PROCEEDING</button></center>
+<center><button class="btn btn-success pub-type-badge Disabled">PROCEEDING</button></center>
 {% endif %}
 {% if entry.type == "report" %}
-<center><button class="btn btn-danger btm-sm Disabled" style="width:100%;border-radius:12px;">REPORT</button></center>
+<center><button class="btn btn-danger pub-type-badge Disabled">REPORT</button></center>
 {% endif %}
 {% if entry.type == "unpublished" %}
-<center><button class="btn btn-warning btm-sm Disabled" style="width:100%;border-radius:12px;">PREPRINT</button></center>
+<center><button class="btn btn-warning pub-type-badge Disabled">PREPRINT</button></center>
 {% endif %}
+
 </div>
 
 <div class="col-sm-10 col-10">
-<div class="row">
+<div>
 {{reference | replace_first: 'Radhakrishnan, A.', '<b>Radhakrishnan, A.</b>' | replace_first: 'Bati, A.', '<b>Bati, A.</b>' | replace_first: 'Le Berre, H. A.', '<b>Le Berre, H. A.</b>' | replace_first: 'Le Berre, H.', '<b>Le Berre, H.</b>' | replace_first: 'Zeng, Q.','<b>Zeng, Q.</b>' | replace_first: 'Kothari, Y.','<b>Kothari, Y.</b>' | replace_first: 'Panchal, A.', '<b>Panchal, A.</b>' | replace_first: 'Chrit, F. E.', '<b>Chrit, F. E.</b>' | replace_first: 'Kocherla, S.', '<b>Kocherla, S.</b>' | replace_first: 'Wilfong, B.', '<b>Wilfong, B.</b>' | replace_first: 'Sinha, A.', '<b>Sinha, A.</b>' | replace_first: 'Chu, T.', '<b>Chu, T.</b>' | replace_first: 'Song, Z.', '<b>Song, Z.</b>' | replace_first: 'Lee, M.', '<b>Lee, M.</b>', | replace_first: 'Gupta, A.', '<b>Gupta, A.</b>', | replace_first: 'Vickers, D. J.', '<b>Vickers, D. J.</b>' | replace_first: 'Prathi, T.', '<b>Prathi, T.</b>' | replace_first: 'Adam, D.', '<b>Adam, D.</b>' | replace_first: 'Yu, H.', '<b>Yu, H.</b>'}}</div>
 
+<div style="margin-top:4px;">
 {% assign bibtest = false %}
 {% if entry.file %}
 {% assign bibfile = "/papers/" | append: entry.file %}
@@ -64,65 +56,50 @@ ol li{
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">PDF</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-primary bib-btn">PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}
-<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">DOI</button></a>
+<a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank"><button class="btn btn-info bib-btn">DOI</button></a>
 {% endif %}
 
 {% if entry.link %}
-<a href="{{ entry.link }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">DOI</button></a>
+<a href="{{ entry.link }}" target="_blank"><button class="btn btn-info bib-btn">DOI</button></a>
 {% endif %}
 
-<!-- {% if entry.type == 'unpublished' and entry.arxiv %} -->
-<!-- <a href="{{ entry.arxiv | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-info btm-sm bib-btn">ARXIV</button></a> -->
-<!-- {% endif %} -->
-
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'proceedings' or entry.type == 'report' %}
-<button class="btn btn-info btm-sm bib-btn"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
-{% endif %}
+<button class="btn btn-info bib-btn" style="opacity:0.7;" onclick="toggleBibtex{{entry.key}}()">BIB</button>
 
 {% if entry.abstract %}
-<button class="btn btn-info btm-sm bib-btn"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+<button class="btn btn-info bib-btn" style="opacity:0.7;" onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
+</div>
 
 {% if entry.abstract %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" class="bib-panel" style="display:none;">
 <pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
 </div>
 {% else %}
-<div id="a{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
+<div id="a{{entry.key}}" class="bib-panel" style="display:none;">
 <pre>{{ entry.bibtex }}</pre>
 </div>
 {% endif %}
 
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:8px; padding:10px; margin-bottom:20px;">
+<div id="b{{entry.key}}" class="bib-panel" style="display:none;">
 <pre>{{entry.abstract}}</pre>
 </div>
-</div>
 
+</div>
 </div>
 </div>
 {% endif %}
 
 <script>
 function toggleBibtex{{entry.key}}(parameter) {
-    var x= document.getElementById('a{{entry.key}}');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-        x.style.backgroundColor = '#141617';
-    } else {
-        x.style.display = 'none';
-    }
+    var x = document.getElementById('a{{entry.key}}');
+    x.style.display = x.style.display === 'none' ? 'block' : 'none';
 }
 function toggleAbstract{{entry.key}}(parameter) {
-    var x= document.getElementById('b{{entry.key}}');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-        x.style.backgroundColor = '#141617';
-    } else {
-        x.style.display = 'none';
-    }
+    var x = document.getElementById('b{{entry.key}}');
+    x.style.display = x.style.display === 'none' ? 'block' : 'none';
 }
 </script>

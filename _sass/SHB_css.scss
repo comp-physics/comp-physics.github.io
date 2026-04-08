@@ -1,137 +1,492 @@
-// CSS variables that were previously provided by Bootstrap 4 theme
+// ─── Design tokens ──────────────────────────────────────────────────────────
+
 :root {
-  --gray: #839496;
-  --gray-dark: #141617;
-  --secondary: #b1ada9;
+  --gray:           #839496;
+  --gray-dark:      #141617;
+  --secondary:      #8a8480;
+  --gold:           #c0995e;
+  --gold-light:     #d4b07c;
+  --gold-dim:       #8a6e42;
+  --surface:        #242627;
+  --surface-raised: #2c2f30;
+  --border:         #333637;
+  --text-primary:   #cec6bc;
+  --text-muted:     #8a847e;
+  --transition:     0.18s ease;
 }
 
-$gtgold: #c0995e !default;
-$darkgray: #1f2020 !default;
-$mediumgray: #252829 !default;
-$textgray: #96908a !default;
+$gtgold:     #c0995e !default;
+$darkgray:   #1c1e1f !default;
+$mediumgray: #242627 !default;
+$textgray:   #8a847e !default;
 
-$myprimary: darken(#C09B5D,10%) !default;
-$mysuccess: #578560 !default;
-$mydanger: #327269 !default;
-$mywarning: #2F4858 !default;
-$myinfo: #636363 !default;
+$myprimary:  #9e7a3e !default;
+$mysuccess:  #4a7453 !default;
+$mydanger:   #2a5f57 !default;
+$mywarning:  #263c4a !default;
+$myinfo:     #555555 !default;
 
-img { 
-    border-radius:5%;
+
+// ─── Base ────────────────────────────────────────────────────────────────────
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-a {
-  color: $gtgold;
+body {
+  background-color: $darkgray;
+  color: var(--text-primary);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a:hover {
-  color: lighten($gtgold,20%);
-}
+// ─── Typography ──────────────────────────────────────────────────────────────
 
-body{
-    background-color: $darkgray;
-    color: #c0b8b0; /* Slightly bright gray instead of bright white */
-    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                 "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-                 "Segoe UI Symbol";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  color: #ddd8d2;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
 }
 
 h2 {
-    padding-bottom: 12px;
+  font-size: 1.45rem;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
 }
 
-// Font display optimization
-@font-face {
-  font-family: 'FontAwesome';
-  font-display: swap;
+// Full-width context: don't constrain to inline
+.jumbotron h2, #gridid h2, #publications h2 {
+  display: block;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, var(--gold), transparent 70%) 1;
 }
 
-// Mobile menu improvements
-@media (max-width: 767px) {
-  .navbar-nav {
-    padding-top: 10px;
-  }
-  
-  .navbar-nav .nav-link {
-    padding: 10px 15px;
-    font-size: 1.1rem;
-  }
-  
-  .container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .jumbotron {
-    padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-  }
-  
-  iframe {
-    max-width: 100%;
-    height: auto;
-  }
+h3 { font-size: 1.2rem; }
+h5 { font-size: 1.0rem; font-weight: 600; }
+
+// Section label style for h5 used in footer/sidebars
+section h5, .panel-footer h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 0.9rem;
+}
+
+code, kbd, pre, samp {
+  font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 0.88em;
+}
+
+// Inline code
+p code, li code {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  color: var(--gold-light);
+}
+
+// ─── Links ───────────────────────────────────────────────────────────────────
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--gold-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+// ─── Images ──────────────────────────────────────────────────────────────────
+
+img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
-    background-color: $darkgray;
+  background-color: $darkgray;
+  border-color: var(--border);
 }
 
-.jumbotron {
-    padding:20px; 
-    padding-bottom:7px; 
-    margin-top:22px; 
-    margin-bottom:22px;
-    background-color:$mediumgray;
-    border-radius: 8px;
-}
-
-.navbar {
-  margin-bottom: 20px;
-  border-bottom: 4px solid var(--secondary);
-  background-color: $mediumgray !important;
-}
-
-
+// ─── Layout ──────────────────────────────────────────────────────────────────
 
 .container-fluid {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .container-footer {
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
-  padding-left:  20px;
-  padding-right: 20px;
+  max-width: 1000px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.well-collapse {
-  padding-left:  20px;
-  padding-right: 20px;
-  padding-top:   12px;
-  padding-bottom: 4px;
-  border-radius:  7px;
-  min-height:     1px;
-  margin-top:    15px;
-  color: black;
-  background-color: var(--gray);
-  border: 2px solid var(--gray-dark);
-  blockquote {
-    border-color: var(--gray-dark);
-    border-color: rgba(0,0,0,.15);
+// ─── Stats strip ─────────────────────────────────────────────────────────────
+
+.stats-strip {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0 18px;
+  background: var(--surface);
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+  padding: 14px 10px;
+  border-right: 1px solid var(--border);
+
+  &:last-child { border-right: none; }
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+// ─── Research chips ───────────────────────────────────────────────────────────
+
+.research-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 8px 0 16px;
+}
+
+.chip {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 13px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: border-color var(--transition), color var(--transition),
+              background-color var(--transition);
+
+  &:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: rgba(192, 153, 94, 0.08);
   }
 }
 
+// ─── Scroll-to-top button ────────────────────────────────────────────────────
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease,
+              color var(--transition), border-color var(--transition),
+              background-color var(--transition);
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(192, 153, 94, 0.1);
+  }
+
+  i { font-size: 0.85rem; }
+}
+
+// ─── Pub year headers (jekyll-scholar renders h2.bibliography) ───────────────
+
+// Hide year groups that contain no actual pub entries (CSS :has() fallback)
+h2.bibliography:has(+ ol.bibliography:not(:has(.pub-entry))),
+h2.bibliography:has(+ ol.bibliography:not(:has(.pub-entry))) + ol.bibliography {
+  display: none !important;
+}
+
+h2.bibliography {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.72rem !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0 12px;
+  padding-bottom: 0;
+  border: none !important;
+  border-image: none !important;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+}
+
+ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// ─── Navbar ──────────────────────────────────────────────────────────────────
+
+.navbar {
+  margin-bottom: 28px;
+  background-color: var(--surface) !important;
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.navbar-brand {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-right: 1.25rem;
+  font-size: 1.1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  transition: opacity var(--transition);
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+  color: #fff;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--gold);
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+  transition: color var(--transition);
+  position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0.85rem;
+  right: 0.85rem;
+  height: 2px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  border-radius: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--gold-light);
+}
+
+.navbar-dark .navbar-nav .nav-link.nav-active {
+  color: var(--gold-light);
+
+  &::after { transform: scaleX(1); }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after,
+.navbar-dark .navbar-nav .nav-link:focus::after {
+  transform: scaleX(1);
+}
+
+// ─── Jumbotron / Cards ───────────────────────────────────────────────────────
+
+// Entrance animation — plays via keyframe when .anim-done is added by JS.
+// Content is always visible without JS; animation is purely additive.
+@keyframes cardSlideUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.jumbotron.anim-done {
+  animation: cardSlideUp 0.45s ease both;
+}
+
+.jumbotron.anim-done:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jumbotron {
+  padding: 24px 24px 16px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  background-color: var(--surface);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  position: relative;
+
+  // Subtle gold left accent
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 16px;
+    bottom: 16px;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--gold), transparent);
+    border-radius: 0 2px 2px 0;
+    opacity: 0.5;
+  }
+}
+
+// The MFC blockquote-style box (inline div with border-left)
+div[style*="border-left: 4px solid #c0995e"] {
+  border-radius: 6px;
+  border-color: var(--gold) !important;
+}
+
+// ─── Collapse / Well ─────────────────────────────────────────────────────────
+
+.well-collapse {
+  padding: 16px 20px 8px;
+  border-radius: 8px;
+  min-height: 1px;
+  margin-top: 15px;
+  color: var(--text-primary);
+  background-color: var(--surface-raised);
+  border: 1px solid var(--border);
+
+  blockquote {
+    border-color: var(--border);
+  }
+}
+
+// ─── Buttons ─────────────────────────────────────────────────────────────────
+
+.btn {
+  margin-top:    3px;
+  margin-bottom: 3px;
+  margin-left:   0;
+  margin-right:  4px;
+  padding: 4px 12px;
+  min-height: 26px;
+  font-size: 0.88rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+  transition: background-color var(--transition), border-color var(--transition),
+              box-shadow var(--transition), opacity var(--transition);
+}
+
+@mixin btn-variant($color) {
+  color: #fff;
+  background: $color;
+  border-color: $color;
+
+  &:hover, &:focus, &.focus {
+    color: #fff;
+    background: darken($color, 6%);
+    border-color: darken($color, 6%);
+    box-shadow: 0 0 0 0.15rem rgba($color, 0.28);
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: #fff;
+    background-color: darken($color, 8%);
+    border-color: darken($color, 8%);
+  }
+}
+
+.btn-primary { @include btn-variant($myprimary); }
+.btn-success { @include btn-variant($mysuccess); }
+.btn-danger  { @include btn-variant($mydanger); }
+.btn-warning {
+  @include btn-variant($mywarning);
+  color: darken(#fff, 5%);
+}
+.btn-info {
+  @include btn-variant($myinfo);
+  color: darken(#fff, 5%);
+}
+
+.Disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+// ─── Embed containers ────────────────────────────────────────────────────────
 
 .embed-container-home {
   position: relative;
-  padding: 0px;
-  margin: 0px;
-  // width: 435px;
-  // height: 150px;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -141,8 +496,8 @@ h2 {
 
 .embed-container {
   position: relative;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 175px;
   overflow: hidden;
   background-size: cover;
@@ -160,258 +515,341 @@ h2 {
   background-image: url($baseurl + "/images/thumbs/spleen.jpg");
 }
 
-// Make Navbar Orange
-.navbar-dark .navbar-nav .nav-link {
-  color: $gtgold;
-  font-size: 1.25rem;
+// ─── Footer ──────────────────────────────────────────────────────────────────
+
+#footer {
+  margin-top: 48px;
+  border-top: 1px solid var(--border);
+  padding-top: 32px;
+  padding-bottom: 28px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: lighten($gtgold,20%);
+#footer a {
+  color: var(--text-muted);
+  transition: color var(--transition);
 }
 
-// Make navbar group name bigger
-.navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+#footer a:hover {
+  color: var(--gold);
+  text-decoration: none;
 }
 
-// Make group name gray not white
-.navbar-dark .navbar-brand {
-  color: $textgray;
-  font-weight: 600;
+
+.panel-footer {
+  padding-top: 8px;
 }
 
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: lighten($textgray,20%);
-  font-weight: 600;
-}
+// ─── Accessibility ───────────────────────────────────────────────────────────
 
-// Butn Primary
-
-.btn-primary {
-  color: #fff;
-  background: $myprimary;
-  border-color: $myprimary;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background: darken($myprimary,5%);
-  border-color: darken($myprimary,5%);
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background: darken($myprimary,5%);
-  border-color: darken($myprimary,5%);
-  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
-}
-
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: darken($myprimary,5%);
-  background-image: none;
-  border-color: darken($myprimary,5%);
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
-}
-// End btn primary
-
-// Btn Success
-.btn-success {
-  color: #fff;
-  background: $mysuccess;
-  border-color: $mysuccess;
-}
-
-.btn-success:hover {
-  color: #fff;
-  background: darken($mysuccess,5%);
-  border-color: darken($mysuccess,5%);
-}
-
-.btn-success:focus, .btn-success.focus {
-  color: #fff;
-  background: darken($mysuccess,5%);
-  border-color: darken($mysuccess,5%);
-  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
-}
-
-.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
-.show > .btn-success.dropdown-toggle {
-  color: #fff;
-  background-color: darken($mysuccess,5%);
-  background-image: none;
-  border-color: darken($mysuccess,5%);
-}
-
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
-.show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
-}
-// End Btn Success
-
-// Btn Danger
-.btn-danger {
-  color: #fff;
-  background: $mydanger;
-  border-color: $mydanger;
-}
-
-.btn-danger:hover {
-  color: #fff;
-  background: darken($mydanger,5%);
-  border-color: darken($mydanger,5%);
-}
-
-.btn-danger:focus, .btn-danger.focus {
-  color: #fff;
-  background: darken($mydanger,5%);
-  border-color: darken($mydanger,5%);
-  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
-}
-
-.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
-.show > .btn-danger.dropdown-toggle {
-  color: #fff;
-  background-color: darken($mydanger,5%);
-  background-image: none;
-  border-color: darken($mydanger,5%);
-}
-
-.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
-.show > .btn-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
-}
-// End Btn Danger
-
-// Btn Warning
-.btn-warning {
-  color: darken(#fff,5%);
-  background: $mywarning;
-  border-color: $mywarning;
-}
-
-.btn-warning:hover {
-  color: darken(#fff,5%);
-  background: darken($mywarning,5%);
-  border-color: darken($mywarning,5%);
-}
-
-.btn-warning:focus, .btn-warning.focus {
-  color: #fff;
-  background: darken($mywarning,5%);
-  border-color: darken($mywarning,5%);
-  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
-}
-
-.btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
-.show > .btn-warning.dropdown-toggle {
-  color: #fff;
-  background-color: darken($mywarning,5%);
-  background-image: none;
-  border-color: darken($mywarning,5%);
-}
-
-.btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
-.show > .btn-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
-}
-// End Btn Warning
-
-
-// Btn info
-.btn-info {
-  color: darken(#fff,5%);
-  background: $myinfo;
-  border-color: $myinfo;
-}
-
-.btn-info:hover {
-  color: darken(#fff,5%);
-  background: darken($myinfo,5%);
-  border-color: darken($myinfo,5%);
-}
-
-.btn-info:focus, .btn-info.focus {
-  color: #fff;
-  background: darken($myinfo,5%);
-  border-color: darken($myinfo,5%);
-  box-shadow: 0 0 0 0.0rem rgba(192, 155, 38, 0.5);
-}
-
-.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
-.show > .btn-info.dropdown-toggle {
-  color: #fff;
-  background-color: darken($myinfo,5%);
-  background-image: none;
-  border-color: darken($myinfo,5%);
-}
-
-.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
-.show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.0rem rgba(74, 175, 167, 0.5);
-}
-// End Btn info
-
-.Disabled{
-  pointer-events: none;
-  cursor: not-allowed;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-// Set Btn size
-.btn {
-    margin-top:    3px;
-    margin-bottom: 3px;
-    margin-left:   0px;
-    margin-right:  3px;
-    padding-top:   2px;
-    padding-bottom:2px;
-    padding-left:  8px;
-    padding-right: 8px;
-    min-height: 23px;
-    font-size: 1rem;
-    border-radius: 0.375rem;
-}
-
-// Skip to content link for accessibility
 .skip-to-content {
   position: absolute;
-  top: -40px;
+  top: -48px;
   left: 0;
   background: $gtgold;
   color: $darkgray;
-  padding: 8px;
+  padding: 10px 16px;
   text-decoration: none;
-  z-index: 100;
-  font-weight: bold;
+  z-index: 1000;
+  font-weight: 600;
+  border-radius: 0 0 6px 0;
+  transition: top 0.2s ease;
 }
 
 .skip-to-content:focus {
   top: 0;
 }
 
+// ─── News items ──────────────────────────────────────────────────────────────
 
-// Print styles
+.news-date {
+  display: inline-block;
+  color: var(--gold);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+// ─── Gordon Bell / highlight callout ─────────────────────────────────────────
+
+.highlight-callout {
+  background: linear-gradient(135deg, rgba(192, 153, 94, 0.12), rgba(192, 153, 94, 0.04));
+  border: 1px solid rgba(192, 153, 94, 0.35);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.highlight-label {
+  display: inline-block;
+  background: var(--gold);
+  color: $darkgray;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+// ─── Callout box (MFC highlight, etc.) ───────────────────────────────────────
+
+.callout-box {
+  background-color: var(--surface-raised);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px;
+  margin: 20px 0;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+// ─── MFC logo — soften the black PNG background ──────────────────────────────
+
+// The logo image has a dark background; mixing it over a slightly lighter
+// surface reduces the jarring contrast inside the card.
+#gridid .jumbotron img[alt*="MFC"] {
+  mix-blend-mode: lighten;
+  background: transparent;
+}
+
+// ─── Badge row (GitHub shields) ──────────────────────────────────────────────
+
+.badge-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.badge-row img {
+  border-radius: 3px;
+}
+
+// ─── Lists ───────────────────────────────────────────────────────────────────
+
+.jumbotron ul, .callout-box ul, .highlight-callout ul {
+  padding-left: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.jumbotron ul li, .callout-box ul li, .highlight-callout ul li {
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
+}
+
+// ─── Tables ──────────────────────────────────────────────────────────────────
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.5rem;
+  font-size: 0.92rem;
+}
+
+th {
+  font-weight: 600;
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--border);
+  padding: 6px 12px 8px;
+  text-align: left;
+}
+
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+// ─── Social / profile icon links ─────────────────────────────────────────────
+
+// Applies to the 2x square icon links on team page and PI sidebar
+a .fa-2x, a .ai-2x {
+  color: var(--secondary);
+  transition: color var(--transition);
+}
+
+a:hover .fa-2x, a:hover .ai-2x {
+  color: var(--gold);
+}
+
+// ─── PI info block ───────────────────────────────────────────────────────────
+
+.pi-info {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+
+  i, em {
+    font-style: normal;
+    font-weight: 600;
+    color: #ddd8d2;
+  }
+
+  b, strong {
+    color: var(--gold);
+    font-weight: 600;
+  }
+}
+
+// ─── Team member cards ───────────────────────────────────────────────────────
+
+.member-role {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+  margin-top: 2px;
+}
+
+// ─── Publication entries ──────────────────────────────────────────────────────
+
+.pub-entry {
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+// Type badge pills on papers page
+.pub-type-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 20px;
+  border: none;
+  width: auto;
+  cursor: default;
+  display: inline-block;
+}
+
+// Action buttons on papers (PDF, DOI, BIB, ABSTRACT)
+.bib-btn {
+  font-size: 0.75rem !important;
+  padding: 2px 8px !important;
+  margin-bottom: 3px !important;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+// BIB/ABSTRACT expand panels
+.bib-panel {
+  background-color: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+
+  pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+    color: var(--text-primary);
+  }
+}
+
+// ─── Footer copyright ─────────────────────────────────────────────────────────
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.80rem;
+  color: #5a5550;
+  line-height: 1.6;
+}
+
+// ─── Font display ────────────────────────────────────────────────────────────
+
+@font-face {
+  font-family: 'FontAwesome';
+  font-display: swap;
+}
+
+// ─── Mobile ──────────────────────────────────────────────────────────────────
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 10px 12px;
+    font-size: 1.05rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link::after {
+    display: none;
+  }
+
+  .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .jumbotron {
+    padding: 18px 18px 12px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// ─── Print ───────────────────────────────────────────────────────────────────
+
 @media print {
-  .navbar, .skip-to-content, footer {
+  .navbar, .skip-to-content, footer, #footer {
     display: none !important;
   }
-  
+
   .jumbotron {
     page-break-inside: avoid;
+    border: 1px solid #ccc;
+    box-shadow: none;
   }
-  
+
   a[href^="http"]:after {
     content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
   }
 }
