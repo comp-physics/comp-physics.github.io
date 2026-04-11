@@ -2,7 +2,7 @@ name: Build and deploy Jekyll site
 
 on:
   push:
-    branches: [source]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
