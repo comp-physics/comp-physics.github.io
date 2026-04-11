@@ -16,7 +16,7 @@ themes:
       - {text: "figr", url: "https://github.com/sbryngelson/figr"}
 
   - slug: quantum-pdes
-    title: "Quantum algorithms & readout for PDE workloads"
+    title: "Quantum algorithms for PDEs"
     thumb: "/images/research/quantum-pdes.svg"
     alt: "Quantum circuit with Hadamard, CNOT, rotation, and measurement gates"
     summary: "Quantum tomography and lattice/linear-system building blocks targeted at physics workloads; reduce measurement settings and identify practical speedups."
@@ -33,11 +33,12 @@ themes:
       - {text: "fully-QLBM", url: "https://github.com/comp-physics/fully-QLBM"}
 
   - slug: learning-infused-numerics
-    title: "Learning-infused numerics & operator inference"
+    title: "Learning models and numerics"
     thumb: "/images/research/learning-infused-numerics.svg"
     alt: "Finite-difference stencil feeding a small neural network that outputs a closure"
     summary: "Physics-aware networks and data-driven operator recovery for smoothness indicators, quadrature, in-solver inference, and turbulence closures."
     bullets:
+      - "CPINNs: game-based PINNs that converge to machine precision"
       - "roseNNa: portable ONNX inference in C/Fortran solvers"
       - "Rational-WENO: NN-based, physically consistent WENO3"
       - "Fast Macroscopic Forcing Method for closures"
