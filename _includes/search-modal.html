@@ -1,0 +1,43 @@
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="searchModalLabel">Search</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="search"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var initialized = false;
+    var modalEl = document.getElementById('searchModal');
+    if (!modalEl) return;
+    modalEl.addEventListener('shown.bs.modal', function () {
+      if (initialized) {
+        var input = modalEl.querySelector('.pagefind-ui__search-input');
+        if (input) input.focus();
+        return;
+      }
+      if (typeof PagefindUI === 'undefined') {
+        console.warn('PagefindUI not loaded');
+        return;
+      }
+      new PagefindUI({
+        element: '#search',
+        showImages: false,
+        resetStyles: false,
+        showSubResults: true
+      });
+      initialized = true;
+      setTimeout(function () {
+        var input = modalEl.querySelector('.pagefind-ui__search-input');
+        if (input) input.focus();
+      }, 50);
+    });
+  })();
+</script>
