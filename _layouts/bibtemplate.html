@@ -22,6 +22,7 @@ ol li{
 {% assign _allowed = "article inproceedings report unpublished" %}
 {% if _allowed contains entry.type and entry.keywords != "nonheavy" %}
 <div class="pub-entry">
+<h3 class="visually-hidden" id="pub-{{ entry.key }}" data-pagefind-weight="4">{{ entry.title | default: entry.key }}</h3>
 <div class="row">
 <div class="col-sm-2 col-2 d-none d-md-block" style="margin:0; padding:0; margin-top:4px;">
 

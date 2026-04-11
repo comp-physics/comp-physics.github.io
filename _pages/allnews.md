@@ -19,7 +19,8 @@ permalink: /allnews.html
 <div>
 {% assign current_year = article_year %}
 {% endif %}
-<div style="margin-bottom: 22px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+<div id="news-{{ article.date | slugify }}-{{ forloop.index }}" style="margin-bottom: 22px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+<h3 class="visually-hidden" id="news-item-{{ article.date | slugify }}-{{ forloop.index }}" data-pagefind-weight="2">{{ article.headline | strip_html | truncate: 120 }}</h3>
 <p style="margin-bottom: 8px;">
 <strong style="color: #c0995e;">{{ article.display_date | default: article.date }}</strong>
 </p>

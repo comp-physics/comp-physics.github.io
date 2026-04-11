@@ -105,7 +105,7 @@ Many of the techniques used in our record-setting rocket simulations are availab
 <b>Cell-scale flow in microfluidics</b>: High-fidelity spectral boundary integral simulation of blood cells transitioning to chaos. We developed stochastic models enabling microfluidic device design and improved treatment outcomes. Above: a microaneurysm (viz. via student Suzan Manasreh).
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron" data-pagefind-ignore>
 <h2>News</h2>
   {% for article in site.data.news limit:10%}
   <p>

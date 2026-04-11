@@ -15,7 +15,7 @@ Our group builds numerical methods, computational models, and open-source softwa
 <div class="research-card">
 {% if theme.thumb %}<img src="{{ site.url }}{{ site.baseurl }}{{ theme.thumb }}" class="research-thumb" alt="{{ theme.alt | default: theme.title }}" loading="lazy">{% endif %}
 <div class="research-body">
-<h4 class="research-title">{{ theme.title }}</h4>
+<h4 class="research-title" id="theme-{{ theme.title | slugify }}" data-pagefind-weight="4">{{ theme.title }}</h4>
 <p class="research-desc">{{ theme.summary }}</p>
 <ul class="research-bullets">
 {% for b in theme.bullets %}
