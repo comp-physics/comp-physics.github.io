@@ -107,3 +107,7 @@ exclude:
   - LICENSE
   - .DS_Store
   - jekcheck.sh
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs
