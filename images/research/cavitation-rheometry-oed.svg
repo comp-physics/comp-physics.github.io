@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140">
+  <rect width="400" height="140" fill="#1c1e1f"/>
+  <circle cx="38" cy="48" r="26" fill="none" stroke="#6a8ea8" stroke-width="2"/>
+  <circle cx="92" cy="48" r="18" fill="none" stroke="#6a8ea8" stroke-width="2"/>
+  <circle cx="135" cy="48" r="11" fill="none" stroke="#6a8ea8" stroke-width="2"/>
+  <circle cx="168" cy="48" r="6" fill="none" stroke="#6a8ea8" stroke-width="2"/>
+  <circle cx="194" cy="48" r="3" fill="#c0995e"/>
+  <line x1="12" y1="94" x2="222" y2="94" stroke="#8a847e" stroke-width="1.5"/>
+  <polygon points="222,94 212,88 212,100" fill="#8a847e"/>
+  <text x="192" y="118" font-family="sans-serif" font-size="18" font-weight="700" fill="#c0995e" text-anchor="middle">t*</text>
+  <path d="M 232 55 Q 258 22 282 42" fill="none" stroke="#c0995e" stroke-width="1.8"/>
+  <polygon points="282,42 272,38 273,48" fill="#c0995e"/>
+  <line x1="286" y1="108" x2="395" y2="108" stroke="#8a847e" stroke-width="1.5"/>
+  <line x1="290" y1="108" x2="290" y2="14" stroke="#8a847e" stroke-width="1.5"/>
+  <path d="M 290 106 C 310 106 323 18 342 18 C 361 18 374 106 392 106" fill="none" stroke="#c0995e" stroke-width="2.6"/>
+  <line x1="342" y1="18" x2="342" y2="108" stroke="#c0995e" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
+  <text x="342" y="130" font-family="sans-serif" font-size="15" font-weight="700" fill="#bfb9b0" text-anchor="middle">p(G, &#956;)</text>
+</svg>

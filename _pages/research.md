@@ -5,149 +5,29 @@ sitemap: false
 permalink: /research/
 ---
 
-
 ## Research
 
+Our group builds numerical methods, computational models, and open-source software for problems in defense, energy, and medicine — optimized for the world's largest supercomputers. See <a href="{{ site.url }}{{ site.baseurl }}/papers">our papers</a> for the full picture.
 
-<style>
-img{
-  border-radius: 10px;
-}
-.col-md-3 {
-  margin-top:10px;
-  margin-bottom:10px;
-  padding:0px;
-  display:block;
-  overflow:hidden;
-  text-align:center;
-  display: table-cell;
-  background: white;
-  border-radius: 20px;
-  height: auto;
-}
-iframe {
-  margin:0;
-  padding:0;
-  width: 175px;
-  display: inline;
-  vertical-align: middle;
-}
-</style>
+<div class="research-grid">
 
-__Note:__ This page is always a bit out of date. Our research interests can be gleaned via <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank">our papers</a> and the <a href="{{ site.url }}/" target="_blank">home page</a>. 
+{% for theme in site.data.research.themes %}
+<div class="research-card">
+{% if theme.thumb %}<img src="{{ site.url }}{{ site.baseurl }}{{ theme.thumb }}" class="research-thumb" alt="{{ theme.alt | default: theme.title }}" loading="lazy">{% endif %}
+<div class="research-body">
+<h4 class="research-title">{{ theme.title }}</h4>
+<p class="research-desc">{{ theme.summary }}</p>
+<ul class="research-bullets">
+{% for b in theme.bullets %}
+<li>{{ b }}</li>
+{% endfor %}
+</ul>
+<div class="research-footer" markdown="0">
+{% if theme.papers %}<span class="research-pubs"><i class="fas fa-file-alt"></i> {% for key in theme.papers %}<a href="{{ site.url }}{{ site.baseurl }}/papers/#{{ key }}">{{ key }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
+{% if theme.links %}<div class="research-links">{% for link in theme.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="research-link"><i class="fab fa-github"></i> {{ link.text }}</a>{% endfor %}</div>{% endif %}
+</div>
+</div>
+</div>
+{% endfor %}
 
-<div class="jumbotron">
- <h4>Quantum computing for partial differential equations</h4>
-Computational fluid dynamics simulations use the lion's share of the world's HPC resources.
-These simulations are based on PDEs and are thus expensive, both in node hours and dollars.
-They are also inefficient: A staggering quantity of the marshaled computational resources are required to represent the effects of microscopically small features that accumulate to have macroscopic effects. 
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
-* Our group <a href="{{ site.url }}{{ site.baseurl }}/papers/chrit-arxiv-23.pdf" target="_blank">develops quantum algorithms</a> for the PDEs that govern fluid flows and other phenomena to gain asymptotic speedups
-* We develop quantum lattice-based algorithms like quantum lattice Boltzmann and lattice gas
-* Quantum _simulation_ is used to scale our algorithms to large HPC resources for analysis
 </div>
-<div class="col-md-3 col-sm-12" style="background-color:transparent">
-<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/respic/qlbm.png" alt="Quantum lattice Boltzmann method visualization"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>Cavitation as a gateway to better therapies</h4>
-Cavitating bubbles can ablate cancer cells, fragment tissues, and deliver drugs, among other functions.
-We create high-fidelity computational methods to simulate these dynamics.
-Examples are:
-* Euler--Euler and Euler--Lagrange <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-19.pdf" target="_blank">sub-grid bubble cloud models</a>
-* Accelerated models using a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-IJMF-20.pdf" target="_blank">statistical paradigm and neural networks</a>
-* Implementation in our open-source solver <a href="https://mflowcode.github.io/" target="_blank">MFC</a>
-
-These enable realistic simulation of the bubble populations that nucleate during treatment.
-This has impacted application-specific treatments, including:
-* Improved _burst-wave lithotripsy administration_ in human trials 
-* Understanding of <a href="{{ site.url }}{{ site.baseurl }}/papers/schmidmayer-JCP-20.pdf" target="_blank">bubble-collapse-rebound</a> dynamics
-* Cavitation-induced <a href="{{ site.url }}{{ site.baseurl }}/papers/trummler-JFM-20.pdf" target="_blank">erosion potential</a> for rough materials
-</div>
-<div class="col-md-3 col-sm-12" style="background-color:transparent;">
-  <iframe src="https://player.vimeo.com/video/455888052?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="182px" frameborder="0" allow="autoplay" title="Cavitation bubble dynamics simulation"></iframe>
-</div>
-</div>
-</div>
-
-  <!-- <iframe src="https://player.vimeo.com/video/455887852?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="142px" frameborder="0" allow="autoplay"></iframe> -->
-
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
-<h4>Learning from animals: Humpback whales</h4>
-Perspective on bubble utilization can come from a surprising source: **animals**.
-<a href="https://www.youtube.com/watch?v=Q8iDcLTD9wQ" target="_blank">Humpback whales hunt</a> using bubbly regions (called bubble nets) and loud vocalizations.
-Specifically, they
-* Release air from their blowholes while swimming, spiraling downwards
-* Surround their prey with a wall of bubbles
-* Vocalize from the exterior, trapping small fish in loud sound (~190dB!)
-* Swim up and through the interior, lunge feeding on the fish
-
-While fascinating, the acoustic mechanisms enabling this behavior are not understood.
-Our ensemble-averaged bubbly flow model simulates the relevant acoustic phenomena, <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JASA-20.pdf" target="_blank">advancing our interpretation of this behavior</a>.
-Similar outcomes are desirable for sensitive, implanted biomedical devices.
-</div>
-<div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455688521?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="192px" frameborder="0" allow="autoplay" title="Humpback whale bubble net hunting simulation"></iframe>
-</div>
-</div>
-</div>
- 
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>Therapy design via adjoint-based optimization</h4>
-Designing medical therapies requires efficient optimization algorithms. 
-Current methods fail to account for the _material interfaces_ or _shock waves_ that occur during treatments like lithotripsy and histotripsy.
-We created an adjoint-based technique for navigating these complications and computes the gradient-based information required for such <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-xpacc-18.pdf" target="_blank">optimization and sensitivity analysis</a>.
-</div>
-<div class="col-md-3 col-sm-12" style="background-color:transparent" >
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/lithotripsy.jpg" width="175px" alt="Lithotripsy therapy visualization"/>
-</div>
-</div>
-</div>
-
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>An _in silico_ microfluidics and microcirculation</h4>
-We create simulation methods for the cellular flows that occur _in vivo_ and in biomicrofluidic devices.
-These tools are composed of physical models for the cells and particles and numerical methods to solve for their motion.
-These are implemented in <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank">RBC3D</a>, our state-of-the-art flow solver that resolves <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-16.pdf" target="_blank">all particle-scale interactions</a>.
-Coupling RBC3D with <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">stability and optimization tools</a> We discovered:
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-RA-16.pdf" target="_blank">buckling mechanism</a>  mediating the flow of sickle cells.
-* The <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">chaotic behavior</a> of microcirculatory flows, and so computational methods cannot predict cell location (or motion) at long times.
-* A <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">data-driven low-order model</a> for the flow statistics.
-</div>
-<div class="col-md-3 col-sm-12">
-  <iframe src="https://player.vimeo.com/video/455887647?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" frameborder="0" allow="autoplay" title="Microfluidics and microcirculation simulation"></iframe>
-</div>
-</div>
-</div>
-
-<div class="jumbotron">
-<div class="row align-items-end">
-<div class="col-md-9 col-sm-12">
- <h4>Targeted microcapsules for drug delivery</h4>
-Capsules can deliver drug payloads via the microcirculation and pulmonary system.
-The capsules dynamics are an important design condition in this application, which are particularly sensitive to the capsule membrane itself.
-We crafted kinematic stability analyses of this coupled dynamical system, including:
-* The first <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-JFM-18.pdf" target="_blank">Floquet analysis</a> of such a system, which classifies the stability without the ambiguity of empirical perturbations or experiments
-* <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-EJM-19.pdf" target="_blank">Non-modal extensions</a> of the stability analysis, enabling the prediction of rheometric flows and characterization of the capsule's mechanical properties
-</div>
-<div class="col-md-3 col-sm-12" >
-  <iframe src="https://player.vimeo.com/video/455887720?autoplay=1&loop=1&autopause=0&muted=1&quality=240p&background=1" height="156px" frameborder="0" allow="autoplay" title="Microcapsule drug delivery simulation"></iframe>
-</div>
-</div>
-</div>
-

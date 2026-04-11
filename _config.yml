@@ -37,8 +37,8 @@ information: >
 # Pages shown in navbar
 nav_pages:
   - name: team
+  - name: research
   - name: papers
-  # - name: research
   - name: teaching
   - name: software
     display: MFC

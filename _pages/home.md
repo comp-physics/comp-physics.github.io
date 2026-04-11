@@ -21,14 +21,13 @@ We're the **Computational Physics Group at Georgia Tech**. We build numerical me
   <span class="chip">High-performance computing</span>
   <span class="chip">Scientific computing</span>
   <span class="chip">Quantum computing</span>
+  <span class="chip">Medical treatment</span>
 </div>
 
 <div class="highlight-callout">
 <span class="highlight-label">2025 Gordon Bell Prize Finalist</span>
-In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>largest CFD simulation ever</a> — 1 quadrillion DOFs across 200 trillion grid points on OLCF Frontier and LLNL El Capitan.
+In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_blank' rel='noopener noreferrer'>largest CFD simulation ever</a> — 1 quadrillion DOFs / 200T grid points on OLCF Frontier and LLNL El Capitan.
 </div>
-
-Check out [our papers]({{ site.url }}{{ site.baseurl }}/papers/) to learn more.
 
 </div>
 <div id="newsid" class="col-sm-4 col-12" >

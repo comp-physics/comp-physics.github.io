@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140">
+  <rect width="400" height="140" fill="#1c1e1f"/>
+  <g stroke="#6a8ea8" stroke-width="1.5">
+    <line x1="30" y1="70" x2="130" y2="70"/>
+    <line x1="80" y1="22" x2="80" y2="118"/>
+  </g>
+  <circle cx="30" cy="70" r="7" fill="#6a8ea8"/>
+  <circle cx="80" cy="22" r="7" fill="#6a8ea8"/>
+  <circle cx="80" cy="70" r="9" fill="#c0995e"/>
+  <circle cx="80" cy="118" r="7" fill="#6a8ea8"/>
+  <circle cx="130" cy="70" r="7" fill="#6a8ea8"/>
+  <line x1="148" y1="70" x2="188" y2="70" stroke="#c0995e" stroke-width="2"/>
+  <polygon points="188,70 178,64 178,76" fill="#c0995e"/>
+  <g stroke="#c0995e" stroke-width="0.8" opacity="0.55">
+    <line x1="205" y1="25" x2="258" y2="20"/>
+    <line x1="205" y1="25" x2="258" y2="53"/>
+    <line x1="205" y1="25" x2="258" y2="86"/>
+    <line x1="205" y1="25" x2="258" y2="119"/>
+    <line x1="205" y1="70" x2="258" y2="20"/>
+    <line x1="205" y1="70" x2="258" y2="53"/>
+    <line x1="205" y1="70" x2="258" y2="86"/>
+    <line x1="205" y1="70" x2="258" y2="119"/>
+    <line x1="205" y1="115" x2="258" y2="20"/>
+    <line x1="205" y1="115" x2="258" y2="53"/>
+    <line x1="205" y1="115" x2="258" y2="86"/>
+    <line x1="205" y1="115" x2="258" y2="119"/>
+    <line x1="258" y1="20" x2="315" y2="48"/>
+    <line x1="258" y1="20" x2="315" y2="92"/>
+    <line x1="258" y1="53" x2="315" y2="48"/>
+    <line x1="258" y1="53" x2="315" y2="92"/>
+    <line x1="258" y1="86" x2="315" y2="48"/>
+    <line x1="258" y1="86" x2="315" y2="92"/>
+    <line x1="258" y1="119" x2="315" y2="48"/>
+    <line x1="258" y1="119" x2="315" y2="92"/>
+  </g>
+  <circle cx="205" cy="25" r="7" fill="#6a8ea8"/>
+  <circle cx="205" cy="70" r="7" fill="#6a8ea8"/>
+  <circle cx="205" cy="115" r="7" fill="#6a8ea8"/>
+  <circle cx="258" cy="20" r="7" fill="#c0995e"/>
+  <circle cx="258" cy="53" r="7" fill="#c0995e"/>
+  <circle cx="258" cy="86" r="7" fill="#c0995e"/>
+  <circle cx="258" cy="119" r="7" fill="#c0995e"/>
+  <circle cx="315" cy="48" r="7" fill="#6a8ea8"/>
+  <circle cx="315" cy="92" r="7" fill="#6a8ea8"/>
+  <line x1="332" y1="70" x2="372" y2="70" stroke="#c0995e" stroke-width="2"/>
+  <polygon points="372,70 362,64 362,76" fill="#c0995e"/>
+</svg>

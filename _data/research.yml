@@ -1,78 +1,92 @@
 themes:
   - slug: exascale-cfd
     title: "Exascale many-physics CFD"
+    thumb: "/images/research/exascale-cfd.svg"
+    alt: "Flow with bow shock, body, and vortex shedding on a structured mesh"
     summary: "Portable, GPU-accelerated, many-physics flow simulation at leadership scale; code design that keeps performance and maintainability in balance."
     bullets:
+      - "<b>2025 ACM Gordon Bell Prize finalist</b> with MFC — 1 quadrillion DOFs on OLCF Frontier & LLNL El Capitan"
       - "Information-geometric regularization for shock handling at scale"
       - "XPU offload + metaprogramming, CI, and robust I/O"
-      - "Frontier/Alps full-system weak/strong scaling"
-    # Replace keys below with your exact bib keys if they differ
-    rep_keys: ["wilfong252", "wilfong253", "radhakrishnan24"]
+      - "Frontier/El Capitan/Alps full-system weak/strong scaling"
+    papers: [Wilfong25, Wilfong26, Radhakrishnan26, Radhakrishnan24, Bryngelson21]
     links:
-      - {text: "Software: MFC", url: "https://github.com/mflowcode"}
+      - {text: "MFC", url: "https://github.com/mflowcode"}
+      - {text: "pyrometheus", url: "https://github.com/pyrometheus/pyrometheus"}
+      - {text: "figr", url: "https://github.com/sbryngelson/figr"}
 
   - slug: quantum-pdes
-    title: "Quantum algorithms & readout for PDE-ish workloads"
+    title: "Quantum algorithms & readout for PDE workloads"
+    thumb: "/images/research/quantum-pdes.svg"
+    alt: "Quantum circuit with Hadamard, CNOT, rotation, and measurement gates"
     summary: "Quantum tomography and lattice/linear-system building blocks targeted at physics workloads; reduce measurement settings and identify practical speedups."
     bullets:
       - "Real-valued state tomography with O(n) settings"
       - "Mesoscale/linear-system primitives for fluids"
       - "Benchmarks on current hardware + simulators"
-    rep_keys: ["song252"]
+    papers: [Song25, Song25b, Lee25, Jawetz25, Kocherla24]
+    links:
+      - {text: "Quantum-HRF-Tomography", url: "https://github.com/comp-physics/Quantum-HRF-Tomography"}
+      - {text: "Quantum_Heat_LBM", url: "https://github.com/comp-physics/Quantum_Heat_LBM"}
+      - {text: "QLBM-frugal", url: "https://github.com/comp-physics/QLBM-frugal"}
+      - {text: "NISQ-Quantum-CFD", url: "https://github.com/comp-physics/NISQ-Quantum-CFD"}
+      - {text: "fully-QLBM", url: "https://github.com/comp-physics/fully-QLBM"}
 
   - slug: learning-infused-numerics
-    title: "Learning-infused numerics & fast inference"
-    summary: "Tiny, physics-aware networks where they cut FLOPs/error: smoothness indicators, quadrature, and zero-overhead, in-solver inference."
+    title: "Learning-infused numerics & operator inference"
+    thumb: "/images/research/learning-infused-numerics.svg"
+    alt: "Finite-difference stencil feeding a small neural network that outputs a closure"
+    summary: "Physics-aware networks and data-driven operator recovery for smoothness indicators, quadrature, in-solver inference, and turbulence closures."
     bullets:
       - "roseNNa: portable ONNX inference in C/Fortran solvers"
-      - "FLOP-efficient neural quadrature (oscillatory integrals)"
       - "Rational-WENO: NN-based, physically consistent WENO3"
-    rep_keys: ["bati24", "sinha24neural", "shahane24"]
+      - "Fast Macroscopic Forcing Method for closures"
+    papers: [Bati24, Sinha24, Shahane24, Bryngelson24, Zeng23, Liu24]
     links:
-      - {text: "Software: roseNNa", url: "https://github.com/comp-physics/roseNNa"}
+      - {text: "roseNNa", url: "https://github.com/comp-physics/roseNNa"}
+      - {text: "fast-mfm", url: "https://github.com/comp-physics/fast-mfm"}
+      - {text: "CPINN", url: "https://github.com/comp-physics/CPINN"}
 
-  - slug: operator-inference
-    title: "Fast operator inference & turbulence closures"
-    summary: "Recover coarse-grained operators (transport, eddy viscosity) orders-of-magnitude faster, with accuracy tied to physics not grid size."
+  - slug: multiphase-bubbly-reacting
+    title: "Multiphase and reacting flows"
+    thumb: "/images/research/multiphase-bubbly-reacting.svg"
+    alt: "Polydisperse bubbles over a liquid interface alongside a flame and reacting species"
+    summary: "High-fidelity models and numerics for compressible multiphase, cavitating bubbly, and reacting flows — from sub-grid closures to resolved interface methods."
     bullets:
-      - "Fast Macroscopic Forcing Method (polylog work per MV)"
-      - "Adjoint-aware estimation of nonlocal closures"
-      - "Bridges DNS ↔ RANS with actionable operators"
-    rep_keys: ["bryngelsonfmfm24"]
+      - "Seven-equation diffused-interface methods for resolved multiphase"
+      - "Quadrature-based moment methods for polydisperse bubble populations"
+      - "Symbolic, differentiable combustion kinetics on XPUs"
+    papers: [Vaca26, Cisneros25, Bryngelson25, Bryngelson23, Bryngelson21, Panchal23, Charalampopoulos21, Bryngelson20]
+    links:
+      - {text: "MFC", url: "https://github.com/mflowcode"}
+      - {text: "pyrometheus", url: "https://github.com/pyrometheus/pyrometheus"}
+      - {text: "QBMMlib", url: "https://github.com/comp-physics/PyQBMMlib"}
 
-  - slug: cavitation-rheometry
-    title: "Cavitation acoustics & soft-matter rheometry"
-    summary: "Near-real-time material characterization via collapse-time estimators; cuts reliance on Mfps videography and long fits."
+  - slug: cavitation-rheometry-oed
+    title: "Rheometry by Bayesian Design"
+    thumb: "/images/research/cavitation-rheometry-oed.svg"
+    alt: "Bubble collapse sequence feeding a posterior distribution over soft-tissue parameters"
+    summary: "Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design for LIC setups."
     bullets:
       - "Collapse-time IMR estimator for viscoelasticity"
-      - "Surrogates to accelerate design loops"
+      - "Local-RBF surrogates for affordable Bayesian EIG"
       - "Therapy-relevant parameter recovery"
-    rep_keys: ["zhu25"]
+    papers: [Zhu25, Sanchez26, Spratt21, Chu25b, Chu25c]
+    links:
+      - {text: "IMR", url: "https://github.com/InertialMicrocavitationRheometry"}
+      - {text: "IMR_Bayesian_design", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_design"}
+      - {text: "IMR_Bayesian_inference", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_inference"}
+      - {text: "IMR_RBF_BOED", url: "https://github.com/InertialMicrocavitationRheometry/IMR_RBF_BOED"}
 
   - slug: instabilities-interfaces
-    title: "Instabilities at vibrated, stratified interfaces"
-    summary: "RT vs. Faraday competition → multi-modal regimes, transitions, and breakup maps under vibration."
+    title: "Multi-fluid interface instability"
+    thumb: "/images/research/instabilities-interfaces.svg"
+    alt: "Stratified two-fluid interface with a wavy deformation between vibration arrows"
+    summary: "Competition between Rayleigh–Taylor and Faraday mechanisms at density-stratified interfaces produces multi-modal regimes, sharp transitions, and breakup maps under vibration — with implications for mixing, atomization, and near-surface gas transport."
     bullets:
-      - "Floquet/modal analysis of regime transitions"
-      - "DNS through nonlinear breakup"
-      - "Mixing control in layered flows"
-    rep_keys: ["tchu253"]
-
-  - slug: optimal-experimental-design
-    title: "Optimal experimental design for soft materials"
-    summary: "Local-RBF surrogates make Bayesian EIG affordable, enabling BOED for LIC setups with orders-of-magnitude fewer solves."
-    bullets:
-      - "Local RBFs for high-order EIG"
-      - "~8% of full computational cost in demos"
-      - "Single- & multi-model scenarios"
-    rep_keys: ["tchu252"]
-
-  # Optional extra card; keep or remove
-  # - slug: symbolic-thermochemistry
-  #   title: "Symbolic thermochemistry on XPUs"
-  #   summary: "Symbolic abstractions for auto-diff and accelerator-ready combustion kinetics; codegen to Python/C++/Fortran with roofline-level performance."
-  #   bullets:
-  #     - "Array-semantics separation + AD"
-  #     - "Multi-language code generation"
-  #     - "Coupling with MFC for performant source terms"
-  #   rep_keys: ["cisneros25"]
+      - "Floquet/modal analysis of regime transitions and onset"
+      - "Direct numerical simulation through nonlinear breakup"
+      - "Mixing control in layered and multi-species flows"
+    papers: [Chu25a]
+    links:
+      - {text: "MFC", url: "https://github.com/mflowcode"}
