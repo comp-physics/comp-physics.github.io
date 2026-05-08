@@ -53,7 +53,6 @@ doi = {10.1039/D5SM01193K},
 abstract = {The high-fidelity characterization of soft, tissue-like materials under ultra-high-strain-rate conditions is critical in engineering and medicine. Still, it remains challenging due to limited optical access, sensitivity to initial conditions, and experimental variability. Microcavitation techniques (e.g., laser-induced microcavitation) have emerged as a viable method for determining the mechanical properties of soft materials in the ultra-high-strain-rate regime (higher than 10^3 1/s); however, they are limited by measurement noise and uncertainty in parameter estimation. A hierarchical Bayesian model selection method is employed using the Inertial Microcavitation Rheometry (IMR) technique to address these limitations. With this method, the parameter space of different constitutive models is explored to determine the most credible constitutive model that describes laser-induced microcavitation bubble oscillations in soft, viscoelastic, transparent hydrogels. The target data/evidence is computed using a weighted Gaussian likelihood with a hierarchical noise scale, which enables the quantification of uncertainty in model plausibility. Physically informed priors, including range-invariant, stress-based parameter priors, a model-redundancy prior, and a Bayesian Information Criterion motivated model prior, penalize complex models to enforce Occam's razor. Using a precomputed grid of simulations, the probabilistic model selection process enables an initial guess for the Maximum A Posteriori (MAP) material parameter values. Synthetic tests recover the ground-truth models and expected parameters. Using experimental data for gelatin, fibrin, polyacrylamide, and agarose, MAP simulations of credible models reproduce the data. Moreover, a cross-institutional comparison of 10% gelatin indicates consistent constitutive model selection.},
 }
 
-
 @unpublished{yu25,
 Author = {H. Yu and K. Ahuja and L. L. Sankar and S. H. Bryngelson},
 Title = {Transmission of High-Amplitude Sound through Leakages of Ill-fitting Earplugs},
@@ -76,17 +75,6 @@ doi = {10.48550/arXiv.2509.21630},
 abstract = {Heat transfer involving phase change is computationally intensive due to moving phase boundaries, nonlinear computations, and time step restrictions. This paper presents a quantum lattice Boltzmann method (QLBM) for simulating heat transfer with phase change. The approach leverages the statistical nature of the lattice Boltzmann method (LBM) while addressing the challenges of nonlinear phase transitions in quantum computing. The method implements an interface-tracking strategy that partitions the problem into separate solid and liquid domains, enabling the algorithm to handle the discontinuity in the enthalpy-temperature relationship. We store phase change information in the quantum circuit to avoid frequent information exchange between classical and quantum hardware, a bottleneck in many quantum applications. Results from the implementation agree with both classical LBM and analytical solutions, demonstrating QLBM as an effective approach for analyzing thermal systems with phase transitions. Simulations using 17 lattice nodes with 51 qubits demonstrate root-mean-square (RMS) errors below 0.005 when compared against classical solutions. The method accurately tracks interface movement during phase transition.},
 }
 
-@article{Chu25b,
-Author = {T. Chu and J. B Estrada and S H. Bryngelson},
-Title = {Accelerating {B}ayesian optimal experimental design via local radial basis functions: {A}pplication to soft material characterization},
-file = {chu-jcp-26.pdf},
-year = {2026},
-journal = {Journal of Computational Physics},
-doi = {10.1016/j.jcp.2026.115002},
-pages = {115002},
-abstract = {We develop a computational approach that significantly improves the efficiency of Bayesian optimal experimental design (BOED) using local radial basis functions (RBFs). The presented RBF-BOED method uses the intrinsic ability of RBFs to handle scattered parameter points, a property that aligns naturally with the probabilistic sampling inherent in Bayesian methods. By constructing accurate deterministic surrogates from local neighborhood information, the method enables high-order approximations with reduced computational overhead. As a result, computing the expected information gain (EIG) requires evaluating only a small uniformly sampled subset of prior parameter values, greatly reducing the number of expensive forward-model simulations needed. For demonstration, we apply RBF-BOED to optimize a laser-induced cavitation (LIC) experimental setup, where forward simulations follow from inertial microcavitation rheometry (IMR) and characterize the viscoelastic properties of hydrogels. Two experimental design scenarios, single- and multi-constitutive-model problems, are explored. Results show that EIG estimates can be obtained at just 8% of the full computational cost in a five-model problem within a two-dimensional design space. This advance offers a scalable path toward optimal experimental design in soft and biological materials.},
-}
-
 @unpublished{Song25,
 Author = {Zhixin Song and Hang Ren and Melody Lee and Bryan Gard and Nicolas Renaud and Spencer H. Bryngelson},
 Title = {Hadamard {R}andom {F}orest: {R}econstructing real-valued quantum states with exponential reduction in measurement settings
@@ -97,6 +85,18 @@ arxiv = {arXiv.2505.06455},
 year = {2025},
 doi = {10.48550/arXiv.2505.06455},
 abstract = {Quantum tomography is a crucial tool for characterizing quantum states and devices and estimating nonlinear properties of the systems. Performing full quantum state tomography (FQST) on an n qubit system requires an exponentially increasing overhead with O(3^n) distinct Pauli measurement settings to resolve all complex phases and reconstruct the density matrix. However, many appealing applications of quantum computing, such as quantum linear system algorithms, require only real-valued amplitudes. Here we introduce a novel readout method for real-valued quantum states that reduces measurement settings required for state vector reconstruction to O(n), while the post-processing cost remains exponential. This approach offers a substantial speedup over conventional tomography. We experimentally validate our method up to 10 qubits on the latest available IBM quantum processor and demonstrate that it accurately extracts key properties such as entanglement and magic. Our method also outperforms the standard SWAP test for state overlap estimation. This calculation resembles a numerical integration in certain cases and can be applied to extract nonlinear properties, which are important in application fields.},
+}
+
+@article{Chu25b,
+Author = {T. Chu and J. B Estrada and S H. Bryngelson},
+Title = {Accelerating {B}ayesian optimal experimental design via local radial basis functions: {A}pplication to soft material characterization},
+file = {chu-jcp-26.pdf},
+year = {2026},
+journal = {Journal of Computational Physics},
+doi = {10.1016/j.jcp.2026.115002},
+pages = {115002},
+volume = {562},
+abstract = {We develop a computational approach that significantly improves the efficiency of Bayesian optimal experimental design (BOED) using local radial basis functions (RBFs). The presented RBF-BOED method uses the intrinsic ability of RBFs to handle scattered parameter points, a property that aligns naturally with the probabilistic sampling inherent in Bayesian methods. By constructing accurate deterministic surrogates from local neighborhood information, the method enables high-order approximations with reduced computational overhead. As a result, computing the expected information gain (EIG) requires evaluating only a small uniformly sampled subset of prior parameter values, greatly reducing the number of expensive forward-model simulations needed. For demonstration, we apply RBF-BOED to optimize a laser-induced cavitation (LIC) experimental setup, where forward simulations follow from inertial microcavitation rheometry (IMR) and characterize the viscoelastic properties of hydrogels. Two experimental design scenarios, single- and multi-constitutive-model problems, are explored. Results show that EIG estimates can be obtained at just 8% of the full computational cost in a five-model problem within a two-dimensional design space. This advance offers a scalable path toward optimal experimental design in soft and biological materials.},
 }
 
 @article{Wilfong26,
