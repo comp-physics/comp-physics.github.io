@@ -5,5 +5,4 @@ layout: none
 User-agent: *
 Allow: /
 
-User-agent: *
-Sitemap: https://mflowcode.github.io/sitemap.xml
+Sitemap: https://comp-physics.group/sitemap.xml

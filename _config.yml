@@ -8,7 +8,6 @@ url: ""
 exturl: "https://comp-physics.group"
 
 # Google analytics ID: Remove or use your own!
-google_analytics: UA-167467135-1
 google_analytics_4: G-BKG8WP924R
 google_tag_manager: GTM-5KBZDTG
 
@@ -20,7 +19,7 @@ about: >
 
 coordinates: >
   <br/>
-  <img src='/images/logopic/logo3.png' width=90% title='This logo was designed by Sydney Bryngelson!'>
+  <img src='/images/logopic/logo3.png' width=90% alt='Computational Physics Group at Georgia Tech logo' title='This logo was designed by Sydney Bryngelson!'>
 
 # coordinates: >
 #   CODA<br/>

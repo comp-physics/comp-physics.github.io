@@ -73,17 +73,13 @@ ol li{
 {% if entry.abstract %}
 <button class="btn btn-info bib-btn" style="opacity:0.7;" onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
+
+<button class="btn btn-info bib-btn" style="opacity:0.7;" onclick="copyBibtex(this, 'a{{entry.key}}')">Copy BibTeX</button>
 </div>
 
-{% if entry.abstract %}
 <div id="a{{entry.key}}" class="bib-panel" style="display:none;">
-<pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
+<pre>{{ entry.bibtex | strip_bibtex_fields: "file,keywords" }}</pre>
 </div>
-{% else %}
-<div id="a{{entry.key}}" class="bib-panel" style="display:none;">
-<pre>{{ entry.bibtex }}</pre>
-</div>
-{% endif %}
 
 <div id="b{{entry.key}}" class="bib-panel" style="display:none;">
 <pre>{{entry.abstract}}</pre>

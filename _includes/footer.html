@@ -27,7 +27,6 @@
   <i class="fas fa-chevron-up"></i>
 </button>
 
-<script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 <script>
 // ── Scroll-to-top ──────────────────────────────────────────────────────────
@@ -67,6 +66,30 @@ document.querySelectorAll('h2.bibliography').forEach(function(h2) {
     observer.observe(el);
   });
 })();
+
+// ── Copy a publication's BibTeX from its panel ─────────────────────────────
+function copyBibtex(btn, panelId) {
+  var panel = document.getElementById(panelId);
+  if (!panel) return;
+  var text = panel.innerText.trim();
+  var feedback = function() {
+    var orig = btn.innerHTML;
+    btn.innerHTML = 'Copied!';
+    setTimeout(function() { btn.innerHTML = orig; }, 1500);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(feedback, function() { legacyCopy(text); feedback(); });
+  } else {
+    legacyCopy(text); feedback();
+  }
+}
+function legacyCopy(text) {
+  var ta = document.createElement('textarea');
+  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); } catch (e) {}
+  document.body.removeChild(ta);
+}
 
 function copyToClipboard(version) {
   const bibtex = {

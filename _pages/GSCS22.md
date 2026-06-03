@@ -17,11 +17,11 @@ The format of the day-long symposium is a set of invited presentations, lighteni
 ### Event Images!
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/group-picture.jpg" width="100%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/group-picture.jpg" width="100%" alt="2022 Georgia Scientific Computing Symposium group photo"/>
 </center>
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/lightning-talks.jpg" width="100%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/lightning-talks.jpg" width="100%" alt="Lightning talks session at the 2022 Georgia Scientific Computing Symposium"/>
 </center>
 
 
@@ -37,7 +37,7 @@ After parking, the west parking elevators and stairwells can be used (the centra
 A map showing the parking deck entrance and walking path to GSCS is below.
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/map.png" width="80%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/map.png" width="80%" alt="Map showing the parking deck entrance and walking path to the symposium venue"/>
 </center>
 
 ### Organizers
@@ -51,13 +51,13 @@ Contact one of the organizers for more information as needed:
 
 ### Invited Speakers 
 
-| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpeg" width="100"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)  &nbsp;	&nbsp;	&nbsp;<br/> Georgia Tech 		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Tech |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/spencer.jpeg" width="100" alt="Photo of Spencer Bryngelson"/> &nbsp; |  [Spencer Bryngelson](https://comp-physics.group)  &nbsp;	&nbsp;	&nbsp;<br/> Georgia Tech 		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/hannah-choi.jpeg" width="100" alt="Photo of Hannah Choi"/>  &nbsp; | [Hannah Choi](https://hannahchoi.math.gatech.edu/) <br/> Georgia Tech |
 | | | |
-| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/wei-hu.jpeg" width="100" alt="Photo of Weiwei Hu"/>  | [Weiwei Hu](https://math.okstate.edu/people/wh/)<br/> University of Georgia										| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/yi-jiang.jpeg" width="100" alt="Photo of Yi Jiang"/> | [Yi Jiang](https://mathstat.gsu.edu/profile/yi-jiang/)<br/> Georgia State University  |
 | | | |
-| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/barry-peyton.jpg" width="100"/>			| [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton)<br/> Dalton State College		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/andrey-shilnikov.jpeg" width="100"/> | [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/)<br/> Georgia State University  |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/barry-peyton.jpg" width="100" alt="Photo of Barry Peyton"/>			| [Barry Peyton](https://www.researchgate.net/profile/Barry-Peyton)<br/> Dalton State College		| | <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/andrey-shilnikov.jpeg" width="100" alt="Photo of Andrey Shilnikov"/> | [Andrey Shilnikov](https://labs.ni.gsu.edu/ashilnikov/)<br/> Georgia State University  |
 | | | |
-| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/alessando-veneziani.jpeg" width="100"/> | [Alessandro Veneziani](http://www.mathcs.emory.edu/~ale/)<br/> Emory University		| |
+| <img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/alessando-veneziani.jpeg" width="100" alt="Photo of Alessandro Veneziani"/> | [Alessandro Veneziani](http://www.mathcs.emory.edu/~ale/)<br/> Emory University		| |
 | | | |
 
 ### Program 
@@ -85,7 +85,7 @@ Contact one of the organizers for more information as needed:
 ### Lightening Talk Schedule
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/schedule.png" width="100%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/gscs22/schedule.png" width="100%" alt="Schedule for the 2022 Georgia Scientific Computing Symposium"/>
 </center>
 
 
