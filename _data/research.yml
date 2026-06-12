@@ -72,7 +72,7 @@ themes:
       - "Collapse-time IMR estimator for viscoelasticity"
       - "Local-RBF surrogates for affordable Bayesian EIG"
       - "Therapy-relevant parameter recovery"
-    papers: [Zhu25, Sanchez26, Spratt21, Chu25b, Chu25c]
+    papers: [Chu26, Zhu25, Sanchez26, Spratt21, Chu25b, Chu25c]
     links:
       - {text: "IMR", url: "https://github.com/InertialMicrocavitationRheometry"}
       - {text: "IMR_Bayesian_design", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_design"}
