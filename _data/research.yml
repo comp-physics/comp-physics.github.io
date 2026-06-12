@@ -78,6 +78,7 @@ themes:
       - {text: "IMR_Bayesian_design", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_design"}
       - {text: "IMR_Bayesian_inference", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_inference"}
       - {text: "IMR_RBF_BOED", url: "https://github.com/InertialMicrocavitationRheometry/IMR_RBF_BOED"}
+      - {text: "Sliding_DA", url: "https://github.com/InertialMicrocavitationRheometry/Sliding_DA"}
 
   - slug: instabilities-interfaces
     title: "Multi-fluid interface instability"
