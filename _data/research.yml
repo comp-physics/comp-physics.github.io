@@ -92,3 +92,18 @@ themes:
     papers: [Chu25a]
     links:
       - {text: "MFC", url: "https://github.com/mflowcode"}
+
+  - slug: apple-neural-engine
+    title: "Reverse-engineering the Apple Neural Engine"
+    thumb: "/images/research/apple-neural-engine.svg"
+    alt: "Systolic-array chip beside a roofline performance curve"
+    summary: "Apple's neural accelerator is reachable in production only through CoreML, which can silently skip it. We reverse-engineer the engine from direct measurement and analysis of its runtime, compiler, driver, and firmware, and build tools that run on it directly."
+    bullets:
+      - "Datapath, roofline, and the dispatch route beneath CoreML"
+      - "Compiler, program format, weight compression, driver, and firmware"
+      - "ANEForge: a Python package that runs arbitrary computation on the ANE"
+      - "Measured across Apple chips from A11 to A18 and M1 to M5"
+    papers: [Bryngelson26, Bryngelson26b]
+    links:
+      - {text: "aneforge.com", url: "https://aneforge.com"}
+      - {text: "ANEForge", url: "https://github.com/sbryngelson/ANEForge"}

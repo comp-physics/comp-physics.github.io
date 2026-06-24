@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140">
+  <rect width="400" height="140" fill="#1c1e1f"/>
+  <!-- systolic-array chip, left -->
+  <rect x="30" y="32" width="78" height="78" rx="6" fill="none" stroke="#6a8ea8" stroke-width="2"/>
+  <rect x="41" y="43" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="57" y="43" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="73" y="43" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="89" y="43" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="41" y="59" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="57" y="59" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="73" y="59" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="89" y="59" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="41" y="75" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="57" y="75" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="73" y="75" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="89" y="75" width="11" height="11" rx="2" fill="#c0995e"/>
+  <rect x="41" y="91" width="11" height="11" rx="2" fill="#6a8ea8"/>
+  <rect x="57" y="91" width="11" height="11" rx="2" fill="#6a8ea8"/>
+  <rect x="73" y="91" width="11" height="11" rx="2" fill="#6a8ea8"/>
+  <rect x="89" y="91" width="11" height="11" rx="2" fill="#6a8ea8"/>
+  <!-- chip pins -->
+  <line x1="24" y1="50" x2="30" y2="50" stroke="#6a8ea8" stroke-width="2"/>
+  <line x1="24" y1="71" x2="30" y2="71" stroke="#6a8ea8" stroke-width="2"/>
+  <line x1="24" y1="92" x2="30" y2="92" stroke="#6a8ea8" stroke-width="2"/>
+  <line x1="108" y1="50" x2="114" y2="50" stroke="#6a8ea8" stroke-width="2"/>
+  <line x1="108" y1="71" x2="114" y2="71" stroke="#6a8ea8" stroke-width="2"/>
+  <line x1="108" y1="92" x2="114" y2="92" stroke="#6a8ea8" stroke-width="2"/>
+  <!-- roofline plot, right -->
+  <line x1="178" y1="112" x2="376" y2="112" stroke="#bfb9b0" stroke-width="1.5"/>
+  <line x1="178" y1="112" x2="178" y2="26" stroke="#bfb9b0" stroke-width="1.5"/>
+  <line x1="262" y1="48" x2="262" y2="112" stroke="#6a8ea8" stroke-width="1" stroke-dasharray="3 3"/>
+  <polyline points="186,104 262,48 374,48" fill="none" stroke="#c0995e" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="262" cy="48" r="4.5" fill="#c0995e"/>
+  <text x="296" y="42" font-family="sans-serif" font-size="15" font-weight="700" fill="#bfb9b0">ANE</text>
+</svg>

@@ -9,6 +9,17 @@ year = {2026},
 abstract = {The Apple Neural Engine (ANE) is the fixed-function matrix accelerator that has shipped in Apple systems-on-chip since the A11-class iPhone and iPad chips and the M1-class Mac chips, exposed to applications only through the Core ML model framework. This guide reports a reverse-engineered account of the engine, based on direct measurement on Apple silicon and static analysis of the private runtime, compiler, kernel driver, and firmware. It documents the datapath and the roofline that bound the engine's throughput and energy, the dispatch route that reaches it below Core ML, the compiler and on-disk program format, the weight-compression scheme, and the kernel driver, firmware, and command protocol beneath them. The account covers the A11 through A18 and M1 through M5 families, with per-chip target tables and an operation-by-device matrix; the direct measurements are on the M1 and M5. Claims are labeled as measured, decompile-derived, or predicted, and the methodology and open questions are recorded. The direct route is callable from ordinary user space but remains undocumented, unsupported, and version-fragile; it is intended for measurement, research, and on-device work, not for shipping software, where Core ML remains the supported path.},
 }
 
+@unpublished{Bryngelson26b,
+Author = {S. H. Bryngelson},
+Title = {{ANEForge}: {P}ython for direct computation on the {A}pple {N}eural {E}ngine},
+note = {arXiv:2606.17090},
+file = {bryngelson-aneforge-26.pdf},
+arxiv = {arXiv.2606.17090},
+year = {2026},
+doi = {10.48550/arXiv.2606.17090},
+abstract = {ANEForge is a Python package that programs the Apple Neural Engine (ANE), the fixed-function neural accelerator on every recent Apple device, directly and without CoreML. In production the engine is reachable only through CoreML, which treats it as a scheduling option: no configuration requires the ANE, and a model can silently run on the CPU or GPU instead. ANEForge compiles a lazy tensor graph, built from 58 fused operators and 19 native bridge operators, into a single ANE program. The program is dispatched through the same ANE daemon and kernel-driver stack as Apple's internal framework. Beyond inference, the package reaches the engine's native fused attention, streams int8, int4, and sparse weights, keeps decoder and optimizer state resident across steps, and runs the forward pass, backward pass, and optimizer update of training on the engine. A small fused program completes a call in about 90us, near the engine's 70us per-program dispatch floor, and a pretrained ResNet-18 forward runs end-to-end in 0.33ms. ResNet-18, a sentence encoder, and a Vision Transformer run end-to-end against framework references, and a Stable Diffusion U-Net validates its forward pass. ANEForge targets Apple Silicon under macOS 14 and later. Each release is verified against a recorded macOS and ANE-compiler version.},
+}
+
 @unpublished{Chu26,
 Author = {T. Chu and J. Beckett and Z. Zhu and J. B. Estrada and S. H. Bryngelson},
 Title = {Limits of constant-parameter constitutive models for hydrogels under inertial cavitation},

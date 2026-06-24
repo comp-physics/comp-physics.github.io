@@ -1,3 +1,6 @@
+- date: June 23, 2026
+  headline: "Spencer launched <a href='https://aneforge.com' target='_blank' rel='noopener noreferrer'>ANEForge</a>, a project to program the Apple Neural Engine without CoreML. It includes a <a href='https://arxiv.org/abs/2606.22283' target='_blank' rel='noopener noreferrer'>reverse-engineered guide</a> to the engine's datapath, compiler, program format, weight compression, kernel driver, and firmware, along with an <a href='https://arxiv.org/abs/2606.17090' target='_blank' rel='noopener noreferrer'>open Python package and paper</a> that run inference and training on the engine directly. Code is <a href='https://github.com/sbryngelson/ANEForge' target='_blank' rel='noopener noreferrer'>on GitHub</a>."
+
 - date: June 22, 2026
   headline: "We are at <a href='https://www.usnctam26.org/' target='_blank' rel='noopener noreferrer'>USNC-TAM 2026</a> in Pasadena, CA, where Spencer is co-organizing two mini-symposia on cavitation and bubble dynamics and on shock-laden flows. Group talks: extreme-scale spacecraft simulation (Anand Radhakrishnan, Ben Wilfong) and constitutive evolution in laser-induced cavitation (Dr. Tianyi Chu)."
 
