@@ -1,3 +1,6 @@
+- date: July 24, 2026
+  headline: "Spencer is speaking at the next <a href='https://www.olcf.ornl.gov/' target='_blank' rel='noopener noreferrer'>OLCF User Conference Call</a> on CFD at one quadrillion degrees of freedom, using unified memory and mixed-precision numerics to simulate compressible flow at 200 trillion grid points on OLCF Frontier."
+
 - date: July 2, 2026
   headline: "Our <a href='https://doi.org/10.1038/s42005-026-02717-1' target='_blank' rel='noopener noreferrer'>paper</a> on Hadamard random forests, which reconstruct real-valued quantum states with exponentially fewer measurement settings, is published in <i>Communications Physics</i> (Nature Portfolio). Congrats to group alum Dr. Zhixin (Jack) Song (now at QuEra) and undergraduate Melody Lee, with collaborators Hang Ren (Berkeley), Bryan Gard (GTRI), and Nicolas Renaud (Netherlands eScience Center)."
 

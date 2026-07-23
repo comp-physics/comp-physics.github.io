@@ -8,6 +8,7 @@ REPOS = {
     "cpg": "comp-physics",
     "mfc": "mflowcode",
     "imr": "InertialMicrocavitationRheometry",
+    "sbry": "sbryngelson",
 }
 
 IGNORE_NAMES = {
@@ -16,6 +17,8 @@ IGNORE_NAMES = {
     "MFlowCode.github.io",
     "benchmark",
     "stats",
+    "sbryngelson",
+    "dotfiles",
 }
 
 FIELDNAMES = ["name", "description", "url"]
@@ -42,7 +45,11 @@ def escape_latex(value):
 def write_csv_atomic(path: Path, rows, fieldnames):
     tmp_path = path.with_suffix(path.suffix + ".tmp")
     with tmp_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        # Semicolon-delimited: csvsimple does not respect quoted separators, so
+        # a comma delimiter silently drops any repo whose description contains a
+        # comma. GitHub descriptions never contain a semicolon, and TeX reads it
+        # literally (unlike a tab, which it collapses to whitespace).
+        writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=";")
         writer.writeheader()
         for row in rows:
             writer.writerow(row)
