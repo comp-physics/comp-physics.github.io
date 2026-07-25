@@ -1,3 +1,12 @@
+- date: July 25, 2026
+  headline: "Group Ph.D. students Anand Radhakrishnan and Benjamin Wilfong's <a href='https://doi.org/10.1016/j.cma.2026.119216' target='_blank' rel='noopener noreferrer'>paper</a> on shocks without shock capturing is published in <i>CMAME</i>, with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Prof. Florian Schäfer</a> (NYU)."
+
+- date: July 25, 2026
+  headline: "Group alum Dr. Haocheng Yu's <a href='https://arxiv.org/abs/2510.16355' target='_blank' rel='noopener noreferrer'>paper</a> on sound leakage through ill-fitting earplugs is in press at the <i>International Journal of Aeroacoustics</i>."
+
+- date: July 25, 2026
+  headline: "Group alum Dr. Haocheng Yu and group postdoc Dr. Tianyi Chu's <a href='https://arxiv.org/abs/2512.19507' target='_blank' rel='noopener noreferrer'>paper</a> on energy dissipation in an acoustically-driven slit is in press at the <i>Journal of Fluid Mechanics</i>."
+
 - date: July 24, 2026
   headline: "Spencer is speaking at the next <a href='https://www.olcf.ornl.gov/' target='_blank' rel='noopener noreferrer'>OLCF User Conference Call</a> on CFD at one quadrillion degrees of freedom, using unified memory and mixed-precision numerics to simulate compressible flow at 200 trillion grid points on OLCF Frontier."
 
@@ -47,7 +56,7 @@
   headline: "Group Ph.D. student Zhixin (Jack) Song successfully defends his Ph.D. dissertation, <i>Solving Differential Equations on Quantum Computers</i>. Congratulations, Dr. Song! He will be joining <a href='https://www.quera.com/' target='_blank' rel='noopener noreferrer'>QuEra</a>."
 
 - date: April 8, 2026
-  headline: "New <a href='https://arxiv.org/abs/2604.06546' target='_blank' rel='noopener noreferrer'>preprint</a> on <i>shocks without shock capturing</i>, an IGR-based approach to compressible flows. Work by group Ph.D. students Anand Radhakrishnan and Benjamin Wilfong, in collaboration with <a href='https://f-t-s.github.io/' target='_blank'>Florian Schäfer</a> (Courant Institute)."
+  headline: "New <a href='https://arxiv.org/abs/2604.06546' target='_blank' rel='noopener noreferrer'>preprint</a> on <i>shocks without shock capturing</i>, an IGR-based approach to compressible flows. Work by group Ph.D. students Anand Radhakrishnan and Benjamin Wilfong with collaborator <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Prof. Florian Schäfer</a> (NYU)."
 
 - date: April 4, 2026
   headline: "Our <a href='https://doi.org/10.2514/1.J066497' target='_blank' rel='noopener noreferrer'>paper</a> on the performance of sharply bent acoustic resonators at high sound levels is published in the <i>AIAA Journal</i>. Collaboration with K. Ahuja's group."
