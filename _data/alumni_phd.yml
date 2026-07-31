@@ -1,3 +1,7 @@
+- name: Anand Radhakrishnan
+  info: Ph.D. CSE (2026). (then NVIDIA)
+  dissertation: "Simulating Multi-phase compressible flows: Introducing a stochastic sub-grid model for dispersed phase and presenting a GPU optimized alternative to traditional shock capturing via information geometric regularization"
+
 - name: Haocheng Yu
   info: Ph.D. CSE (2026), co-advised by K. Ahuja.
   dissertation: Impact of Leakage Due to Ill-Fitting Earplugs on the Dissipation of High-Amplitude Sound into Vorticity

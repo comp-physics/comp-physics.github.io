@@ -8,23 +8,6 @@
   scholar: https://scholar.google.com/citations?user=yqHO1AEAAAAJ
   website: https://sites.google.com/view/tianyichu
 
-- name: Daniel Vickers
-  photo: daniel
-  info: Research staff
-  email: dvickers6@gatech.edu
-  linkedin: https://www.linkedin.com/in/daniel-vickers-857821126
-  github: https://github.com/danieljvickers
-  website: http://danieljvickers.com/
-  scholar: https://scholar.google.com/citations?user=EJ5k-8cAAAAJ
-  researchgate: https://www.researchgate.net/profile/Daniel-Vickers-4 
-
-- name: Dimitrios Adam
-  photo: dimitrios
-  info: PhD student 
-  email: dadam7@gatech.edu
-  linkedin: https://www.linkedin.com/in/dimitrios-adam-3056602a8/
-  github: https://github.com/DimAdam-01
-
 - name: Jesus Arias
   photo: jesus
   info: PhD student 
@@ -33,15 +16,15 @@
   github: https://github.com/jarias9
   researchgate: https://www.researchgate.net/profile/Jesus-Arias-4
 
-- name: Anand Radhakrishnan
-  photo: anand
+- name: Daniel Vickers
+  photo: daniel
   info: PhD student
-  email: aradhakr34@gatech.edu
-  linkedin: https://www.linkedin.com/in/anandr97
-  researchgate: https://www.researchgate.net/profile/Anand-Radhakrishnan-3
-  website: https://anandrdbz.github.io
-  scholar: https://scholar.google.com/citations?user=sBOAsEYAAAAJ
-  github: https://github.com/anandrdbz
+  email: dvickers6@gatech.edu
+  linkedin: https://www.linkedin.com/in/daniel-vickers-857821126
+  github: https://github.com/danieljvickers
+  website: http://danieljvickers.com/
+  scholar: https://scholar.google.com/citations?user=EJ5k-8cAAAAJ
+  researchgate: https://www.researchgate.net/profile/Daniel-Vickers-4
 
 - name: Benjamin Wilfong
   photo: ben
@@ -52,13 +35,6 @@
   researchgate: https://www.researchgate.net/profile/Benjamin-Wilfong
   scholar: https://scholar.google.com/citations?user=I8cXvbYAAAAJ
   website: https://benwilfong.com/
-
-- name: Mark Zhang
-  photo: mark
-  info: PhD student
-  email: markzhang@gatech.edu
-  linkedin: https://www.linkedin.com/in/mzhang314
-  github: https://github.com/Cowsreal
 
 - name: Melody Lee
   photo: melody
