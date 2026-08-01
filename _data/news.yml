@@ -2,6 +2,9 @@
   headline: "Group Ph.D. student Anand Radhakrishnan successfully defends his Ph.D. dissertation on multiphase compressible flow simulation. Congratulations, Dr. Radhakrishnan! He will be joining <a href='https://www.nvidia.com/' target='_blank' rel='noopener noreferrer'>NVIDIA</a>."
 
 - date: July 29, 2026
+  headline: "New <a href='https://arxiv.org/abs/2607.27426' target='_blank' rel='noopener noreferrer'>preprint</a> on a sub-grid-scale model for polydisperse bubbly flows that carries heat and mass transfer at the bubble wall, closing the ensemble-averaged equations without extra transported moments. Led by group Ph.D. student Anand Radhakrishnan and implemented in <a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a>."
+
+- date: July 29, 2026
   headline: "Our <a href='https://doi.org/10.1016/j.jcp.2026.115242' target='_blank' rel='noopener noreferrer'>paper</a> on a hyperbolic quadrature method of moments (HyQMOM) for fourth-order closures for 2D and 3D kinetic equations is accepted to the <i>Journal of Computational Physics</i>. Collaboration with Rodney Fox (Iowa State) and Frédérique Laurent (CNRS, CentraleSupélec)."
 
 - date: July 25, 2026
