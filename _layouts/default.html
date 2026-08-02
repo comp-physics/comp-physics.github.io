@@ -12,7 +12,7 @@
 
     {% include header.html %}
 
-    <div class="container-fluid" id="main-content" data-pagefind-body>
+    <div class="container-fluid" id="main-content">
       <div class="row">
         {{ content }}
       </div>
@@ -20,10 +20,6 @@
 
 
     {% include footer.html %}
-
-    {% include search-modal.html %}
-
-    <script type="module" src="{{ site.baseurl }}/pagefind/pagefind-component-ui.js"></script>
 
   </body>
 

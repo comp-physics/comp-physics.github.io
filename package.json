@@ -1,11 +1,6 @@
 {
+  "comment": "Bootstrap is vendored into the repo by update_bootstrap.sh, which installs the version pinned here. The site build itself does not use npm.",
   "dependencies": {
     "bootstrap": "^5.3.3"
-  },
-  "devDependencies": {
-    "pagefind": "^1.5.0"
-  },
-  "scripts": {
-    "build": "bundle exec jekyll build && npx pagefind@1.5.0 --site _site"
   }
 }

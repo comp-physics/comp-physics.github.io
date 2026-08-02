@@ -5,12 +5,11 @@ This website is modified from my template, [here](https://github.com/sbryngelson
 ## Local build
 
 ```bash
-bundle install   # once
-npm install      # once
-npm run build    # jekyll build + pagefind index
+bundle install          # once
+bundle exec jekyll build
 ```
 
-For rapid content iteration (no search index), `bundle exec jekyll serve` is still fine — the search modal will open but show no results until a full `npm run build` is run.
+Or `bundle exec jekyll serve` to preview locally with live rebuilds.
 
 ## Git hooks
 
