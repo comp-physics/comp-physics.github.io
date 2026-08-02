@@ -1,0 +1,59 @@
+#!/bin/sh
+#
+# Verifies that every `file = {...}` reference in cv/ref.bib matches a file
+# tracked under papers/ exactly, including letter case.
+#
+# Why this exists: _layouts/bibtemplate.html decides whether to render a paper's
+# PDF button by testing `file.path contains bibfile` against site.static_files.
+# That comparison is case-sensitive. macOS filesystems are not. So a reference to
+# `panchal-JCP-23.pdf` when the tracked file is `panchal-jcp-23.pdf` renders
+# correctly in local preview and then silently drops the PDF button on Linux CI
+# -- no error, no 404, just a missing button that is easy to never notice.
+#
+# Checks the staged content against the git index, which is what CI checks out.
+# Bypass with `git commit --no-verify`.
+
+BIB="cv/ref.bib"
+
+# Nothing to do if ref.bib is not in the index (e.g. it is being deleted).
+git ls-files --error-unmatch "$BIB" >/dev/null 2>&1 || exit 0
+
+staged_bib=$(git show ":$BIB" 2>/dev/null) || exit 0
+tracked=$(git ls-files "papers/" | sed 's|.*/||')
+
+# If nothing is tracked under papers/, there is nothing meaningful to compare.
+[ -n "$tracked" ] || exit 0
+
+errors=$(mktemp)
+trap 'rm -f "$errors"' EXIT
+
+printf '%s\n' "$staged_bib" \
+  | grep -oE 'file[[:space:]]*=[[:space:]]*\{[^}]*\}' \
+  | sed -E 's/^file[[:space:]]*=[[:space:]]*\{//; s/\}$//' \
+  | sed '/^$/d' \
+  | sort -u \
+  | while IFS= read -r ref; do
+      if printf '%s\n' "$tracked" | grep -qxF -- "$ref"; then
+        continue
+      fi
+      actual=$(printf '%s\n' "$tracked" | grep -ixF -- "$ref" | head -n 1)
+      if [ -n "$actual" ]; then
+        printf '  case mismatch: ref.bib says %s, tracked file is %s\n' \
+          "$ref" "$actual" >>"$errors"
+      else
+        printf '  not tracked:   ref.bib says %s, no such file under papers/\n' \
+          "$ref" >>"$errors"
+      fi
+    done
+
+if [ -s "$errors" ]; then
+  echo "pre-commit: cv/ref.bib references files that do not match papers/" >&2
+  echo "" >&2
+  cat "$errors" >&2
+  echo "" >&2
+  echo "These render fine on macOS but lose their PDF button on Linux CI." >&2
+  echo "Fix the reference (or rename the file), then commit again." >&2
+  exit 1
+fi
+
+exit 0
