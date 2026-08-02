@@ -3,12 +3,11 @@ tags
 _site/
 .jekyll-cache/
 */.jekyll-cache
-.sass-cache/
 .DS_Store
 *.DS_Store
-Gemfile.lock
-package-lock.json
-node_modules/
+
+# LaTeX build artifacts from cv/. These are also excluded in _config.yml so they
+# are never copied into _site and served.
 *.aux
 *.fdb*
 *.fls
