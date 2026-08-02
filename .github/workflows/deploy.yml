@@ -26,6 +26,11 @@ jobs:
         with:
           ruby-version: '3.2.4'
           bundler-cache: true
+        env:
+          # Fail if Gemfile.lock is out of step with the Gemfile rather than
+          # silently re-resolving it, which would deploy gem versions that are
+          # not the committed ones. Run `bundle lock` and commit the result.
+          BUNDLE_FROZEN: 'true'
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
