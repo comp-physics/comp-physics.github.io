@@ -817,15 +817,45 @@ tr:last-child td {
   border-bottom: none;
 }
 
+// ─── Icons ───────────────────────────────────────────────────────────────────
+
+// Inline SVG sprite (see _includes/icons.html), replacing the Font Awesome and
+// Academicons webfonts. `fill: currentColor` reproduces how the icon fonts
+// inherited `color`, so the rules below work the same way they did on .fa/.ai.
+// The -0.125em nudge matches Font Awesome's own baseline alignment.
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+// Was fa-2x / ai-2x
+.icon-2x {
+  width: 2em;
+  height: 2em;
+}
+
+// The sprite itself must never render or take up space. Hidden by collapsing it
+// rather than `display: none`, which is the safer of the two conventions for
+// <use>-referenced sprites across browsers.
+.icon-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 // ─── Social / profile icon links ─────────────────────────────────────────────
 
 // Applies to the 2x square icon links on team page and PI sidebar
-a .fa-2x, a .ai-2x {
+a .icon-2x {
   color: var(--secondary);
   transition: color var(--transition);
 }
 
-a:hover .fa-2x, a:hover .ai-2x {
+a:hover .icon-2x {
   color: var(--gold);
 }
 

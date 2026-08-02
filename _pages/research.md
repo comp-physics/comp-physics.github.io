@@ -23,8 +23,8 @@ Our group builds numerical methods, computational models, and open-source softwa
 {% endfor %}
 </ul>
 <div class="research-footer" markdown="0">
-{% if theme.papers %}<span class="research-pubs"><i class="fas fa-file-alt"></i> {% for key in theme.papers %}<a href="{{ site.baseurl }}/papers/#{{ key }}">{{ key }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
-{% if theme.links %}<div class="research-links">{% for link in theme.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="research-link"><i class="fab fa-github"></i> {{ link.text }}</a>{% endfor %}</div>{% endif %}
+{% if theme.papers %}<span class="research-pubs">{% include icon.html name="file-lines" %} {% for key in theme.papers %}<a href="{{ site.baseurl }}/papers/#{{ key }}">{{ key }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
+{% if theme.links %}<div class="research-links">{% for link in theme.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="research-link">{% include icon.html name="github" %} {{ link.text }}</a>{% endfor %}</div>{% endif %}
 </div>
 </div>
 </div>

@@ -39,12 +39,12 @@ In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_bl
    <h5>{{ member.name }}</h5>
    <h6>{{ member.info }}</h6>
    <div style="margin-bottom:5px">
-   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Georgia Tech profile"><i class="ai ai-archive-square ai-2x"></i></a> {% endif %}
-   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-   {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Google Scholar profile"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-   {% if member.github %} <a href="{{ member.github }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s GitHub profile"><i class="fab fa-github-square fa-2x"></i></a> {% endif %}
-   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s ResearchGate profile"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Georgia Tech profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}">{% include icon.html name="envelope-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV">{% include icon.html name="cv-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Google Scholar profile">{% include icon.html name="google-scholar-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.github %} <a href="{{ member.github }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s GitHub profile">{% include icon.html name="github-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s ResearchGate profile">{% include icon.html name="researchgate-square" class="icon-2x" %}</a> {% endif %}
   </div>
   </center>
 </div>
@@ -86,8 +86,8 @@ Visit the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener n
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
   <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MFC Website</a>
-  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-slack"></i> Slack</a>
+  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{% include icon.html name="github" %} GitHub</a>
+  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{% include icon.html name="slack" %} Slack</a>
   {% include mfc_cite_dropdown.html id="Home" external=true %}
 </div>
 

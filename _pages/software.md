@@ -80,8 +80,8 @@ iframe:not([allowfullscreen]) {
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
   <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MFC Website</a>
-  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-slack"></i> Slack</a>
+  <a href="https://github.com/MFlowCode/MFC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{% include icon.html name="github" %} GitHub</a>
+  <a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{% include icon.html name="slack" %} Slack</a>
   {% include mfc_cite_dropdown.html %}
 </div>
 
