@@ -49,6 +49,13 @@ include:
 # Conversion
 markdown: kramdown
 highlighter: rouge
+
+# Only emit assets/main.css.map for local builds. In production it was a 430 KB
+# file -- larger than the CSS itself -- embedding the full text of every Sass
+# source via sourcesContent. CI sets JEKYLL_ENV=production; a bare `jekyll build`
+# or `jekyll serve` defaults to development, so local debugging is unaffected.
+sass:
+  sourcemap: development
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false

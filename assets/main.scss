@@ -2,10 +2,47 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$baseurl: "{{ site.url }}{{ site.baseurl }}";
+$baseurl: "{{ site.baseurl }}";
 
-// Bootstrap 5 (Sass source)
-@import "bootstrap/bootstrap";
+// Bootstrap 5, imported partial-by-partial rather than via bootstrap/bootstrap.
+//
+// The full import compiles every component: 270 KB of CSS, of which roughly
+// 208 KB matched no selector used anywhere on the site -- forms, tables, modals,
+// carousels, offcanvas and the rest. The site uses two Bootstrap JS components
+// (collapse for the navbar, dropdown for the MFC cite menu) plus a small set of
+// layout and utility classes.
+//
+// _sass/bootstrap/ is vendored verbatim and marked __DO_NOT_MODIFY (see
+// update_bootstrap.sh), so the selection lives here instead. Import order below
+// matches bootstrap/bootstrap.scss; keep it that way when adding a partial back.
+
+// Required infrastructure: variables, maps, mixins. Emits almost no CSS itself.
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+// Base
+@import "bootstrap/root";      // --bs-* custom properties
+@import "bootstrap/reboot";    // element-level normalisation
+
+// Layout: .container-fluid, .row, .col-*
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+
+// Components actually used
+@import "bootstrap/buttons";      // .btn base (SHB_css restyles the variants)
+@import "bootstrap/transitions";  // .collapse / .collapsing for the navbar
+@import "bootstrap/dropdown";     // MFC cite dropdown
+@import "bootstrap/nav";          // .nav-item / .nav-link
+@import "bootstrap/navbar";       // .navbar*
+
+// Helpers and generated utilities: .clearfix, .visually-hidden, .d-*, .text-*,
+// .bg-*, .me-*/.ms-*, .justify-content-*, .align-*, .sticky-top
+@import "bootstrap/helpers";
+@import "bootstrap/utilities/api";
 
 // Site-specific overrides (keep last so it wins)
 @import "SHB_css";
