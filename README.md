@@ -11,15 +11,11 @@ bundle exec jekyll build
 
 Or `bundle exec jekyll serve` to preview locally with live rebuilds.
 
-## Git hooks
+## Checks
 
-Hooks live in `.githooks/` so they are version controlled. Point git at them once per clone:
+`./script/check-bib-refs` verifies every `file = {...}` in `cv/ref.bib` names a real
+file in `papers/`, matching exactly including case. CI runs it before each build.
 
-```bash
-git config core.hooksPath .githooks
-```
-
-`pre-commit` checks that every `file = {...}` reference in `cv/ref.bib` matches a file
-tracked under `papers/` **exactly, including case**. macOS filesystems are
-case-insensitive, so a mismatched reference renders fine locally and then silently
-drops that paper's PDF button on Linux CI. Bypass with `git commit --no-verify`.
+Case matters because macOS filesystems are case-insensitive and Linux ones are not:
+a mismatched reference renders fine locally and then silently drops that paper's PDF
+button on the deployed site.

@@ -32,6 +32,12 @@ jobs:
           # not the committed ones. Run `bundle lock` and commit the result.
           BUNDLE_FROZEN: 'true'
 
+      # Runs before the build so a bad reference fails fast, and runs here
+      # rather than in a git hook because this is the case-sensitive Linux
+      # checkout the bug actually manifests on.
+      - name: Check bibliography file references
+        run: ./script/check-bib-refs
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 

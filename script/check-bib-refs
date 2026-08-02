@@ -1,0 +1,61 @@
+#!/bin/sh
+#
+# Verify that every `file = {...}` reference in cv/ref.bib names a file that
+# actually exists in papers/, matching exactly including letter case.
+#
+# Why this exists: _layouts/bibtemplate.html decides whether to render a paper's
+# PDF button by testing `file.path contains bibfile` against site.static_files.
+# That comparison is case-sensitive, and so is the Linux filesystem CI builds
+# on. macOS is not. So a reference to `panchal-JCP-23.pdf` when the tracked file
+# is `panchal-jcp-23.pdf` renders correctly in local preview and then silently
+# drops that paper's PDF button on the deployed site -- no error, no 404, just a
+# missing button that is easy never to notice. It went unspotted for months.
+#
+# Compares against `git ls-files papers/`, which is what CI checks out, and does
+# an exact string match so the result does not depend on the filesystem's own
+# case sensitivity. That means it gives the same answer on macOS as on Linux.
+#
+# Run by hand any time:  ./script/check-bib-refs
+# Run automatically by:  .github/workflows/deploy.yml
+
+BIB="cv/ref.bib"
+
+[ -f "$BIB" ] || { echo "check-bib-refs: $BIB not found" >&2; exit 1; }
+
+tracked=$(git ls-files "papers/" | sed 's|.*/||')
+[ -n "$tracked" ] || { echo "check-bib-refs: nothing tracked under papers/" >&2; exit 1; }
+
+errors=$(mktemp)
+trap 'rm -f "$errors"' EXIT
+
+grep -oE 'file[[:space:]]*=[[:space:]]*\{[^}]*\}' "$BIB" \
+  | sed -E 's/^file[[:space:]]*=[[:space:]]*\{//; s/\}$//' \
+  | sed '/^$/d' \
+  | sort -u \
+  | while IFS= read -r ref; do
+      if printf '%s\n' "$tracked" | grep -qxF -- "$ref"; then
+        continue
+      fi
+      actual=$(printf '%s\n' "$tracked" | grep -ixF -- "$ref" | head -n 1)
+      if [ -n "$actual" ]; then
+        printf '  case mismatch: ref.bib says %s, tracked file is %s\n' \
+          "$ref" "$actual" >>"$errors"
+      else
+        printf '  not found:     ref.bib says %s, no such file under papers/\n' \
+          "$ref" >>"$errors"
+      fi
+    done
+
+if [ -s "$errors" ]; then
+  echo "cv/ref.bib references files that do not match papers/:" >&2
+  echo "" >&2
+  cat "$errors" >&2
+  echo "" >&2
+  echo "These still render on macOS but lose their PDF button once deployed." >&2
+  echo "Fix the reference in cv/ref.bib, or rename the file to match." >&2
+  exit 1
+fi
+
+count=$(grep -coE 'file[[:space:]]*=[[:space:]]*\{[^}]*\}' "$BIB")
+echo "check-bib-refs: all $count file references in $BIB resolve"
+exit 0
