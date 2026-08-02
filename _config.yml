@@ -104,8 +104,6 @@ exclude:
   - tags
   - LICENSE
   - .DS_Store
-  - node_modules
-  - docs
 
   # LaTeX build artifacts in cv/. These are gitignored, so they exist only on a
   # local machine and would otherwise be copied into _site and served publicly.
