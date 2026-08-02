@@ -1,0 +1,31 @@
+# Group members whose names are bolded in the publication list on /papers/.
+# Consumed by _layouts/bibtemplate.html.
+#
+# To bold a new member, add their name here exactly as jekyll-scholar renders it
+# in the reference (surname, then initials with periods) -- e.g. "Yu, H.".
+# Nothing else needs editing.
+#
+# ORDER MATTERS. Names are matched with `replace_first` in the order below, so
+# where one name is a prefix of another the longer form must come first --
+# "Le Berre, H." would otherwise claim the opening of "Le Berre, H. A." and
+# leave the " A." unbolded. Keep longer variants first; do not alphabetise.
+
+- Radhakrishnan, A.
+- Bati, A.
+- Le Berre, H. A.   # must precede "Le Berre, H."
+- Le Berre, H.
+- Zeng, Q.
+- Kothari, Y.
+- Panchal, A.
+- Chrit, F. E.
+- Kocherla, S.
+- Wilfong, B.
+- Sinha, A.
+- Chu, T.
+- Song, Z.
+- Lee, M.
+- Gupta, A.
+- Vickers, D. J.
+- Prathi, T.
+- Adam, D.
+- Yu, H.

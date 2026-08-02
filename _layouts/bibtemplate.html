@@ -43,7 +43,27 @@ ol li{
 
 <div class="col-sm-10 col-10">
 <div>
-{{reference | replace_first: 'Radhakrishnan, A.', '<b>Radhakrishnan, A.</b>' | replace_first: 'Bati, A.', '<b>Bati, A.</b>' | replace_first: 'Le Berre, H. A.', '<b>Le Berre, H. A.</b>' | replace_first: 'Le Berre, H.', '<b>Le Berre, H.</b>' | replace_first: 'Zeng, Q.','<b>Zeng, Q.</b>' | replace_first: 'Kothari, Y.','<b>Kothari, Y.</b>' | replace_first: 'Panchal, A.', '<b>Panchal, A.</b>' | replace_first: 'Chrit, F. E.', '<b>Chrit, F. E.</b>' | replace_first: 'Kocherla, S.', '<b>Kocherla, S.</b>' | replace_first: 'Wilfong, B.', '<b>Wilfong, B.</b>' | replace_first: 'Sinha, A.', '<b>Sinha, A.</b>' | replace_first: 'Chu, T.', '<b>Chu, T.</b>' | replace_first: 'Song, Z.', '<b>Song, Z.</b>' | replace_first: 'Lee, M.', '<b>Lee, M.</b>', | replace_first: 'Gupta, A.', '<b>Gupta, A.</b>', | replace_first: 'Vickers, D. J.', '<b>Vickers, D. J.</b>' | replace_first: 'Prathi, T.', '<b>Prathi, T.</b>' | replace_first: 'Adam, D.', '<b>Adam, D.</b>' | replace_first: 'Yu, H.', '<b>Yu, H.</b>'}}</div>
+{%- comment -%}
+  Bold any group member appearing in this reference. Names live in
+  _data/authors.yml; see the ordering note there.
+
+  Done in two passes. Substituting <b>NAME</b> directly lets a later, shorter
+  name match inside an already-bolded longer one: "Le Berre, H." matched within
+  "<b>Le Berre, H. A.</b>" and yielded "<b><b>Le Berre, H.</b> A.</b>".
+  Swapping in a placeholder first means no substitution can match text that an
+  earlier one already claimed.
+{%- endcomment -%}
+{%- assign ref = reference -%}
+{%- for author in site.data.authors -%}
+  {%- capture token -%}@@au{{ forloop.index0 }}@@{%- endcapture -%}
+  {%- assign ref = ref | replace_first: author, token -%}
+{%- endfor -%}
+{%- for author in site.data.authors -%}
+  {%- capture token -%}@@au{{ forloop.index0 }}@@{%- endcapture -%}
+  {%- capture bolded -%}<b>{{ author }}</b>{%- endcapture -%}
+  {%- assign ref = ref | replace: token, bolded -%}
+{%- endfor %}
+{{ ref }}</div>
 
 <div style="margin-top:4px;">
 {% assign bibtest = false %}
