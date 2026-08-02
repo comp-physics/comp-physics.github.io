@@ -1,14 +1,14 @@
 ---
 title: "Home"
 layout: default
-sitemap: false
+sitemap: true
 permalink: /
 ---
 
 <div id="homeid" class="col-sm-8 col-10">
 ## Welcome!
 
-We're the **Computational Physics Group at Georgia Tech**. We build numerical methods, computational models, and <a href="{{ site.url }}{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for problems in defense, energy, and medicine — optimized for the world's largest supercomputers.
+We're the **Computational Physics Group at Georgia Tech**. We build numerical methods, computational models, and <a href="{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for problems in defense, energy, and medicine — optimized for the world's largest supercomputers.
 
 
 **Research areas:**
@@ -35,13 +35,13 @@ In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_bl
 {% for member in site.data.pi %}
 <div class="jumbotron">
    <center>
-	 <a href="{{site.url}}{{site.baseurl}}/team"><img src="{{site.url}}{{site.baseurl}}/images/teampic/{{ member.photo }}.jpeg" width="75%" style="display:inline-block; margin-left:auto; margin-right:auto; margin-bottom:5px;" alt="Photo of {{ member.name }}"/></a>
+	 <a href="{{ site.baseurl }}/team"><img src="{{ site.baseurl }}/images/teampic/{{ member.photo }}.jpeg" width="75%" style="display:inline-block; margin-left:auto; margin-right:auto; margin-bottom:5px;" alt="Photo of {{ member.name }}"/></a>
    <h5>{{ member.name }}</h5>
    <h6>{{ member.info }}</h6>
    <div style="margin-bottom:5px">
    {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Georgia Tech profile"><i class="ai ai-archive-square ai-2x"></i></a> {% endif %}
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+   {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
    {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Google Scholar profile"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
    {% if member.github %} <a href="{{ member.github }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s GitHub profile"><i class="fab fa-github-square fa-2x"></i></a> {% endif %}
    {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s ResearchGate profile"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
@@ -60,7 +60,7 @@ We're always looking for new Ph.D. and undergraduate students who like building 
 * Strong coding + numerics background is a plus
 * Projects span exascale CFD, cavitation, microfluidics, and more
 
-Visit the <a href="{{ site.url }}{{ site.baseurl }}/vacancies.html">Vacancies</a> page for detailed instructions.<br/>
+Visit the <a href="{{ site.baseurl }}/vacancies.html">Vacancies</a> page for detailed instructions.<br/>
 <br/>
 <strong>What strong applicants usually have:</strong> Experience with C/C++/Fortran, numerical methods, and HPC. Familiarity with CFD, continuum mechanics, or scientific computing is helpful but not required.
 </div>
@@ -115,6 +115,6 @@ Many of the techniques used in our record-setting rocket simulations are availab
   </p>
   {% endfor %}
   
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
+  <h5><a href="{{ site.baseurl }}/allnews.html">... see all News</a></h5>
 </div>
 </div>

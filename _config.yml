@@ -4,8 +4,7 @@ yourname: Spencer H. Bryngelson
 email: shb@gatech.edu
 description: Computational Physics Group at Georgia Tech CSE
 baseurl: ""
-url: ""
-exturl: "https://comp-physics.group"
+url: "https://comp-physics.group"
 
 # Google analytics ID: Remove or use your own!
 google_analytics_4: G-BKG8WP924R
@@ -72,9 +71,8 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
-plugins: 
+plugins:
   - jekyll-scholar
-  - jekyll-seo-tag
 
 scholar:
 
@@ -93,10 +91,6 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
   query: "@*"
 
   bibliography_list_attributes:
@@ -105,7 +99,7 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - update_boostrap.sh
+  - update_bootstrap.sh
   - tags
   - Rakefile
   - LICENSE
@@ -115,3 +109,17 @@ exclude:
   - package.json
   - package-lock.json
   - docs
+
+  # LaTeX build artifacts in cv/. These are gitignored, so they exist only on a
+  # local machine and would otherwise be copied into _site and served publicly.
+  - cv/*.aux
+  - cv/*.bbl
+  - cv/*.blg
+  - cv/*.fdb_latexmk
+  - cv/*.fls
+  - cv/*.log
+  - cv/*.out
+  - cv/*.run.xml
+  - cv/*.synctex.gz
+  - cv/*.toc
+  - cv/*-blx.bib

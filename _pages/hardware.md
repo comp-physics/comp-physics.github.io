@@ -1,7 +1,7 @@
 ---
 title: "Hardware"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /hardware/
 ---
 

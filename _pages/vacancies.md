@@ -1,7 +1,7 @@
 ---
 title: "Vacancies"
 layout: textlay
-sitemap: false
+sitemap: true
 permalink: /vacancies
 ---
 
@@ -24,7 +24,7 @@ In the Computational Physics Group, you will work on the latest methods in compu
 * __Technical advancements:__ Modeling, design, numerical methods, simulation, algorithms, high-performance computing, non-von Neumann emerging architectures (quantum, RISC-V and Arm, etc.)
 * __Application areas:__ Biology, medicine, and therapies, defense, aerodynamics, fluid dynamics, and flight, solid mechanics, hydrodynamics, energy
 
-Check out <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">our papers</a> to learn more.
+Check out <a href="{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">our papers</a> to learn more.
 
 __We are _always_ hiring determined new group members.__ What to do next depends on who you are:
 </div>
@@ -98,5 +98,5 @@ We don't have formal rotation programs, but current GT students can discuss pote
 </div>
 
 <div class="jumbotron">
-If you're unsure whether the group is a fit, skim a few of our recent <a href="{{ site.url }}{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">papers</a> and the <a href="{{ site.url }}{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">MFC</a> and <a href="{{ site.url }}{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">software</a> pages, then send a short email explaining what excites you and how your background connects.
+If you're unsure whether the group is a fit, skim a few of our recent <a href="{{ site.baseurl }}/papers" target="_blank" rel="noopener noreferrer">papers</a> and the <a href="{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">MFC</a> and <a href="{{ site.baseurl }}/software" target="_blank" rel="noopener noreferrer">software</a> pages, then send a short email explaining what excites you and how your background connects.
 </div>

@@ -9,9 +9,7 @@ gem "kramdown-parser-gfm"
 gem 'jekyll-scholar'
 gem 'rake'
 gem 'html-proofer'
-gem 'jekyll-sitemap'
 gem "webrick", "~> 1.7"
-gem "jekyll-seo-tag"
 gem "csv"
 gem "base64"
 gem "observer"

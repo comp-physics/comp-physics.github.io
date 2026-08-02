@@ -5,8 +5,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark justify-content-center">
     <div class="container-fluid">
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-        <img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
         <b>{{ site.title | escape }}</b>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,11 +16,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul class="navbar-nav me-auto">
             <li class="nav-item dropdown">
                 <li class="nav-item">
-                    <a class="nav-link{% if page.url == '/' %} nav-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/"><b>Home</b></a>
+                    <a class="nav-link{% if page.url == '/' %} nav-active{% endif %}" href="{{ site.baseurl }}/"><b>Home</b></a>
                 </li>
                 {% for navpage in site.nav_pages %}
                     <li class="nav-item">
-                        <a class="nav-link{% if page.url contains navpage.name %} nav-active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{navpage.name}}"><b>{% if navpage.display %}{{navpage.display}}{% else %}{{navpage.name | capitalize}}{% endif %}</b></a>
+                        <a class="nav-link{% if page.url contains navpage.name %} nav-active{% endif %}" href="{{ site.baseurl }}/{{navpage.name}}"><b>{% if navpage.display %}{{navpage.display}}{% else %}{{navpage.name | capitalize}}{% endif %}</b></a>
                     </li>
                 {% endfor %}
                 <li class="nav-item">
