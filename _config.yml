@@ -101,13 +101,10 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - update_bootstrap.sh
   - tags
   - LICENSE
   - .DS_Store
   - node_modules
-  - package.json
-  - package-lock.json
   - docs
 
   # LaTeX build artifacts in cv/. These are gitignored, so they exist only on a

@@ -1,0 +1,9 @@
+This directory holds Bootstrap's prebuilt JS bundle, vendored verbatim.
+Do not hand-edit it.
+
+  version: Bootstrap 5.3.3
+  source:  node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+           from `npm install bootstrap@<version>`
+
+The site uses two of its components: collapse (navbar) and dropdown (MFC cite
+menu). The .map file is deliberately not vendored.
