@@ -57,7 +57,7 @@ ol li{
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-primary bib-btn">PDF</button></a>
+<a href="{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-primary bib-btn">PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}
@@ -88,7 +88,6 @@ ol li{
 </div>
 </div>
 </div>
-{% endif %}
 
 <script>
 function toggleBibtex{{entry.key}}(parameter) {
@@ -100,3 +99,4 @@ function toggleAbstract{{entry.key}}(parameter) {
     x.style.display = x.style.display === 'none' ? 'block' : 'none';
 }
 </script>
+{% endif %}
