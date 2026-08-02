@@ -1,6 +1,5 @@
 themes:
-  - slug: exascale-cfd
-    title: "Exascale many-physics CFD"
+  - title: "Exascale many-physics CFD"
     thumb: "/images/research/exascale-cfd.svg"
     alt: "Flow with bow shock, body, and vortex shedding on a structured mesh"
     summary: "Portable, GPU-accelerated, many-physics flow simulation at leadership scale; code design that keeps performance and maintainability in balance."
@@ -15,8 +14,7 @@ themes:
       - {text: "pyrometheus", url: "https://github.com/pyrometheus/pyrometheus"}
       - {text: "figr", url: "https://github.com/sbryngelson/figr"}
 
-  - slug: quantum-pdes
-    title: "Quantum algorithms for PDEs"
+  - title: "Quantum algorithms for PDEs"
     thumb: "/images/research/quantum-pdes.svg"
     alt: "Quantum circuit with Hadamard, CNOT, rotation, and measurement gates"
     summary: "Quantum tomography and lattice/linear-system building blocks targeted at physics workloads; reduce measurement settings and identify practical speedups."
@@ -32,8 +30,7 @@ themes:
       - {text: "NISQ-Quantum-CFD", url: "https://github.com/comp-physics/NISQ-Quantum-CFD"}
       - {text: "fully-QLBM", url: "https://github.com/comp-physics/fully-QLBM"}
 
-  - slug: learning-infused-numerics
-    title: "Learning models and numerics"
+  - title: "Learning models and numerics"
     thumb: "/images/research/learning-infused-numerics.svg"
     alt: "Finite-difference stencil feeding a small neural network that outputs a closure"
     summary: "Physics-aware networks and data-driven operator recovery for smoothness indicators, quadrature, in-solver inference, and turbulence closures."
@@ -48,8 +45,7 @@ themes:
       - {text: "fast-mfm", url: "https://github.com/comp-physics/fast-mfm"}
       - {text: "CPINN", url: "https://github.com/comp-physics/CPINN"}
 
-  - slug: multiphase-bubbly-reacting
-    title: "Multiphase and reacting flows"
+  - title: "Multiphase and reacting flows"
     thumb: "/images/research/multiphase-bubbly-reacting.svg"
     alt: "Polydisperse bubbles over a liquid interface alongside a flame and reacting species"
     summary: "High-fidelity models and numerics for compressible multiphase, cavitating bubbly, and reacting flows — from sub-grid closures to resolved interface methods."
@@ -63,8 +59,7 @@ themes:
       - {text: "pyrometheus", url: "https://github.com/pyrometheus/pyrometheus"}
       - {text: "QBMMlib", url: "https://github.com/comp-physics/PyQBMMlib"}
 
-  - slug: cavitation-rheometry-oed
-    title: "Rheometry by Bayesian Design"
+  - title: "Rheometry by Bayesian Design"
     thumb: "/images/research/cavitation-rheometry-oed.svg"
     alt: "Bubble collapse sequence feeding a posterior distribution over soft-tissue parameters"
     summary: "Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design for LIC setups."
@@ -80,8 +75,7 @@ themes:
       - {text: "IMR_RBF_BOED", url: "https://github.com/InertialMicrocavitationRheometry/IMR_RBF_BOED"}
       - {text: "Sliding_DA", url: "https://github.com/InertialMicrocavitationRheometry/Sliding_DA"}
 
-  - slug: instabilities-interfaces
-    title: "Multi-fluid interface instability"
+  - title: "Multi-fluid interface instability"
     thumb: "/images/research/instabilities-interfaces.svg"
     alt: "Stratified two-fluid interface with a wavy deformation between vibration arrows"
     summary: "Competition between Rayleigh–Taylor and Faraday mechanisms at density-stratified interfaces produces multi-modal regimes, sharp transitions, and breakup maps under vibration — with implications for mixing, atomization, and near-surface gas transport."
@@ -93,8 +87,7 @@ themes:
     links:
       - {text: "MFC", url: "https://github.com/mflowcode"}
 
-  - slug: apple-neural-engine
-    title: "Reverse-engineering the Apple Neural Engine"
+  - title: "Reverse-engineering the Apple Neural Engine"
     thumb: "/images/research/apple-neural-engine.svg"
     alt: "Systolic-array chip beside a roofline performance curve"
     summary: "Apple's neural accelerator is reachable in production only through CoreML, which can silently skip it. We reverse-engineer the engine from direct measurement and analysis of its runtime, compiler, driver, and firmware, and build tools that run on it directly."
