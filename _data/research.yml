@@ -83,7 +83,7 @@ themes:
       - "Floquet/modal analysis of regime transitions and onset"
       - "Direct numerical simulation through nonlinear breakup"
       - "Mixing control in layered and multi-species flows"
-    papers: [Chu25a]
+    papers: [Chu26b, Chu25a]
     links:
       - {text: "MFC", url: "https://github.com/mflowcode"}
 

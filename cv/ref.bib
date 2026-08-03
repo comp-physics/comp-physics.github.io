@@ -20,6 +20,17 @@ doi = {10.48550/arXiv.2606.17090},
 abstract = {ANEForge is a Python package that programs the Apple Neural Engine (ANE), the fixed-function neural accelerator on every recent Apple device, directly and without CoreML. In production the engine is reachable only through CoreML, which treats it as a scheduling option: no configuration requires the ANE, and a model can silently run on the CPU or GPU instead. ANEForge compiles a lazy tensor graph, built from 58 fused operators and 19 native bridge operators, into a single ANE program. The program is dispatched through the same ANE daemon and kernel-driver stack as Apple's internal framework. Beyond inference, the package reaches the engine's native fused attention, streams int8, int4, and sparse weights, keeps decoder and optimizer state resident across steps, and runs the forward pass, backward pass, and optimizer update of training on the engine. A small fused program completes a call in about 90us, near the engine's 70us per-program dispatch floor, and a pretrained ResNet-18 forward runs end-to-end in 0.33ms. ResNet-18, a sentence encoder, and a Vision Transformer run end-to-end against framework references, and a Stable Diffusion U-Net validates its forward pass. ANEForge targets Apple Silicon under macOS 14 and later. Each release is verified against a recorded macOS and ANE-compiler version.},
 }
 
+@unpublished{Chu26b,
+Author = {T. Chu and B. Wilfong and T. Koehler and R. M. McMullen and S. H. Bryngelson},
+Title = {Coupled {R}ayleigh--{T}aylor and {F}araday instabilities in vertically vibrated cylindrical containers},
+note = {arXiv:2607.28932},
+file = {chu-faraday-arxiv-26.pdf},
+arxiv = {arXiv.2607.28932},
+year = {2026},
+doi = {10.48550/arXiv.2607.28932},
+abstract = {Interfacial instabilities govern the mixing in confined multiphase flows. Yet, the two mechanisms that drive them are usually studied independently: the pressure-gradient-driven Rayleigh--Taylor (RT) instability, which amplifies long-wavelength modes, and the parametrically forced Faraday instability, which selects shorter-wavelength harmonic or subharmonic modes. When an adverse density contrast and vertical vibration act together, the two compete, and neither alone describes the response. We use Floquet analysis to characterize the onset, growth, modal structure, and velocity fields of Faraday--RT waves in a vertically vibrated cylinder, resolved by azimuthal wavenumber, radial (Bessel) mode, and Floquet harmonic. The formulation recovers the classical RT and Faraday limits and reproduces the instability onset at the frequencies measured experimentally. For a free-sliding interface, increasing the vibration amplitude shifts the dominant instability mechanism from RT growth to subharmonic and then harmonic Faraday responses. Lateral confinement can also stabilize individual RT modes, which is not possible in an unbounded domain, although other Faraday modes may remain unstable. Pinning the contact line couples radial modes that otherwise evolve independently, allowing the unstable mode to be a superposition of RT-unstable and Faraday-stable components. This superposition alters the instability mechanism, producing a richer radial pattern. Reconstruction of the unstable modes shows the (linear) velocity fields that imaging cannot access and demonstrates how the instabilities can change the flow more broadly.},
+}
+
 @unpublished{Radhakrishnan26b,
 Author = {A. Radhakrishnan and S. H. Bryngelson},
 Title = {A sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer},
