@@ -12,7 +12,19 @@ themes:
     links:
       - {text: "MFC", url: "https://github.com/mflowcode"}
       - {text: "pyrometheus", url: "https://github.com/pyrometheus/pyrometheus"}
+
+  - title: "Regularizing the flow equations"
+    thumb: "/images/research/igr-regularization.svg"
+    alt: "Two characteristics colliding into a shock, with regularized trajectories rounding the corner and passing without meeting"
+    summary: "Information geometric regularization smooths shock singularities at the PDE level, so solvers need no limiters or artificial viscosity and keep fine-scale features intact."
+    bullets:
+      - "Inviscid shock regularization, no limiters or artificial viscosity"
+      - "Finite-volume IGR competitive with WENO and LAD, at lower cost"
+      - "Discontinuous Galerkin IGR that sharpens with polynomial order"
+    papers: [Eyob26, Radhakrishnan26, Wilfong25]
+    links:
       - {text: "figr", url: "https://github.com/sbryngelson/figr"}
+      - {text: "MFC", url: "https://github.com/mflowcode/mfc"}
 
   - title: "Quantum algorithms for PDEs"
     thumb: "/images/research/quantum-pdes.svg"
@@ -70,6 +82,7 @@ themes:
     papers: [Chu26, Zhu25, Sanchez26, Spratt21, Chu25b, Chu25c]
     links:
       - {text: "IMR", url: "https://github.com/InertialMicrocavitationRheometry"}
+      - {text: "PyIMR", url: "https://github.com/sbryngelson/PyIMR"}
       - {text: "IMR_Bayesian_design", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_design"}
       - {text: "IMR_Bayesian_inference", url: "https://github.com/InertialMicrocavitationRheometry/IMR_Bayesian_inference"}
       - {text: "IMR_RBF_BOED", url: "https://github.com/InertialMicrocavitationRheometry/IMR_RBF_BOED"}

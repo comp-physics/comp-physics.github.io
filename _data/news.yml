@@ -1,14 +1,17 @@
+- date: August 4, 2026
+  headline: "New <a href='https://arxiv.org/abs/2608.02223' target='_blank' rel='noopener noreferrer'>preprint</a> on a discontinuous Galerkin discretization of information geometric regularization, stabilizing shocks without limiters or artificial viscosity. Led by Brook Eyob, a Ph.D. student with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Prof. Florian Schäfer</a> (NYU), and group Ph.D. student Jesus Arias."
+
 - date: August 3, 2026
-  headline: "New <a href='https://arxiv.org/abs/2607.28932' target='_blank' rel='noopener noreferrer'>preprint</a> on coupled Rayleigh-Taylor and Faraday instabilities in vertically vibrated cylinders, using Floquet analysis to show how confinement and a pinned contact line change which mechanism wins. Led by postdoc Dr. Tianyi Chu with Ph.D. student Ben Wilfong, in collaboration with Tim Koehler and Ryan McMullen at Sandia."
+  headline: "New <a href='https://arxiv.org/abs/2607.28932' target='_blank' rel='noopener noreferrer'>preprint</a> on coupled Rayleigh-Taylor and Faraday instabilities in vibrated cylinders, and how confinement decides which mechanism wins. Led by postdoc Dr. Tianyi Chu with Ph.D. student Ben Wilfong, with Tim Koehler and Ryan McMullen at Sandia."
 
 - date: July 30, 2026
-  headline: "Group Ph.D. student Anand Radhakrishnan successfully defends his Ph.D. dissertation on multiphase compressible flow simulation. Congratulations, Dr. Radhakrishnan! He will be joining <a href='https://www.nvidia.com/' target='_blank' rel='noopener noreferrer'>NVIDIA</a>."
+  headline: "Group Ph.D. student Anand Radhakrishnan defends his dissertation on multiphase compressible flow simulation. Congratulations, Dr. Radhakrishnan! He heads to <a href='https://www.nvidia.com/' target='_blank' rel='noopener noreferrer'>NVIDIA</a>."
 
 - date: July 29, 2026
-  headline: "New <a href='https://arxiv.org/abs/2607.27426' target='_blank' rel='noopener noreferrer'>preprint</a> on a sub-grid-scale model for polydisperse bubbly flows that carries heat and mass transfer at the bubble wall, closing the ensemble-averaged equations without extra transported moments. Led by group Ph.D. student Anand Radhakrishnan and implemented in <a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a>."
+  headline: "New <a href='https://arxiv.org/abs/2607.27426' target='_blank' rel='noopener noreferrer'>preprint</a> on a sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer at the bubble wall. Led by group Ph.D. student Anand Radhakrishnan and implemented in <a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a>."
 
 - date: July 29, 2026
-  headline: "Our <a href='https://doi.org/10.1016/j.jcp.2026.115242' target='_blank' rel='noopener noreferrer'>paper</a> on a hyperbolic quadrature method of moments (HyQMOM) for fourth-order closures for 2D and 3D kinetic equations is accepted to the <i>Journal of Computational Physics</i>. Collaboration with Rodney Fox (Iowa State) and Frédérique Laurent (CNRS, CentraleSupélec)."
+  headline: "Our <a href='https://doi.org/10.1016/j.jcp.2026.115242' target='_blank' rel='noopener noreferrer'>paper</a> on fourth-order HyQMOM closures for 2D and 3D kinetic equations is accepted to the <i>Journal of Computational Physics</i>. With Rodney Fox (Iowa State) and Frédérique Laurent (CNRS, CentraleSupélec)."
 
 - date: July 25, 2026
   headline: "Group Ph.D. students Anand Radhakrishnan and Benjamin Wilfong's <a href='https://doi.org/10.1016/j.cma.2026.119216' target='_blank' rel='noopener noreferrer'>paper</a> on shocks without shock capturing is published in <i>CMAME</i>, with <a href='https://f-t-s.github.io/' target='_blank' rel='noopener noreferrer'>Prof. Florian Schäfer</a> (NYU)."
