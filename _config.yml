@@ -39,7 +39,6 @@ nav_pages:
   - name: teaching
   - name: software
     display: MFC
-  # - name: hardware
 
 include:
   - .htaccess
