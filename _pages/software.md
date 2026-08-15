@@ -47,7 +47,7 @@ iframe:not([allowfullscreen]) {
   "applicationCategory": "Computational Fluid Dynamics",
   "author": {
     "@type": "ResearchOrganization",
-    "name": "Computational Physics Group at Georgia Tech",
+    "name": "Computational Physics Group",
     "url": "https://comp-physics.group"
   },
   "maintainer": {
@@ -56,7 +56,7 @@ iframe:not([allowfullscreen]) {
     "url": "https://comp-physics.group",
     "affiliation": {
       "@type": "Organization",
-      "name": "Georgia Institute of Technology"
+      "name": "The University of Texas at Austin"
     }
   },
   "award": "2025 ACM Gordon Bell Prize Finalist"
@@ -76,7 +76,7 @@ iframe:not([allowfullscreen]) {
 1. **Read the quickstart** on the <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer">MFC website</a>.
 2. **Run a sample case** from the GitHub repo on a workstation or small cluster.
 3. **Join the Slack** (<a href="https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw" target="_blank" rel="noopener noreferrer">link here</a>) to ask questions and discuss use cases.
-4. If you're at GT, **email Spencer** (<a href="mailto:shb@gatech.edu">shb@gatech.edu</a>) to discuss using MFC in your research or course projects.
+4. If you're at UT Austin, **email Spencer** (<a href="mailto:shb@utexas.edu">shb@utexas.edu</a>) to discuss using MFC in your research or course projects.
 
 <div style="text-align: center; margin: 20px 0;" markdown="0">
   <a href="https://mflowcode.github.io/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MFC Website</a>

@@ -1,8 +1,8 @@
 # Site settings
-title: Computational Physics @ GT
+title: Computational Physics Group
 yourname: Spencer H. Bryngelson
-email: shb@gatech.edu
-description: Computational Physics Group at Georgia Tech CSE
+email: shb@utexas.edu
+description: Computational Physics Group
 baseurl: ""
 url: "https://comp-physics.group"
 
@@ -12,13 +12,13 @@ google_tag_manager: GTM-5KBZDTG
 
 # Footer info
 about: >
-    <a href="https://cse.gatech.edu/" target="_blank" rel="noopener noreferrer">School of CSE</a><br/>
-    <a href="https://cc.gatech.edu/" target="_blank" rel="noopener noreferrer">College of Computing</a><br/>
-    Georgia Tech
+    <a href="https://www.me.utexas.edu/" target="_blank" rel="noopener noreferrer">Walker Dept. of Mech. Eng.</a><br/>
+    <a href="https://oden.utexas.edu/" target="_blank" rel="noopener noreferrer">Oden Institute</a><br/>
+    UT Austin
 
 coordinates: >
   <br/>
-  <img src='/images/logopic/logo3.png' width=90% alt='Computational Physics Group at Georgia Tech logo' title='This logo was designed by Sydney Bryngelson!'>
+  <img src='/images/logopic/logo3.png' width=90% alt='Computational Physics Group logo' title='This logo was designed by Sydney Bryngelson!'>
 
 # coordinates: >
 #   CODA<br/>
@@ -26,8 +26,7 @@ coordinates: >
 #   Atlanta, GA 30332
 
 information: >
-    <a href="mailto:shb@gatech.edu" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-envelope"/></svg> Email Spencer</a> <br/>
-    <a href="/vacancies.html"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-users"/></svg> Explore openings</a> <br/>
+    <a href="mailto:shb@utexas.edu" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-envelope"/></svg> Email Spencer</a> <br/>
     <a href="https://github.com/sbryngelson/academic-website-template" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-github"/></svg> Site template</a> 
 
 

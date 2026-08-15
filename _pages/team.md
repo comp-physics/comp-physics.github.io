@@ -10,7 +10,7 @@ permalink: /team/
 <center>	
 <img src="{{ site.baseurl }}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='border-radius: 8px;' alt="Group photo of Computational Physics Group members"/>
 L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, Dimitri, Brian. <br/><i>Not Pictured: Anand, Ansh</i> <br/>
-<b>We are always looking for new students to <a href='{{ site.baseurl }}/vacancies'>join the team!</a></b>
+<b>We are always looking for new students to join the team!</b>
 </center>
 
 <!-- ### PI -->
@@ -26,7 +26,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 </div>
 <div class="col-sm-9 col-12">
   <p class="pi-info">{{ member.infoshort }}</p>
-   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Georgia Tech profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s faculty profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}">{% include icon.html name="envelope-square" class="icon-2x" %}</a> {% endif %}
   {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV">{% include icon.html name="cv-square" class="icon-2x" %}</a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Google Scholar profile">{% include icon.html name="google-scholar-square" class="icon-2x" %}</a> {% endif %}

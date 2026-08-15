@@ -8,7 +8,7 @@ permalink: /
 <div id="homeid" class="col-sm-8 col-10">
 ## Welcome!
 
-We're the **Computational Physics Group at Georgia Tech**. We build numerical methods, computational models, and <a href="{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for problems in defense, energy, and medicine — optimized for the world's largest supercomputers.
+We're the **Computational Physics Group**. We build numerical methods, computational models, and <a href="{{ site.baseurl }}/software/" target="_blank" rel="noopener noreferrer">open-source software</a> for problems in defense, energy, and medicine — optimized for the world's largest supercomputers.
 
 
 **Research areas:**
@@ -39,7 +39,7 @@ In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_bl
    <h5>{{ member.name }}</h5>
    <h6>{{ member.info }}</h6>
    <div style="margin-bottom:5px">
-   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Georgia Tech profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
+   {% if member.gt %}<a href="{{ member.gt }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s faculty profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}">{% include icon.html name="envelope-square" class="icon-2x" %}</a> {% endif %}
    {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV">{% include icon.html name="cv-square" class="icon-2x" %}</a> {% endif %}
    {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s Google Scholar profile">{% include icon.html name="google-scholar-square" class="icon-2x" %}</a> {% endif %}
@@ -60,7 +60,7 @@ We're always looking for new Ph.D. and undergraduate students who like building 
 * Strong coding + numerics background is a plus
 * Projects span exascale CFD, cavitation, microfluidics, and more
 
-Visit the <a href="{{ site.baseurl }}/vacancies.html">Vacancies</a> page for detailed instructions.<br/>
+Interested? Send Spencer <a href="mailto:{{ site.email }}">an email</a> with your CV, transcripts, your current or intended degree program, and a few sentences on why the group interests you.<br/>
 <br/>
 <strong>What strong applicants usually have:</strong> Experience with C/C++/Fortran, numerical methods, and HPC. Familiarity with CFD, continuum mechanics, or scientific computing is helpful but not required.
 </div>

@@ -7,6 +7,8 @@ permalink: /teaching/
 
 ## Teaching
 
+### Georgia Tech
+
 <div class="jumbotron">
 
 | Course | Terms |
@@ -19,6 +21,6 @@ permalink: /teaching/
 
 <div class="jumbotron">
 
-I co-teach [VIP4601](https://www.vip.gatech.edu/teams/vwp) _Team Phoenix: Cluster Competition Team (HPC)_ with [Prof. Rich Vuduc](https://vuduc.org/v2/).
+I co-taught [VIP4601](https://www.vip.gatech.edu/teams/vwp) _Team Phoenix: Cluster Competition Team (HPC)_ with [Prof. Rich Vuduc](https://vuduc.org/v2/).
 
 </div>
