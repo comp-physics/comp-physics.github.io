@@ -4,9 +4,9 @@
   --gray:           #839496;
   --gray-dark:      #141617;
   --secondary:      #8a8480;
-  --gold:           #c0995e;
-  --gold-light:     #d4b07c;
-  --gold-dim:       #8a6e42;
+  --gold:           #d98a45;
+  --gold-light:     #e2a773;
+  --gold-dim:       #a1622b;
   --surface:        #242627;
   --surface-raised: #2c2f30;
   --border:         #333637;
@@ -15,12 +15,14 @@
   --transition:     0.18s ease;
 }
 
-$gtgold:     #c0995e !default;
 $darkgray:   #1c1e1f !default;
 $mediumgray: #242627 !default;
 $textgray:   #8a847e !default;
 
-$myprimary:  #9e7a3e !default;
+// UT Austin burnt orange. Buttons put white text on this (4.59:1). Note it
+// is deliberately NOT --gold: white on --gold (#d98a45) is only 2.74:1,
+// below the 3:1 WCAG floor for UI text. Don't collapse it into --gold.
+$myprimary:  #bf5700 !default;
 $mysuccess:  #4a7453 !default;
 $mydanger:   #2a5f57 !default;
 $mywarning:  #263c4a !default;
@@ -402,7 +404,7 @@ ol.bibliography {
 }
 
 // The MFC blockquote-style box (inline div with border-left)
-div[style*="border-left: 4px solid #c0995e"] {
+div[style*="border-left: 4px solid #d98a45"] {
   border-radius: 6px;
   border-color: var(--gold) !important;
 }
@@ -547,7 +549,7 @@ div[style*="border-left: 4px solid #c0995e"] {
   position: absolute;
   top: -48px;
   left: 0;
-  background: $gtgold;
+  background: var(--gold);
   color: $darkgray;
   padding: 10px 16px;
   text-decoration: none;

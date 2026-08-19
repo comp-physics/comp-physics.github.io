@@ -15,14 +15,14 @@ permalink: /allnews.html
 {% if current_year != "" %}
 </div>
 {% endif %}
-<h3 style="color: #c0995e; margin-top: 22px; margin-bottom: 15px;">{{ article_year }}</h3>
+<h3 style="color: #d98a45; margin-top: 22px; margin-bottom: 15px;">{{ article_year }}</h3>
 <div>
 {% assign current_year = article_year %}
 {% endif %}
 <div id="news-{{ article.date | slugify }}-{{ forloop.index }}" style="margin-bottom: 22px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1);">
 <h3 class="visually-hidden" id="news-item-{{ article.date | slugify }}-{{ forloop.index }}">{{ article.headline | strip_html | truncate: 120 }}</h3>
 <p style="margin-bottom: 8px;">
-<strong style="color: #c0995e;">{{ article.display_date | default: article.date }}</strong>
+<strong style="color: #d98a45;">{{ article.display_date | default: article.date }}</strong>
 </p>
 <p style="margin: 0;">{{ article.headline }}</p>
 </div>
