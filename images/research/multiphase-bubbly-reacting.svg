@@ -10,15 +10,15 @@
   <circle cx="82" cy="102" r="6" fill="none" stroke="#6a8ea8" stroke-width="1.4"/>
   <circle cx="212" cy="78" r="10" fill="none" stroke="#6a8ea8" stroke-width="1.7"/>
   <circle cx="238" cy="102" r="6" fill="none" stroke="#6a8ea8" stroke-width="1.4"/>
-  <path d="M 288 115 Q 258 82 276 46 Q 288 24 297 6 Q 307 28 320 50 Q 338 82 308 115 Z" fill="none" stroke="#c0995e" stroke-width="2.4"/>
-  <path d="M 295 103 Q 282 78 293 56 Q 300 40 301 28 Q 307 44 312 58 Q 322 78 302 103 Z" fill="none" stroke="#c0995e" stroke-width="1.6" opacity="0.75"/>
-  <g fill="#c0995e">
+  <path d="M 288 115 Q 258 82 276 46 Q 288 24 297 6 Q 307 28 320 50 Q 338 82 308 115 Z" fill="none" stroke="#d98a45" stroke-width="2.4"/>
+  <path d="M 295 103 Q 282 78 293 56 Q 300 40 301 28 Q 307 44 312 58 Q 322 78 302 103 Z" fill="none" stroke="#d98a45" stroke-width="1.6" opacity="0.75"/>
+  <g fill="#d98a45">
     <circle cx="344" cy="48" r="5"/>
     <circle cx="366" cy="55" r="5"/>
     <circle cx="352" cy="84" r="5"/>
     <circle cx="374" cy="78" r="5"/>
   </g>
-  <g stroke="#c0995e" stroke-width="1.4">
+  <g stroke="#d98a45" stroke-width="1.4">
     <line x1="344" y1="48" x2="366" y2="55"/>
     <line x1="352" y1="84" x2="374" y2="78"/>
   </g>

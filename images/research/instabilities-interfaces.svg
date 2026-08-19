@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140">
   <rect width="400" height="140" fill="#1c1e1f"/>
   <path d="M 0 0 L 400 0 L 400 65 Q 360 45 320 75 Q 280 95 240 68 Q 200 42 160 55 Q 120 75 80 80 Q 40 82 0 60 Z" fill="#2b2e2f"/>
-  <path d="M 0 60 Q 40 82 80 80 Q 120 75 160 55 Q 200 42 240 68 Q 280 95 320 75 Q 360 45 400 65" fill="none" stroke="#c0995e" stroke-width="2.6"/>
+  <path d="M 0 60 Q 40 82 80 80 Q 120 75 160 55 Q 200 42 240 68 Q 280 95 320 75 Q 360 45 400 65" fill="none" stroke="#d98a45" stroke-width="2.6"/>
   <g stroke="#6a8ea8" stroke-width="2" fill="#6a8ea8">
     <line x1="25" y1="18" x2="25" y2="122"/>
     <polygon points="25,10 18,22 32,22"/>

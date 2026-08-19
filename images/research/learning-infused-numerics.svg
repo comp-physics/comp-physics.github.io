@@ -6,12 +6,12 @@
   </g>
   <circle cx="30" cy="70" r="7" fill="#6a8ea8"/>
   <circle cx="80" cy="22" r="7" fill="#6a8ea8"/>
-  <circle cx="80" cy="70" r="9" fill="#c0995e"/>
+  <circle cx="80" cy="70" r="9" fill="#d98a45"/>
   <circle cx="80" cy="118" r="7" fill="#6a8ea8"/>
   <circle cx="130" cy="70" r="7" fill="#6a8ea8"/>
-  <line x1="148" y1="70" x2="188" y2="70" stroke="#c0995e" stroke-width="2"/>
-  <polygon points="188,70 178,64 178,76" fill="#c0995e"/>
-  <g stroke="#c0995e" stroke-width="0.8" opacity="0.55">
+  <line x1="148" y1="70" x2="188" y2="70" stroke="#d98a45" stroke-width="2"/>
+  <polygon points="188,70 178,64 178,76" fill="#d98a45"/>
+  <g stroke="#d98a45" stroke-width="0.8" opacity="0.55">
     <line x1="205" y1="25" x2="258" y2="20"/>
     <line x1="205" y1="25" x2="258" y2="53"/>
     <line x1="205" y1="25" x2="258" y2="86"/>
@@ -36,12 +36,12 @@
   <circle cx="205" cy="25" r="7" fill="#6a8ea8"/>
   <circle cx="205" cy="70" r="7" fill="#6a8ea8"/>
   <circle cx="205" cy="115" r="7" fill="#6a8ea8"/>
-  <circle cx="258" cy="20" r="7" fill="#c0995e"/>
-  <circle cx="258" cy="53" r="7" fill="#c0995e"/>
-  <circle cx="258" cy="86" r="7" fill="#c0995e"/>
-  <circle cx="258" cy="119" r="7" fill="#c0995e"/>
+  <circle cx="258" cy="20" r="7" fill="#d98a45"/>
+  <circle cx="258" cy="53" r="7" fill="#d98a45"/>
+  <circle cx="258" cy="86" r="7" fill="#d98a45"/>
+  <circle cx="258" cy="119" r="7" fill="#d98a45"/>
   <circle cx="315" cy="48" r="7" fill="#6a8ea8"/>
   <circle cx="315" cy="92" r="7" fill="#6a8ea8"/>
-  <line x1="332" y1="70" x2="372" y2="70" stroke="#c0995e" stroke-width="2"/>
-  <polygon points="372,70 362,64 362,76" fill="#c0995e"/>
+  <line x1="332" y1="70" x2="372" y2="70" stroke="#d98a45" stroke-width="2"/>
+  <polygon points="372,70 362,64 362,76" fill="#d98a45"/>
 </svg>
