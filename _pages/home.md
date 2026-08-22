@@ -54,18 +54,6 @@ In August 2025 we ran the <a href='https://arxiv.org/abs/2505.07392' target='_bl
 <div class="col-sm-12">
 
 <div class="jumbotron">
-<h2>Thinking about joining the group?</h2>
-
-We're always looking for new Ph.D. and undergraduate students who like building models, algorithms, and software.
-* Strong coding + numerics background is a plus
-* Projects span exascale CFD, cavitation, microfluidics, and more
-
-Interested? Send Spencer <a href="mailto:{{ site.email }}">an email</a> with your CV, transcripts, your current or intended degree program, and a few sentences on why the group interests you.<br/>
-<br/>
-<strong>What strong applicants usually have:</strong> Experience with C/C++/Fortran, numerical methods, and HPC. Familiarity with CFD, continuum mechanics, or scientific computing is helpful but not required.
-</div>
-
-<div class="jumbotron">
 <h2>Examples of our work</h2>
 
 <div style="padding:2px;background:#000;border-radius:8px;width:75%;height:100%;margin:0 auto;overflow:hidden; text-align: center; justify-content:center">

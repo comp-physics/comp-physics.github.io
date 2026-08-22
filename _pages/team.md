@@ -10,7 +10,6 @@ permalink: /team/
 <center>	
 <img src="{{ site.baseurl }}/images/teampic/group-photo-fall2024.jpeg" width="100%" style='border-radius: 8px;' alt="Group photo of Computational Physics Group members"/>
 L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, Dimitri, Brian. <br/><i>Not Pictured: Anand, Ansh</i> <br/>
-<b>We are always looking for new students to join the team!</b>
 </center>
 
 <!-- ### PI -->
