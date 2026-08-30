@@ -880,6 +880,19 @@ a:hover .icon-2x {
   }
 }
 
+.pi-office {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-top: -4px;
+  margin-bottom: 10px;
+
+  span {
+    font-weight: 600;
+    color: var(--gold);
+  }
+}
+
 // ─── Team member cards ───────────────────────────────────────────────────────
 
 .member-role {

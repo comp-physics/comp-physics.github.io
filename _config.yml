@@ -20,11 +20,6 @@ coordinates: >
   <br/>
   <img src='/images/logopic/logo3.png' width=90% alt='Computational Physics Group logo' title='This logo was designed by Sydney Bryngelson!'>
 
-# coordinates: >
-#   CODA<br/>
-#   756 W Peachtree St<br/>
-#   Atlanta, GA 30332
-
 information: >
     <a href="mailto:shb@utexas.edu" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-envelope"/></svg> Email Spencer</a> <br/>
     <a href="https://github.com/sbryngelson/academic-website-template" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-github"/></svg> Site template</a> 

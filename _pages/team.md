@@ -25,6 +25,7 @@ L to R: Tianyi, Lian, Jesus, Henry, Spencer, Melody, Ben, Haocheng, Max, Jack, D
 </div>
 <div class="col-sm-9 col-12">
   <p class="pi-info">{{ member.infoshort }}</p>
+  {% if member.office %}<p class="pi-office"><span>Office:</span> {{ member.office }}</p>{% endif %}
    {% if member.profile %}<a href="{{ member.profile }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s faculty profile">{% include icon.html name="archive-square" class="icon-2x" %}</a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" rel="noopener noreferrer" aria-label="Email {{ member.name }}">{% include icon.html name="envelope-square" class="icon-2x" %}</a> {% endif %}
   {% if member.cv %} <a href="{{ site.baseurl }}/{{ member.cv }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ member.name }}'s CV">{% include icon.html name="cv-square" class="icon-2x" %}</a> {% endif %}
