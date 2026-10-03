@@ -1,3 +1,6 @@
+- date: October 3, 2026
+  headline: "The group receives a renewed DOE <a href='https://science.osti.gov/ascr/Facilities/Accessing-ASCR-Facilities/ALCC' target='_blank' rel='noopener noreferrer'>ALCC</a> allocation of 550K node hours on <a href='https://www.olcf.ornl.gov/frontier/' target='_blank' rel='noopener noreferrer'>OLCF Frontier</a> for 2026-27, continuing the <i>Multiphase Mixing Induced by Interface Breakup</i> project with PI Ryan McMullen at Sandia National Labs."
+
 - date: September 25, 2026
   headline: "Spencer speaks at the Oden Institute's <a href='https://oden.utexas.edu/news-and-events/events/2310---Spencer%20Bryngelson/' target='_blank' rel='noopener noreferrer'>Babuska Forum</a> on simulating fluid flow from exascale machines to cell phones, covering PDE regularization, reduced-precision computation, tensor processing units, neural accelerators in consumer devices, and quantum architectures."
 
