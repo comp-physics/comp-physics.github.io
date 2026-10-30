@@ -24,7 +24,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.4'
+          ruby-version: '3.2'
           bundler-cache: true
         env:
           # Fail if Gemfile.lock is out of step with the Gemfile rather than
