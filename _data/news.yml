@@ -1,8 +1,8 @@
+- date: October 31, 2026
+  headline: "Group alum Dr. Anand Radhakrishnan's <a href='https://doi.org/10.1016/j.ijmultiphaseflow.2026.105971' target='_blank' rel='noopener noreferrer'>paper</a> on a sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer is published in the <i>International Journal of Multiphase Flow</i>. The model closes bubble pressure with heat and mass transfer at the bubble wall in place of a polytropic relation, and is available in <a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a>."
+
 - date: October 29, 2026
   headline: "Spencer's <a href='https://doi.org/10.1002/spe.70124' target='_blank' rel='noopener noreferrer'>paper</a> on <a href='https://aneforge.com' target='_blank' rel='noopener noreferrer'>ANEForge</a>, a Python package that programs the Apple Neural Engine directly without CoreML, is published open access in <i>Software: Practice and Experience</i>. It authors optimized computational graphs for arbitrary computation that are submitted directly to the ANE compiler and device."
-
-- date: October 20, 2026
-  headline: "Group alum Dr. Anand Radhakrishnan's <a href='https://arxiv.org/abs/2607.27426' target='_blank' rel='noopener noreferrer'>paper</a> on a sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer at the bubble wall is in press at the <i>International Journal of Multiphase Flow</i>. The model is implemented in <a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a>."
 
 - date: October 6, 2026
   headline: "Spencer gives the <a href='https://oden.utexas.edu/news-and-events/events/2309---Spencer%20Bryngelson/' target='_blank' rel='noopener noreferrer'>Oden Institute Seminar</a> on whether high-fidelity flow simulation must stay tied to the largest supercomputers, from the tensor units on datacenter GPUs to the energy-efficient neural accelerators in phones and laptops."
