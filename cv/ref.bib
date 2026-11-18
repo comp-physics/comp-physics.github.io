@@ -15,9 +15,8 @@ Title = {A predictive, per-engine energy roofline of the {A}pple {N}eural {E}ngi
 file = {bryngelson-TACO-26.pdf},
 journal = {ACM Transactions on Architecture and Code Optimization},
 note = {In press},
-arxiv = {arXiv.2611.19101},
 year = {2026},
-doi = {10.48550/arXiv.2611.19101},
+doi = {10.1145/3864456},
 abstract = {The Apple Neural Engine (ANE) is in over a billion devices, but is characterized indirectly via CoreML. Using a CoreML-free fused-graph dispatch path, we measure the ANE, along with the Apple GPU and CPU on the same device, with per-engine energy accounting. The consumer-available roofline does not predict the ANE in practice. A critical correction is that the ANE sees two effective memory bandwidths: a slow activation path and a fast weight-stream path. Two roofline ridges follow, and the weight-stream ridge is below that of the GPU. The ANE single-operand compute peak decreases instead of plateauing. Its weight stream is byte-bound in fp16 but limited by the dequantizer's element rate in int8. As a result, int8 compression saves energy at unchanged throughput and an int4 lookup-table stream raises throughput and efficiency at a cost of 2.55 points of ImageNet top-1. The corrected roofline identifies the lower-energy ANE paths and bounds it from below. A constructed device map reproduces across four unique ANE generations. Results show that operators should be placed by arithmetic intensity and fused for optimal performance.},
 }
 
