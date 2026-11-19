@@ -1,5 +1,5 @@
 - date: November 16, 2026
-  headline: "Spencer's <a href='https://arxiv.org/abs/2611.19101' target='_blank' rel='noopener noreferrer'>paper</a> on a predictive, per-engine energy roofline of the Apple Neural Engine is in press at <i>ACM Transactions on Architecture and Code Optimization</i>."
+  headline: "Spencer's <a href='https://doi.org/10.1145/3864456' target='_blank' rel='noopener noreferrer'>paper</a> on a predictive, per-engine energy roofline of the Apple Neural Engine is in press at <i>ACM Transactions on Architecture and Code Optimization</i>."
 
 - date: November 14, 2026
   headline: "<a href='https://mflowcode.github.io/' target='_blank' rel='noopener noreferrer'>MFC</a> is one of the applications in the <a href='https://sc26.supercomputing.org/students/student-cluster-competition/' target='_blank' rel='noopener noreferrer'>SC26 Student Cluster Competition</a>, alongside WRF. Student teams run and tune it on the clusters they build at SC26 in Chicago. Group Ph.D. students Ben Wilfong and Daniel Vickers, with Spencer, presented the competition's MFC webinar for teams in August."
