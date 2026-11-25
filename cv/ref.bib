@@ -415,12 +415,13 @@ abstract = {The dynamics of cavitation bubbles are important in many flows, but 
 
 @article{Charalampopoulos21,
 Author = {A. Charalampopoulos and S. H. Bryngelson and T. Colonius and T. P. Sapsis},
-Title = {Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes and their dynamics},
+Title = {Hybrid quadrature moment method for accurate and stable representation of non-{G}aussian processes applied to bubble dynamics},
 file = {charalampopoulos-RSA-21.pdf},
 journal = {Philosophical Transactions of the Royal Society A},
 year = {2022},
 volume = {380},
 number = {2229},
+pages = {20210209},
 doi = {10.1098/rsta.2021.0209},
 abstract = {Solving the population balance equation (PBE) for the dynamics of a dispersed phase coupled to a continuous fluid is expensive. Still, one can reduce the cost by representing the evolving particle density function in terms of its moments. In particular, quadrature-based moment methods (QBMMs) invert these moments with a quadrature rule, approximating the required statistics. QBMMs have been shown to accurately model sprays and soot with a relatively compact set of moments. However, significantly non-Gaussian processes such as bubble dynamics lead to numerical instabilities when extending their moment sets accordingly. We solve this problem by training a recurrent neural network (RNN) that adjusts the QBMM quadrature to evaluate unclosed moments with higher accuracy. The proposed method is tested on a simple model of bubbles oscillating in response to a temporally fluctuating pressure field. The approach decreases model-form error by a factor of 10 when compared to traditional QBMMs. It is both numerically stable and computationally efficient since it does not expand the baseline moment set. Additional quadrature points are also assessed, optimally placed and weighted according to an additional RNN. These points further decrease the error at low cost since the moment set is again unchanged.},
 }
@@ -786,7 +787,7 @@ keywords = "nonheavy",
 }
 
 @inproceedings{proceeding_16,
-title = {Fast simulation of multiphase compressible flows thorugh GPU acceleration},
+title = {Fast simulation of multiphase compressible flows through GPU acceleration},
 author = {H. A. {Le Berre} and A. Radhakrishnan and S. H. Bryngelson},
 booktitle = {11th International Conference on Multiphase Flow},
 address = {Kobe, Japan},
